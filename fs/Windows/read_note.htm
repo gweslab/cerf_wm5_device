@@ -1,0 +1,102 @@
+<html XMLNS:Inbox>
+
+  <head>
+    <object id="HTMLFormFactory" CLASSID="clsid:29d48cf7-ed6a-4a9d-a17a-ae9115c07a90" />
+    <?IMPORT NAMESPACE="Inbox" IMPLEMENTATION="#HTMLFormFactory" />
+    <link rel="stylesheet" href="file://\windows\read_style.css" type="text/css" />
+  </head>
+
+  <body>
+    <div class="header">
+
+      <Inbox:To>
+        <table class="header">
+          <tr>
+            <td class="header">To:</td>
+            <td class="content"><Inbox:content id="TO" /></td>
+          </tr>
+        </table>
+      </Inbox:To>
+
+      <Inbox:Cc>
+        <table class="header">
+          <tr>
+            <td class="header">Cc:</td>
+            <td class="content"><Inbox:content id="CC" /></td>
+          </tr>
+        </table>
+      </Inbox:Cc>
+
+      <Inbox:Sent>
+        <table class="header">
+          <tr>
+            <td class="header">Sent:</td>
+            <td class="content"><Inbox:content id="SENT" /></td>
+          </tr>
+        </table>
+      </Inbox:Sent>
+
+      <a id="Inbox:top" />
+
+      <Inbox:InfoBar>
+        <div class="infobar">
+          <Inbox:content id="INFOBAR" />
+        </div>
+      </Inbox:InfoBar>
+
+      <table class="mainvis">
+        <tr class="mainvis">
+
+          <td>
+            <Inbox:From class="wrapable">
+              <div>
+                <Inbox:content id="FROM" advancefocusedlink />
+              </div>
+            </Inbox:From class="wrapable">
+
+            <Inbox:Subject>
+              <div>
+                <Inbox:content id="SUBJECT" links />
+              </div>
+            </Inbox:Subject>
+
+            <a id="Inbox:attachments" />
+
+            <Inbox:Attachments>
+              <div>
+                <Inbox:content id="ATTACHMENTS" MaxAttach=2 />
+              </div>
+            </Inbox:Attachments>
+          </td>
+
+          <td>
+            <Inbox:SenderPic>
+              <div>
+                <Inbox:content id="SENDERPIC" />
+              </div>
+            </Inbox:SenderPic>
+          </td>
+
+        </tr>
+      </table>
+
+    </div>
+        
+    <a id="Inbox:BeginBody" />
+
+    <Inbox:ReadBody>
+      <Inbox:content id="READBODY" />
+    </Inbox:ReadBody>
+
+    <a id="Inbox:EndBody" />
+
+    <Inbox:More>
+      <Inbox:content id="MORE" />
+    </Inbox:More>
+
+    &nbsp;<br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;
+
+  </body>
+    
+</html>
+

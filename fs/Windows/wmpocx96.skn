@@ -1,0 +1,53 @@
+[Pocket WMP Skin File v9.0.1]
+
+[ Description ]
+//              <X,Y>       <DPI>
+//              ------      -----
+    Dimensions  192, 50     96
+
+//              <Orientation>
+//              -------------
+    Orientation Portrait
+
+//////////////////////////////////////////////////////////////////////////////
+[ Video ]
+0,0,0,0
+
+//////////////////////////////////////////////////////////////////////////////
+[ Bitmaps ]
+
+//  <Name>      <File name>      <X,Y>
+//  ------      -----------      -----
+    Background  ocxDefault96.gif   0,0
+    Disabled    disabledSQ96.gif  0,0
+    Pushed      pushedSQ96.gif    0,0
+
+
+//////////////////////////////////////////////////////////////////////////////
+[ Buttons ]
+
+//  <Function>        <Type>   <Location>     <Push Image Src>    <Dis Image Src>       <Hit R,G,B>  <Norm 2 Image Src>  <Push 2 Image Src>
+//  ----------        ------   ------------   ----------------    ---------------       -----------  ------------------  ------------------
+    PlayPauseStop     NA       38,18,30,28    Pushed @ 69,0       Disabled @ 69,0       0,  0,  0    Pushed @ 181,0    Pushed @ 211,0    Pushed @ 241,0    Pushed @ 271,0    
+    Prev              NA       9,18,23,28     Pushed @ 46,0       Disabled @ 46,0       0,  0,  0
+    Next              NA       74,18,23,28    Pushed @ 99,0       Disabled @ 99,0       0,  0,  0
+    Mute              NA       140,0,15,14    Pushed @ 166,0      Disabled @ 166,0      0,  0,  0
+    VolumeDown        NA       132,18,22,28   Pushed @ 122,0      Disabled @ 122,0      0,  0,  0
+    VolumeUp          NA       160,18,22,28   Pushed @ 144,0      Disabled @ 144,0      0,  0,  0
+
+
+//////////////////////////////////////////////////////////////////////////////
+[ Text ]
+
+//  <Item>       <Location>     <Align>  <Font>          <Color>
+//  ------       ----------     -------  ------          -------
+    Time         1,2,57,13      Left     Tahoma,8,N      0,41,99
+    VolPercent   156,2,35,13    Right    Tahoma,8,N      0,41,99
+
+//////////////////////////////////////////////////////////////////////////////
+[ Trackbars ]
+
+// <Function>   <Location>      <Dis Image Src>       <Thumb Image Src>   <Thumb Size>
+// ----------   ----------      ---------------       -----------------   ------------
+   Seek         58,3,72,10      Background@ 58,3      SeekThumb96S.gif    20,10
+	

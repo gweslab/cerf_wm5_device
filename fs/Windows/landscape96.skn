@@ -1,0 +1,77 @@
+[Pocket WMP Skin File v9.0.1]
+
+[ Description ]
+//              <X,Y>       <DPI>
+//              ------      -----
+    Dimensions  320, 240    96
+
+//              <Orientation>
+//              -------------
+    Orientation Landscape
+    
+//////////////////////////////////////////////////////////////////////////////
+[ Bitmaps ]
+
+//  <Name>      <File name>       <X,Y>
+//  ------      -----------       -----
+    Background  landscape96.gif   0,0
+    Disabled    disabledSQ96.gif  0,0
+    Pushed      pushedSQ96.gif    0,0
+
+//////////////////////////////////////////////////////////////////////////////
+[ Video ]
+
+//  <Location>
+//  ----------
+   8,30,304,105
+
+//////////////////////////////////////////////////////////////////////////////
+[ AlbumArt ]
+
+//  <Location>
+//  ----------
+   8,30,304,105
+
+//////////////////////////////////////////////////////////////////////////////
+[ Buttons ]
+
+//  <Function>  <Type>     <Location>     <Push Image Src>    <Dis Image Src>       <Hit R,G,B>  <Norm 2 Image Src>  <Push 2 Image Src>
+//  ----------  ------     ------------   ----------------    ---------------       -----------  ------------------  ------------------
+    FullScreen    NA        52,156,23,28   Pushed @ 0,0        Disabled @ 0,0        0,  0,  0
+    WindowsMedia  NA        81,156,23,28   Pushed @ 23,0       Disabled @ 23,0       0,  0,  0
+    PlayPauseStop NA       145,156,30,31   Pushed @ 69,0       Disabled @ 69,0       0,  0,  0    Pushed @ 181,0     Pushed @ 211,0      Pushed @ 241,0      Pushed @ 271,0
+    Prev          NA       116,156,23,28   Pushed @ 46,0       Disabled @ 46,0       0,  0,  0
+    Next          NA       181,156,23,28   Pushed @ 99,0       Disabled @ 99,0       0,  0,  0
+    Mute          NA       268,140,15,14   Pushed @ 166,0      Disabled @ 166,0      0,  0,  0
+    VolumeUp      NA       245,156,22,28   Pushed @ 144,0      Disabled @ 144,0      0,  0,  0
+    VolumeDown    NA       217,156,22,28   Pushed @ 122,0      Disabled @ 122,0      0,  0,  0
+
+[ Text ]
+
+//  <Item>       <Location>     <Align>  <Font>          <Color>
+//  ------       ----------     -------  ------          -------
+    VolPercent   284,141,30,13  Right    Tahoma,8,N      0,41,99
+    Time         8,141,48,13    Left     Tahoma,8,N      0,41,99
+    Status       8,14,233,13    Left     Tahoma,8,NE     255,255,255
+
+
+//////////////////////////////////////////////////////////////////////////////
+[ Marquee ]
+
+//  <Location>   <Font>       <Color>      <Text item combinations>
+//  ----------   ------       -------      ------------------------
+    8,1,233,13  Tahoma,8,BE   255,255,255   Title,Filename
+
+
+//////////////////////////////////////////////////////////////////////////////
+[ Trackbars ]
+
+// <Function>   <Location>      <Dis Image Src>     <Thumb Image Src>   <Thumb Size>
+// ----------   ----------      ---------------     -----------------   ------------
+   Seek         57,142,206,10   Background @ 57,142 SeekThumb96S.gif    20,10
+
+//////////////////////////////////////////////////////////////////////////////
+[ Ratings ]
+// <Location>           <Image>
+// ---------------      --------------------
+   241, 1, 76, 18       ratings96S.gif

@@ -1,0 +1,78 @@
+<wap-provisioningdoc>
+
+    <characteristic type="CM_Networks">
+
+        <characteristic type="The Internet">
+            <parm name="DestId" value="{436EF144-B4FB-4863-A041-8F905A62C572}" />
+        </characteristic>
+
+        <characteristic type="The WAP Network">
+            <parm name="DestId" value="{7022E968-5A97-4051-BC1C-C578E2FBA5D9}" />
+        </characteristic>
+
+        <characteristic type="Secure WAP Network">
+            <parm name="DestId" value="{F28D1F74-72BE-4394-A4A7-4E296219390C}" />
+        </characteristic>
+
+        <characteristic type="Work">
+            <parm name="DestId" value="{A1182988-0D73-439e-87AD-2A5B369F808B}" />
+        </characteristic>
+
+        <characteristic type="My ISP">
+            <parm name="DestId" value="{ADB0B001-10B5-3F39-27C6-9742E785FCD4}"/>
+        </characteristic>
+
+        <characteristic type="My Work Network">
+            <parm name="DestId" value="{18AD9FBD-F716-ACB6-FD8A-1965DB95B814}"/>
+        </characteristic>
+    </characteristic>
+
+    <characteristic type="CM_Planner">		
+        <parm name="RetryCount" value="1"/>
+        <parm name="CacheTime" value="600"/>
+    </characteristic>
+
+    <characteristic type="CM_NetEntries">
+        <characteristic type="CurrentDTPTNetwork">
+            <parm name="DestId" value="{18AD9FBD-F716-ACB6-FD8A-1965DB95B814}" />
+        </characteristic>
+    </characteristic>
+
+    <characteristic type="CM_Mappings">
+        <characteristic type="536870912">
+            <parm name="Pattern" value="wsp://*/*" />
+            <parm name="Network" value="{7022E968-5A97-4051-BC1C-C578E2FBA5D9}" />
+        </characteristic>
+        <characteristic type="553648128">
+            <parm name="pattern" value="wsps://*/*"/>
+            <parm name="network" value="{F28D1F74-72BE-4394-A4A7-4E296219390C}"/>
+        </characteristic>
+        <characteristic type="570425344">
+            <parm name="Pattern" value="*://*.*/*" />
+            <parm name="Network" value="{436EF144-B4FB-4863-A041-8F905A62C572}" />
+        </characteristic>
+        <characteristic type="587202560">
+            <parm name="Pattern" value="*://*/*" />
+            <parm name="Network" value="{A1182988-0D73-439e-87AD-2A5B369F808B}" />
+        </characteristic>
+    </characteristic>
+
+	<characteristic type="CM_ProxyEntries">
+
+		<characteristic type="HTTP-{ADB0B001-10B5-3F39-27C6-9742E785FCD4}">
+			<parm name="SrcId"  value="{ADB0B001-10B5-3F39-27C6-9742E785FCD4}"/>
+			<parm name="DestId" value="{436EF144-B4FB-4863-A041-8F905A62C572}"/>
+			<parm name="Type" value="0"/>
+			<parm name="Enable" value="1"/>
+		</characteristic>
+
+		<characteristic type="null-corp-{18AD9FBD-F716-ACB6-FD8A-1965DB95B814}">
+			<parm name="SrcId"  value="{18AD9FBD-F716-ACB6-FD8A-1965DB95B814}"/>
+			<parm name="DestId" value="{A1182988-0D73-439e-87AD-2A5B369F808B}"/>
+			<parm name="Type" value="0"/>
+			<parm name="Enable" value="1"/>
+		</characteristic>
+
+	</characteristic>
+
+</wap-provisioningdoc>

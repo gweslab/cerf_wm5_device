@@ -1,0 +1,134 @@
+
+a:link, a:visited {
+    color: menutext;
+}
+
+a:link.header, a:visited.header {
+    color: menutext;
+}
+
+a:link.attachments, a:visited.attachments {
+    color: menutext;
+}
+
+body {
+    margin: 0px;
+}
+
+div.header {
+    background-color:  buttonface;
+    width: 100%;
+    padding: 6px;
+}
+
+div.header2 {
+    background-color: buttonface;
+    width: 100%;
+    padding: 4px
+}
+
+table.header {
+    width: 100%;
+    padding: 0px;
+    border: 0px;
+}
+
+td.header {
+    font: 8pt Tahoma;
+    color: menutext;
+    width: 30px;
+    text-align: left;
+    vertical-align: top;
+}
+
+td.content {
+    text-align: left;
+    vertical-align: top;
+    font: 8pt Tahoma;
+    color: menutext;
+    wrap-option: emergency;
+}
+
+InfoBar {
+    width: 100%;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin-top: 4px;
+    margin-left: 2px;
+}
+
+div.infobar {
+    font: 8pt Tahoma;
+}
+
+Table.More {
+    width: 100%;
+    font: 8pt Tahoma;
+    margin-top: 4px;
+    border-top: solid 2px black;
+    margin-left: 8px;
+    padding: -2px;
+}
+
+td.More {
+    vertical-align: top;
+    padding-top: 4px;
+}
+
+img.sender {
+    float: right;
+    border: 1px solid black;
+}
+
+Subject {
+    font: 8pt Tahoma;
+    font-weight: bold;
+    color: menutext;
+    wrap-option: emergency;
+    margin-top: 4px;
+}
+
+Attachments, A.attachment, From.wrapable {
+    font: 8pt Tahoma; 
+    wrap-option: emergency;
+    margin-top: 2px;
+}
+
+From {
+    font: 8pt Tahoma; 
+    margin-top: 2px;
+}
+
+span.attachimg {
+    text-decoration: none;
+    width: 15px;
+}
+
+SMS {
+    margin-left: 2px;
+}
+
+div.attachment {
+    margin-top: 4px;
+}
+
+
+ReadBody, Subject.SMS, DiscreteLink {
+    font: 8pt Tahoma;
+    margin-left: 8px;
+    margin-right: 4px;
+    margin-top: 4px;
+    wrap-option: emergency;
+}
+
+table.mainvis {
+    border: 1px;
+    width: 100%;
+}
+
+tr.mainvis {
+    vertical-align: top;
+}
+

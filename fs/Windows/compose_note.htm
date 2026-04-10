@@ -1,0 +1,105 @@
+<html XMLNS:Inbox>
+
+  <head>
+    <object id="HTMLFormFactory" CLASSID="clsid:29d48cf7-ed6a-4a9d-a17a-ae9115c07a90" />
+    <?IMPORT NAMESPACE="Inbox" IMPLEMENTATION="#HTMLFormFactory" />
+    <link rel="stylesheet" href="file://\windows\compose_style.css" type="text/css" />
+  </head>
+
+  <body>
+    
+    <table class="header">
+      <tr>
+        <td class="header"><a class="header" href="Inbox:COMPOSEBCC 0">Bcc:</a></td>
+        <td class="content">
+          <Inbox:ComposeBcc>
+            <Inbox:content id="COMPOSEBCC" nocr email />
+          </Inbox:ComposeBcc>
+        </td>
+      </tr>
+      <tr>
+        <td class="header"><a class="header" href="Inbox:COMPOSECC 0">Cc:</a></td>
+        <td class="content">
+          <Inbox:ComposeCc>
+            <Inbox:content id="COMPOSECC" nocr email />
+          </Inbox:ComposeCc>
+        </td>
+      </tr>
+      <tr>
+        <td class="header">
+          <a name="Inbox:top" />From:
+        </td>
+        <td class="content">
+          <Inbox:ComposeFrom>
+            <Inbox:content id="COMPOSEFROM" />
+          </Inbox:ComposeFrom>
+        </td>
+      </tr>
+      <tr>
+        <td class="header"><a class="header" href="Inbox:COMPOSETO 0">To:</a></td>
+        <td class="content">
+          <Inbox:ComposeTo>
+            <Inbox:content id="COMPOSETO" nocr plain focus email />
+          </Inbox:ComposeTo>
+        </td>
+      </tr>
+      <tr>
+        <td class="header"><a name="Inbox:replyalltop" />Subject:</td>
+        <td class="content">
+          <Inbox:ComposeSubject>
+            <Inbox:content id="COMPOSESUBJECT" nocr plain autocap />
+          </Inbox:ComposeSubject>
+        </td>
+      </tr>
+    </table>
+
+    <Inbox:ComposeAttachments>
+      <table class="header">
+        <tr>
+          <td class="header">Attached:</td>
+          <td class="content"><Inbox:content id="COMPOSEATTACHMENTS" /></td>
+        </tr>
+      </table>
+    </Inbox:ComposeAttachments>
+        
+    <Inbox:ComposeSecurity>
+      <table width="100%">
+        <tr>
+          <td class="header">Security:</td>
+          <td class="content"><Inbox:content id="COMPOSESECURITY" /></td>
+        </tr>
+      </table>
+    </Inbox:ComposeSecurity>
+        
+    <div class="divider" />
+        
+    <Inbox:ComposeBody>
+      <Inbox:Content id="COMPOSEBODY" height=20 smartheight=50 replyfocus links spell autocap inserttab />
+    </Inbox:ComposeBody>
+        
+    <Inbox:ReadBody>
+        <a href="Inbox:ReadBody editmsg">Edit Message</a>
+        <Inbox:Content id="READBODY" smartinclude />
+    </Inbox:ReadBody>
+
+    <a href="Inbox:ComposeBody setfocus">
+      <div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+      </div>
+    </a>
+
+  </body>
+
+</html>
+

@@ -1,0 +1,21 @@
+<wap-provisioningdoc>
+    <characteristic type="FileOperation">
+        <characteristic type="%CE11%" translation="install">
+            <characteristic type="MakeDir" />
+            <characteristic type="Pocket MSN.lnk" translation="install">
+                <characteristic type="Copy">
+                    <parm name="Source" value="\Windows\pmsn.lnk" translation="install" />
+                </characteristic>
+            </characteristic>
+        </characteristic>
+        <characteristic type="%CE2%\Help" translation="install">
+            <characteristic type="MakeDir" />
+            <characteristic type="Pocket MSN.lnk" translation="install">
+                <characteristic type="Copy">
+                    <parm name="Source" value="\Windows\h_pmsn.lnk" translation="install" />
+                </characteristic>
+            </characteristic>
+        </characteristic>
+    </characteristic>
+</wap-provisioningdoc>
+

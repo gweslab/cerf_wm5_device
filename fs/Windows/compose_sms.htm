@@ -1,0 +1,45 @@
+<html XMLNS:Inbox>
+
+  <head>
+    <object id="HTMLFormFactory" CLASSID="clsid:29d48cf7-ed6a-4a9d-a17a-ae9115c07a90"/>
+    <?IMPORT NAMESPACE="Inbox" IMPLEMENTATION="#HTMLFormFactory" />
+    <link rel="stylesheet" href="file://\windows\compose_style.css" type="text/css" />
+  </head>
+
+  <body>
+    <a name="inbox:top"></a>
+
+    <table class="header">
+      <tr>
+        <td class="header">From:</td>
+        <td class="content">
+          <Inbox:ComposeFrom>
+            <Inbox:content id="COMPOSEFROM" />
+          </Inbox:ComposeFrom>
+        </td>
+      </tr>
+      <tr>
+        <td class="header"><a class="header" href="Inbox:COMPOSETO 0">To:</a></span>
+        <td class="content">
+          <Inbox:ComposeTo>
+            <Inbox:content id="COMPOSETO" nocr focus phone />
+          </Inbox:ComposeTo>
+        </td>
+      </tr>
+    </table>
+
+    <div class="divider" />
+
+    <Inbox:ComposeSubject class="sms">
+      <Inbox:Content id="COMPOSESUBJECT" smartheight=50 limit=0 replyfocus count links spell autocap inserttab />
+    </Inbox:ComposeSubject>
+
+    <div class="SMSLine" />
+        
+    <Inbox:ComposeBodyCount>
+      <Inbox:Content id="COMPOSEBODYCOUNT" format="%1!d!/%2!d!%4 (%3!d! messages)" />
+    </Inbox:ComposeBodyCount>
+
+    <div><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+  </body>
+</html>

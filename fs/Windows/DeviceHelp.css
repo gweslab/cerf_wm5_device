@@ -1,0 +1,171 @@
+/*----------------------------------------------*/
+/*CSS for PocketPC and SmartPhone PegHelp builds*/
+/*----------------------------------------------*/
+body
+{
+	font-family: "tahoma";
+	font-size: 9pt;
+	line-height: 12pt;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+
+/*Links*/
+a
+{
+	color: #0000F8;
+}
+
+a:visited
+{
+	color:#660099;
+}
+
+/* Body Text (text,t) */
+p
+{
+	line-height: 12pt;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+}
+
+/*Topic Headings (anything styled h1-h6 in the docs)*/
+.dth1
+{
+	font-size: 9pt;
+	font-weight: bold;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 6pt;
+
+}
+
+/*See also headings (anything styled h9 in the docs)*/
+.dth4
+{
+	border-top: 1px solid #898989;
+	padding-top: 10px;
+	font-size: 9pt;
+	font-weight: bold;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 2pt;
+}
+
+/*Tip/Note Headings*/
+.AH
+{
+	border-top: 1px solid #898989;
+	padding-top: 10px;
+	margin-top: 10px;
+	margin-bottom: 2pt;
+}
+
+/*Multiple Tip/Notes*/
+.AHM
+{
+	margin-top: 6pt;
+	margin-bottom: 2pt;
+}
+
+/*Important Note Headings*/
+.label
+{
+	margin-top: 6pt;
+}
+
+/*Important Note Text*/
+.dtBlock
+{
+	margin-left: 22.5pt;
+	margin-top: 2pt;
+	margin-bottom: 6pt;
+}
+
+/*numbered steps*/
+ol
+{
+	margin-top: 6pt;
+	margin-bottom: 0pt;
+}
+
+/*2nd-level bulleted lists*/
+ol ul
+{ 
+	margin-left: 16px;
+	margin-bottom: 0pt;
+}
+
+/*Follow Up Text*/
+li p
+{
+	margin-left: 0px;
+	margin-top: 2pt;
+	margin-bottom: 2pt;
+}
+
+
+/*Tables*/
+.dtTABLE
+{
+	font-size: 9pt;
+	margin-top: 8pt;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 8pt;
+}
+
+table
+{
+	border-left: 1pt solid black;
+	border-bottom: 1pt solid black;
+}
+
+td
+{
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+}
+
+th
+{
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+}
+
+
+/*Links on Portal Pages and in TOC*/
+.RL
+{
+	color:#0000F8;
+	text-decoration:none;
+}
+
+/*Horizontal dividers in See also sections*/
+.saDiv
+{
+	border-top: 1px solid #898989;
+	margin-top: 10px;
+	padding-top: 10px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+
+/*Style for Help-Added TOC Links*/
+#HA
+{
+	margin-top: 2pt;
+	margin-left: 8px;
+	color: #0000F8;
+	text-decoration: none;
+}
+
+/*Images*/
+img
+{
+	vertical-align: middle;
+}

@@ -1,0 +1,95 @@
+<html XMLNS:Inbox>
+
+  <head>
+    <object id="HTMLFormFactory" CLASSID="clsid:29d48cf7-ed6a-4a9d-a17a-ae9115c07a90" />
+    <?IMPORT NAMESPACE="Inbox" IMPLEMENTATION="#HTMLFormFactory" />
+    <link rel="stylesheet" href="file://\windows\read_style.css" type="text/css" />
+  </head>
+
+  <body>
+    <div class="header2">
+
+      <table class="mainvis">
+        <tr class="mainvis">
+          <td colspan="2">
+            <Inbox:To>
+              <table class="header">
+                <tr>
+                  <td class="header">To:</td>
+                  <td class="content"><Inbox:content id="TO" /></td>
+                </tr>
+              </table>
+            </Inbox:To>
+
+            <a id="Inbox:top" />
+
+            <Inbox:InfoBar>
+              <div class="infobar">
+                <Inbox:content id="INFOBAR" />
+              </div>
+            </Inbox:InfoBar>
+          </td>
+        </tr>
+        <tr class="mainvis">
+          <td>
+            <Inbox:Sent>
+              <table class="header">
+                <tr>
+                  <td class="header">Sent:</td>
+                  <td class="content"><Inbox:content id="SENT" /></td>
+                </tr>
+              </table>
+            </Inbox:Sent>
+
+            <Inbox:From>
+              <table class="header">
+                <tr>
+                  <td class="header">From:</td>
+                  <td class="content"><Inbox:content id="FROM" advancefocusedlink /></td>
+                </tr>
+              </table>
+            </Inbox:From>
+
+          </td>
+
+
+          <td>
+            <Inbox:SenderPic>
+              <div>
+                <Inbox:content id="SENDERPIC" />
+              </div>
+            </Inbox:SenderPic>
+          </td>
+
+        </tr>
+      </table>
+
+      <Inbox:Callback>
+        <table class="header">
+          <tr>
+            <td class="header">Callback:</td>
+            <td class="content"><Inbox:content id="CALLBACK" /></td>
+          </tr>
+        </table>
+      </Inbox:Callback>
+
+    </div>
+        
+    <a id="Inbox:BeginBody" />
+
+    <Inbox:Subject class="SMS">
+      <Inbox:content id="SUBJECT" links />
+    </Inbox:Subject>
+
+    <a id="Inbox:EndBody" />
+
+    <Inbox:DiscreteLink>
+      <Inbox:content id="DISCRETELINK" />
+    </Inbox:DiscreteLink>
+
+    &nbsp;<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;
+        
+  </body>
+
+</html>
+

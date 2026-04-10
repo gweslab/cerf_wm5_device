@@ -1,0 +1,859 @@
+<html><head><title>Messaging Help</title>
+<LINK rel="stylesheet" type="text/css" href="file://\Windows\DeviceHelp.css" />
+<keyword title="Add an attachment to a message" value="attachment;message;email;e-mail" href="inbox.htm#pptskAttachFileToMessage"/>
+<keyword title="Install an online address book" value="addresses;Address Book;LDAP;Contacts;authentication;service" href="inbox.htm#pptskChangeAddressOptions"/>
+<keyword title="Delete all messages and folders" value="service;messages;clear;memory;message" href="inbox.htm#ppconClearMessagesFolders"/>
+<keyword title="Compose and send a message" value="semicolon;Contacts;service;spelling;send;message;sms;text message;email;e-mail" href="inbox.htm#ppconComposeSendMessage"/>
+<keyword title="Create or change a message signature" value="message;signature" href="inbox.htm#pptskCreateOrChangeSignature"/>
+<keyword title="Delete a message" value="attachment;Delete;empty;messages;message" href="inbox.htm#ppconDeleteMessage"/>
+<keyword title="Download messages" value="ActiveSync;synchronize;download;server;SMS;messages;text message;message" href="inbox.htm#ppconDownloadMessages"/>
+<keyword title="Download messages from the server" value="download;service;mark;server;messages;message" href="inbox.htm#pptskDownloadMessagesFromServer"/>
+<keyword title="Find a message" value="message;Find;email;e-mail;messages" href="inbox.htm#pptskFindMessage"/>
+<keyword title="Manage folders" value="folders;Delete;Rename;message;messages;email;e-mail" href="inbox.htm#pptskManageFolders"/>
+<keyword title="Move a message" value="messages;Move;message" href="inbox.htm#pptskMoveMessage"/>
+<keyword title="Receive attachments" value="attachment;download;mark;embedded;storage card" href="inbox.htm#pptskReceiveAttachments"/>
+<keyword title="Reply to or forward a message" value="message;reply;forward;My Text;spelling" href="inbox.htm#pptskReplyToOrForwardMessage"/>
+<keyword title="Sort the message list" value="messages;sort;message;email;e-mail" href="inbox.htm#pptskSortMessageList"/>
+<keyword title="Change e-mail download options" value="headers;memory;download;send/receive;check e-mail;check email" href="inbox.htm#pptskChangeE-mailDownloadOptions"/>
+<keyword title="Set up an e-mail account" value="IMAP;SMTP;outgoing;pop;pop3;imap4;e-mail;email" href="inbox.htm#pptskSetUpE-mailAccount"/>
+<keyword title="What is SSL?" value="ssl;security;email;e-mail;secure sockets layer" href="inbox.htm#ppconWhatIsSSL"/>
+<keyword title="Use My Text" value="My Text;text message;text messages;sms;email;e-mail" href="inbox.htm#pptskUseMyText"/>
+<keyword title="Create a contact from a message" value="contacts;save a contact;message;contact" href="inbox.htm#pptskCreateContactFromMessage"/>
+</head><body><!-- PegHelp -->
+
+
+
+<A NAME="pptskattachfiletomessage"></A><H1 class="dtH1">Add an attachment to a message</H1>
+<OL type="1">
+	<LI>In an open message, tap <B>Menu</B> &gt; <B>Insert</B> and tap the item you want to attach: <B>Picture</B>, <B>Voice Note</B>, or <B>File</B>.</li>
+
+	<LI>Select the file you want to attach or record a voice note.</li>
+</OL>
+
+<P class="AH"><B>Notes</B></P>
+
+<P>Embedded objects cannot be attached to messages.</P>
+
+<H4 class="dtH4">See also</H4>
+
+<P><A HREF="inbox.htm#ppconcomposesendmessage">Compose and send a message</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="pptskchangeaddressoptions"></A><H1 class="dtH1">Install an online address book</H1>
+<P>Many e-mail servers, including servers running Exchange Server, can verify names with an online address book, called a directory service, using Lightweight Directory Access Protocol (LDAP). When you create an e-mail account, your e-mail server's directory service is added to the Address tab, and you are given the option to enable it. After it is enabled, Messaging checks your contact list and then the directory service to verify names that you enter in the To, Cc, and Bcc fields. To enable a directory service or if you want to use additional services, follow these steps:
+
+<OL type="1">
+	<LI>If you are adding a new account, ask your network administrator for the name of the directory service and the server.</li>
+
+	<LI>In the message list, tap <B>Menu</B> &gt; <B>Tools</B> &gt; <B>Options</B> &gt; <B>Address</B> tab.</li>
+
+	<LI>In the <B>In Contacts, get e-mail addresses from</B> list, select which e-mail address book to check in Contacts. Contacts will be checked first unless you select <B>None</B>.</li>
+
+	<LI>If your e-mail server is already listed, select the server's directory service check box to enable it and tap <B>OK</B>.</li>
+
+	<LI>If your e-mail service is not listed, tap <B>Add</B>.</li>
+
+	<LI>In the <B>Directory name</B> and<B> Server</B> boxes, enter the LDAP directory and server names.</li>
+
+	<LI>Ask your network administrator if authentication is necessary for your server. If so, select the <B>Authentication is necessary on this server</B> check box, and enter your user name and password.</li>
+
+	<LI>To have Messaging check this service, select the <B>Check name against this server</B> check box.</li>
+</OL>
+
+<P class="AH"><B>Tips</B></P>
+
+<P>To delete a service, tap and hold the service, and tap <B>Delete</B>.</P>
+
+<P style="margin-top: 6pt">While synchronizing your Outlook E-mail account, disable any directory services you have installed by clearing the <B>Check name against this serve</B>r check box. This helps avoid getting error messages when Messaging tries to verify names against the service that you are not connected to.</P>
+
+<H4 class="dtH4">See also</H4>
+
+<P><A HREF="inbox.htm#ppconcomposesendmessage">Compose and send a message</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="ppconclearmessagesfolders"></A><H1 class="dtH1">Delete all messages and folders</H1>
+<P>You can quickly delete all messages and the non-default folders in a Messaging account.
+
+<OL type="1">
+	<LI>Tap <img src="flag.2bp" alt="Start"> &gt; <B>Messaging</B>.</li>
+
+	<LI>Tap <B>Menu</B> &gt; <B>Tools</B> &gt; <B>Clear</B> <B>&lt;Account&gt;</B>.
+<P>All messages and folders that are linked to the selected account are cleared, and memory is expanded on the device without deleting messages on the server. The next time you connect, the messages and folders are downloaded again.
+</li>
+</OL>
+
+<P class="AH"><B>Notes</B></P>
+
+<P>You cannot clear messages and folders from the Outlook E-mail account.</P>
+
+<H4 class="dtH4">See also</H4>
+
+<P><A HREF="inbox.htm#ppcondeletemessage">Delete a message</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="ppconcomposesendmessage"></A><H1 class="dtH1">Compose and send a message</H1>
+<OL type="1">
+	<LI>In the message list, tap <B>Menu</B> &gt; <B>Switch Accounts</B> and select the account.</li>
+
+	<LI>Tap <B>New</B>.</li>
+
+	<LI>Enter the e-mail address or text message address of one or more recipients, separating them with a semicolon. To access addresses and phone numbers from Contacts, tap <B>To</B>.</li>
+
+	<LI>Enter your message. To quickly add common messages, tap <B>Menu</B> &gt; <B>My Text</B> and tap a desired message.</li>
+
+	<LI>To check the spelling, tap <B>Menu</B> &gt; <B>Spell Check</B>.</li>
+
+	<LI>Tap <B>Send</B>.</li>
+</OL>
+</div><div class="cdma">
+<OL type="1">
+	<LI>In the message list, tap <B>Menu</B> &gt; <B>Switch Accounts</B> and select the account.</li>
+
+	<LI>Tap <B>New</B>.</li>
+
+	<LI>Enter the e-mail address or text message address of one or more recipients, separating them with a semicolon. To access addresses and phone numbers from Contacts, tap <B>To</B>.</li>
+
+	<LI>Enter your message. To quickly add common messages, tap <B>Menu</B> &gt; <B>My Text</B> and tap a desired message.</li>
+
+	<LI>To check the spelling, tap <B>Menu</B> &gt; <B>Spell Check</B>.</li>
+
+	<LI>Tap <B>Send</B>.</li>
+</OL>
+</div><div class="nophone">
+<OL type="1">
+	<LI>In the message list, tap <B>Menu</B> &gt; <B>Switch Accounts</B> and select the account.</li>
+
+	<LI>Tap <B>New</B>.</li>
+
+	<LI>Enter the e-mail address of one or more recipients, separating them with a semicolon. To access addresses and phone numbers from Contacts, tap <B>To</B>.</li>
+
+	<LI>Enter your message. To quickly add common messages, tap <B>Menu</B> &gt; <B>My Text</B> and tap a desired message.</li>
+
+	<LI>To check the spelling, tap <B>Menu</B> &gt; <B>Spell Check</B>.</li>
+
+	<LI>Tap <B>Send</B>.</li>
+</OL>
+</div><div class="gsm">
+<P class="AH"><B>Tips</B></P>
+
+<P>To enter symbols, tap <B>Shift</B> using the on-screen keyboard.</P>
+
+<P style="margin-top: 6pt">To set the priority, tap <B>Menu</B> &gt; <B>Message Options</B>.</P>
+
+<P style="margin-top: 6pt">If you are working offline, e-mail messages are moved to the Outbox folder and will be sent the next time you connect.</P>
+
+<P style="margin-top: 6pt">If you are sending a text message and want to know if it was received, before sending the message, tap <B>Menu</B> &gt; <B>Tools</B> &gt; <B>Options</B>. Tap <B>Text Messages</B> and select <B>Request delivery notifications</B>.</P>
+</div><div class="cdma">
+<P class="AH"><B>Tips</B></P>
+
+<P style="margin-top: 6pt">To enter symbols, tap <B>Shift</B> using the on-screen keyboard.</P>
+
+<P style="margin-top: 6pt">If you are working offline, e-mail messages are moved to the Outbox folder and will be sent the next time you connect.</P>
+
+<P style="margin-top: 6pt">If you are sending a text message and want to know if it was received, before sending the message, tap <B>Menu</B> &gt; <B>Tools</B> &gt; <B>Options</B>. Tap <B>Text Messages</B> and select <B>Request delivery notifications</B>.</P>
+</div><div class="nophone">
+<P class="AH"><B>Tips</B></P>
+
+<P style="margin-top: 6pt">To enter symbols, tap <B>Shift</B> using the on-screen keyboard.</P>
+
+<P style="margin-top: 6pt">If you are working offline, e-mail messages are moved to the Outbox folder and will be sent the next time you connect.</P>
+</div>
+<H4 class="dtH4">See also</H4>
+
+<P><A HREF="inbox.htm#pptskattachfiletomessage">Add an attachment to a message</A></P>
+
+<P><A HREF="inbox.htm#pptskusemytext">Use My Text</A></P>
+
+<P><A HREF="inbox.htm#pptskchangeaddressoptions">Install an online address book</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="pptskcreateorchangesignature"></A><H1 class="dtH1">Create or change a message signature</H1>
+<OL type="1">
+	<LI>Tap <img src="flag.2bp" alt="Start">&gt; <B>Messaging</B>.</li>
+
+	<LI>Tap <B>Menu</B> &gt; <B>Tools</B> &gt; <B>Options</B>.</li>
+
+	<LI>Tap <B>Accounts</B> tab &gt; <B>Signatures</B>.</li>
+
+	<LI>Select the account for which you want to create or change a signature.</li>
+
+	<LI>Select the <B>Use signature with this account</B> check box if it is not already selected.</li>
+
+	<LI>Select the <B>Use when replying and forwarding</B> check box if wanted.</li>
+
+	<LI>Enter a signature in the box.
+<P>To stop using a signature, clear the <B>Use signature with this account</B> check box.
+</li>
+</OL>
+
+<P class="AH"><B>Tip</B></P>
+
+<P>You can use a different signature with each Messaging account.</P>
+
+<P><A HREF="inbox.htm#ppconcomposesendmessage">Compose and send a message</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="ppcondeletemessage"></A><H1 class="dtH1">Delete a message</H1>
+<UL type="disc">
+	<LI>To delete a message, in the message list, tap and hold the message and tap <B>Delete</B>. To select multiple messages, tap and drag. Then, tap and hold the selected messages, and tap <B>Delete</B>. Messages are moved to the Deleted Items folder and deleted according to the option that you have selected in <B>Menu</B> &gt; <B>Tools</B> &gt; <B>Options</B> &gt; <B>Storage</B> tab.</li>
+</UL>
+
+<P class="AH"><B>Tips</B></P>
+
+<P>If you are working offline, messages that have been deleted from the server will be deleted from the device the next time you connect or according to the options you have selected.</P>
+
+<P style="margin-top: 6pt">To permanently delete messages in the Deleted Items folder, tap <B>Menu</B> &gt; <B>Tools</B> &gt; <B>Empty Deleted Items</B>.</P>
+
+<P style="margin-top: 6pt">To choose when items will be permanently removed, in the message list, tap <B>Menu</B> &gt; <B>Tools</B> &gt; <B>Options</B> &gt; <B>Storage</B> tab, and make a selection in <B>Empty deleted items</B>.</P>
+
+<H4 class="dtH4">See also</H4>
+
+<P><A HREF="inbox.htm#ppconclearmessagesfolders">Delete all messages and folders</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="ppcondownloadmessages"></A><H1 class="dtH1">Download messages</H1>
+<P>The manner in which you download messages depends the type of account you have:
+
+<UL type="disc">
+	<LI>To send and receive e-mail for an Outlook E-mail account, begin synchronization through ActiveSync. For more information, see <A HREF="sync.htm#ppconsynchronizingoutlooke-mail">Synchronizing Outlook E-mail</A>.</li>
+
+	<LI>To send and receive e-mail messages for an e-mail account that you have with an Internet Service Provider (ISP) or that you access using a VPN server connection (typically a work account), download messages through a remote e-mail server. For more information, see <A HREF="inbox.htm#pptskdownloadmessagesfromserver">Download messages from the server</A>.</li>
+</UL>
+<div class="gsm">
+<UL type="disc">
+	<LI>Text messages are automatically received when your phone is turned on. When your phone is turned off (in flight mode), messages are held by your service provider until the next time your phone is turned on.</li>
+</UL>
+</div><div class="cdma">
+<UL type="disc">
+	<LI>Text messages are automatically received when your phone is turned on. When your phone is turned off (in flight mode), messages are held by your service provider until the next time your phone is turned on.</li>
+</UL>
+</div>
+<P class="AH"><B>Tip</B></P>
+
+<P>By default, messages you send are not saved on your device to help conserve memory. If you want to keep copies of sent messages, in the messaging list, tap <B>Menu</B> &gt; <B>Tools</B> &gt; <B>Options</B> &gt; <B>Message</B> tab, and select the <B>Keep copies of sent items in Sent folder</B> check box. If your account is an Outlook E-mail or IMAP4 account, you must also select the Sent Items folder for synchronization. To do this, tap <B>Menu</B> &gt; <B>Tools</B> &gt; <B>Manage Folders</B> and select the check box next to the folder.</P>
+
+<H4 class="dtH4">See also</H4>
+
+<P><A HREF="sync.htm#pptskstartstopsynchronization">Start and stop synchronization</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="pptskdownloadmessagesfromserver"></A><H1 class="dtH1">Download messages from the server</H1>
+<P>To send and receive e-mail messages for an e-mail account that you have with an Internet Service Provider (ISP) or that you access using a VPN server connection (typically a work account) you need to connect to the Internet or your corporate network, depending on the account.
+
+<OL type="1">
+	<LI>Tap <B>Menu</B> &gt; <B>Switch Accounts</B> and tap the account you want to use.</li>
+
+	<LI>Tap <B>Menu</B> &gt; <B>Send/Receive</B>. The messages on your device and e-mail server are synchronized: new messages are downloaded to the device Inbox folder, messages in the device Outbox folder are sent, and messages that have been deleted from the server are removed from the device Inbox folder.</li>
+</OL>
+
+<P class="AH"><B>Tips</B></P>
+
+<P>If you want to read the entire message, tap <B>Menu</B> &gt; <B>Download Message</B> while in the message window. If you are in the message list, tap and hold the message, and then tap <B>Menu</B> &gt; <B>Download Message</B>. The message will download the next time you send and receive e-mail. This will also download message attachments if you selected those options when you set up the e-mail account.</P>
+
+<P style="margin-top: 6pt">The size column in the message list displays the local size and server size of a message. Even when an entire message has been downloaded, these numbers may differ because the size of a message can vary between the server and the device.</P>
+
+<H4 class="dtH4">See also</H4>
+
+<P><A HREF="connect.htm#pptskconnecttointernet">Connect to the Internet</A></P>
+
+<P><A HREF="connect.htm#pptskconnecttowork">Connect to Work</A></P>
+
+<P><A HREF="inbox.htm#pptskchangee-maildownloadoptions">Change e-mail download options</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="pptskfindmessage"></A><H1 class="dtH1">Find a message</H1>
+<OL type="1">
+	<LI>Tap <img src="flag.2bp" alt="Start"> &gt; <B>Programs</B> &gt; <B>Search</B>.</li>
+
+	<LI>Enter the subject, sender's name, or message body text. If you have looked for this message before, in the <B>Search for</B> box, select the name from the list.</li>
+
+	<LI>In <B>Type</B>, tap <B>Messaging</B> to narrow your search.</li>
+
+	<LI>Tap <B>Search</B>.</li>
+
+	<LI>In the <B>Results</B> list, tap the message you want to open.</li>
+</OL>
+
+<H4 class="dtH4">See also</H4>
+
+<P><A HREF="inbox.htm#pptsksortmessagelist">Sort the message list</A></P>
+
+<P><A HREF="inbox.htm#ppcondownloadmessages">Download messages</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="pptskmanagefolders"></A><H1 class="dtH1">Manage folders</H1>
+<P>You can create, rename, or delete a folder or select it for synchronization.
+
+<OL type="1">
+	<LI>Tap <B>Menu</B> &gt; <B>Switch Accounts</B>, and select the account.</li>
+
+	<LI>Tap <B>Menu</B> &gt; <B>Tools</B> &gt; <B>Manage Folders</B>.</li>
+
+	<LI>Do one of the following:
+<UL type="disc">
+	<LI>To create a subfolder, tap and hold a folder, and tap <B>New</B>.</li>
+
+	<LI>To change the name of a folder, tap and hold the folder, and tap <B>Rename</B>.</li>
+
+	<LI>To delete a folder and its contents, tap and hold the folder, and tap <B>Delete</B>.</li>
+
+	<LI>To select a folder for synchronization in an Outlook E-mail or IMAP4 account, select the check box next to the folder.</li>
+</UL>
+</li>
+</OL>
+
+<P class="AH"><B>Tips</B></P>
+
+<P>You must be online and connected to delete or rename an Outlook E-mail or IMAP4 account folder.</P>
+
+<P style="margin-top: 6pt">Default folders (Drafts, Outbox, Inbox, Deleted Items, and Sent Items) cannot be renamed or deleted.</P>
+
+<H4 class="dtH4">See also</H4>
+
+<P><A HREF="inbox.htm#ppconclearmessagesfolders">Delete all messages and folders</A></P>
+
+<P><A HREF="sync.htm#ppconsynchronizingoutlooke-mail">Synchronizing Outlook E-mail</A></P>
+
+<P><A HREF="inbox.htm#pptskdownloadmessagesfromserver">Download messages from the server</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="pptskmovemessage"></A><H1 class="dtH1">Move a message</H1>
+<OL type="1">
+	<LI>In the message list, tap and hold the message. To select multiple messages, tap and drag. Then, tap and hold the selected messages.</li>
+
+	<LI>Tap <B>Move</B>.</li>
+
+	<LI>Select where you want to move the message, and tap <B>OK</B>.</li>
+</OL>
+
+<P class="label" style="border-top: 1px solid #898989;padding-top: 10px;margin-top: 10px;"><B>Important Note</B></P>
+
+<BLOCKQUOTE class="dtBlock">
+If you use a POP3 account and you move e-mail messages to a folder you created, the link is broken between the messages on the device and their copies on the e-mail server. The next time you connect, the e-mail server will see that the messages are missing from the device Inbox folder and delete them from the server. This prevents you from having duplicate copies of a message, but it also means that you will no longer have access to messages that you move to folders created from anywhere except the device.</BLOCKQUOTE>
+
+<H4 class="dtH4">See also</H4>
+
+<P><A HREF="inbox.htm#ppconclearmessagesfolders">Delete all messages and folders</A></P>
+
+<P><A HREF="inbox.htm#pptskmanagefolders">Manage folders</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="pptskreceiveattachments"></A><H1 class="dtH1">Receive attachments</H1>
+<P>An attachment sent with an e-mail message or downloaded from the server appears below the subject of the message. Tapping the attachment opens the attachment if it has been fully downloaded or marks it for download the next time you send and receive e-mail. You can also download attachments automatically with your messages if you have an Outlook E-mail or IMAP4 e-mail account.</P>
+
+<P>If you have an Outlook E-mail account, do the following:
+
+<OL type="1">
+	<LI>Tap <img src="flag.2bp" alt="Start"> &gt; <B>ActiveSync</B>.</li>
+
+	<LI>Tap <B>Menu</B> &gt; <B>Options</B>.</li>
+
+	<LI>Tap <B>E-mail</B> <B>&gt;</B> <B>Settings</B>, and then select <B>Include File Attachments</B>.</li>
+</OL>
+
+<P><P style="margin-top: 6pt;"></P>
+If you have an IMAP4 e-mail account with an Internet service provider (ISP) or an account that you access using a VPN server connection (typically a work account), do the following:
+
+<OL type="1">
+	<LI>Tap <img src="flag.2bp" alt="Start"> &gt; <B>Messaging</B>.</li>
+
+	<LI>Tap <B>Menu</B> &gt; <B>Tools</B> &gt; <B>Options</B>.</li>
+
+	<LI> Tap the name of the IMAP4 account.</li>
+
+	<LI>Tap <B>Next</B> until you reach <B>Server information</B>, and tap <B>Options</B>.</li>
+
+	<LI>Tap <B>Next</B> twice, and select <B>Get full copy of messages</B> and <B>When getting full copy, get attachments</B>.</li>
+</OL>
+
+<P class="AH"><B>Tips</B></P>
+
+<P>Embedded images and objects cannot be received as attachments.</P>
+
+<P style="margin-top: 6pt">An embedded message can be viewed as an attachment when using IMAP4 to receive e-mail. However, this feature does not work if TNEF is enabled so that you can receive meeting requests.</P>
+
+<P style="margin-top: 6pt">To store attachments on a storage card rather than on the device, tap <B>Menu</B> &gt; <B>Tools</B> &gt; <B>Options</B> &gt; <B>Storage</B> tab, and select the <B>Store attachments on a storage card</B> check box.</P>
+
+<H4 class="dtH4">See also</H4>
+
+<P><A HREF="inbox.htm#pptskchangee-maildownloadoptions">Change e-mail download options</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="pptskreplytoorforwardmessage"></A><H1 class="dtH1">Reply to or forward a message</H1>
+<OL type="1">
+	<LI>Open the message and tap <B>Reply</B>, or <B>Menu</B> &gt; <B>Reply All</B>, or <B>Menu</B> &gt; <B>Forward</B>.</li>
+
+	<LI>Enter your response. To quickly add common messages, tap <B>Menu</B> &gt; <B>My Text</B> and tap a desired message.</li>
+
+	<LI>To check the spelling, tap <B>Menu</B> &gt; <B>Spell Check</B>.</li>
+
+	<LI>Tap <B>Send</B>.</li>
+</OL>
+
+<P class="AH"><B>Tips</B></P>
+
+<P>To see more header information, scroll up.</P>
+
+<P style="margin-top: 6pt">To always include the original message, from the list view, tap <B>Menu</B> &gt; <B>Tools</B> &gt; <B>Options</B> &gt; <B>Message</B> tab, and select the <B>When replying to e-mail, include body</B> check box.</P>
+
+<P style="margin-top: 6pt">In the Outlook E-mail account, you will send less data if you do not edit the original message. This may reduce data transfer costs based on your rate plan.</P>
+
+<H4 class="dtH4">See also</H4>
+
+<P><A HREF="inbox.htm#pptskusemytext">Use My Text</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="pptsksortmessagelist"></A><H1 class="dtH1">Sort the message list</H1>
+<P>If you have a long list of messages, sorting the list can help you quickly find the item you want.
+
+<OL type="1">
+	<LI>In the message list, tap the sort list (labeled <B>Received</B> by default) and select a sort option.</li>
+
+	<LI>Select the option again to reverse the sort order (ascending to descending).</li>
+</OL>
+
+<H4 class="dtH4">See also</H4>
+
+<P><A HREF="inbox.htm#pptskfindmessage">Find a message</A></P>
+
+<P><A HREF="inbox.htm#ppconclearmessagesfolders">Delete all messages and folders</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="storageoptions"></A><H1 class="dtH1">How do I...</H1>
+<P><A HREF="inbox.htm#pptskreceiveattachments" class="RL">Receive attachments</A></P>
+
+<P><A HREF="inbox.htm#ppcondeletemessage" class="RL">Delete a message</A></P>
+
+<P><A HREF="inbox.htm#ppconclearmessagesfolders" class="RL">Delete all messages and folders</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="messageoptions"></A><H1 class="dtH1">How do I...</H1>
+<P><A HREF="inbox.htm#pptskreplytoorforwardmessage" class="RL">Reply to or forward a message</A></P>
+
+<P><A HREF="inbox.htm#ppcondownloadmessages" class="RL">Download messages</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="add_address"></A><H1 class="dtH1">How do I...</H1>
+<P><A HREF="inbox.htm#pptskchangeaddressoptions" class="RL">Install an online address book</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="addressoptions"></A><H1 class="dtH1">How do I...</H1>
+<P><A HREF="inbox.htm#pptskchangeaddressoptions" class="RL">Install an online address book</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="signature"></A><H1 class="dtH1">How do I...</H1>
+<P><A HREF="inbox.htm#pptskcreateorchangesignature" class="RL">Create or change a message signature</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="advanced3imap"></A><H1 class="dtH1">How do I...</H1>
+<P><A HREF="inbox.htm#pptskchangee-maildownloadoptions" class="RL">Change e-mail download options</A></P>
+
+<P><A HREF="inbox.htm#pptskreceiveattachments" class="RL">Receive attachments</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="advanced2"></A><H1 class="dtH1">How do I...</H1>
+<P><A HREF="inbox.htm#pptskchangee-maildownloadoptions" class="RL">Change e-mail download options</A></P>
+
+<P><A HREF="inbox.htm#pptsksetupe-mailaccount" class="RL">Set up an e-mail account</A></P>
+
+<DIV class="saDiv"></DIV><P><A HREF="inbox.htm#ppconwhatisssl" class="RL">What is SSL?</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="advanced1"></A><H1 class="dtH1">How do I...</H1>
+<P><A HREF="inbox.htm#pptskchangee-maildownloadoptions" class="RL">Change e-mail download options</A></P>
+
+<P><A HREF="sync.htm#ppconmanagewirelesssynchronizationcosts" class="RL">Manage wireless synchronization costs</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="screen5"></A><H1 class="dtH1">How do I...</H1>
+<P><A HREF="inbox.htm#pptsksetupe-mailaccount" class="RL">Set up an e-mail account</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="screen4"></A><H1 class="dtH1">How do I...</H1>
+<P><A HREF="inbox.htm#pptsksetupe-mailaccount" class="RL">Set up an e-mail account</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="screen3"></A><H1 class="dtH1">How do I...</H1>
+<P><A HREF="inbox.htm#pptsksetupe-mailaccount" class="RL">Set up an e-mail account</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="screen1"></A><H1 class="dtH1">How do I...</H1>
+<P><A HREF="inbox.htm#pptsksetupe-mailaccount" class="RL">Set up an e-mail account</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="set_up_change_a_service"></A><H1 class="dtH1">How do I...</H1>
+<P><A HREF="inbox.htm#pptskchangee-maildownloadoptions" class="RL">Change e-mail download options</A></P>
+
+<P><A HREF="inbox.htm#pptsksetupe-mailaccount" class="RL">Set up an e-mail account</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="new_folder"></A><H1 class="dtH1">How do I...</H1>
+<P><A HREF="inbox.htm#pptskmanagefolders" class="RL">Manage folders</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="managefolders"></A><H1 class="dtH1">How do I...</H1>
+<P><A HREF="inbox.htm#pptskmanagefolders" class="RL">Manage folders</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="compose"></A><H1 class="dtH1">How do I...</H1>
+<P><A HREF="inbox.htm#ppconcomposesendmessage" class="RL">Compose and send a message</A></P>
+
+<P><A HREF="inbox.htm#pptskattachfiletomessage" class="RL">Add an attachment to a message</A></P>
+
+<P><A HREF="inbox.htm#pptskusemytext" class="RL">Use My Text</A></P>
+
+<P><A HREF="wince.htm#pptskentertextusingon-screenkeyboard" class="RL">Enter text using the on-screen keyboard</A></P>
+
+<P><A HREF="inbox.htm#pptskcreateorchangesignature" class="RL">Create or change a message signature</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="screen2"></A><H1 class="dtH1">How do I...</H1>
+<P><A HREF="inbox.htm#pptsksetupe-mailaccount" class="RL">Set up an e-mail account</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="pptskchangee-maildownloadoptions"></A><H1 class="dtH1">Change e-mail download options</H1>
+<P>You can customize the following download options for each e-mail account that you have with an Internet Service Provider (ISP) or that you access using a VPN server connection (typically a work account).</P>
+
+<P>You can choose:
+
+<UL type="disc">
+	<LI>Whether messages are downloaded automatically.</li>
+
+	<LI>How much e-mail is downloaded.</li>
+
+	<LI>If and how attachments are downloaded (IMAP4 only).</li>
+</UL>
+
+<OL type="1">
+	<LI>In the message list, tap <B>Menu</B> &gt; <B>Tools</B> &gt; <B>Options</B>.</li>
+
+	<LI>Select the e-mail account.</li>
+
+	<LI>Tap <B>Next</B> until you reach <B>Server information</B>.</li>
+
+	<LI>Tap <B>Options</B>.</li>
+
+	<LI>Enter your changes on the next three screens, and tap <B>Finish</B>.</li>
+</OL>
+
+<P class="AH"><B>Tips</B></P>
+
+<P>To send and receive messages automatically, tap <B>Connect and check for messages</B> and enter a time interval. Connecting automatically may result in higher connection charges.</P>
+
+<P style="margin-top: 6pt">To save memory, limit the number of e-mails that are downloaded to your device by lowering the number of days to display.</P>
+
+<P style="margin-top: 6pt">To change options for an Outlook E-mail account, tap <img src="flag.2bp" alt="Start"> &gt; <B>ActiveSync</B> &gt; <B>Menu</B> &gt; <B>Options</B>.</P>
+
+<H4 class="dtH4">See also</H4>
+
+<P><A HREF="sync.htm#pptskchangesynchronizationschedule">Change the synchronization schedule of Outlook e-mail</A></P>
+
+<P><A HREF="sync.htm#ppconmanagewirelesssynchronizationcosts">Manage wireless synchronization costs</A></P>
+
+<P><A HREF="inbox.htm#ppconcomposesendmessage">Compose and send a message</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="pptsksetupe-mailaccount"></A><H1 class="dtH1">Set up an e-mail account</H1>
+<P>You need to set up an e-mail account that you have with an Internet service provider (ISP) or an account that you access using a VPN server connection (typically a work account) before you can send and receive mail.
+
+<OL type="1">
+	<LI>Tap <img src="flag.2bp" alt="Start"> &gt; <B>Messaging</B>.</li>
+
+	<LI>Tap <B>Menu</B> &gt; <B>Tools</B> &gt; <B>New Account</B>.</li>
+
+	<LI>Enter your e-mail address, and tap <B>Next</B>.
+<P><B>Auto configuration</B> attempts to download necessary e-mail server settings so that you do not need to enter them manually.
+</li>
+
+	<LI>Once <B>Auto configuration</B> has finished, tap <B>Next</B>.</li>
+
+	<LI>Enter your name (the name you want displayed when you send e-mail) and your password.</li>
+</OL>
+
+<P>If <B>Auto configuration</B> was successful, your user name is already entered and you can tap <B>Next</B>, and then <B>Finish</B> to complete setting up your account, or tap <B>Options</B> to access additional settings. For example:
+
+<UL type="disc">
+	<LI>Change the time intervals for downloading new messages.</li>
+
+	<LI>Download attachments.</li>
+
+	<LI>Limit the amount of messages that are downloaded.</li>
+</UL>
+
+<P>If <B>Auto configuration</B> is unsuccessful or you have an account you access using a VPN server connection, contact your ISP or network administrator for the following information and enter it manually:</P>
+<div class="tablediv"><table cellpadding="2" cellspacing="0" class="dtTABLE">
+
+<TR VALIGN="top">
+<TH width=56%>Setting</TH>
+<TH width=44%>Description</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=56%>User name</TD>
+<TD width=44%>Enter the user name assigned to you by your ISP or network administrator. This is often the first part of your e-mail address, which appears before the at sign (@).</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=56%>Password</TD>
+<TD width=44%>Choose a strong password. You have the option to save your password so you do not need to enter it each time you connect to your e-mail server.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=56%>Domain</TD>
+<TD width=44%>Not required for an account with an ISP. May be required for a work account.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=56%>Account type</TD>
+<TD width=44%>Select POP3 or IMAP4. </TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=56%>Account name</TD>
+<TD width=44%>Enter a unique name for the account, such as Work or Home. This name cannot be changed later.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=56%>Incoming mail server</TD>
+<TD width=44%>Enter the name of your e-mail server (POP3 or IMAP4).</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=56%>Outgoing mail server</TD>
+<TD width=44%>Enter the name of your outgoing e-mail server (SMTP).</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=56%>Require SSL connection</TD>
+<TD width=44%>Select this to ensure you always send e-mail from this account using an SSL connection. This enables you to send personal information more securely. Note that if you select this and your ISP does not support an SSL connection, you will not be able to send e-mail. For more information about SSL, see <A HREF="inbox.htm#ppconwhatisssl">What is SSL?</A></TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=56%>Outgoing mail requires authentication</TD>
+<TD width=44%>Select this if your outgoing e-mail server (SMTP) requires authentication. Your user name and password from above will be used.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=56%>Use separate settings</TD>
+<TD width=44%>Select this if your outgoing e-mail server requires a different user name and password than the ones you entered before.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=56%>Outgoing server settings:</TD>
+<TD width=44%>&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=56%>User name</TD>
+<TD width=44%>Enter your user name for the outgoing e-mail server.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=56%>Password</TD>
+<TD width=44%>Enter your password for the outgoing e-mail server.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=56%>Domain</TD>
+<TD width=44%>Enter the domain of the outgoing e-mail server.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=56%>Require SSL for outgoing mail</TD>
+<TD width=44%>Select this to ensure you always send e-mail from this account using an SSL connection. This enables you to send personal information more securely. Note that if you select this and your ISP does not support an SSL connection, you will not be able to send e-mail. For more information about SSL, see <A HREF="inbox.htm#ppconwhatisssl">What is SSL?</A></TD>
+</TR>
+</table></div>
+
+<P class="AH"><B>Tips</B></P>
+
+<P>You can set up several e-mail accounts in addition to your Outlook E-mail account.</P>
+
+<P style="margin-top: 6pt">You cannot add a new account while connected. Tap <B>Menu</B> &gt; <B>Stop Send/Receive</B> to disconnect.</P>
+
+<H4 class="dtH4">See also</H4>
+
+<P><A HREF="inbox.htm#pptskchangee-maildownloadoptions">Change e-mail download options</A></P>
+
+<P><A HREF="inbox.htm#ppconwhatisssl">What is SSL?</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="ppconwhatisssl"></A><H1 class="dtH1">What is SSL?</H1>
+<P>Secure Sockets Layer (SSL) is a security protocol that enables you to send personal information in a more secure manner over the Internet.</P>
+
+<P>When you send a message from an account on the device that you have with an Internet service provider (ISP) or from an account that you access using a VPN server connection (typically a work account), Messaging always tries to use an SSL connection. However, sometimes the e-mail server on the other end doesn't support SSL, so in order to send the message, it is sent without an SSL connection.</P>
+
+<P>To ensure that your e-mail is always sent using an SSL connection or not at all, specify that an SSL connection is required when you set up your e-mail account.</P>
+
+<H4 class="dtH4">See also</H4>
+
+<P><A HREF="inbox.htm#pptsksetupe-mailaccount">Set up an e-mail account</A></P>
+
+<P><A HREF="inbox.htm#pptskchangee-maildownloadoptions">Change e-mail download options</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="pptskusemytext"></A><H1 class="dtH1">Use My Text</H1>
+<P>My Text provides a fast, easy way to add common sentences to your messages.
+
+<UL type="disc">
+	<LI>Tap <B>Menu</B> &gt; <B>My Text</B>, and tap a desired message.</li>
+
+	<LI>To edit a My Text message, in a new message, tap <B>Menu</B> &gt; <B>My Text</B> &gt; <B>Edit My Text Messages</B>. Tap the message you want to edit and enter new text at the bottom of the screen.</li>
+</UL>
+
+<H4 class="dtH4">See also</H4>
+
+<P><A HREF="inbox.htm#ppconcomposesendmessage">Compose and send a message</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="pptskcreatecontactfrommessage"></A><H1 class="dtH1">Create a contact from a message</H1>
+<P>When someone who is not in your list of contacts sends you a message, you can quickly add them to your contact list.
+
+<UL type="disc">
+	<LI>From the open message, tap <B>Menu</B> &gt; <B>Save to Contacts</B>.</li>
+</UL>
+
+<H4 class="dtH4">See also</H4>
+
+<P><A HREF="cntcs.htm#pptskcreatecontact">Create a contact</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="outgoing"></A><H1 class="dtH1">How do I...</H1>
+<P><A HREF="inbox.htm#pptsksetupe-mailaccount" class="RL">Set up an e-mail account</A></P>
+
+<DIV class="saDiv"></DIV><P><A HREF="inbox.htm#ppconwhatisssl" class="RL">What is SSL?</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="signatureinfo"></A><H1 class="dtH1">How do I...</H1>
+<P><A HREF="inbox.htm#ppconcomposesendmessage" class="RL">Compose and send a message</A></P>
+
+<P><A HREF="inbox.htm#pptsksetupe-mailaccount" class="RL">Set up an e-mail account</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="main_contents"></A><H1 class="dtH1">How do I...</H1>
+<P><A HREF="inbox.htm#ppconcomposesendmessage" class="RL">Compose and send a message</A></P>
+
+<P><A HREF="inbox.htm#pptskreplytoorforwardmessage" class="RL">Reply to or forward a message</A></P>
+
+<P><A HREF="inbox.htm#pptskfindmessage" class="RL">Find a message</A></P>
+
+<P><A HREF="inbox.htm#ppcondeletemessage" class="RL">Delete a message</A></P>
+
+<P><A HREF="inbox.htm#pptsksortmessagelist" class="RL">Sort the message list</A></P>
+
+<P><A HREF="inbox.htm#pptskmovemessage" class="RL">Move a message</A></P>
+
+<P><A HREF="inbox.htm#ppcondownloadmessages" class="RL">Download messages</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="checksignature"></A><H1 class="dtH1">How do I...</H1>
+<P><A HREF="inbox.htm#ppconcomposesendmessage" class="RL">Compose and send a message</A></P>
+
+<P><A HREF="inbox.htm#pptsksetupe-mailaccount" class="RL">Set up an e-mail account</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="openmessage"></A><H1 class="dtH1">How do I...</H1>
+<P><A HREF="inbox.htm#pptskreplytoorforwardmessage" class="RL">Reply to or forward a message</A></P>
+
+<P><A HREF="inbox.htm#ppcondeletemessage" class="RL">Delete a message</A></P>
+
+<P><A HREF="inbox.htm#ppcondownloadmessages" class="RL">Download messages</A></P>
+
+<P><A HREF="inbox.htm#pptskcreatecontactfrommessage" class="RL">Create a contact from a message</A></P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="emailmessageoptions"></A><H1 class="dtH1">How do I...</H1>
+<P><A HREF="inbox.htm#ppconcomposesendmessage" class="RL">Compose and send a message</A> </P>
+
+<!-- PegHelp --><hr>
+
+
+<A NAME="smsmessageoptions"></A><H1 class="dtH1">How do I...</H1>
+<P><A HREF="inbox.htm#ppconcomposesendmessage" class="RL">Compose and send a message</A></P>
+
+<!-- PegHelp --><hr>
+
+
+
+</body></html>

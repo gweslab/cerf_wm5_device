@@ -1,0 +1,93 @@
+
+a:link, a:visited {
+    color: blue;
+}
+
+body {
+    margin: 0px;
+}
+
+table.header {
+    width: 100%;
+}
+
+div.divider {
+    padding-bottom: 3px;
+    border-bottom: solid 1px black;
+    margin-bottom: 3px;
+}
+
+td.header {
+    width: 40px;
+    font: 8pt Tahoma;
+    color: menutext;
+    text-align: right;
+    vertical-align: top;
+    height: 12px;
+}
+
+a.header {
+    font: 8pt Tahoma;
+    color: menutext;
+    text-decoration: none;
+}
+
+td.content {
+    font: 8pt Tahoma;
+    width: 100%;
+    border-bottom: solid 1px silver;
+    vertical-align: top;
+}
+
+
+ComposeSubject {
+    font: 8pt Tahoma;
+}
+
+ComposeSubject.sms {
+    font: 8pt Tahoma;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+ComposeFrom {
+    font: 8pt Tahoma;
+    wrap-option: emergency;
+}
+
+span.attachment {
+    wrap-option: emergency;
+}
+
+ComposeBody {
+    font: 8pt Tahoma;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+div.SMSLine {
+    width: 20%;
+    border-bottom: 1px solid #0066ff;
+    margin: 3px 5px;
+}
+
+ComposeBodyCount {
+    font: 8pt Tahoma;
+    color: menutext;
+    margin-left: 5px;
+}
+
+ReadBody {
+    font: 8pt Tahoma;
+    margin: 4px;
+    padding-top: 4px;
+    background-color: #EFEFEF;
+    border-top: solid 1px gray;
+    wrap-option: emergency;
+}
+
+
+object.richedit {
+    x-focus-border: none;
+}

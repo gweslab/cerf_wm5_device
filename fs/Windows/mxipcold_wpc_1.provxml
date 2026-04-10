@@ -1,0 +1,8 @@
+<wap-provisioningdoc>
+  <characteristic type="Metabase">
+    <characteristic type="RAPI\*">
+      <!--Set access role to be CARRIER_TPS | USER_AUTH | MANAGER -->
+      <parm name="access-role" value="152" />
+    </characteristic>
+  </characteristic>
+</wap-provisioningdoc>
