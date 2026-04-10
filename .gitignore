@@ -1,0 +1,5 @@
+# IDA Pro database files
+*.i64
+*.id*
+*.nam
+*.til
