@@ -1,0 +1,217 @@
+REGEDIT4
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Rai\:MSPWORD]
+"0"="Pocket Word"
+"1"="pword.exe"
+"2"=dword:0
+"3"=dword:0
+"4"=hex:00,00,00,00,00,00,00,00
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Rai\:MSPPT]
+"0"="BlackWindow"
+"1"="ppt.exe"
+"2"=dword:0
+"3"=dword:0
+"4"=hex:00,00,00,00,00,00,00,00
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Rai\:MSPXL]
+"0"="BOOKWIN"
+"1"="pxl.exe"
+"2"=dword:1
+"3"=dword:0
+"4"=hex:00,00,00,00,00,00,00,00
+[HKEY_CLASSES_ROOT\.txt]
+@="txtfile"
+"Content Type"="text/plain"
+[HKEY_CLASSES_ROOT\txtfile]
+@="txt"
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\txtfile\DefaultIcon]
+@="officeres.dll,-13073"
+[HKEY_CLASSES_ROOT\txtfile\Shell\Open\Command]
+@="pword.exe %1"
+[HKEY_CLASSES_ROOT\txtfile\Shell\OpenDoc\Command]
+@="pword.exe -opendoc %1"
+[HKEY_CLASSES_ROOT\.rtf]
+@="rtffile"
+"Content Type"="application/msword"
+[HKEY_CLASSES_ROOT\rtffile]
+@="rtf"
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\rtffile\DefaultIcon]
+@="officeres.dll,-13072"
+[HKEY_CLASSES_ROOT\rtffile\Shell\Open\Command]
+@="pword.exe %1"
+[HKEY_CLASSES_ROOT\rtffile\Shell\OpenDoc\Command]
+@="pword.exe -opendoc %1"
+[HKEY_CLASSES_ROOT\.psw]
+@="pswfile"
+[HKEY_CLASSES_ROOT\pswfile]
+@="psw"
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\pswfile\DefaultIcon]
+@="officeres.dll,-13072"
+[HKEY_CLASSES_ROOT\pswfile\Shell\Open\Command]
+@="pword.exe %1"
+[HKEY_CLASSES_ROOT\pswfile\Shell\OpenDoc\Command]
+@="pword.exe -opendoc %1"
+[HKEY_CLASSES_ROOT\.doc]
+@="docfile"
+[HKEY_CLASSES_ROOT\docfile]
+@="doc"
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\docfile\DefaultIcon]
+@="officeres.dll,-13072"
+[HKEY_CLASSES_ROOT\docfile\Shell\Open\Command]
+@="pword.exe %1"
+[HKEY_CLASSES_ROOT\docfile\Shell\OpenDoc\Command]
+@="pword.exe -opendoc %1"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\application/msword]
+"Extension"=".doc"
+[HKEY_CLASSES_ROOT\.dot]
+@="dotfile"
+[HKEY_CLASSES_ROOT\dotfile]
+@="dot"
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\dotfile\DefaultIcon]
+@="officeres.dll,-13074"
+[HKEY_CLASSES_ROOT\dotfile\Shell\Open\Command]
+@="pword.exe %1"
+[HKEY_CLASSES_ROOT\dotfile\Shell\OpenDoc\Command]
+@="pword.exe -opendoc %1"
+[HKEY_CLASSES_ROOT\.pwt]
+@="pwtfile"
+[HKEY_CLASSES_ROOT\pwtfile]
+@="pwt"
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\pwtfile\DefaultIcon]
+@="officeres.dll,-13072"
+[HKEY_CLASSES_ROOT\pwtfile\Shell\Open\Command]
+@="pword.exe %1"
+[HKEY_CLASSES_ROOT\pwtfile\Shell\OpenDoc\Command]
+@="pword.exe -opendoc %1"
+[HKEY_CLASSES_ROOT\.ppt]
+@="pptfile"
+"Content Type"="application/ppt"
+[HKEY_CLASSES_ROOT\pptfile]
+@="PowerPoint"
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\pptfile\DefaultIcon]
+@="pptres.dll,-200"
+[HKEY_CLASSES_ROOT\pptfile\Shell\Open\Command]
+@="ppt.exe -l \"%1\""
+[HKEY_CLASSES_ROOT\pptfile\Shell\OpenDoc\Command]
+@="ppt.exe -l \"%1\""
+[HKEY_CLASSES_ROOT\.pps]
+@="ppsfile"
+"Content Type"="application/ppt"
+[HKEY_CLASSES_ROOT\ppsfile]
+@="PowerPoint"
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\ppsfile\DefaultIcon]
+@="pptres.dll,-201"
+[HKEY_CLASSES_ROOT\ppsfile\Shell\Open\Command]
+@="ppt.exe -l \"%1\""
+[HKEY_CLASSES_ROOT\ppsfile\Shell\OpenDoc\Command]
+@="ppt.exe -l \"%1\""
+[HKEY_CLASSES_ROOT\.pxl]
+@="pxlfile"
+[HKEY_CLASSES_ROOT\pxlfile]
+@="pxl"
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\pxlfile\DefaultIcon]
+@="officeres.dll,-15632"
+[HKEY_CLASSES_ROOT\pxlfile\Shell\Open\Command]
+@="PXL.exe %1"
+[HKEY_CLASSES_ROOT\pxlfile\Shell\OpenDoc\Command]
+@="PXL.exe -opendoc %1"
+[HKEY_CLASSES_ROOT\.pxt]
+@="pxtfile"
+[HKEY_CLASSES_ROOT\pxtfile]
+@="pxt"
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\pxtfile\DefaultIcon]
+@="officeres.dll,-15633"
+[HKEY_CLASSES_ROOT\pxtfile\Shell\Open\Command]
+@="PXL.exe %1"
+[HKEY_CLASSES_ROOT\pxtfile\Shell\OpenDoc\Command]
+@="PXL.exe -opendoc %1"
+[HKEY_CLASSES_ROOT\.xls]
+@="xlsfile"
+[HKEY_CLASSES_ROOT\xlsfile]
+@="xls"
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\xlsfile\DefaultIcon]
+@="officeres.dll,-15632"
+[HKEY_CLASSES_ROOT\xlsfile\Shell\Open\Command]
+@="PXL.exe %1"
+[HKEY_CLASSES_ROOT\xlsfile\Shell\OpenDoc\Command]
+@="PXL.exe -opendoc %1"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\application/vnd.ms-excel]
+"Extension"=".xls"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\application/x-msexcel]
+"Extension"=".xls"
+[HKEY_CLASSES_ROOT\.xlt]
+@="xltfile"
+[HKEY_CLASSES_ROOT\xltfile]
+@="xlt"
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\xltfile\DefaultIcon]
+@="officeres.dll,-15633"
+[HKEY_CLASSES_ROOT\xltfile\Shell\Open\Command]
+@="PXL.exe %1"
+[HKEY_CLASSES_ROOT\xltfile\Shell\OpenDoc\Command]
+@="PXL.exe -opendoc %1"
+[HKEY_CLASSES_ROOT\CLSID\{2031567E-CE9D-432c-AFAA-91F48159573B}]
+   @="Word Mobile Find Extension"
+[HKEY_CLASSES_ROOT\CLSID\{2031567E-CE9D-432c-AFAA-91F48159573B}\InProcServer32]
+   @="office.dll"
+   "ThreadingModel"="Free"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Shell\Find\Extensions\{2031567E-CE9D-432c-AFAA-91F48159573B}]
+   @="Word Mobile"
+[HKEY_CLASSES_ROOT\CLSID\{B74027B1-BE2F-4456-85E7-68C188F8077D}]
+   @="pWord Item for Find Extension"
+[HKEY_CLASSES_ROOT\CLSID\{B74027B1-BE2F-4456-85E7-68C188F8077D}\InProcServer32]
+   @="office.dll"
+   "ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{79EC3150-1C3F-4b3f-B583-935960FFC6ED}\InprocServer32]
+@="pwwiff.dll"
+[HKEY_CLASSES_ROOT\CLSID\{6A906297-DF5C-4aa5-AA12-4D29A06D4358}\InprocServer32]
+@="pwwiff.dll"
+[HKEY_CLASSES_ROOT\CLSID\{83F5ECEF-1F53-4044-B54C-A7D0980102AA}\InprocServer32]
+@="pwwiff.dll"
+[HKEY_CLASSES_ROOT\CLSID\{C988BABB-FA61-4459-9628-A90FCB205446}\InprocServer32]
+@="saxdll.dll"
+[HKEY_CLASSES_ROOT\CLSID\{06A4E7A1-BB47-11d0-8427-00AA00B51CC2}]
+@="PXLPXL20Writer"
+[HKEY_CLASSES_ROOT\CLSID\{06A4E7A1-BB47-11d0-8427-00AA00B51CC2}\InprocServer32]
+@="pxlfile.dll"
+[HKEY_CLASSES_ROOT\CLSID\{06A4E7A4-BB47-11d0-8427-00AA00B51CC2}]
+@="PXLPXLReader"
+[HKEY_CLASSES_ROOT\CLSID\{06A4E7A4-BB47-11d0-8427-00AA00B51CC2}\InprocServer32]
+@="pxlfile.dll"
+[HKEY_CLASSES_ROOT\CLSID\{06A4E7A2-BB47-11d0-8427-00AA00B51CC2}]
+@="PXLPXL10Writer"
+[HKEY_CLASSES_ROOT\CLSID\{06A4E7A2-BB47-11d0-8427-00AA00B51CC2}\InprocServer32]
+@="pxlfile.dll"
+[HKEY_CLASSES_ROOT\CLSID\{9A936370-D7E3-11d0-842F-00AA00B51CC2}]
+@="PXLPXTReader"
+[HKEY_CLASSES_ROOT\CLSID\{9A936370-D7E3-11d0-842F-00AA00B51CC2}\InprocServer32]
+@="pxlfile.dll"
+[HKEY_CLASSES_ROOT\CLSID\{9A936371-D7E3-11d0-842F-00AA00B51CC2}]
+@="PXLPXTWriter"
+[HKEY_CLASSES_ROOT\CLSID\{9A936371-D7E3-11d0-842F-00AA00B51CC2}\InprocServer32]
+@="pxlfile.dll"
+[HKEY_CLASSES_ROOT\CLSID\{FC59C090-AB3E-11d2-8442-0000F87A584A}]
+@="MS New Worksheet"
+[HKEY_CLASSES_ROOT\CLSID\{FC59C090-AB3E-11d2-8442-0000F87A584A}\InprocServer32]
+@="office.dll"
+[HKEY_CLASSES_ROOT\CLSID\{12ACB6C0-DC54-11d0-842F-00AA00B51CC2}]
+@="PXLXLSReader"
+[HKEY_CLASSES_ROOT\CLSID\{12ACB6C0-DC54-11d0-842F-00AA00B51CC2}\InprocServer32]
+@="XLS2PXL.dll"
+[HKEY_CLASSES_ROOT\CLSID\{91BC92C0-DE99-11d0-8430-00AA00B51CC2}]
+@="PXLXLS95Writer"
+[HKEY_CLASSES_ROOT\CLSID\{91BC92C0-DE99-11d0-8430-00AA00B51CC2}\InprocServer32]
+@="PXL2XLS.dll"
+[HKEY_CLASSES_ROOT\CLSID\{91BC92C1-DE99-11d0-8430-00AA00B51CC2}]
+@="PXLXLS97Writer"
+[HKEY_CLASSES_ROOT\CLSID\{91BC92C1-DE99-11d0-8430-00AA00B51CC2}\InprocServer32]
+@="PXL2XLS.dll"

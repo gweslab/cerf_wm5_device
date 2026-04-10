@@ -1,0 +1,1206 @@
+REGEDIT4
+[HKEY_LOCAL_MACHINE\Comm\CXPort]
+    "NoIdleTimerReset"=dword:1
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\PPP]
+   "Dll"="PPP.Dll"
+   "Order"=dword:3
+   "Keep"=dword:1
+   "Entry"="PPPInitialize"
+   "Flags"=dword:2
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\ZeroConfig]
+   "Prefix"="ZCF"
+   "Dll"="WZCSVC.dll"
+   "Index"=dword:1
+   "Order"=dword:4
+   "Flags"=dword:2
+[HKEY_LOCAL_MACHINE\Comm\EAP\Extension\4]
+   "FriendlyName"="MD5-Challenge"
+   "InvokePasswordDialog"=dword:1
+   "InvokeUserNameDialog"=dword:1
+   "Path"="eapchap.dll"
+[HKEY_LOCAL_MACHINE\Comm\EAP\Extension\26]
+   "FriendlyName"="MSV2-Challenge"
+   "InvokePasswordDialog"=dword:1
+   "InvokeUserNameDialog"=dword:1
+   "Path"="eapchap.dll"
+   "InteractiveUIPath"="eapchap.dll"
+[HKEY_LOCAL_MACHINE\Comm\EAP\Extension\13]
+   "FriendlyName"="TLS"
+   "InvokeUserNameDialog"=dword:1
+   "ConfigUIPath"="netui.dll"
+   "InteractiveUIPath"="netui.dll"
+   "Path"="eaptls.dll"
+[HKEY_LOCAL_MACHINE\Comm\EAP\Extension\25]
+   "FriendlyName"="PEAP"
+   "InvokeUserNameDialog"=dword:1
+   "InvokePasswordDialog"=dword:1
+   "ConfigUIPath"="eaptls.dll"
+   "Path"="eaptls.dll"
+   "InteractiveUIPath"="eaptls.dll"
+   "EAPMSCHAPv2Only"=dword:1
+[HKEY_LOCAL_MACHINE\Comm\WS2\LSP\SSL]
+    "Dll"="ssllsp.dll"
+    "Flags"=dword:1
+[HKEY_LOCAL_MACHINE\Comm\WS2\LSP\NSPM]
+    "Dll"="ws2instl.dll"
+    "Entry"="InstallNSPM"
+    "Order"=dword:200
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\ipv6hlp]
+   "Prefix"="V6H"
+   "Dll"="ipv6hlp.dll"
+   "Index"=dword:1
+   "Order"=dword:4
+   "Flags"=dword:2
+[HKEY_LOCAL_MACHINE\Comm\Devices\TCPIP\IPDevice]
+    "Dll"="tcpstk.dll"
+    "Prefix"="IPD"
+    "Index"=dword:0
+    "Flags"=dword:2
+[HKEY_LOCAL_MACHINE\Comm\Devices\TCPIP\TCPDevice]
+    "Dll"="tcpstk.dll"
+    "Prefix"="TCP"
+    "Index"=dword:0
+    "Flags"=dword:2
+[HKEY_LOCAL_MACHINE\Comm\Tcpip\Parms]
+   "IpEnableRouter"=dword:0
+   "TcpWindowSize"=dword:8000
+   "EnableDHCP"=dword:1
+[HKEY_LOCAL_MACHINE\Comm\Devices\TCPIP6\IPDevice]
+    "Dll"="tcpip6.dll"
+    "Prefix"="IP6"
+    "Index"=dword:0
+    "Flags"=dword:2
+[HKEY_LOCAL_MACHINE\Comm\AsyncMac]
+   "DisplayName"=mui_sz:"netmui.dll,#9008"
+   "Group"="NDIS"
+   "ImagePath"="AsyncMac.dll"
+[HKEY_LOCAL_MACHINE\Comm\AsyncMac\Linkage]
+   "Route"=multi_sz:"AsyncMac1"
+[HKEY_LOCAL_MACHINE\Comm\AsyncMac1]
+   "DisplayName"=mui_sz:"netmui.dll,#9008"
+   "Group"="NDIS"
+[HKEY_LOCAL_MACHINE\Comm\AsyncMac1\Parms]
+   "BusNumber"=dword:0
+   "BusType"=dword:0
+   "DisablePowerManagement"=dword:1
+[HKEY_LOCAL_MACHINE\Comm\SecurityProviders]
+    "Providers"="schannel.dll, ntlmssp.dll, kerberos.dll, spnego.dll"
+[HKEY_LOCAL_MACHINE\Comm\SecurityProviders\SCHANNEL]
+    "ClientCacheTime"=dword:05b8d80
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\International]
+        "LCID"=dword:409
+        "ACP"=dword:4e4
+[HKEY_LOCAL_MACHINE\Services\credsvc]
+   "Dll"="credsvc.dll"
+   "Order"=dword:8
+   "Keep"=dword:1
+   "FriendlyName"="CredentialManager"
+   "Index"=dword:0
+   "Prefix"="CRD"
+[HKEY_LOCAL_MACHINE\comm\security\CredMan]
+[HKEY_LOCAL_MACHINE\comm\security\CredMan\Creds]
+        "FreeSlot"=dword:1
+        "NumCreds"=dword:0
+[HKEY_LOCAL_MACHINE\comm\security\CredMan\Types]
+[HKEY_LOCAL_MACHINE\comm\security\CredMan\Types\Primitive]
+[HKEY_LOCAL_MACHINE\comm\security\CredMan\Types\Virtual]
+[HKEY_LOCAL_MACHINE\comm\security\CredMan\Types\Primitive\65542]
+        "dll"="credprov.dll"
+        "flags"=dword:e
+[HKEY_LOCAL_MACHINE\comm\security\CredMan\Types\Primitive\65544]
+        "dll"="credprov.dll"
+        "flags"=dword:e
+[HKEY_LOCAL_MACHINE\comm\security\CredMan\Types\Primitive\65546]
+        "dll"="credprov.dll"
+        "flags"=dword:e
+[HKEY_LOCAL_MACHINE\comm\security\CredMan\Types\Primitive\65538]
+        "dll"="ntlmssp.dll"
+        "flags"=dword:1
+[HKEY_LOCAL_MACHINE\comm\security\CredMan\Types\Virtual\65537]
+        "ids"="65538"
+[HKEY_LOCAL_MACHINE\Comm\Security\LASSD\AE\{125399AC-EF80-4934-9274-186797C0DFAD}]
+"FriendlyName"="Credential Manager"
+"DisplayText"="Credential Manager"
+"AEFrequencyType"=dword:2
+"AEFrequencyValue"=dword:3
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\NTLMSSP_SVC]
+   "Flags"=dword:2
+   "Order"=dword:1
+   "Dll"="ntlmssp_svc.dll"
+   "Keep"=dword:1
+   "FriendlyName"="NTLMSSP_SVC"
+   "Index"=dword:0
+   "Prefix"="SSP"
+[HKEY_CLASSES_ROOT\CLSID\{327ABDA8-072B-11D3-9D7B-0000F81EF32E}]
+@="ImagingFactory COM Component"
+[HKEY_CLASSES_ROOT\CLSID\{327ABDA8-072B-11D3-9D7B-0000F81EF32E}\InProcServer32]
+@="imaging.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{327ABDA8-072B-11D3-9D7B-0000F81EF32E}\ProgID]
+@="imaging.Factory"
+[HKEY_CLASSES_ROOT\imaging.Factory]
+@="ImagingFactory COM Component"
+[HKEY_CLASSES_ROOT\imaging.Factory\CLSID]
+@="{327ABDA8-072B-11D3-9D7B-0000F81EF32E}"
+[HKEY_CLASSES_ROOT\CLSID\{275c23e2-3747-11d0-9fea-00aa003f8646}]
+	@="CMultiLanguage"
+[HKEY_CLASSES_ROOT\CLSID\{275c23e2-3747-11d0-9fea-00aa003f8646}\InprocServer32]
+	@="mlang.dll"
+	"ThreadingModel"="both"
+[HKEY_CLASSES_ROOT\CLSID\{d66d6f99-cdaa-11d0-b822-00c04fc9b31f}]
+	@="ConvertCharset"
+[HKEY_CLASSES_ROOT\CLSID\{d66d6f99-cdaa-11d0-b822-00c04fc9b31f}\InprocServer32]
+	@="mlang.dll"
+	"ThreadingModel"="both"
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\International]
+"AcceptLanguage"="en-us"
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\International\Scripts]
+"Default_Script"=hex:03
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\International\Scripts\3]
+"IEFixedFontName"="Courier"
+"IEPropFontName"="Tahoma"
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\International\Scripts\8]
+"IEFixedFontName"="Tahoma"
+"IEPropFontName"="Tahoma"
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\International\Scripts\9]
+"IEFixedFontName"="Simplified Arabic"
+"IEPropFontName"="Simplified Arabic"
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\International\Scripts\10]
+"IEFixedFontName"="Mangal"
+"IEPropFontName"="Mangal"
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\International\Scripts\12]
+"IEFixedFontName"="Raavi"
+"IEPropFontName"="Raavi"
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\International\Scripts\13]
+"IEFixedFontName"="Shruti"
+"IEPropFontName"="Shruti"
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\International\Scripts\15]
+"IEFixedFontName"="Latha"
+"IEPropFontName"="Latha"
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\International\Scripts\16]
+"IEFixedFontName"="Gautami"
+"IEPropFontName"="Gautami"
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\International\Scripts\17]
+"IEFixedFontName"="Tunga"
+"IEPropFontName"="Tunga"
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\International\Scripts\19]
+"IEFixedFontName"="Tahoma"
+"IEPropFontName"="Tahoma"
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\International\Scripts\23]
+"IEFixedFontName"="Gulim"
+"IEPropFontName"="Gulim"
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\International\Scripts\24]
+"IEFixedFontName"="MS Gothic"
+"IEPropFontName"="MS Gothic"
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\International\Scripts\25]
+"IEFixedFontName"="MingLiu"
+"IEPropFontName"="MingLiu"
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\International\Scripts\26]
+"IEFixedFontName"="Simsun"
+"IEPropFontName"="Simsun"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\User Agent]
+@="Mozilla/4.0"
+"Compatible"="compatible"
+"Version"="MSIE 6.0"
+"Platform"="Windows CE"
+"UA-Language"="JavaScript"
+"Desc"="Default (Windows CE)"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\User Agent\Templates\Same as Windows XP]
+@="Mozilla/4.0"
+"Compatible"="compatible"
+"Version"="MSIE 6.0"
+"Platform"="Windows NT 5.1"
+"UA-Language"="JavaScript"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\User Agent\Templates\Same as Pocket PC]
+@="Mozilla/4.0"
+"Compatible"="compatible"
+"Version"="MSIE 4.01"
+"Platform"="Windows CE; PPC; 240x320"
+"UA-Language"="JavaScript"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\5.0]
+"SpecialDomains"="lp. rg."
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
+"MinorVersion"=";CE.net;"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Security\Basic]
+	"SecurityName"="Basic Authentication"
+	"DLLFile"="wininet.dll"
+	"SchemeList"="Basic"
+	"Flags"=hex:00,00,00,00
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Security\NTLM]
+	"SecurityName"="NTLM SSPI Authentication"
+	"DLLFile"="ntlmssp.dll"
+	"SchemeList"="NTLM"
+	"Flags"=hex:08,00,00,00
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings]
+	"EnableNegotiate"=dword:1
+	"EnableHttp1_1"=dword:1
+	"ProxyHttp1.1"=dword:1
+	"SecureProtocols"=hex:a8,00,00,00
+[HKEY_LOCAL_MACHINE\Ident]
+    "Username"="guest"
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings]
+    "EnableAutodial"=dword:1
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings]
+    "AggressiveCacheFlush"=dword:0
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders]
+"Cache"="\\Windows\\Profiles\\guest\\Temporary Internet Files"
+"Cookies"="\\Windows\\Profiles\\guest\\Cookies"
+"History"="\\Windows\\Profiles\\guest\\History"
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\Cache]
+"Signature"="Client UrlCache MMF Ver 4.7"
+"QuotaAdjustCheck"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\Cache\Content]
+"CachePrefix"=""
+"CacheLimit"=dword:00000200
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\Cache\Cookies]
+"CachePrefix"="Cookie:"
+"CacheLimit"=dword:00000100
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\Cache\History]
+"CachePrefix"="Visited:"
+"CacheLimit"=dword:00000100
+[HKEY_CLASSES_ROOT\CLSID\{8f6b0360-b80d-11d0-a9b3-006097942311}]
+@="AP lzdhtml encoding/decoding Filter"
+[HKEY_CLASSES_ROOT\CLSID\{8f6b0360-b80d-11d0-a9b3-006097942311}\InprocServer32]
+@="urlmon.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{79EAC9f2-BAF9-11CE-8C82-00AA004BA90B}\InprocServer32]
+@="urlmon.dll"
+"ThreadingModel"="Apartment"
+[HKEY_CLASSES_ROOT\PROTOCOLS\Handler\javascript]
+"CLSID"="{3050F3B2-98B5-11CF-BB82-00AA00BDCE0B}"
+[HKEY_CLASSES_ROOT\PROTOCOLS\Handler\about]
+"CLSID"="{3050F406-98B5-11CF-BB82-00AA00BDCE0B}"
+[HKEY_CLASSES_ROOT\PROTOCOLS\Handler\res]
+"CLSID"="{3050F3BC-98B5-11CF-BB82-00AA00BDCE0B}"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\image/bmp]
+"Extension"=".bmp"
+"CLSID"="{25336920-03F9-11cf-8FD0-00AA00686F13}"
+"Image Filter CLSID"="{607fd4e8-0a03-11d1-ab1d-00c04fc9b304}"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\image/bmp\Bits]
+"0"=hex:02,00,00,00,ff,ff,42,4d
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\image/gif]
+"Extension"=".gif"
+"CLSID"="{25336920-03F9-11cf-8FD0-00AA00686F13}"
+"Image Filter CLSID"="{607fd4e8-0a03-11d1-ab1d-00c04fc9b304}"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\image/gif\Bits]
+"0"=hex:04,00,00,00,ff,ff,ff,ff,47,49,46,38
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\image/jpeg]
+"Extension"=".jpg"
+"CLSID"="{25336920-03F9-11cf-8FD0-00AA00686F13}"
+"Image Filter CLSID"="{607fd4e8-0a03-11d1-ab1d-00c04fc9b304}"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\image/jpeg\Bits]
+"0"=hex:02,00,00,00,ff,ff,ff,d8
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\image/pjpeg]
+"CLSID"="{25336920-03F9-11cf-8FD0-00AA00686F13}"
+"Extension"=".jpg"
+"Image Filter CLSID"="{607fd4e8-0a03-11d1-ab1d-00c04fc9b304}"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\image/pjpeg\Bits]
+"0"=hex:02,00,00,00,ff,ff,ff,d8
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\image/xbm]
+"Extension"=".xbm"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\image/x-xbitmap]
+"Extension"=".xbm"
+"CLSID"="{25336920-03F9-11cf-8FD0-00AA00686F13}"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\message/rfc822]
+"CLSID"="{3050F3D9-98B5-11CF-BB82-00AA00BDCE0B}"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\text/css]
+"Extension"=".css"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\text/html]
+"Extension"=".htm"
+"Encoding"=hex:08,00,00,00
+"CLSID"="{25336920-03F9-11cf-8FD0-00AA00686F13}"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\text/plain]
+"Extension"=".txt"
+"Encoding"=hex:07,00,00,00
+"CLSID"="{25336920-03F9-11cf-8FD0-00AA00686F13}"
+[HKEY_CLASSES_ROOT\.exe]
+@="exefile"
+"Content Type"="application/x-msdownload"
+[HKEY_CLASSES_ROOT\exefile\shell\open\command]
+@="\"%1\" %*"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\application/x-msdownload]
+"Extension"=".exe"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap]
+@=""
+"ProxyByPass"=dword:00000001
+"IntranetName"=dword:00000001
+"UNCAsIntranet"=dword:00000001
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains]
+@=""
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\ProtocolDefaults]
+@=""
+"http"=dword:00000003
+"https"=dword:00000003
+"ftp"=dword:00000003
+"file"=dword:00000001
+"@ivt"=dword:00000001
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Ranges]
+@=""
+[HKEY_CLASSES_ROOT\CLSID\{7b8a2d94-0ac9-11d1-896c-00c04Fb6bfc4}]
+@="Security Manager"
+[HKEY_CLASSES_ROOT\CLSID\{7b8a2d94-0ac9-11d1-896c-00c04Fb6bfc4}\InprocServer32]
+@="urlmon.dll"
+"ThreadingModel"="both"
+[HKEY_CLASSES_ROOT\CLSID\{7b8a2d95-0ac9-11d1-896c-00c04Fb6bfc4}]
+@="URL Zone Manager"
+[HKEY_CLASSES_ROOT\CLSID\{7b8a2d95-0ac9-11d1-896c-00c04Fb6bfc4}\InprocServer32]
+@="urlmon.dll"
+"ThreadingModel"="both"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\1]
+@=""
+"DisplayName"="Local intranet"
+"Description"="Local"
+"Icon"="shell32.dll#0018"
+"CurrentLevel"=dword:00010500
+"MinLevel"=dword:00010000
+"RecommendedLevel"=dword:00010500
+"Flags"=dword:000000db
+"1001"=dword:00000003
+"1004"=dword:00000003
+"1200"=dword:00000000
+"1201"=dword:00000003
+"1206"=dword:00000000
+"1400"=dword:00000000
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000001
+"1407"=dword:00000000
+"1601"=dword:00000000
+"1604"=dword:00000003
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000000
+"1608"=dword:00000000
+"1609"=dword:00000001
+"1800"=dword:00000001
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000001
+"1805"=dword:00000000
+"1A00"=dword:00020000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000000
+"1A05"=dword:00000000
+"1A06"=dword:00000000
+"1A10"=dword:00000000
+"1C00"=dword:00020000
+"1E05"=dword:00020000
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\2]
+@=""
+"DisplayName"="Trusted sites"
+"Description"="Trusted"
+"Icon"="inetcpl.cpl#00004480"
+"CurrentLevel"=dword:00010000
+"MinLevel"=dword:00010000
+"RecommendedLevel"=dword:00010000
+"Flags"=dword:00000047
+"1001"=dword:00000003
+"1004"=dword:00000003
+"1200"=dword:00000000
+"1201"=dword:00000003
+"1206"=dword:00000000
+"1400"=dword:00000000
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000000
+"1407"=dword:00000000
+"1601"=dword:00000000
+"1604"=dword:00000003
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000000
+"1608"=dword:00000000
+"1609"=dword:00000001
+"1800"=dword:00000000
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000000
+"1805"=dword:00000000
+"1A00"=dword:00000000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000000
+"1A05"=dword:00000000
+"1A06"=dword:00000000
+"1A10"=dword:00000000
+"1C00"=dword:00030000
+"1E05"=dword:00030000
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3]
+@=""
+"DisplayName"="Internet"
+"Description"="Other"
+"Icon"="inetcpl.cpl#001313"
+"CurrentLevel"=dword:00011000
+"MinLevel"=dword:00011000
+"RecommendedLevel"=dword:00011000
+"Flags"=dword:00000001
+"1001"=dword:00000003
+"1004"=dword:00000003
+"1200"=dword:00000000
+"1201"=dword:00000003
+"1206"=dword:00000003
+"1400"=dword:00000000
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000003
+"1407"=dword:00000001
+"1601"=dword:00000001
+"1604"=dword:00000003
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000000
+"1608"=dword:00000000
+"1609"=dword:00000001
+"1800"=dword:00000001
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000001
+"1805"=dword:00000001
+"1A00"=dword:00020000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000003
+"1A05"=dword:00000001
+"1A06"=dword:00000000
+"1A10"=dword:00000001
+"1C00"=dword:00010000
+"1E05"=dword:00020000
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\4]
+@=""
+"DisplayName"="Restricted sites"
+"Description"="Restricted sites"
+"Icon"="inetcpl.cpl#00004481"
+"CurrentLevel"=dword:00012000
+"MinLevel"=dword:00012000
+"RecommendedLevel"=dword:00012000
+"Flags"=dword:00000003
+"1001"=dword:00000003
+"1004"=dword:00000003
+"1200"=dword:00000003
+"1201"=dword:00000003
+"1206"=dword:00000003
+"1400"=dword:00000003
+"1402"=dword:00000003
+"1405"=dword:00000000
+"1406"=dword:00000003
+"1407"=dword:00000003
+"1601"=dword:00000001
+"1604"=dword:00000003
+"1605"=dword:00000000
+"1606"=dword:00000003
+"1607"=dword:00000003
+"1608"=dword:00000003
+"1609"=dword:00000001
+"1800"=dword:00000003
+"1802"=dword:00000001
+"1803"=dword:00000003
+"1804"=dword:00000003
+"1805"=dword:00000001
+"1A00"=dword:00010000
+"1A02"=dword:00000003
+"1A03"=dword:00000003
+"1A04"=dword:00000003
+"1A05"=dword:00000003
+"1A06"=dword:00000003
+"1A10"=dword:00000003
+"1C00"=dword:00010000
+"1E05"=dword:00010000
+[HKEY_CLASSES_ROOT\file]
+@=mui_sz:"urlmon.dll,#9002"
+"URL Protocol"=""
+[HKEY_CLASSES_ROOT\http]
+@=mui_sz:"urlmon.dll,#9003"
+"URL Protocol"=""
+[HKEY_CLASSES_ROOT\https]
+@=mui_sz:"urlmon.dll,#9004"
+"URL Protocol"=""
+[HKEY_CLASSES_ROOT\ftp]
+@=mui_sz:"urlmon.dll,#9005"
+"URL Protocol"=""
+[HKEY_CLASSES_ROOT\.htm]
+@="htmlfile"
+"Content Type"="text/html"
+[HKEY_CLASSES_ROOT\.html]
+@="htmlfile"
+"Content Type"="text/html"
+[HKEY_CLASSES_ROOT\htmlfile]
+@=mui_sz:"urlmon.dll,#9001"
+[HKEY_CLASSES_ROOT\.gif]
+@="giffile"
+"Content Type"="image/gif"
+[HKEY_CLASSES_ROOT\giffile]
+@=mui_sz:"urlmon.dll,#9006"
+[HKEY_CLASSES_ROOT\.jpe]
+@="jpegfile"
+"Content Type"="image/jpeg"
+[HKEY_CLASSES_ROOT\.jpg]
+@="jpegfile"
+"Content Type"="image/jpeg"
+[HKEY_CLASSES_ROOT\.jpeg]
+@="jpegfile"
+"Content Type"="image/jpeg"
+[HKEY_CLASSES_ROOT\jpegfile]
+@=mui_sz:"urlmon.dll,#9007"
+[HKEY_CLASSES_ROOT\.xbm]
+"Content Type"="image/x-xbitmap"
+[HKEY_CLASSES_ROOT\xbmfile]
+@=mui_sz:"urlmon.dll,#9008"
+[HKEY_CLASSES_ROOT\.txt]
+"Content Type"="text/plain"
+[HKEY_CLASSES_ROOT\.bmp]
+@="bmpfile"
+"Content Type"="image/bmp"
+[HKEY_CLASSES_ROOT\bmpfile]
+@=mui_sz:"urlmon.dll,#9009"
+[HKEY_CLASSES_ROOT\.jfif]
+@="pjpegfile"
+"Content Type"="image/pjpeg"
+[HKEY_CLASSES_ROOT\pjpegfile]
+@=mui_sz:"urlmon.dll,#9007"
+[HKEY_CLASSES_ROOT\CLSID\{2933BF90-7B36-11d2-B20E-00C04F983E60}]
+@="XML DOM Document"
+[HKEY_CLASSES_ROOT\CLSID\{2933BF90-7B36-11d2-B20E-00C04F983E60}\InProcServer32]
+@="msxml3.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{2933BF90-7B36-11d2-B20E-00C04F983E60}\ProgID]
+@="Msxml2.DOMDocument"
+[HKEY_CLASSES_ROOT\CLSID\{2933BF90-7B36-11d2-B20E-00C04F983E60}\TypeLib]
+@="{f5078f18-c551-11d3-89b9-0000f81fe221}"
+[HKEY_CLASSES_ROOT\CLSID\{2933BF90-7B36-11d2-B20E-00C04F983E60}\Version]
+@="3.0"
+[HKEY_CLASSES_ROOT\CLSID\{F6D90F11-9C73-11D3-B32E-00C04F990BB4}]
+@="XML DOM Document"
+[HKEY_CLASSES_ROOT\CLSID\{F6D90F11-9C73-11D3-B32E-00C04F990BB4}\InProcServer32]
+@="msxml3.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{F6D90F11-9C73-11D3-B32E-00C04F990BB4}\ProgID]
+@="Msxml2.DOMDocument"
+[HKEY_CLASSES_ROOT\CLSID\{F6D90F11-9C73-11D3-B32E-00C04F990BB4}\TypeLib]
+@="{f5078f18-c551-11d3-89b9-0000f81fe221}"
+[HKEY_CLASSES_ROOT\CLSID\{F6D90F11-9C73-11D3-B32E-00C04F990BB4}\Version]
+@="3.0"
+[HKEY_CLASSES_ROOT\MSXML.DOMDocument]
+@="XML DOM Document"
+[HKEY_CLASSES_ROOT\MSXML.DOMDocument\CLSID]
+@="{2933BF90-7B36-11d2-B20E-00C04F983E60}"
+[HKEY_CLASSES_ROOT\Microsoft.XMLDOM]
+@="XML DOM Document"
+[HKEY_CLASSES_ROOT\Microsoft.XMLDOM\CLSID]
+@="{2933BF90-7B36-11d2-B20E-00C04F983E60}"
+[HKEY_CLASSES_ROOT\MSXML2.DOMDocument]
+@="XML DOM Document"
+[HKEY_CLASSES_ROOT\Msxml2.DOMDocument\CLSID]
+@="{2933BF90-7B36-11d2-B20E-00C04F983E60}"
+[HKEY_CLASSES_ROOT\CLSID\{d2423620-51a0-11d2-9caf-0060b0ec3d39}]
+@="XML Parser"
+[HKEY_CLASSES_ROOT\CLSID\{d2423620-51a0-11d2-9caf-0060b0ec3d39}\InProcServer32]
+@="msxml3.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{d2423620-51a0-11d2-9caf-0060b0ec3d39}\ProgID]
+@="Microsoft.XMLParser"
+[HKEY_CLASSES_ROOT\CLSID\{f5078f19-c551-11d3-89b9-0000f81fe221}]
+@="XML Parser"
+[HKEY_CLASSES_ROOT\CLSID\{f5078f19-c551-11d3-89b9-0000f81fe221}\InProcServer32]
+@="msxml3.dll"
+[HKEY_CLASSES_ROOT\CLSID\{f5078f19-c551-11d3-89b9-0000f81fe221}\ProgID]
+@="Msxml2.XMLParser"
+[HKEY_CLASSES_ROOT\Microsoft.XMLParser]
+@="XML Parser"
+[HKEY_CLASSES_ROOT\Microsoft.XMLParser\CLSID]
+@="{d2423620-51a0-11d2-9caf-0060b0ec3d39}"
+[HKEY_CLASSES_ROOT\Msxml2.XMLParser]
+@="XML Parser"
+[HKEY_CLASSES_ROOT\Msxml2.XMLParser\CLSID]
+@="{f5078f19-c551-11d3-89b9-0000f81fe221}"
+[HKEY_CLASSES_ROOT\Msxml2.XMLSchemaCache]
+@="XML Schema Cache"
+[HKEY_CLASSES_ROOT\Msxml2.XMLSchemaCache\CLSID]
+@="{373984C9-B845-449B-91E7-45AC83036ADE}"
+[HKEY_CLASSES_ROOT\CLSID\{373984C9-B845-449B-91E7-45AC83036ADE}]
+@="XML Schema Cache"
+[HKEY_CLASSES_ROOT\CLSID\{373984C9-B845-449B-91E7-45AC83036ADE}\InProcServer32]
+@="msxml3.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{373984C9-B845-449B-91E7-45AC83036ADE}\ProgID]
+@="Msxml2.XMLSchemaCache"
+[HKEY_CLASSES_ROOT\CLSID\{373984C9-B845-449B-91E7-45AC83036ADE}\Version]
+@="3.0"
+[HKEY_CLASSES_ROOT\Typelib\{f5078f18-c551-11d3-89b9-0000f81fe221}\3.0]
+@="Microsoft XML, v3.0"
+[HKEY_CLASSES_ROOT\Typelib\{f5078f18-c551-11d3-89b9-0000f81fe221}\3.0\0\win32]
+@="msxml3.dll"
+[HKEY_CLASSES_ROOT\CLSID\{ED8C108E-4349-11D2-91A4-00C04F7969E8}]
+@="XML HTTP Request"
+[HKEY_CLASSES_ROOT\CLSID\{ED8C108E-4349-11D2-91A4-00C04F7969E8}\InProcServer32]
+@="msxml3.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{ED8C108E-4349-11D2-91A4-00C04F7969E8}\ProgID]
+@="Microsoft.XMLHTTP"
+[HKEY_CLASSES_ROOT\CLSID\{ED8C108E-4349-11D2-91A4-00C04F7969E8}\Typelib]
+@="{f5078f18-c551-11d3-89b9-0000f81fe221}"
+[HKEY_CLASSES_ROOT\CLSID\{F6D90F16-9C73-11D3-B32E-00C04F990BB4}]
+@="XML HTTP Request"
+[HKEY_CLASSES_ROOT\CLSID\{F6D90F16-9C73-11D3-B32E-00C04F990BB4}\InProcServer32]
+@="msxml3.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{F6D90F16-9C73-11D3-B32E-00C04F990BB4}\ProgID]
+@="Microsoft.XMLHTTP"
+[HKEY_CLASSES_ROOT\CLSID\{F6D90F16-9C73-11D3-B32E-00C04F990BB4}\Typelib]
+@="{f5078f18-c551-11d3-89b9-0000f81fe221}"
+[HKEY_CLASSES_ROOT\Msxml2.XMLHTTP]
+@="XML HTTP"
+[HKEY_CLASSES_ROOT\Msxml2.XMLHTTP\CLSID]
+@="{F6D90F16-9C73-11D3-B32E-00C04F990BB4}"
+[HKEY_CLASSES_ROOT\Microsoft.XMLHTTP]
+@="XML HTTP Request"
+[HKEY_CLASSES_ROOT\Microsoft.XMLHTTP\CLSID]
+@="{ED8C108E-4349-11D2-91A4-00C04F7969E8}"
+[HKEY_CLASSES_ROOT\Msxml2.MXXMLWriter]
+@="MXXMLWriter"
+[HKEY_CLASSES_ROOT\Msxml2.MXXMLWriter\CLSID]
+@="{fc220ad8-a72a-4ee8-926e-0b7ad152a020}"
+[HKEY_CLASSES_ROOT\CLSID\{fc220ad8-a72a-4ee8-926e-0b7ad152a020}]
+@="MXXMLWriter"
+[HKEY_CLASSES_ROOT\CLSID\{fc220ad8-a72a-4ee8-926e-0b7ad152a020}\InProcServer32]
+@="msxml3.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{fc220ad8-a72a-4ee8-926e-0b7ad152a020}\ProgID]
+@="Msxml2.MXXMLWriter"
+[HKEY_CLASSES_ROOT\CLSID\{fc220ad8-a72a-4ee8-926e-0b7ad152a020}\Version]
+@="3.0"
+[HKEY_CLASSES_ROOT\Msxml2.SAXAttributes]
+@="SAXAttributes"
+[HKEY_CLASSES_ROOT\Msxml2.SAXAttributes\CLSID]
+@="{4dd441ad-526d-4a77-9f1b-9841ed802fb0}"
+[HKEY_CLASSES_ROOT\CLSID\{4dd441ad-526d-4a77-9f1b-9841ed802fb0}]
+@="SAXAttributes"
+[HKEY_CLASSES_ROOT\CLSID\{4dd441ad-526d-4a77-9f1b-9841ed802fb0}\InProcServer32]
+@="msxml3.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{4dd441ad-526d-4a77-9f1b-9841ed802fb0}\ProgID]
+@="Msxml2.SAXAttributes"
+[HKEY_CLASSES_ROOT\CLSID\{4dd441ad-526d-4a77-9f1b-9841ed802fb0}\Version]
+@="3.0"
+[HKEY_CLASSES_ROOT\Msxml2.SAXXMLReader]
+@="SAX XML Reader"
+[HKEY_CLASSES_ROOT\Msxml2.SAXXMLReader\CLSID]
+@="{079aa557-4a18-424a-8eee-e39f0a8d41b9}"
+[HKEY_CLASSES_ROOT\CLSID\{079aa557-4a18-424a-8eee-e39f0a8d41b9}]
+@="SAX XML Reader"
+[HKEY_CLASSES_ROOT\CLSID\{079aa557-4a18-424a-8eee-e39f0a8d41b9}\InProcServer32]
+@="msxml3.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{079aa557-4a18-424a-8eee-e39f0a8d41b9}\ProgID]
+@="Msxml2.SAXXMLReader"
+[HKEY_CLASSES_ROOT\CLSID\{079aa557-4a18-424a-8eee-e39f0a8d41b9}\Version]
+@="3.0"
+[HKEY_CLASSES_ROOT\JScript\CLSID]
+	@="{F414C260-6AC0-11CF-B6D1-00AA00BBBB58}"
+[HKEY_CLASSES_ROOT\JScript\OLEScript]
+[HKEY_CLASSES_ROOT\LiveScript\CLSID]
+	@="{F414C260-6AC0-11CF-B6D1-00AA00BBBB58}"
+[HKEY_CLASSES_ROOT\LiveScript\OLEScript]
+[HKEY_CLASSES_ROOT\JavaScript\CLSID]
+	@="{F414C260-6AC0-11CF-B6D1-00AA00BBBB58}"
+[HKEY_CLASSES_ROOT\JavaScript\OLEScript]
+[HKEY_CLASSES_ROOT\JavaScript1.1\CLSID]
+	@="{F414C260-6AC0-11CF-B6D1-00AA00BBBB58}"
+[HKEY_CLASSES_ROOT\JavaScript1.1\OLEScript]
+[HKEY_CLASSES_ROOT\JavaScript1.2\CLSID]
+	@="{F414C260-6AC0-11CF-B6D1-00AA00BBBB58}"
+[HKEY_CLASSES_ROOT\JavaScript1.2\OLEScript]
+[HKEY_CLASSES_ROOT\JavaScript1.3\CLSID]
+	@="{F414C260-6AC0-11CF-B6D1-00AA00BBBB58}"
+[HKEY_CLASSES_ROOT\JavaScript1.3\OLEScript]
+[HKEY_CLASSES_ROOT\ECMAScript\CLSID]
+	@="{F414C260-6AC0-11CF-B6D1-00AA00BBBB58}"
+[HKEY_CLASSES_ROOT\ECMAScript\OLEScript]
+[HKEY_CLASSES_ROOT\CLSID\{F414C260-6AC0-11CF-B6D1-00AA00BBBB58}\InprocServer32]
+	@="jscript.dll"
+	"ThreadingModel"="both"
+[HKEY_CLASSES_ROOT\CLSID\{f414c260-6ac0-11cf-b6d1-00aa00bbbb58}\ProgID]
+	@="JScript"
+[HKEY_CLASSES_ROOT\CLSID\{f414c260-6ac0-11cf-b6d1-00aa00bbbb58}\OLEScript]
+[-HKEY_LOCAL_MACHINE\Comm\EAP\Extension\4]
+[-HKEY_LOCAL_MACHINE\Comm\EAP\Extension\13]
+[HKEY_LOCAL_MACHINE\Comm\EAP\Extension\13]
+"Path"="eaptls.dll"
+"InteractiveUIPath"="netui.dll"
+"ConfigUIPath"="netui.dll"
+"IdentityPath"="netui.dll"
+[HKEY_LOCAL_MACHINE\Comm\SecurityProviders]
+    "Providers"="schannel.dll, ntlmssp.dll, kerberos.dll, spnego.dll, msnsspc.dll"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Rai\:MSPIE]
+"0"="Pocket IE"
+"1"="iexplore.exe"
+"2"=dword:1
+"3"=dword:0
+"4"=hex:00,00,00,00,00,00,00,00
+[HKEY_CLASSES_ROOT\VBS]
+"PIE_Enabled"=dword:0
+[HKEY_CLASSES_ROOT\VBScript]
+"PIE_Enabled"=dword:0
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\AboutURLs]
+"blank"="res://webview.dll/blank.htm"
+"home"="file://\\windows\\default.htm"
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main]
+"LinksToKeep"=dword:32
+"BlockStaticActiveX"=dword:0
+"UA-Platform"="Pocket PC"
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main\DefaultBehaviors]
+"emoticon"="{6c3b3dfe-9b5b-4cb5-a7ec-e7899334714b}"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Navigation]
+"4-Way Nav"=dword:1
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main]
+"Load_WML_over_HTTP"=dword:1
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\International]
+"AcceptLanguage"=-
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\User Agent]
+@="Mozilla/4.0"
+"Compatible"="compatible"
+"Version"="MSIE 4.01"
+"Platform"="Windows CE"
+"UA-Language"="JavaScript"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\User Agent\Post Platform]
+"PPC; 240x320"=""
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main\FavoritesEntries]
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main\FavoritesEntries\Windows Mobile]
+"Icon"="\\windows\\ppccom.bmp"
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main\FavoritesEntries\Windows Mobile]
+"URL"="http://go.microsoft.com/fwlink/?LinkId=43709"
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main\FavoritesEntries\MSN Mobile]
+"Icon"="\\windows\\msn.bmp"
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main\FavoritesEntries\WindowsMedia.com]
+"Icon"="\\windows\\winmedia.bmp"
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main\FavoritesEntries\Pocket PC Web Guide]
+"Icon"="\\windows\\webguide.bmp"
+[HKEY_CLASSES_ROOT\.dll]
+@="dllfile"
+"Content Type"="application/x-msdownload"
+[HKEY_CLASSES_ROOT\.htm]
+@="htmlfile"
+"Content Type"="text/html"
+[HKEY_CLASSES_ROOT\.html]
+@="htmlfile"
+"Content Type"="text/html"
+[HKEY_CLASSES_ROOT\htmlfile]
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\htmlfile\DefaultIcon]
+@="browsres.dll,-6703"
+[HKEY_CLASSES_ROOT\htmlfile\Shell\Open\Command]
+@="iexplore.exe file:%1"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\text/html]
+"Extension"=".htm"
+[HKEY_CLASSES_ROOT\.xml]
+@="xmlfile"
+"Content Type"="text/xml"
+[HKEY_CLASSES_ROOT\xmlfile]
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\xmlfile\DefaultIcon]
+@="browsres.dll,-6707"
+[HKEY_CLASSES_ROOT\xmlfile\Shell\Open\Command]
+@="iexplore.exe file:%1"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\text/xml]
+"Extension"=".xml"
+"CLSID"="{698E3FCA-70C3-11D0-81E8-00A0C90AD21A}"
+[HKEY_CLASSES_ROOT\.xhtml]
+@="xhtmlfile"
+"Content Type"="application/xhtml+xml"
+[HKEY_CLASSES_ROOT\xhtmlfile]
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\xhtmlfile\DefaultIcon]
+@="browsres.dll,-6703"
+[HKEY_CLASSES_ROOT\xhtmlfile\Shell\Open\Command]
+@="iexplore.exe file:%1"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\application/xhtml+xml]
+"Extension"=".xhtml"
+"CLSID"="{698E3FCA-70C3-11D0-81E8-00A0C90AD21A}"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\application/vnd.wap.xhtml+xml]
+"Extension"=".xhtml"
+"CLSID"="{698E3FCA-70C3-11D0-81E8-00A0C90AD21A}"
+[HKEY_CLASSES_ROOT\.xsl]
+@="xslfile"
+"Content Type"="text/xml"
+[HKEY_CLASSES_ROOT\xslfile]
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\xslfile\DefaultIcon]
+@="browsres.dll,-6708"
+[HKEY_CLASSES_ROOT\xslfile\Shell\Open\Command]
+@="iexplore.exe file:%1"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\text/xsl]
+"Extension"=".xsl"
+"CLSID"="{698E3FCA-70C3-11D0-81E8-00A0C90AD21A}"
+[HKEY_CLASSES_ROOT\.gif]
+@="gifimage"
+"Content Type"="image/gif"
+"PerceivedType"="image"
+[HKEY_CLASSES_ROOT\gifimage]
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\gifimage\DefaultIcon]
+@="browsres.dll,-6705"
+[HKEY_CLASSES_ROOT\gifimage\Shell\Open\Command]
+@="iexplore.exe file:%1"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\image/gif]
+"Extension"=".gif"
+"CLSID"="{698E3FCA-70C3-11D0-81E8-00A0C90AD21A}"
+[HKEY_CLASSES_ROOT\.jpe]
+@="jpegimage"
+"Content Type"="image/jpeg"
+"PerceivedType"="image"
+[HKEY_CLASSES_ROOT\.jpg]
+@="jpegimage"
+"PerceivedType"="image"
+"Content Type"="image/jpeg"
+[HKEY_CLASSES_ROOT\.jpeg]
+@="jpegimage"
+"Content Type"="image/jpeg"
+"PerceivedType"="image"
+[HKEY_CLASSES_ROOT\jpegimage]
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\jpegimage\DefaultIcon]
+@="browsres.dll,-6704"
+[HKEY_CLASSES_ROOT\jpegimage\Shell\Open\Command]
+@="iexplore.exe file:%1"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\image/jpeg]
+"Extension"=".jpg"
+"CLSID"="{698E3FCA-70C3-11D0-81E8-00A0C90AD21A}"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\image/pjpeg]
+"Extension"=".jpg"
+"CLSID"="{698E3FCA-70C3-11D0-81E8-00A0C90AD21A}"
+[HKEY_CLASSES_ROOT\.png]
+@="pngimage"
+"Content Type"="image/png"
+"PerceivedType"="image"
+[HKEY_CLASSES_ROOT\pngimage]
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\pngimage\DefaultIcon]
+@="browsres.dll,-6705"
+[HKEY_CLASSES_ROOT\pngimage\Shell\Open\Command]
+@="iexplore.exe file:%1"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\image/png]
+"Extension"=".png"
+"CLSID"="{698E3FCA-70C3-11D0-81E8-00A0C90AD21A}"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\image/x-png]
+"Extension"=".png"
+"CLSID"="{698E3FCA-70C3-11D0-81E8-00A0C90AD21A}"
+[HKEY_CLASSES_ROOT\.js]
+"Content Type"="application/x-javascript"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\application/x-javascript]
+"Extension"=".js"
+[HKEY_CLASSES_ROOT\.url]
+@="urlfile"
+[HKEY_CLASSES_ROOT\urlfile]
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\urlfile\DefaultIcon]
+@="browsres.dll,-6702"
+[HKEY_CLASSES_ROOT\urlfile\Shell\Open\Command]
+@="iexplore.exe -u%1"
+[HKEY_CLASSES_ROOT\.pdl]
+@="resumefiledownload"
+[HKEY_CLASSES_ROOT\resumefiledownload]
+@=""
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\resumefiledownload\DefaultIcon]
+@="browsres.dll,-6702"
+[HKEY_CLASSES_ROOT\resumefiledownload\Shell\Open\Command]
+@="iexplore.exe"
+[HKEY_CLASSES_ROOT\.2bp]
+@="bmpimage"
+"PerceivedType"="image"
+"Content Type"="image/bmp"
+[HKEY_CLASSES_ROOT\.bmp]
+@="bmpimage"
+"PerceivedType"="image"
+"Content Type"="image/bmp"
+[HKEY_CLASSES_ROOT\bmpimage]
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\bmpimage\DefaultIcon]
+@="browsres.dll,-6705"
+[HKEY_CLASSES_ROOT\bmpimage\Shell\Open\Command]
+@="iexplore.exe file:%1"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\image/bmp]
+"Extension"=".bmp"
+"CLSID"="{698E3FCA-70C3-11D0-81E8-00A0C90AD21A}"
+[HKEY_CLASSES_ROOT\.ico]
+@="icoimage"
+"PerceivedType"="image"
+"Content Type"="image/x-icon"
+[HKEY_CLASSES_ROOT\icoimage]
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\icoimage\DefaultIcon]
+@="iexplore.exe,-1005"
+[HKEY_CLASSES_ROOT\icoimage\Shell\Open\Command]
+@="iexplore.exe file:%1"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\image/x-icon]
+"Extension"=".ico"
+"CLSID"="{698E3FCA-70C3-11D0-81E8-00A0C90AD21A}"
+[HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\save\SaveLocation]
+@="My Pictures"
+[HKEY_CLASSES_ROOT\http]
+"URL Protocol"=""
+[HKEY_CLASSES_ROOT\http\Shell\Open\Command]
+@="iexplore.exe %1"
+[HKEY_CLASSES_ROOT\https]
+"URL Protocol"=""
+[HKEY_CLASSES_ROOT\https\Shell\Open\Command]
+@="iexplore.exe %1"
+[HKEY_CLASSES_ROOT\ftp]
+"URL Protocol"=""
+[HKEY_CLASSES_ROOT\ftp\Shell\Open\Command]
+@="iexplore.exe %1"
+[HKEY_CLASSES_ROOT\file]
+"URL Protocol"=""
+[HKEY_CLASSES_ROOT\file\Shell\Open\Command]
+@="iexplore.exe %1"
+[HKEY_CLASSES_ROOT\res]
+"URL Protocol"=""
+[HKEY_CLASSES_ROOT\res\Shell\Open\Command]
+@="iexplore.exe %1"
+[HKEY_CLASSES_ROOT\wsp]
+"URL Protocol"=""
+[HKEY_CLASSES_ROOT\wsp\Shell\Open\Command]
+@="iexplore.exe %1"
+[HKEY_CLASSES_ROOT\.txt]
+@="txtfile"
+"Content Type"="text/plain"
+[HKEY_CLASSES_ROOT\txtfile\DefaultIcon]
+@="browsres.dll,-6706"
+[HKEY_CLASSES_ROOT\txtfile\Shell\Open\Command]
+@="iexplore.exe file:%1"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\text/plain]
+"Extension"=".txt"
+"CLSID"="{698E3FCA-70C3-11D0-81E8-00A0C90AD21A}"
+[HKEY_CLASSES_ROOT\CLSID\{0E59F1D5-1FBE-11D0-8FF2-00A0D10038BC}]
+@="Microsoft Script Host Control"
+[HKEY_CLASSES_ROOT\CLSID\{0E59F1D5-1FBE-11D0-8FF2-00A0D10038BC}\InProcServer32]
+@="msscript.dll"
+[HKEY_CLASSES_ROOT\CLSID\{F5AFC7EF-1571-48B6-A69C-F1833F4C3A44}]
+@="Pocket IE Web Browser Control"
+[HKEY_CLASSES_ROOT\CLSID\{F5AFC7EF-1571-48B6-A69C-F1833F4C3A44}\ProgId]
+@="Microsoft.PIEDocView"
+[HKEY_CLASSES_ROOT\CLSID\{F5AFC7EF-1571-48B6-A69C-F1833F4C3A44}\InprocServer32]
+@="browser.dll"
+[HKEY_CLASSES_ROOT\CLSID\{F5AFC7EF-1571-48B6-A69C-F1833F4C3A44}\Control]
+@="True"
+[HKEY_CLASSES_ROOT\CLSID\{F5AFC7EF-1571-48B6-A69C-F1833F4C3A44}\Version]
+@="1.0"
+[HKEY_CLASSES_ROOT\CLSID\{F5AFC7EF-1571-48B6-A69C-F1833F4C3A44}\TypeLib]
+@="{F5AFC7EF-1571-48B6-A69C-F1833F4C3A43}"
+[HKEY_CLASSES_ROOT\CLSID\{F5AFC7EF-1571-48B6-A69C-F1833F4C3A44}\DefaultIcon]
+@="browser.dll,0"
+[HKEY_CLASSES_ROOT\CLSID\{F5AFC7EF-1571-48B6-A69C-F1833F4C3A44}\MiscStatus]
+@="131473"
+[HKEY_CLASSES_ROOT\TypeLib\{F5AFC7EF-1571-48B6-A69C-F1833F4C3A43}\1.0]
+@="Pocket IE Web Browser Module"
+[HKEY_CLASSES_ROOT\TypeLib\{F5AFC7EF-1571-48B6-A69C-F1833F4C3A43}\1.0\0]
+@="browser.dll"
+[HKEY_CLASSES_ROOT\TypeLib\{F5AFC7EF-1571-48B6-A69C-F1833F4C3A43}\1.0\FLAGS]
+@="2"
+[HKEY_CLASSES_ROOT\TypeLib\{F5AFC7EF-1571-48B6-A69C-F1833F4C3A43}\1.0\HELPDIR]
+@="\\Windows"
+[HKEY_CLASSES_ROOT\Microsoft.PIEDocView]
+@="Pocket IE Web Browser Control"
+[HKEY_CLASSES_ROOT\Microsoft.PIEDocView\CLSID]
+@="{F5AFC7EF-1571-48B6-A69C-F1833F4C3A44}"
+[HKEY_CLASSES_ROOT\CLSID\{657FE5A4-C9DB-4AF1-B9C1-E4422F66AE22}]
+@="Download Request Manager"
+[HKEY_CLASSES_ROOT\CLSID\{657FE5A4-C9DB-4AF1-B9C1-E4422F66AE22}\InprocServer32]
+@="browser.dll"
+[HKEY_CLASSES_ROOT\CLSID\{43F14462-EBC1-421b-8F98-2DB81293AA77}\InprocServer32]
+@="browser.dll"
+[HKEY_CLASSES_ROOT\CLSID\{698E3FCA-70C3-11D0-81E8-00A0C90AD21A}]
+@="Pocket IE HTML Control"
+[HKEY_CLASSES_ROOT\CLSID\{698E3FCA-70C3-11D0-81E8-00A0C90AD21A}\ProgId]
+@="Microsoft.PIEHTML"
+[HKEY_CLASSES_ROOT\CLSID\{698E3FCA-70C3-11D0-81E8-00A0C90AD21A}\InprocServer32]
+@="webview.dll"
+[HKEY_CLASSES_ROOT\CLSID\{698E3FCA-70C3-11D0-81E8-00A0C90AD21A}\Control]
+@="True"
+[HKEY_CLASSES_ROOT\CLSID\{698E3FCA-70C3-11D0-81E8-00A0C90AD21A}\Version]
+@="2.0"
+[HKEY_CLASSES_ROOT\CLSID\{698E3FCA-70C3-11D0-81E8-00A0C90AD21A}\TypeLib]
+@="{698E3FBD-70C3-11D0-81E8-00A0C90AD21A}"
+[HKEY_CLASSES_ROOT\CLSID\{698E3FCA-70C3-11D0-81E8-00A0C90AD21A}\DefaultIcon]
+@="webview.dll,0"
+[HKEY_CLASSES_ROOT\CLSID\{698E3FCA-70C3-11D0-81E8-00A0C90AD21A}\MiscStatus]
+@="131473"
+[HKEY_CLASSES_ROOT\TypeLib\{698E3FBD-70C3-11D0-81E8-00A0C90AD21A}\2.0]
+@="Pocket IE HTML Module"
+[HKEY_CLASSES_ROOT\TypeLib\{698E3FBD-70C3-11D0-81E8-00A0C90AD21A}\2.0\0]
+@="webview.dll"
+[HKEY_CLASSES_ROOT\TypeLib\{698E3FBD-70C3-11D0-81E8-00A0C90AD21A}\2.0\FLAGS]
+@="2"
+[HKEY_CLASSES_ROOT\TypeLib\{698E3FBD-70C3-11D0-81E8-00A0C90AD21A}\2.0\HELPDIR]
+@="\\Windows"
+[HKEY_CLASSES_ROOT\Microsoft.PIEHTML]
+@="Pocket IE Web Browser Control"
+[HKEY_CLASSES_ROOT\Microsoft.PIEHTML\CLSID]
+@="{698E3FCA-70C3-11D0-81E8-00A0C90AD21A}"
+[HKEY_CLASSES_ROOT\CLSID\{0D2F645D-4A73-4fc3-90CE-B2F09181C642}\InprocServer32]
+@="webview.dll"
+[HKEY_CLASSES_ROOT\BrowserFavorite\CLSID]
+@="{0D2F645D-4A73-4fc3-90CE-B2F09181C642}"
+[HKEY_CLASSES_ROOT\CLSID\{6c3b3dfe-9b5b-4cb5-a7ec-e7899334714b}]
+@=""
+[HKEY_CLASSES_ROOT\CLSID\{6c3b3dfe-9b5b-4cb5-a7ec-e7899334714b}\InprocServer32]
+@="msmsgs.dll"
+[HKEY_CLASSES_ROOT\CLSID\{7769c5df-1255-4d88-9f6a-edf1697d95b5}]
+@="Custom Help"
+[HKEY_CLASSES_ROOT\CLSID\{7769c5df-1255-4d88-9f6a-edf1697d95b5}\InprocServer32]
+@="ceshell.dll"
+[HKEY_CLASSES_ROOT\CLSID\{81383c81-ef9a-41e7-ba52-5ec9bfc52ff6}\InprocServer32]
+@="webview.dll"
+[HKEY_CLASSES_ROOT\PROTOCOLS\Handler\res]
+"CLSID"="{3050F3BC-98B5-11CF-BB82-00AA00BDCE0B}"
+[HKEY_CLASSES_ROOT\CLSID\{3050F3BC-98B5-11CF-BB82-00AA00BDCE0B}]
+@=""
+[HKEY_CLASSES_ROOT\CLSID\{3050F3BC-98B5-11CF-BB82-00AA00BDCE0B}\InprocServer32]
+@="webview.dll"
+[HKEY_CLASSES_ROOT\PROTOCOLS\Handler\about]
+"CLSID"="{3050F406-98B5-11CF-BB82-00AA00BDCE0B}"
+[HKEY_CLASSES_ROOT\CLSID\{3050F406-98B5-11CF-BB82-00AA00BDCE0B}]
+@=""
+[HKEY_CLASSES_ROOT\CLSID\{3050F406-98B5-11CF-BB82-00AA00BDCE0B}\InprocServer32]
+@="webview.dll"
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings]
+"ShowDialogFullScreen"=dword:1
+"DialogTimeOut"=dword:493e0
+"EnableAutodial"=dword:0
+"MaxConnectionsPerServer"=dword:4
+"DisableCachingOfSSLPages"=dword:1
+"AggressiveCacheFlush"=dword:1
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\Cache\Content]
+"CachePrefix"=""
+"CacheLimit"=dword:00002AAA
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\Cache\Cookies]
+"CachePrefix"="Cookie:"
+"CacheLimit"=dword:00000800
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\Cache\History]
+"CachePrefix"="Visited:"
+"CacheLimit"=dword:00000400
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\1]
+"1001"=dword:00000003
+"1004"=dword:00000003
+"1200"=dword:00000000
+"1201"=dword:00000003
+"1400"=dword:00000000
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000001
+"1407"=dword:00000000
+"1601"=dword:00000000
+"1604"=dword:00000003
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000000
+"1608"=dword:00000000
+"1800"=dword:00000000
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000000
+"1805"=dword:00000000
+"1A00"=dword:00020000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000000
+"1A05"=dword:00000000
+"1A06"=dword:00000000
+"1C00"=dword:00020000
+"1E05"=dword:00020000
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\2]
+"1001"=dword:00000003
+"1004"=dword:00000003
+"1200"=dword:00000000
+"1201"=dword:00000003
+"1400"=dword:00000000
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000000
+"1407"=dword:00000000
+"1601"=dword:00000000
+"1604"=dword:00000003
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000000
+"1608"=dword:00000000
+"1800"=dword:00000000
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000000
+"1805"=dword:00000000
+"1A00"=dword:00000000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000000
+"1A05"=dword:00000000
+"1A06"=dword:00000000
+"1C00"=dword:00020000
+"1E05"=dword:00030000
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3]
+"1001"=dword:00000003
+"1004"=dword:00000003
+"1200"=dword:00000000
+"1201"=dword:00000003
+"1400"=dword:00000000
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000003
+"1407"=dword:00000001
+"1601"=dword:00000001
+"1604"=dword:00000003
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000000
+"1608"=dword:00000000
+"1800"=dword:00000001
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000001
+"1805"=dword:00000001
+"1A00"=dword:00020000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000003
+"1A05"=dword:00000000
+"1A06"=dword:00000000
+"1C00"=dword:00010000
+"1E05"=dword:00030000
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\4]
+"1001"=dword:00000003
+"1004"=dword:00000003
+"1200"=dword:00000003
+"1201"=dword:00000003
+"1400"=dword:00000003
+"1402"=dword:00000003
+"1405"=dword:00000000
+"1406"=dword:00000003
+"1407"=dword:00000003
+"1601"=dword:00000001
+"1604"=dword:00000003
+"1605"=dword:00000000
+"1606"=dword:00000003
+"1607"=dword:00000003
+"1608"=dword:00000003
+"1800"=dword:00000003
+"1802"=dword:00000001
+"1803"=dword:00000003
+"1804"=dword:00000003
+"1805"=dword:00000001
+"1A00"=dword:00010000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000003
+"1A05"=dword:00000000
+"1A06"=dword:00000000
+"1C00"=dword:00010000
+"1E05"=dword:00010000
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\ProtocolDefaults]
+"wsp"=dword:00000003
+"wsps"=dword:00000003
+"res"=dword:00000003
+"javascript"=dword:00000003
+"about"=dword:00000003
+"tel"=dword:00000003
+"wtai"=dword:00000003
+"mailto"=dword:00000003

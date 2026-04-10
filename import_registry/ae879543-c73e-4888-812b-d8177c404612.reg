@@ -1,0 +1,397 @@
+REGEDIT4
+[HKEY_CLASSES_ROOT\DirectShow\MediaObjects\6b928210-84e7-4930-9b33-1eb6f02b526e]
+@="MPEG-1 Layer 3 Decoder DMO"
+[HKEY_CLASSES_ROOT\DirectShow\MediaObjects\Categories\57f2db8b-e6bb-4513-9d43-dcd2a6593125]
+@="Audio decoders"
+[HKEY_CLASSES_ROOT\DirectShow\MediaObjects\Categories\57f2db8b-e6bb-4513-9d43-dcd2a6593125\6b928210-84e7-4930-9b33-1eb6f02b526e]
+[HKEY_CLASSES_ROOT\Filter\{86A495AC-64CE-42DE-A13A-321ACC0F02DB}]
+@="MPEG-1 Layer 3 Decoder DMO"
+[HKEY_CLASSES_ROOT\CLSID\{86A495AC-64CE-42DE-A13A-321ACC0F02DB}]
+@="MPEG-1 Layer 3 Decoder DMO"
+"Merit"=dword:00800001
+"DMOCategory"="57f2db8b-e6bb-4513-9d43-dcd2a6593125"
+"DMOGuid"="6b928210-84e7-4930-9b33-1eb6f02b526e"
+[HKEY_CLASSES_ROOT\CLSID\{86A495AC-64CE-42DE-A13A-321ACC0F02DB}\InprocServer32]
+@="msdmo.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{86A495AC-64CE-42DE-A13A-321ACC0F02DB}\Pins]
+[HKEY_CLASSES_ROOT\CLSID\{86A495AC-64CE-42DE-A13A-321ACC0F02DB}\Pins\Input]
+"ConnectsToPin"="Output"
+[HKEY_CLASSES_ROOT\CLSID\{86A495AC-64CE-42DE-A13A-321ACC0F02DB}\Pins\Input\Types\{73647561-0000-0010-8000-00AA00389B71}\{00000055-0000-0010-8000-00AA00389B71}]
+[HKEY_CLASSES_ROOT\CLSID\{86A495AC-64CE-42DE-A13A-321ACC0F02DB}\Pins\Output]
+"Direction"=dword:00000001
+"ConnectsToPin"="Input"
+[HKEY_CLASSES_ROOT\CLSID\{86A495AC-64CE-42DE-A13A-321ACC0F02DB}\Pins\Output\Types\{73647561-0000-0010-8000-00AA00389B71}\{00000001-0000-0010-8000-00AA00389B71}]
+[HKEY_CLASSES_ROOT\CLSID\{6b928210-84e7-4930-9b33-1eb6f02b526e}]
+@="MPEG-1 Layer 3 Decoder DMO"
+[HKEY_CLASSES_ROOT\CLSID\{6b928210-84e7-4930-9b33-1eb6f02b526e}\InprocServer32]
+@="mp3dmod.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\DirectShow\MediaObjects\6b928210-84e7-4930-9b33-1eb6f02b526e]
+@="MPEG-1 Layer 3 Decoder DMO"
+"InputTypes"=hex: \
+  61,75,64,73,00,00,10,00,80,00,00,aa,00,38,9b,71,\
+  55,00,00,00,00,00,10,00,80,00,00,aa,00,38,9b,71,
+"OutputTypes"=hex: \
+  61,75,64,73,00,00,10,00,80,00,00,aa,00,38,9b,71,\
+  01,00,00,00,00,00,10,00,80,00,00,aa,00,38,9b,71
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Rai\:WMPLAYER]
+"0"="WMP for Mobile Devices"
+"1"="wmplayer.exe"
+"2"=dword:1
+"3"=dword:80000000
+"4"=hex:00,00,00,00,00,00,00,00
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WMDM\CurrentInUseVersion]
+@="3.0"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WMDM]
+"WMDMCapabilities"="\\Windows\\WMSyncCaps.xml"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MediaPlayer\Skins]
+[HKEY_CURRENT_USER\Software\Microsoft\MediaPlayer\Preferences\OpenUrlMRU]
+"0"="mms://xplattest/wmvv8.wmv"
+"1"="mmst://xplattest/wmvv8.wmv"
+"2"="http://xplattest/wmvv8.wmv"
+"3"="mms://wms4.smdisp.net/wmav7.wma"
+"4"="mmst://wms4.smdisp.net/wmav7.wma"
+"5"="http://wms4.smdisp.net/wmav7.wma"
+"6"="http://wmpsrv/content/ep2_clone_war_p640.wmv"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Event\CallConnect\Windows Media Player]
+"class"="WMP for Mobile Devices"
+"ConnectMsg"=dword:8004 ; WM_APP+4
+"DisconnectMsg"=dword:8005 ; WM_APP+5
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Event\IncomingCall\Windows Media Player]
+"class"="WMP for Mobile Devices"
+"IncomingBegMsg"=dword:8004 ; WM_APP+4
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Extensions\EventSounds\WMA]
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Extensions\EventSounds\WMV]
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Extensions\EventSounds\WM]
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Extensions\EventSounds\ASF]
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Extensions\EventSounds\MP3]
+[HKEY_CLASSES_ROOT\WMAFile\Shellex\EventSoundHandlers\{245F94CF-DD9C-46F9-B4C8-D2B14A877893}]
+@="XME EventSound Player"
+[HKEY_CLASSES_ROOT\WMVFile\Shellex\EventSoundHandlers\{245F94CF-DD9C-46F9-B4C8-D2B14A877893}]
+@="XME EventSound Player"
+[HKEY_CLASSES_ROOT\ASFFile\Shellex\EventSoundHandlers\{245F94CF-DD9C-46F9-B4C8-D2B14A877893}]
+@="XME EventSound Player"
+[HKEY_CLASSES_ROOT\MP3File\Shellex\EventSoundHandlers\{245F94CF-DD9C-46F9-B4C8-D2B14A877893}]
+@="XME EventSound Player"
+[HKEY_CLASSES_ROOT\CLSID\{245F94CF-DD9C-46F9-B4C8-D2B14A877893}]
+@="XME Event Sound Player"
+[HKEY_CLASSES_ROOT\CLSID\{245F94CF-DD9C-46F9-B4C8-D2B14A877893}\InProcServer32]
+@="XMEEvtSnd.dll"
+"ThreadingModel"="Both"
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Scrunch]
+"DisallowKMode"=dword:1
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MediaPlayer\ASFCodecs\Audio\0x000a]
+@="WMAVv1"
+[HKEY_CLASSES_ROOT\WMPlayer.OCX]
+@="Windows Media Player"
+[HKEY_CLASSES_ROOT\WMPlayer.OCX\CLSID]
+@="{6BF52A52-394A-11d3-B153-00C04F79FAA6}"
+[HKEY_CLASSES_ROOT\WMPlayer.OCX\CurVer]
+@="WMPlayer.OCX.7"
+[HKEY_CLASSES_ROOT\WMPlayer.OCX.7]
+@="Windows Media Player"
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\WMPlayer.OCX.7\CLSID]
+@="{6BF52A52-394A-11d3-B153-00C04F79FAA6}"
+[HKEY_CLASSES_ROOT\WMPlayer.OCX.7\Insertable]
+[HKEY_CLASSES_ROOT\CLSID\{6BF52A52-394A-11d3-B153-00C04F79FAA6}]
+@="Windows Media Player"
+[HKEY_CLASSES_ROOT\CLSID\{6BF52A52-394A-11d3-B153-00C04F79FAA6}\Control]
+[HKEY_CLASSES_ROOT\CLSID\{6BF52A52-394A-11d3-B153-00C04F79FAA6}\InprocServer32]
+@="wmpocx.dll"
+"ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{6BF52A52-394A-11d3-B153-00C04F79FAA6}\Insertable]
+[HKEY_CLASSES_ROOT\CLSID\{6BF52A52-394A-11d3-B153-00C04F79FAA6}\MiscStatus]
+@="0"
+[HKEY_CLASSES_ROOT\CLSID\{6BF52A52-394A-11d3-B153-00C04F79FAA6}\MiscStatus\1]
+@="131473"
+[HKEY_CLASSES_ROOT\CLSID\{6BF52A52-394A-11d3-B153-00C04F79FAA6}\ProgID]
+@="WMPlayer.OCX.7"
+[HKEY_CLASSES_ROOT\CLSID\{6BF52A52-394A-11d3-B153-00C04F79FAA6}\Programmable]
+[HKEY_CLASSES_ROOT\CLSID\{6BF52A52-394A-11d3-B153-00C04F79FAA6}\TypeLib]
+@="{6BF52A50-394A-11d3-B153-00C04F79FAA6}"
+[HKEY_CLASSES_ROOT\CLSID\{6BF52A52-394A-11d3-B153-00C04F79FAA6}\Version]
+@="1.0"
+[HKEY_CLASSES_ROOT\CLSID\{6BF52A52-394A-11d3-B153-00C04F79FAA6}\VersionIndependentProgID]
+@="WMPlayer.OCX"
+[HKEY_CLASSES_ROOT\TypeLib\{6BF52A50-394A-11D3-B153-00C04F79FAA6}]
+[HKEY_CLASSES_ROOT\TypeLib\{6BF52A50-394A-11D3-B153-00C04F79FAA6}\1.0]
+[HKEY_CLASSES_ROOT\TypeLib\{6BF52A50-394A-11D3-B153-00C04F79FAA6}\1.0\0]
+@="wmpocx.dll"
+[HKEY_CLASSES_ROOT\TypeLib\{6BF52A50-394A-11D3-B153-00C04F79FAA6}\1.0\0\win32]
+@="wmpocx.dll"
+[HKEY_CLASSES_ROOT\CLSID\{f6b24dc5-5aef-4f9f-bd68-21f01aa2102e}]
+@="Windows Media Player IPersistMoniker"
+[HKEY_CLASSES_ROOT\CLSID\{f6b24dc5-5aef-4f9f-bd68-21f01aa2102e}\InprocServer32]
+@="wmpocx.dll"
+[HKEY_CLASSES_ROOT\DRM.GetLicense]
+@="RMGetLicense Class"
+[HKEY_CLASSES_ROOT\DRM.GetLicense\CLSID]
+@="{A9FC132B-096D-460B-B7D5-1DB0FAE0C062}"
+[HKEY_CLASSES_ROOT\DRM.GetLicense\CurVer]
+@="DRM.GetLicense.1"
+[HKEY_CLASSES_ROOT\DRM.GetLicense.1]
+@="RMGetLicense Class"
+[HKEY_CLASSES_ROOT\DRM.GetLicense.1\CLSID]
+@="{A9FC132B-096D-460B-B7D5-1DB0FAE0C062}"
+[HKEY_CLASSES_ROOT\DRM.GetLicense.1\Insertable]
+[HKEY_CLASSES_ROOT\CLSID\{A9FC132B-096D-460B-B7D5-1DB0FAE0C062}]
+@="RMGetLicense Class"
+[HKEY_CLASSES_ROOT\CLSID\{A9FC132B-096D-460B-B7D5-1DB0FAE0C062}\Control]
+[HKEY_CLASSES_ROOT\CLSID\{A9FC132B-096D-460B-B7D5-1DB0FAE0C062}\InprocServer32]
+@="wmpocx.dll"
+"ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{A9FC132B-096D-460B-B7D5-1DB0FAE0C062}\Insertable]
+[HKEY_CLASSES_ROOT\CLSID\{A9FC132B-096D-460B-B7D5-1DB0FAE0C062}\ProgID]
+@="DRM.GetLicense.1"
+[HKEY_CLASSES_ROOT\CLSID\{A9FC132B-096D-460B-B7D5-1DB0FAE0C062}\Programmable]
+[HKEY_CLASSES_ROOT\CLSID\{A9FC132B-096D-460B-B7D5-1DB0FAE0C062}\TypeLib]
+@="{8AA720BF-7468-4DA1-97DA-66D2E41B3DDA}"
+[HKEY_CLASSES_ROOT\CLSID\{A9FC132B-096D-460B-B7D5-1DB0FAE0C062}\Version]
+@="1.0"
+[HKEY_CLASSES_ROOT\CLSID\{A9FC132B-096D-460B-B7D5-1DB0FAE0C062}\VersionIndependentProgID]
+@="DRM.GetLicense"
+[HKEY_CLASSES_ROOT\TypeLib\{8AA720BF-7468-4DA1-97DA-66D2E41B3DDA}]
+[HKEY_CLASSES_ROOT\TypeLib\{8AA720BF-7468-4DA1-97DA-66D2E41B3DDA}\1.0]
+[HKEY_CLASSES_ROOT\TypeLib\{8AA720BF-7468-4DA1-97DA-66D2E41B3DDA}\1.0\0]
+@="wmpocx.dll"
+[HKEY_CLASSES_ROOT\TypeLib\{8AA720BF-7468-4DA1-97DA-66D2E41B3DDA}\1.0\0\win32]
+@="wmpocx.dll\\2"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Multimedia\WMPlayer\Extensions]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Multimedia\WMPlayer\Extensions\.mp3]
+"Permissions"=dword:0000001f
+"Runtime"=dword:00000006
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Multimedia\WMPlayer\Extensions\.wma]
+"Permissions"=dword:0000001f
+"Runtime"=dword:00000006
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Multimedia\WMPlayer\Extensions\.asf]
+"Permissions"=dword:0000001f
+"Runtime"=dword:00000006
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Multimedia\WMPlayer\Extensions\.wmv]
+"Permissions"=dword:0000001f
+"Runtime"=dword:00000006
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Multimedia\WMPlayer\Extensions\.wsx]
+"Permissions"=dword:0000001f
+"Runtime"=dword:00000006
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Multimedia\WMPlayer\Extensions\.wmp]
+"Permissions"=dword:0000001f
+"Runtime"=dword:00000006
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Multimedia\WMPlayer\Extensions\.wm]
+"Permissions"=dword:0000001f
+"Runtime"=dword:00000006
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Multimedia\WMPlayer\Extensions\.asx]
+"Permissions"=dword:0000001f
+"Runtime"=dword:00000006
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Multimedia\WMPlayer\Extensions\.wax]
+"Permissions"=dword:0000001f
+"Runtime"=dword:00000006
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Multimedia\WMPlayer\Extensions\.wvx]
+"Permissions"=dword:0000001f
+"Runtime"=dword:00000006
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Multimedia\WMPlayer\Extensions\.wmx]
+"Permissions"=dword:0000001f
+"Runtime"=dword:00000006
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Multimedia\WMPlayer\Extensions\.wav]
+"Permissions"=dword:0000001f
+"Runtime"=dword:00000007
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Multimedia\WMPlayer\Extensions\.avi]
+"Permissions"=dword:0000001f
+"Runtime"=dword:00000007
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MediaPlayer\MLS\Extensions]
+"mp3"="audio"
+"wma"="audio"
+"asf"="audio"
+"wmv"="video"
+"wsx"="playlist"
+"wmp"="audio"
+"wm"="audio"
+"asx"="playlist"
+"wax"="playlist"
+"wvx"="playlist"
+"wmx"="playlist"
+"wav"="audio"
+"avi"="video"
+[HKEY_CLASSES_ROOT\.asf]
+@="ASFFile"
+[HKEY_CLASSES_ROOT\.wsx]
+@="ASFFile"
+[HKEY_CLASSES_ROOT\.wm]
+@="ASFFile"
+[HKEY_CLASSES_ROOT\.wmv]
+@="WMVFile"
+[HKEY_CLASSES_ROOT\.wma]
+@="WMAFile"
+[HKEY_CLASSES_ROOT\.asx]
+@="ASXFile"
+[HKEY_CLASSES_ROOT\.wmx]
+@="ASXFile"
+[HKEY_CLASSES_ROOT\.wax]
+@="WAXFile"
+[HKEY_CLASSES_ROOT\.wvx]
+@="WVXFile"
+[HKEY_CLASSES_ROOT\.pm2]
+@="PM2File"
+[HKEY_CLASSES_ROOT\.mp3]
+@="MP3File"
+[HKEY_CLASSES_ROOT\.nsc]
+@="ASFFile"
+[HKEY_CLASSES_ROOT\.wmp]
+@="ASFFile"
+[HKEY_CLASSES_ROOT\.wmwebasx]
+@="WMWebASXFile"
+[HKEY_CLASSES_ROOT\.wmwebasf]
+@="WMWebASFFile"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\video/x-ms-asf]
+"CLSID"="{f6b24dc5-5aef-4f9f-bd68-21f01aa2102e}"
+"Extension"=".wmwebasx"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\video/x-ms-wm]
+"CLSID"="{f6b24dc5-5aef-4f9f-bd68-21f01aa2102e}"
+"Extension"=".wmwebasf"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\video/x-ms-wmv]
+"CLSID"="{f6b24dc5-5aef-4f9f-bd68-21f01aa2102e}"
+"Extension"=".wmwebasf"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\audio/x-ms-wma]
+"CLSID"="{f6b24dc5-5aef-4f9f-bd68-21f01aa2102e}"
+"Extension"=".wmwebasf"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\video/x-ms-asx]
+"CLSID"="{f6b24dc5-5aef-4f9f-bd68-21f01aa2102e}"
+"Extension"=".wmwebasx"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\video/x-ms-wmx]
+"CLSID"="{f6b24dc5-5aef-4f9f-bd68-21f01aa2102e}"
+"Extension"=".wmwebasx"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\audio/x-ms-wax]
+"CLSID"="{f6b24dc5-5aef-4f9f-bd68-21f01aa2102e}"
+"Extension"=".wmwebasx"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\video/x-ms-wvx]
+"CLSID"="{f6b24dc5-5aef-4f9f-bd68-21f01aa2102e}"
+"Extension"=".wmwebasx"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\video/x-ms-wmp]
+"CLSID"="{f6b24dc5-5aef-4f9f-bd68-21f01aa2102e}"
+"Extension"=".wmwebasf"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\audio/mp3]
+"Extension"=".mp3"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\audio/mpeg]
+"Extension"=".mp3"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\audio/mpg]
+"Extension"=".mp3"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\audio/x-mp3]
+"Extension"=".mp3"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\audio/x-mpeg]
+"Extension"=".mp3"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\audio/x-mpg]
+"Extension"=".mp3"
+[HKEY_CLASSES_ROOT\ASFFile]
+@="Windows Media File"
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\ASFFile\DefaultIcon]
+@="wmplayer.exe,-2002"
+[HKEY_CLASSES_ROOT\ASFFile\Shell]
+[HKEY_CLASSES_ROOT\ASFFile\Shell\Open]
+[HKEY_CLASSES_ROOT\ASFFile\Shell\Open\Command]
+@="wmplayer.exe \"%1\""
+[HKEY_CLASSES_ROOT\WMVFile]
+@="Windows Media Video File"
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\WMVFile\DefaultIcon]
+@="wmplayer.exe, -2002"
+[HKEY_CLASSES_ROOT\WMVFile\Shell]
+[HKEY_CLASSES_ROOT\WMVFile\Shell\Open]
+[HKEY_CLASSES_ROOT\WMVFile\Shell\Open\Command]
+@="wmplayer.exe \"%1\""
+[HKEY_CLASSES_ROOT\WMAFile]
+@="Windows Media Audio File"
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\WMAFile\DefaultIcon]
+@="wmplayer.exe, -2002"
+[HKEY_CLASSES_ROOT\WMAFile\Shell]
+[HKEY_CLASSES_ROOT\WMAFile\Shell\Open]
+[HKEY_CLASSES_ROOT\WMAFile\Shell\Open\Command]
+@="wmplayer.exe \"%1\""
+[HKEY_CLASSES_ROOT\ASXFile]
+@="Windows Media Shortcut"
+"EditFlags"=dword:10010000
+[HKEY_CLASSES_ROOT\ASXFile\DefaultIcon]
+@="wmplayer.exe, -2002"
+[HKEY_CLASSES_ROOT\ASXFile\Shell]
+[HKEY_CLASSES_ROOT\ASXFile\Shell\Open]
+[HKEY_CLASSES_ROOT\ASXFile\Shell\Open\Command]
+@="wmplayer.exe \"%1\""
+[HKEY_CLASSES_ROOT\WMWebASXFile]
+@="Windows Media Web Shortcut"
+"EditFlags"=dword:10010000
+[HKEY_CLASSES_ROOT\WMWebASXFile\DefaultIcon]
+@="wmplayer.exe, -2002"
+[HKEY_CLASSES_ROOT\WMWebASXFile\Shell]
+[HKEY_CLASSES_ROOT\WMWebASXFile\Shell\Open]
+[HKEY_CLASSES_ROOT\WMWebASXFile\Shell\Open\Command]
+@="wmplayer.exe -t asx -w \"%1\""
+[HKEY_CLASSES_ROOT\WMWebASFFile]
+@="Windows Media Web Audio/Video File"
+"EditFlags"=dword:10010000
+[HKEY_CLASSES_ROOT\WMWebASFFile\DefaultIcon]
+@="wmplayer.exe, -2002"
+[HKEY_CLASSES_ROOT\WMWebASFFile\Shell]
+[HKEY_CLASSES_ROOT\WMWebASFFile\Shell\Open]
+[HKEY_CLASSES_ROOT\WMWebASFFile\Shell\Open\Command]
+@="wmplayer.exe -t asf -w \"%1\""
+[HKEY_CLASSES_ROOT\WAXFile]
+@="Windows Media Shortcut"
+"EditFlags"=dword:10010000
+[HKEY_CLASSES_ROOT\WAXFile\DefaultIcon]
+@="wmplayer.exe, -2002"
+[HKEY_CLASSES_ROOT\WAXFile\Shell]
+[HKEY_CLASSES_ROOT\WAXFile\Shell\Open]
+[HKEY_CLASSES_ROOT\WAXFile\Shell\Open\Command]
+@="wmplayer.exe \"%1\""
+[HKEY_CLASSES_ROOT\WVXFile]
+@="Windows Media Shortcut"
+"EditFlags"=dword:10010000
+[HKEY_CLASSES_ROOT\WVXFile\DefaultIcon]
+@="wmplayer.exe, -2002"
+[HKEY_CLASSES_ROOT\WVXFile\Shell]
+[HKEY_CLASSES_ROOT\WVXFile\Shell\Open]
+[HKEY_CLASSES_ROOT\WVXFile\Shell\Open\Command]
+@="wmplayer.exe \"%1\""
+[HKEY_CLASSES_ROOT\PM2File]
+@="Windows Media Playlist"
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\PM2File\DefaultIcon]
+@="wmplayer.exe, -2002"
+[HKEY_CLASSES_ROOT\PM2File\Shell]
+[HKEY_CLASSES_ROOT\PM2File\Shell\Open]
+[HKEY_CLASSES_ROOT\PM2File\Shell\Open\Command]
+@="wmplayer.exe \"%1\""
+[HKEY_CLASSES_ROOT\MP3File]
+@="MP3 Format Sound"
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\MP3File\DefaultIcon]
+@="wmplayer.exe,-2002"
+[HKEY_CLASSES_ROOT\MP3File\Shell]
+[HKEY_CLASSES_ROOT\MP3File\Shell\Open]
+[HKEY_CLASSES_ROOT\MP3File\Shell\Open\Command]
+@="wmplayer.exe \"%1\""
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Shell\URLProtocols\MMS]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Shell\URLProtocols\MMST]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Shell\URLProtocols\MMSU]
+[HKEY_CLASSES_ROOT\MMS]
+@="URL:Windows Media Streaming Protocol"
+"URL Protocol"=""
+[HKEY_CLASSES_ROOT\MMS\DefaultIcon]
+@="wmplayer.exe,-2002"
+[HKEY_CLASSES_ROOT\MMS\Shell\Open\Command]
+@="wmplayer.exe \"%1\""
+[HKEY_CLASSES_ROOT\MMST]
+@="URL:Windows Media Streaming Protocol"
+"URL Protocol"=""
+[HKEY_CLASSES_ROOT\MMST\DefaultIcon]
+@="wmplayer.exe,-2002"
+[HKEY_CLASSES_ROOT\MMST\Shell\Open\Command]
+@="wmplayer.exe \"%1\""
+[HKEY_CLASSES_ROOT\MMSU]
+@="URL:Windows Media Streaming Protocol"
+"URL Protocol"=""
+[HKEY_CLASSES_ROOT\MMSU\DefaultIcon]
+@="wmplayer.exe,-2002"
+[HKEY_CLASSES_ROOT\MMSU\Shell\Open\Command]
+@="wmplayer.exe \"%1\""

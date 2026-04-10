@@ -1,0 +1,33 @@
+REGEDIT4
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\IPM\SMStext]
+    "GlyphInfo"=hex:20,00,00,00,64,00,00,00,64,00,00,00,00,00,00,00,01,00,00,00,03,00,00,00,02,00,00,00,00,00,00,00
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\IPM\Schedule\Meeting\Request]
+    "GlyphInfo"=hex:20,00,00,00,64,00,00,00,64,00,00,00,00,00,00,00,01,00,00,00,03,00,00,00,02,00,00,00,00,00,00,00
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\IPM\Schedule\Meeting\Resp\Pos]
+    "GlyphInfo"=hex:20,00,00,00,64,00,00,00,64,00,00,00,00,00,00,00,01,00,00,00,03,00,00,00,02,00,00,00,00,00,00,00
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\IPM\Schedule\Meeting\Resp\Neg]
+    "GlyphInfo"=hex:20,00,00,00,64,00,00,00,64,00,00,00,00,00,00,00,01,00,00,00,03,00,00,00,02,00,00,00,00,00,00,00
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\IPM\Schedule\Meeting\Resp\Tent]
+    "GlyphInfo"=hex:20,00,00,00,64,00,00,00,64,00,00,00,00,00,00,00,01,00,00,00,03,00,00,00,02,00,00,00,00,00,00,00
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\IPM\Schedule\Meeting\Canceled]
+    "GlyphInfo"=hex:20,00,00,00,64,00,00,00,64,00,00,00,00,00,00,00,01,00,00,00,03,00,00,00,02,00,00,00,00,00,00,00
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\IPM\SMStext\VoiceNot]
+    "GlyphInfo"=hex:20,00,00,00,64,00,00,00,64,00,00,00,00,00,00,00,01,00,00,00,03,00,00,00,02,00,00,00,00,00,00,00
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\IPM\SMStext\ReturnCall]
+    "GlyphInfo"=hex:20,00,00,00,64,00,00,00,64,00,00,00,00,00,00,00,01,00,00,00,03,00,00,00,02,00,00,00,00,00,00,00
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\REPORT\IPM\Meeting\Request\NDR]
+    "GlyphInfo"=hex:20,00,00,00,64,00,00,00,64,00,00,00,00,00,00,00,01,00,00,00,03,00,00,00,02,00,00,00,00,00,00,00
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\REPORT\IPM\Note\DR]
+    "GlyphInfo"=hex:20,00,00,00,64,00,00,00,64,00,00,00,00,00,00,00,01,00,00,00,03,00,00,00,02,00,00,00,00,00,00,00
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\REPORT\IPM\Note\NDR]
+    "GlyphInfo"=hex:20,00,00,00,64,00,00,00,64,00,00,00,00,00,00,00,01,00,00,00,03,00,00,00,02,00,00,00,00,00,00,00
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\REPORT\IPM\Note\SMIME\MultipartSigned\DR]
+    "GlyphInfo"=hex:20,00,00,00,64,00,00,00,64,00,00,00,00,00,00,00,01,00,00,00,03,00,00,00,02,00,00,00,00,00,00,00
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\REPORT\IPM\Note\SMIME\MultipartSigned\NDR]
+    "GlyphInfo"=hex:20,00,00,00,64,00,00,00,64,00,00,00,00,00,00,00,01,00,00,00,03,00,00,00,02,00,00,00,00,00,00,00
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\REPORT\IPM\Note\IPNRN]
+    "GlyphInfo"=hex:20,00,00,00,64,00,00,00,64,00,00,00,00,00,00,00,01,00,00,00,03,00,00,00,02,00,00,00,00,00,00,00
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\REPORT\IPM\Note\IPNNRN]
+    "GlyphInfo"=hex:20,00,00,00,64,00,00,00,64,00,00,00,00,00,00,00,01,00,00,00,03,00,00,00,02,00,00,00,00,00,00,00
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\REPORT\IPM\Note\Status]
+    "GlyphInfo"=hex:20,00,00,00,64,00,00,00,64,00,00,00,00,00,00,00,01,00,00,00,03,00,00,00,02,00,00,00,00,00,00,00

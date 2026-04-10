@@ -1,0 +1,20 @@
+REGEDIT4
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MediaPlayer\Skins]
+"DefaultPortraitSkin"="\\Windows\\portrait96.skn"
+"DefaultLandscapeSkin"="\\Windows\\landscape96.skn"
+"DefaultSquareSkin"="\\Windows\\square96.skn"
+"OCXSkin"="\\Windows\\wmpocx96.skn"
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\IPM\Note]
+    "GlyphInfo"=hex:20,00,00,00,64,00,00,00,64,00,00,00,00,00,00,00,01,00,00,00,03,00,00,00,02,00,00,00,00,00,00,00
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\IPM\SI]
+    "GlyphInfo"=hex:20,00,00,00,64,00,00,00,64,00,00,00,00,00,00,00,01,00,00,00,03,00,00,00,02,00,00,00,00,00,00,00
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\IPM\SL]
+    "GlyphInfo"=hex:20,00,00,00,64,00,00,00,64,00,00,00,00,00,00,00,01,00,00,00,03,00,00,00,02,00,00,00,00,00,00,00
+[HKEY_LOCAL_MACHINE\SYSTEM\GWE\OOMFnt]
+    "Ht"=dword:fffffff4
+[HKEY_LOCAL_MACHINE\SYSTEM\GWE]
+    "dlgctr" = hex:00,00,00,00, 1A,00,00,00, F0,00,00,00, F0,00,00,00
+    "dlgctrL" = hex:00,00,00,00, 1A,00,00,00, 40,01,00,00, F0,00,00,00
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Metric]
+"DefSHMetric"=hex:5F,00,00,00,05,00,00,00,00,00,00,00,02,00,00,00,00,00,00,00,64,00,00,00
+"SHMetric"=hex:5F,00,00,00,05,00,00,00,00,00,00,00,02,00,00,00,00,00,00,00,64,00,00,00

@@ -1,0 +1,539 @@
+REGEDIT4
+[HKEY_LOCAL_MACHINE\Comm\Security\Crypto\Defaults\Provider\Microsoft Enhanced DSS and Diffie-Hellman Cryptographic Provider]
+    "Image Path"="\\Windows\\dssdh.dll"
+    "Type"=dword:0000000d
+[HKEY_LOCAL_MACHINE\Comm\Security\Crypto\Defaults\Provider\Microsoft Base DSS and Diffie-Hellman Cryptographic Provider]
+    "Image Path"="\\Windows\\dssdh.dll"
+    "Type"=dword:0000000d
+[HKEY_LOCAL_MACHINE\Comm\Security\Crypto\Defaults\Provider Types\Type 013]
+        "Name"="Microsoft Enhanced DSS and Diffie-Hellman Cryptographic Provider"
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\LDAP]
+"LdapClientIntegrity"=dword:0
+[HKEY_CURRENT_USER\ControlPanel\Notifications\{A877D65A-239C-47a7-9304-0D347F580408}]
+"Options"=dword:9
+"Duration"=dword:0
+"Wave"="notify"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Rai\:MSFEXPLORE]
+"0"="FExplore"                      ; class name
+"1"="fexplore.exe"       ; exe to launch
+"2"=dword:1                         ; perf hint (RAI_PERF_*)
+"3"=dword:0                         ; app type (?)
+"4"=hex:00,00,00,00,00,00,00,00     ; new session (do not edit)  This is a FILETIME
+[HKEY_CLASSES_ROOT\CLSID\{0D9CC087-7EC5-4954-A812-A8B79E7E11D3}]
+@="RotateTransform Class"
+[HKEY_CLASSES_ROOT\CLSID\{0D9CC087-7EC5-4954-A812-A8B79E7E11D3}\InprocServer32]
+@="imagelib.dll"
+"ThreadingModel"="both"
+[HKEY_CLASSES_ROOT\CLSID\{0D9CC087-7EC5-4954-A812-A8B79E7E11D3}\ProgID]
+@="COMImageLib.RotateTransform.1"
+[HKEY_CLASSES_ROOT\CLSID\{0D9CC087-7EC5-4954-A812-A8B79E7E11D3}\VersionIndependentProgID]
+@="COMImageLib.RotateTransform"
+[HKEY_CLASSES_ROOT\CLSID\{68F11E1B-EE9B-437a-9B54-E4E0F75B63A5}]
+@="AutoCorrectTransform Class"
+[HKEY_CLASSES_ROOT\CLSID\{68F11E1B-EE9B-437a-9B54-E4E0F75B63A5}\InprocServer32]
+@="imagelib.dll"
+"ThreadingModel"="both"
+[HKEY_CLASSES_ROOT\CLSID\{68F11E1B-EE9B-437a-9B54-E4E0F75B63A5}\ProgID]
+@="COMImageLib.AutoCorrectTransform.1"
+[HKEY_CLASSES_ROOT\CLSID\{68F11E1B-EE9B-437a-9B54-E4E0F75B63A5}\VersionIndependentProgID]
+@="COMImageLib.AutoCorrectTransform"
+[HKEY_CLASSES_ROOT\CLSID\{1A2B1AA0-5BCD-488C-B42B-6862ADBA1B50}]
+@="CropTransform Class"
+[HKEY_CLASSES_ROOT\CLSID\{1A2B1AA0-5BCD-488C-B42B-6862ADBA1B50}\InprocServer32]
+@="imagelib.dll"
+"ThreadingModel"="both"
+[HKEY_CLASSES_ROOT\CLSID\{1A2B1AA0-5BCD-488C-B42B-6862ADBA1B50}\ProgID]
+@="COMImageLib.CropTransform.1"
+[HKEY_CLASSES_ROOT\CLSID\{1A2B1AA0-5BCD-488C-B42B-6862ADBA1B50}\VersionIndependentProgID]
+@="COMImageLib.CropTransform"
+[HKEY_CLASSES_ROOT\CLSID\{30FE7484-9395-41B1-9655-73E0F3CA2574}]
+@="DitherTransform Class"
+[HKEY_CLASSES_ROOT\CLSID\{30FE7484-9395-41B1-9655-73E0F3CA2574}\InprocServer32]
+@="imagelib.dll"
+"ThreadingModel"="both"
+[HKEY_CLASSES_ROOT\CLSID\{30FE7484-9395-41B1-9655-73E0F3CA2574}\ProgID]
+@="COMImageLib.DitherTransform.1"
+[HKEY_CLASSES_ROOT\CLSID\{30FE7484-9395-41B1-9655-73E0F3CA2574}\VersionIndependentProgID]
+@="COMImageLib.DitherTransform"
+[HKEY_CLASSES_ROOT\CLSID\{FCCCAF1D-5376-478C-8CE7-36EDC1E7F5CD}]
+@="ImageAdapter Class"
+[HKEY_CLASSES_ROOT\CLSID\{FCCCAF1D-5376-478C-8CE7-36EDC1E7F5CD}\InprocServer32]
+@="imagelib.dll"
+"ThreadingModel"="both"
+[HKEY_CLASSES_ROOT\CLSID\{FCCCAF1D-5376-478C-8CE7-36EDC1E7F5CD}\ProgID]
+@="COMImageLib.ImageAdapter.1"
+[HKEY_CLASSES_ROOT\CLSID\{FCCCAF1D-5376-478C-8CE7-36EDC1E7F5CD}\VersionIndependentProgID]
+@="COMImageLib.ImageAdapter"
+[HKEY_CLASSES_ROOT\CLSID\{10FBBC19-6D63-479c-A505-C2D94D349336}]
+@="GDIPlusEncoder Class"
+[HKEY_CLASSES_ROOT\CLSID\{10FBBC19-6D63-479c-A505-C2D94D349336}\InprocServer32]
+@="imagelib.dll"
+"ThreadingModel"="both"
+[HKEY_CLASSES_ROOT\CLSID\{10FBBC19-6D63-479c-A505-C2D94D349336}\ProgID]
+@="COMImageLib.GDIPlusEncoder.1"
+[HKEY_CLASSES_ROOT\CLSID\{10FBBC19-6D63-479c-A505-C2D94D349336}\VersionIndependentProgID]
+@="COMImageLib.GDIPlusEncoder"
+[HKEY_CLASSES_ROOT\CLSID\{54743F00-5E46-4656-A970-FC7BE5B8DEBF}]
+@="PictureTransform Class"
+[HKEY_CLASSES_ROOT\CLSID\{54743F00-5E46-4656-A970-FC7BE5B8DEBF}\InprocServer32]
+@="imagelib.dll"
+"ThreadingModel"="both"
+[HKEY_CLASSES_ROOT\CLSID\{54743F00-5E46-4656-A970-FC7BE5B8DEBF}\ProgID]
+@="COMImageLib.PictureTransform.1"
+[HKEY_CLASSES_ROOT\CLSID\{54743F00-5E46-4656-A970-FC7BE5B8DEBF}\VersionIndependentProgID]
+@="COMImageLib.PictureTransform"
+[HKEY_CLASSES_ROOT\CLSID\{88A427A9-D861-473D-BF8C-727518436761}]
+@="ScaleTransform Class"
+[HKEY_CLASSES_ROOT\CLSID\{88A427A9-D861-473D-BF8C-727518436761}\InprocServer32]
+@="imagelib.dll"
+"ThreadingModel"="both"
+[HKEY_CLASSES_ROOT\CLSID\{88A427A9-D861-473D-BF8C-727518436761}\ProgID]
+@="COMImageLib.ScaleTransform.1"
+[HKEY_CLASSES_ROOT\CLSID\{88A427A9-D861-473D-BF8C-727518436761}\VersionIndependentProgID]
+@="COMImageLib.ScaleTransform"
+[HKEY_CLASSES_ROOT\CLSID\{AFB59F09-CAFC-4134-B21F-8747AE851883}]
+@="FileWriter Class"
+[HKEY_CLASSES_ROOT\CLSID\{AFB59F09-CAFC-4134-B21F-8747AE851883}\InprocServer32]
+@="imagelib.dll"
+"ThreadingModel"="both"
+[HKEY_CLASSES_ROOT\CLSID\{AFB59F09-CAFC-4134-B21F-8747AE851883}\ProgID]
+@="COMImageLib.FileWriter.1"
+[HKEY_CLASSES_ROOT\CLSID\{AFB59F09-CAFC-4134-B21F-8747AE851883}\VersionIndependentProgID]
+@="COMImageLib.FileWriter"
+[HKEY_CLASSES_ROOT\CLSID\{BBBD3F8D-BB79-408A-8E9A-EBDE0CCEBF34}]
+@="BrightnessTransform Class"
+[HKEY_CLASSES_ROOT\CLSID\{BBBD3F8D-BB79-408A-8E9A-EBDE0CCEBF34}\InprocServer32]
+@="imagelib.dll"
+"ThreadingModel"="both"
+[HKEY_CLASSES_ROOT\CLSID\{BBBD3F8D-BB79-408A-8E9A-EBDE0CCEBF34}\ProgID]
+@="COMImageLib.BrightnessTransform.1"
+[HKEY_CLASSES_ROOT\CLSID\{BBBD3F8D-BB79-408A-8E9A-EBDE0CCEBF34}\VersionIndependentProgID]
+@="COMImageLib.BrightnessTransform"
+[HKEY_CLASSES_ROOT\CLSID\{BFF46896-9149-49C6-86C1-40C2208F11D9}]
+@="AlphaTransform Class"
+[HKEY_CLASSES_ROOT\CLSID\{BFF46896-9149-49C6-86C1-40C2208F11D9}\InprocServer32]
+@="imagelib.dll"
+"ThreadingModel"="both"
+[HKEY_CLASSES_ROOT\CLSID\{BFF46896-9149-49C6-86C1-40C2208F11D9}\ProgID]
+@="COMImageLib.AlphaTransform.1"
+[HKEY_CLASSES_ROOT\CLSID\{BFF46896-9149-49C6-86C1-40C2208F11D9}\VersionIndependentProgID]
+@="COMImageLib.AlphaTransform"
+[HKEY_CLASSES_ROOT\CLSID\{C0C5B41C-F1D2-4F5A-8574-562CF4360CEE}]
+@="ResizeCanvasTransform Class"
+[HKEY_CLASSES_ROOT\CLSID\{C0C5B41C-F1D2-4F5A-8574-562CF4360CEE}\InprocServer32]
+@="imagelib.dll"
+"ThreadingModel"="both"
+[HKEY_CLASSES_ROOT\CLSID\{C0C5B41C-F1D2-4F5A-8574-562CF4360CEE}\ProgID]
+@="COMImageLib.ResizeCanvasTransform.1"
+[HKEY_CLASSES_ROOT\CLSID\{C0C5B41C-F1D2-4F5A-8574-562CF4360CEE}\VersionIndependentProgID]
+@="COMImageLib.ResizeCanvasTransform"
+[HKEY_CLASSES_ROOT\COMImageLib.AlphaTransform]
+@="AlphaTransform Class"
+[HKEY_CLASSES_ROOT\COMImageLib.AlphaTransform\CLSID]
+@="{BFF46896-9149-49C6-86C1-40C2208F11D9}"
+[HKEY_CLASSES_ROOT\COMImageLib.AlphaTransform.1]
+@="AlphaTransform Class"
+[HKEY_CLASSES_ROOT\COMImageLib.AlphaTransform.1\CLSID]
+@="{BFF46896-9149-49C6-86C1-40C2208F11D9}"
+[HKEY_CLASSES_ROOT\COMImageLib.BrightnessTransform]
+@="BrightnessTransform Class"
+[HKEY_CLASSES_ROOT\COMImageLib.BrightnessTransform\CLSID]
+@="{BBBD3F8D-BB79-408A-8E9A-EBDE0CCEBF34}"
+[HKEY_CLASSES_ROOT\COMImageLib.BrightnessTransform.1]
+@="BrightnessTransform Class"
+[HKEY_CLASSES_ROOT\COMImageLib.BrightnessTransform.1\CLSID]
+@="{BBBD3F8D-BB79-408A-8E9A-EBDE0CCEBF34}"
+[HKEY_CLASSES_ROOT\COMImageLib.CropTransform]
+@="CropTransform Class"
+[HKEY_CLASSES_ROOT\COMImageLib.CropTransform\CLSID]
+@="{1A2B1AA0-5BCD-488C-B42B-6862ADBA1B50}"
+[HKEY_CLASSES_ROOT\COMImageLib.CropTransform.1]
+@="CropTransform Class"
+[HKEY_CLASSES_ROOT\COMImageLib.CropTransform.1\CLSID]
+@="{1A2B1AA0-5BCD-488C-B42B-6862ADBA1B50}"
+[HKEY_CLASSES_ROOT\COMImageLib.DitherTransform]
+@="DitherTransform Class"
+[HKEY_CLASSES_ROOT\COMImageLib.DitherTransform\CLSID]
+@="{30FE7484-9395-41B1-9655-73E0F3CA2574}"
+[HKEY_CLASSES_ROOT\COMImageLib.DitherTransform.1]
+@="DitherTransform Class"
+[HKEY_CLASSES_ROOT\COMImageLib.DitherTransform.1\CLSID]
+@="{30FE7484-9395-41B1-9655-73E0F3CA2574}"
+[HKEY_CLASSES_ROOT\COMImageLib.ImageAdapter]
+@="ImageAdapter Class"
+[HKEY_CLASSES_ROOT\COMImageLib.ImageAdapter\CLSID]
+@="{FCCCAF1D-5376-478C-8CE7-36EDC1E7F5CD}"
+[HKEY_CLASSES_ROOT\COMImageLib.ImageAdapter.1]
+@="ImageAdapter Class"
+[HKEY_CLASSES_ROOT\COMImageLib.ImageAdapter.1\CLSID]
+@="{FCCCAF1D-5376-478C-8CE7-36EDC1E7F5CD}"
+[HKEY_CLASSES_ROOT\COMImageLib.GDIPlusEncoder]
+@="GDIPlusEncoder Class"
+[HKEY_CLASSES_ROOT\COMImageLib.GDIPlusEncoder\CLSID]
+@="{10FBBC19-6D63-479c-A505-C2D94D349336}"
+[HKEY_CLASSES_ROOT\COMImageLib.GDIPlusEncoder.1]
+@="GDIPlusEncoder Class"
+[HKEY_CLASSES_ROOT\COMImageLib.GDIPlusEncoder.1\CLSID]
+@="{10FBBC19-6D63-479c-A505-C2D94D349336}"
+[HKEY_CLASSES_ROOT\COMImageLib.PictureTransform]
+@="PictureTransform Class"
+[HKEY_CLASSES_ROOT\COMImageLib.PictureTransform\CLSID]
+@="{54743F00-5E46-4656-A970-FC7BE5B8DEBF}"
+[HKEY_CLASSES_ROOT\COMImageLib.PictureTransform.1]
+@="PictureTransform Class"
+[HKEY_CLASSES_ROOT\COMImageLib.PictureTransform.1\CLSID]
+@="{54743F00-5E46-4656-A970-FC7BE5B8DEBF}"
+[HKEY_CLASSES_ROOT\COMImageLib.ResizeCanvasTransform]
+@="ResizeCanvasTransform Class"
+[HKEY_CLASSES_ROOT\COMImageLib.ResizeCanvasTransform\CLSID]
+@="{C0C5B41C-F1D2-4F5A-8574-562CF4360CEE}"
+[HKEY_CLASSES_ROOT\COMImageLib.ResizeCanvasTransform.1]
+@="ResizeCanvasTransform Class"
+[HKEY_CLASSES_ROOT\COMImageLib.ResizeCanvasTransform.1\CLSID]
+@="{C0C5B41C-F1D2-4F5A-8574-562CF4360CEE}"
+[HKEY_CLASSES_ROOT\COMImageLib.RotateTransform]
+@="RotateTransform Class"
+[HKEY_CLASSES_ROOT\COMImageLib.RotateTransform\CLSID]
+@="{0D9CC087-7EC5-4954-A812-A8B79E7E11D3}"
+[HKEY_CLASSES_ROOT\COMImageLib.RotateTransform.1]
+@="RotateTransform Class"
+[HKEY_CLASSES_ROOT\COMImageLib.RotateTransform.1\CLSID]
+@="{0D9CC087-7EC5-4954-A812-A8B79E7E11D3}"
+[HKEY_CLASSES_ROOT\COMImageLib.AutoCorrectTransform]
+@="AutoCorrectTransform Class"
+[HKEY_CLASSES_ROOT\COMImageLib.AutoCorrectTransform\CLSID]
+@="{68F11E1B-EE9B-437a-9B54-E4E0F75B63A5}"
+[HKEY_CLASSES_ROOT\COMImageLib.AutoCorrectTransform.1]
+@="AutoCorrectTransform Class"
+[HKEY_CLASSES_ROOT\COMImageLib.AutoCorrectTransform.1\CLSID]
+@="{68F11E1B-EE9B-437a-9B54-E4E0F75B63A5}"
+[HKEY_CLASSES_ROOT\COMImageLib.ScaleTransform]
+@="ScaleTransform Class"
+[HKEY_CLASSES_ROOT\COMImageLib.ScaleTransform\CLSID]
+@="{88A427A9-D861-473D-BF8C-727518436761}"
+[HKEY_CLASSES_ROOT\COMImageLib.ScaleTransform.1]
+@="ScaleTransform Class"
+[HKEY_CLASSES_ROOT\COMImageLib.ScaleTransform.1\CLSID]
+@="{88A427A9-D861-473D-BF8C-727518436761}"
+[HKEY_CLASSES_ROOT\TypeLib\{8215933E-C5E7-4334-A9FC-AF108F38DE4E}]
+[HKEY_CLASSES_ROOT\TypeLib\{8215933E-C5E7-4334-A9FC-AF108F38DE4E}\1.0]
+[HKEY_CLASSES_ROOT\TypeLib\{8215933E-C5E7-4334-A9FC-AF108F38DE4E}\1.0\0]
+@="imagelib.dll"
+[HKEY_CLASSES_ROOT\TypeLib\{8215933E-C5E7-4334-A9FC-AF108F38DE4E}\1.0\0\win32]
+@="imagelib.dll"
+[HKEY_CLASSES_ROOT\.pkg]
+@="package"
+[HKEY_CLASSES_ROOT\.pku]
+@="package"
+[HKEY_CLASSES_ROOT\.pks]
+@="package"
+[HKEY_CLASSES_ROOT\package]
+@="pkg"
+"EditFlags"=dword:00010000	;FTA_OpenIsSafe (0x00010000) Indicates that the file class's open verb can be safely invoked for downloaded files.
+[HKEY_CLASSES_ROOT\package\Shell\Open\Command]
+@="updatebin.exe %1"
+[HKEY_CLASSES_ROOT\CLSID\{5C65DC2A-78E6-11D2-9852-00C04F8ECDC8}]
+@="VoiceCtrl Class"
+[HKEY_CLASSES_ROOT\CLSID\{5C65DC2A-78E6-11D2-9852-00C04F8ECDC8}\InprocServer32]
+@="VCOMCtl.dll"
+"ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{5C65DC2A-78E6-11D2-9852-00C04F8ECDC8}\ProgID]
+@="VoiceCtl.VoiceCtrl.1"
+[HKEY_CLASSES_ROOT\CLSID\{5C65DC2A-78E6-11D2-9852-00C04F8ECDC8}\Programmable]
+[HKEY_CLASSES_ROOT\CLSID\{5C65DC2A-78E6-11D2-9852-00C04F8ECDC8}\TypeLib]
+@="{5C65DC1D-78E6-11D2-9852-00C04F8ECDC8}"
+[HKEY_CLASSES_ROOT\CLSID\{5C65DC2A-78E6-11D2-9852-00C04F8ECDC8}\VersionIndependentProgID]
+@="VoiceCtl.VoiceCtrl"
+[HKEY_CLASSES_ROOT\CLSID\{5C65DC2D-78E6-11D2-9852-00C04F8ECDC8}]
+@="VoicePlay Class"
+[HKEY_CLASSES_ROOT\CLSID\{5C65DC2D-78E6-11D2-9852-00C04F8ECDC8}\InprocServer32]
+@="VCOMCtl.dll"
+"ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{5C65DC2D-78E6-11D2-9852-00C04F8ECDC8}\ProgID]
+@="VoiceCtl.VoicePlay.1"
+[HKEY_CLASSES_ROOT\CLSID\{5C65DC2D-78E6-11D2-9852-00C04F8ECDC8}\Programmable]
+[HKEY_CLASSES_ROOT\CLSID\{5C65DC2D-78E6-11D2-9852-00C04F8ECDC8}\TypeLib]
+@="{5C65DC1D-78E6-11D2-9852-00C04F8ECDC8}"
+[HKEY_CLASSES_ROOT\CLSID\{5C65DC2D-78E6-11D2-9852-00C04F8ECDC8}\VersionIndependentProgID]
+@="VoiceCtl.VoicePlay"
+[HKEY_CLASSES_ROOT\CLSID\{CA79D1DD-7502-11D2-9852-00C04F8ECDC8}]
+@="VoiceRecorder Class"
+[HKEY_CLASSES_ROOT\CLSID\{CA79D1DD-7502-11D2-9852-00C04F8ECDC8}\InprocServer32]
+@="VCOMCtl.dll"
+"ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{CA79D1DD-7502-11D2-9852-00C04F8ECDC8}\ProgID]
+@="VoiceCtl.VoiceRecorder.1"
+[HKEY_CLASSES_ROOT\CLSID\{CA79D1DD-7502-11D2-9852-00C04F8ECDC8}\Programmable]
+[HKEY_CLASSES_ROOT\CLSID\{CA79D1DD-7502-11D2-9852-00C04F8ECDC8}\TypeLib]
+@="{5C65DC1D-78E6-11D2-9852-00C04F8ECDC8}"
+[HKEY_CLASSES_ROOT\CLSID\{CA79D1DD-7502-11D2-9852-00C04F8ECDC8}\VersionIndependentProgID]
+@="VoiceCtl.VoiceRecorder"
+[HKEY_CLASSES_ROOT\TypeLib\{5C65DC1D-78E6-11D2-9852-00C04F8ECDC8}]
+[HKEY_CLASSES_ROOT\TypeLib\{5C65DC1D-78E6-11D2-9852-00C04F8ECDC8}\1.0]
+@="VoiceCtl 1.0 Type Library"
+[HKEY_CLASSES_ROOT\TypeLib\{5C65DC1D-78E6-11D2-9852-00C04F8ECDC8}\1.0\0]
+[HKEY_CLASSES_ROOT\TypeLib\{5C65DC1D-78E6-11D2-9852-00C04F8ECDC8}\1.0\0\win32]
+@="VCOMCtl.dll"
+[HKEY_CLASSES_ROOT\TypeLib\{5C65DC1D-78E6-11D2-9852-00C04F8ECDC8}\1.0\FLAGS]
+@="0"
+[HKEY_CLASSES_ROOT\TypeLib\{5C65DC1D-78E6-11D2-9852-00C04F8ECDC8}\1.0\HELPDIR]
+@="\\Windows"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Rai\:MSVOICE]
+"0"="HotVoice"
+"1"="hotvoice.exe"
+"2"=dword:0
+"3"=dword:0
+"4"=hex:00,00,00,00,00,00,00,00
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Rai\:MSHOTVOICE]
+"0"="HotVoice"
+"1"="hotvoice.exe -q"
+"2"=dword:0
+"3"=dword:0
+"4"=hex:00,00,00,00,00,00,00,00
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Rai\:MSCALC]
+"0"="PegCalc"
+"1"="calc.exe"
+"2"=dword:2
+"3"=dword:0
+"4"=hex:00,00,00,00,00,00,00,00
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Rai\:MSPIMG]
+"0"="PICTURESAPP"
+"1"="pimg.exe"
+"2"=dword:0
+"3"=dword:0
+"4"=hex:00,00,00,00,00,00,00,00
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Rai\:MSNOTETAKE]
+"0"="Notes"
+"1"="notes.exe"
+"2"=dword:0
+"3"=dword:0
+"4"=hex:00,00,00,00,00,00,00,00
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Rai\:MSBEAM]
+"0"="Beam"
+"1"="Beam.exe"
+"2"=dword:2
+"3"=dword:0
+"4"=hex:00,00,00,00,00,00,00,00
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Rai\:MSPOUTLOOK]
+"0"="MSPOutlook"                    ; class name
+"1"="poutlook.exe"       ; exe to launch
+"2"=dword:1                         ; perf hint (RAI_PERF_*)
+"3"=dword:0                         ; app type (?)
+"4"=hex:00,00,00,00,00,00,00,00     ; new session (do not edit)  This is a FILETIME
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Rai\:MSCALENDAR]
+"0"="Calendar"                      ; class name
+"1"=":MSPOUTLOOK calendar"              ; exe to launch
+"2"=dword:1                         ; perf hint (RAI_PERF_*)
+"3"=dword:0                         ; app type (?)
+"4"=hex:00,00,00,00,00,00,00,00     ; new session (do not edit)  This is a FILETIME
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Rai\:MSCONTACTS]
+"0"="Contacts"
+"1"=":MSPOUTLOOK contacts"
+"2"=dword:1
+"3"=dword:0
+"4"=hex:00,00,00,00,00,00,00,00
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Rai\:MSTASKS]
+"0"="Tasks Application"
+"1"=":MSPOUTLOOK tasks"
+"2"=dword:1
+"3"=dword:0
+"4"=hex:00,00,00,00,00,00,00,00
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Rai\:MSINBOX]
+"0"="TMAIL"
+"1"="tmail.exe"
+"2"=dword:0
+"3"=dword:0
+"4"=hex:00,00,00,00,00,00,00,00
+[HKEY_CLASSES_ROOT\.pwi]
+@="pwifile"
+[HKEY_CLASSES_ROOT\pwifile]
+@="pwi"
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\pwifile\DefaultIcon]
+@="notes.exe,-106"
+[HKEY_CLASSES_ROOT\pwifile\Shell\Open\Command]
+@="notes.exe %1"
+[HKEY_CLASSES_ROOT\pwifile\Shell\OpenDoc\Command]
+@="notes.exe -opendoc %1"
+[HKEY_CLASSES_ROOT\mailto]
+@=""
+[HKEY_CLASSES_ROOT\mailto\DefaultIcon]
+@="tmail.exe,0"
+[HKEY_CLASSES_ROOT\mailto\Shell\Open\Command]
+@="tmail.exe %1"
+[HKEY_CLASSES_ROOT\sms]
+@=""
+[HKEY_CLASSES_ROOT\sms\DefaultIcon]
+@="tmail.exe,0"
+[HKEY_CLASSES_ROOT\sms\Shell\Open\Command]
+@="tmail.exe %1"
+[HKEY_CLASSES_ROOT\.eml]
+@="emlfile"
+"Content Type"="message/rfc822"
+[HKEY_CLASSES_ROOT\emlfile]
+@="eml"
+[HKEY_CLASSES_ROOT\emlfile\DefaultIcon]
+@="tmail.exe,-1001"
+[HKEY_CLASSES_ROOT\.vcf]
+@="vcffile"
+"Content Type"="text/x-vcard"
+[HKEY_CLASSES_ROOT\vcffile]
+@="vcf"
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\vcffile\shell\open\command]
+@="poutlook.exe -f %1"
+[HKEY_CLASSES_ROOT\vcffile\DefaultIcon]
+@="outres.dll,-10000"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\text/x-vcard]
+"Extension"=".vcf"
+[HKEY_CLASSES_ROOT\.vcs]
+@="vcsfile"
+"Content Type"="text/x-vcal"
+[HKEY_CLASSES_ROOT\vcsfile]
+@="vcs"
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\vcsfile\shell\open\command]
+@="poutlook.exe -f %1"
+[HKEY_CLASSES_ROOT\vcsfile\DefaultIcon]
+@="outres.dll,-10002"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\text/x-vcal]
+"Extension"=".vcs"
+[HKEY_CLASSES_ROOT\.ics]
+@="icsfile"
+"Content Type"="text/x-ical"
+[HKEY_CLASSES_ROOT\icsfile]
+@="ics"
+[HKEY_CLASSES_ROOT\icsfile\shell\open\command]
+@="poutlook.exe -f %1"
+[HKEY_CLASSES_ROOT\icsfile\DefaultIcon]
+@="outres.dll,-10002"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\text/x-ical]
+"Extension"=".ics"
+[HKEY_CLASSES_ROOT\CLSID\{AF10EC39-DC10-11d2-9878-00C04F8ECDC8}]
+@="MS New Document"
+[HKEY_CLASSES_ROOT\CLSID\{AF10EC39-DC10-11d2-9878-00C04F8ECDC8}\InprocServer32]
+@="msnewmnu.dll"
+[HKEY_CLASSES_ROOT\CLSID\{05058F23-20BE-11D2-8F18-0000F87A4335}]
+@="Pocket Outlook Object Model"
+[HKEY_CLASSES_ROOT\CLSID\{05058F23-20BE-11D2-8F18-0000F87A4335}\InProcServer32]
+@="pimstore.dll"
+"ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{05058F23-20BE-11D2-8F18-0000F87A4335}\ProgID]
+@="PocketOutlook.Application"
+[HKEY_CLASSES_ROOT\CLSID\{05058F23-20BE-11D2-8F18-0000F87A4335}\Programmable]
+[HKEY_CLASSES_ROOT\PocketOutlook.Application]
+@="Pocket Outlook Object Model"
+[HKEY_CLASSES_ROOT\PocketOutlook.Application\CLSID]
+@="{05058F23-20BE-11D2-8F18-0000F87A4335}"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETCompactFramework\Installer\Assemblies\Global]
+"Microsoft.WindowsMobile.PocketOutlook, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"=multi_sz:"\\windows\\GAC_Microsoft.WindowsMobile.PocketOutlook_v1_0_0_0_cneutral_1.dll","Microsoft.WindowsMobile.PocketOutlook.dll"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETCompactFramework\Installer\Assemblies\ROM]
+"Microsoft.WindowsMobile.PocketOutlook, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"=multi_sz:"\\windows\\GAC_Microsoft.WindowsMobile.PocketOutlook_v1_0_0_0_cneutral_1.dll","Microsoft.WindowsMobile.PocketOutlook.dll"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETCompactFramework\Installer\Assemblies\Global]
+"Microsoft.WindowsMobile.Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"=multi_sz:"\\windows\\GAC_Microsoft.WindowsMobile.Forms_v1_0_0_0_cneutral_1.dll","Microsoft.WindowsMobile.Forms.dll"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETCompactFramework\Installer\Assemblies\ROM]
+"Microsoft.WindowsMobile.Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"=multi_sz:"\\windows\\GAC_Microsoft.WindowsMobile.Forms_v1_0_0_0_cneutral_1.dll","Microsoft.WindowsMobile.Forms.dll"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETCompactFramework\Installer\Assemblies\Global]
+"Microsoft.WindowsMobile, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"=multi_sz:"\\windows\\GAC_Microsoft.WindowsMobile_v1_0_0_0_cneutral_1.dll","Microsoft.WindowsMobile.dll"
+"Microsoft.WindowsMobile.Utilities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"=multi_sz:"\\windows\\GAC_Microsoft.WindowsMobile.Utilities_v1_0_0_0_cneutral_1.dll","Microsoft.WindowsMobile.Utilities.dll"
+"Microsoft.WindowsMobile.Status, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"=multi_sz:"\\windows\\GAC_Microsoft.WindowsMobile.Status_v1_0_0_0_cneutral_1.dll","Microsoft.WindowsMobile.Status.dll"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETCompactFramework\Installer\Assemblies\ROM]
+"Microsoft.WindowsMobile, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"=multi_sz:"\\windows\\GAC_Microsoft.WindowsMobile_v1_0_0_0_cneutral_1.dll","Microsoft.WindowsMobile.dll"
+"Microsoft.WindowsMobile.Utilities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"=multi_sz:"\\windows\\GAC_Microsoft.WindowsMobile.Utilities_v1_0_0_0_cneutral_1.dll","Microsoft.WindowsMobile.Utilities.dll"
+"Microsoft.WindowsMobile.Status, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"=multi_sz:"\\windows\\GAC_Microsoft.WindowsMobile.Status_v1_0_0_0_cneutral_1.dll","Microsoft.WindowsMobile.Status.dll"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETCompactFramework\Installer\Assemblies\Global]
+"Microsoft.WindowsMobile.Configuration, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"=multi_sz:"\\windows\\GAC_Microsoft.WindowsMobile.Configuration_v1_0_0_0_cneutral_1.dll","Microsoft.WindowsMobile.Configuration.dll"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETCompactFramework\Installer\Assemblies\ROM]
+"Microsoft.WindowsMobile.Configuration, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"=multi_sz:"\\windows\\GAC_Microsoft.WindowsMobile.Configuration_v1_0_0_0_cneutral_1.dll","Microsoft.WindowsMobile.Configuration.dll"
+[HKEY_CLASSES_ROOT\CLSID\{0FE5DCC1-5413-11d2-A53B-00C04F8ECDC8}]
+@="MS New Note"
+[HKEY_CLASSES_ROOT\CLSID\{0FE5DCC1-5413-11d2-A53B-00C04F8ECDC8}\InprocServer32]
+@="msnewmnu.dll"
+[HKEY_CLASSES_ROOT\CLSID\{98E38510-41E9-11d2-88E3-0000F87A49DB}]
+@="MS New Appointment"
+[HKEY_CLASSES_ROOT\CLSID\{98E38510-41E9-11d2-88E3-0000F87A49DB}\InprocServer32]
+@="msnewmnu.dll"
+[HKEY_CLASSES_ROOT\CLSID\{42650BC1-41C1-11d2-88E3-0000F87A49DB}]
+@="MS New Task"
+[HKEY_CLASSES_ROOT\CLSID\{42650BC1-41C1-11d2-88E3-0000F87A49DB}\InprocServer32]
+@="msnewmnu.dll"
+[HKEY_CLASSES_ROOT\CLSID\{42650BC2-41C1-11d2-88E3-0000F87A49DB}]
+@="MS New Contact"
+[HKEY_CLASSES_ROOT\CLSID\{42650BC2-41C1-11d2-88E3-0000F87A49DB}\InprocServer32]
+@="msnewmnu.dll"
+[HKEY_CLASSES_ROOT\CLSID\{1D210285-ABE7-11d2-8442-0000F87A584A}]
+@="MS New Email"
+[HKEY_CLASSES_ROOT\CLSID\{1D210285-ABE7-11d2-8442-0000F87A584A}\InprocServer32]
+@="msnewmnu.dll"
+[HKEY_CLASSES_ROOT\CLSID\{CC76B8E6-99CD-11d2-8C2F-00C04F72E246}]
+    @=""
+[HKEY_CLASSES_ROOT\CLSID\{CC76B8E6-99CD-11d2-8C2F-00C04F72E246}\InprocServer32]
+    @="msnewmnu.dll"                ; \\windows\msnewmnu.dll
+[HKEY_CLASSES_ROOT\CLSID\{633AB46F-E1B5-4517-852E-DF95A3F46D22}]
+   @="Today/Home Screen Helper"
+[HKEY_CLASSES_ROOT\CLSID\{633AB46F-E1B5-4517-852E-DF95A3F46D22}\InProcServer32]
+   @="tmailutl.dll"
+   "ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{7d26a035-323e-477b-a4e6-e98239ef7102}]
+   @="Inbox Find Extension"
+[HKEY_CLASSES_ROOT\CLSID\{7d26a035-323e-477b-a4e6-e98239ef7102}\InProcServer32]
+   @="cemapi.dll"
+   "ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{b9558b71-7add-43fa-96ea-26f1965420c4}]
+   @="Inbox Item for Find Extension"
+[HKEY_CLASSES_ROOT\CLSID\{b9558b71-7add-43fa-96ea-26f1965420c4}\InProcServer32]
+   @="cemapi.dll"
+   "ThreadingModel"="Free"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Event\Dock\Inbox]
+"class"="Inbox.MainWnd"
+"DockMsg"=dword:0403
+"command"="tmail.exe -RunInBKG"
+"NotifyOnLaunch"=dword:1
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Inbox\SendDriver]
+    "DLL"="mailtrns.dll"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Inbox\Svc]
+    "default"="POP3"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Inbox\Svc\IMAP4]
+    "Name"="IMAP4"
+    "DLL"="mailtrns.dll"
+    "Port"=dword:8F
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Inbox\Svc\IMAP4\MsgClasses]
+    "IPM.Note"=dword:1
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Inbox\Svc\POP3]
+    "Name"="POP3"
+    "DLL"="mailtrns.dll"
+    "Port"=dword:6E
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Inbox\Svc\POP3\MsgClasses]
+    "IPM.Note"=dword:1
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\Settings]
+    "POP3MaxLinesToDownloadWithHeaders"=dword:5
+[HKEY_CLASSES_ROOT\jpegimage\Shell\Open\Command]
+@="pimg.exe \"%1\""
+[HKEY_CLASSES_ROOT\pngimage\Shell\Open\Command]
+@="pimg.exe \"%1\""
+[HKEY_CLASSES_ROOT\bmpimage\Shell\Open\Command]
+@="pimg.exe \"%1\""
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pictures\ImageSendSize\]
+"CurrentSelection"=dword:00000001
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pictures\ImageSendSize\1]
+"Width"=dword:00000280
+"Height"=dword:000001E0
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pictures\ImageSendSize\2]
+"Width"=dword:00000140
+"Height"=dword:000000F0
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pictures\ImageSendSize\3]
+"Width"=dword:000000A0
+"Height"=dword:00000078
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pim\Outlook]
+    "Outlook"=dword:1
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Calendar\Reminder]
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Calendar\DefMailTransport]
+    "DefMailTransport"="ActiveSync"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Rai\:MSCAMERA]
+"0"="PICTURESAPP"
+"1"="pimg.exe -camerakey"
+"2"=dword:0
+"3"=dword:0
+"4"=hex:00,00,00,00,00,00,00,00
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pictures\Camera\OEM]
+"SupportedVideoFormat"="*.wma;*.wmv"

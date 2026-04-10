@@ -1,0 +1,285 @@
+REGEDIT4
+[HKEY_LOCAL_MACHINE\init]
+        "Launch20"="device.exe"
+[HKEY_LOCAL_MACHINE\Drivers]
+    "RootKey"="Drivers\\BuiltIn"
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn]
+    "Dll"="BusEnum.dll"
+    "BusName"="BuiltIn"
+    "Flags"=dword:8
+    "BusIoctl"=dword:2a0048
+    "InterfaceType"=dword:0
+    "IClass"=multi_sz:"{B3CC6EBA-5507-4196-8E41-2BF42E4A47C9}=%b","{6F40791D-300E-44E4-BC38-E0E63CA8375C}=%b"
+[HKEY_LOCAL_MACHINE\System\Events]
+    "SYSTEM/DevMgrApiSetReady"="Device Manager APIs ready"
+[HKEY_LOCAL_MACHINE\System\Events]
+    "SYSTEM/PowerManagerReady"="Power Manager APIs ready"
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\Interfaces]
+    "{A32942B7-920C-486b-B0E6-92A702A99B35}"="Generic power-manageable devices"
+    "{8DD679CE-8AB4-43c8-A14A-EA4963FAA715}"="Power-manageable block devices"
+    "{98C5250D-C29A-4985-AE5F-AFE5367E5006}"="Power-manageable NDIS miniports"
+    "{EB91C7C9-8BF6-4a2d-9AB8-69724EED97D1}"="Power-manageable display"
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\State\On]
+    "Default"=dword:0           ; D0
+    "Flags"=dword:10010000      ; POWER_STATE_ON | POWER_STATE_PASSWORD
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\State\Suspend]
+    "Default"=dword:3           ; D3
+    "Flags"=dword:200000        ; POWER_STATE_SUSPEND
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\State\ColdReboot]
+    "Default"=dword:4           ; D4
+    "Flags"=dword:800000        ; POWER_STATE_RESET
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\State\Reboot]
+    "Default"=dword:4           ; D4
+    "Flags"=dword:800000        ; POWER_STATE_RESET
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\State\Suspend\{98C5250D-C29A-4985-AE5F-AFE5367E5006}]
+    "Default"=dword:4           ; D4
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\State\UserIdle]
+    "Default"=dword:2           ; D2
+    "Flags"=dword:1000000       ; POWER_STATE_USERIDLE
+    "bkl1:"=dword:4             ; backlight off
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\State\UserIdle\{EB91C7C9-8BF6-4a2d-9AB8-69724EED97D1}]
+    "Default"=dword:4           ; D4    ; display off
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\State\BacklightOff]
+    "Default"=dword:0           ; D0
+    "Flags"=dword:10010000      ; POWER_STATE_ON | POWER_STATE_PASSWORD
+    "bkl1:"=dword:4             ; backlight off
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\State\ScreenOff]
+    "Default"=dword:0           ; D0
+    "Flags"=dword:100000        ; POWER_STATE_IDLE
+    "bkl1:"=dword:4             ; backlight off
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\State\ScreenOff\{EB91C7C9-8BF6-4a2d-9AB8-69724EED97D1}]
+    "Default"=dword:4           ; D4
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\State\Unattended]
+    "Default"=dword:0           ; D0
+    "Flags"=dword:400000
+    "wav1:"=dword:4             ; sound disabled
+    "bkl1:"=dword:4             ; backlight off
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\State\Unattended\{EB91C7C9-8BF6-4a2d-9AB8-69724EED97D1}]
+    "Default"=dword:4           ; D4
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\State\Resuming]
+    "Default"=dword:2           ; D2
+    "Flags"=dword:10000000      ; POWER_STATE_PASSWORD
+    "bkl1:"=dword:4             ; backlight off
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\State\Resuming\{EB91C7C9-8BF6-4a2d-9AB8-69724EED97D1}]
+    "Default"=dword:4           ; D4
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power]
+        "SystemPriority256"=dword:F8                    ; 248 - THREAD_PRIORITY_TIME_CRITICAL
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\ActivityTimers\UserActivity]
+    "TimeoutMs"=dword:64                        ; in milli seconds
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\Timeouts]
+    "ACSuspendTimeout"=dword:0                          ; timeout disabled on AC power
+    "ACResumingSuspendTimeout"=dword:F          ; 15 seconds
+    "BattSuspendTimeout"=dword:B4                       ; 3 minutes (180 seconds) on battery
+    "BattResumingSuspendTimeout"=dword:F        ; 15 seconds
+[HKEY_LOCAL_MACHINE\SYSTEM\Events]
+    "SYSTEM/GweApiSetReady"="Event triggered after GWES registers its API sets"
+[HKEY_LOCAL_MACHINE\init\BootVars]
+   "SystemHive"="Documents and Settings\\system.hv"
+   "ProfileDir"="Documents and Settings"
+   "Flags"=dword:0
+[HKEY_LOCAL_MACHINE\System\ObjectStore]
+    "DefaultDBVol"="Documents and Settings\\default.vol"
+[HKEY_LOCAL_MACHINE\System\ObjectStore]
+    "AllowSystemAccess"=dword:1
+[HKEY_LOCAL_MACHINE\System\StorageManager\Filters\fsreplxfilt]
+    "ReplStoreHostVolume"=""
+    "ReplStorePath"="\\ReplStorVol"
+    "ReplStoreName"="ReplStor"
+    "ReplStoreDoImmaculate"=dword:0
+    "ReplStoreCacheSize"=dword:0
+    "NumDirsToExclude"=dword:0
+    "DirsToExclude"=multi_sz:""
+[HKEY_LOCAL_MACHINE\System\ObjectStore]
+    "RegistryType"=dword:1
+[HKEY_LOCAL_MACHINE\System\StorageManager]
+    "Dll"="fsdmgr.dll"
+    "PNPUnloadDelay"=dword:1000
+[HKEY_LOCAL_MACHINE\System\StorageManager\FATFS]
+    "FriendlyName"="FAT FileSystem"
+    "Dll"="fatfsd.dll"
+    "Flags"=dword:00000064
+    "Paging"=dword:1
+    "EnableCache"=dword:1
+    "CacheSize"=dword:0
+    "Util"="fatutil.dll"
+    "CacheDll"="diskcache.dll"
+[HKEY_LOCAL_MACHINE\System\StorageManager\IMGFS]
+    "FriendlyName"="Image-Update Filesystem"
+    "Dll"="imgfs.dll"
+    "Paging"=dword:1
+    "ShadowROM"=dword:1
+[HKEY_LOCAL_MACHINE\System\ImageUpdate\UpdateApp]
+    "InputFileName"="UAInput.000"
+    "OutputFileName"="UAOutput.000"
+    "PersistentRoot"="\\OSRoot"
+    "PersistentTempName"="UATemp"
+    "RAMTempDir"="\\UATemp"
+    "DisplayDLL"="uldrui.dll"
+    "ValidatorLogPath"="\\Release\\UpdateValidator.log"
+    "UpdateAppLogPath"="\\OSRoot\\UpdateApp.log"
+[HKEY_LOCAL_MACHINE\System\StorageManager\MSPART]
+    "Dll"="mspart.dll"
+[HKEY_LOCAL_MACHINE\System\StorageManager\Profiles]
+    "AutoMount"=dword:1
+    "AutoPart"=dword:0
+    "AutoFormat"=dword:0
+    "MountFlags"=dword:0
+    "DefaultFileSystem"=""
+    "PartitionDriverName"="MSPART"
+    "Folder"="Mounted Volume"
+[HKEY_LOCAL_MACHINE\System\StorageManager\PartitionTable]
+    "01"="FATFS"
+    "04"="FATFS"
+    "06"="FATFS"
+    "07"="NTFS"
+    "0B"="FATFS"
+    "0C"="FATFS"
+    "0E"="FATFS"
+    "0F"="FATFS"
+    "20"="BOOT"
+    "21"="BINFS"
+    "22"="RAWFS"
+    "23"="RAWFS"
+    "25"="IMGFS"
+    "26"="BINARY"
+[HKEY_LOCAL_MACHINE\System\StorageManager\Profiles\MSFlash]
+    "PartitionDriver"="mspart.dll"
+    "MountAsROM"=dword:1
+    "MountHidden"=dword:1
+    "Folder"="Flash Disk"
+    "Name"="FLASH Disk Block Device"
+[HKEY_LOCAL_MACHINE\System\StorageManager\Profiles\MSFlash\FATFS]
+    "MountAsROM"=dword:0
+    "MountHidden"=dword:0
+[HKEY_LOCAL_MACHINE\System\StorageManager\Profiles\CDProfile]
+    "Name"="IDE CDROM/DVD Drive"
+    "Folder"="CDROM Drive"
+    "DefaultFileSystem"="UDFS"
+    "PartitionDriver"=""
+[HKEY_LOCAL_MACHINE\System\StorageManager\Profiles\CDProfile\PartitionTable]
+[HKEY_LOCAL_MACHINE\System\StorageManager\Profiles\MSFlash_RAMFMD]
+    "Folder"="Flash Disk"
+    "AutoPart"=dword:1
+    "AutoFormat"=dword:1
+[HKEY_LOCAL_MACHINE\System\StorageManager\AutoLoad\RAMFMD]
+    "DriverPath"="Drivers\\BlockDevice\\RAMFMD"
+    "LoadFlags"=dword:1
+[HKEY_LOCAL_MACHINE\Drivers\BlockDevice\RAMFMD]
+    "Dll"="ramfmd.dll"
+    "Profile"="MSFlash_RAMFMD"
+    "Prefix"="DSK"
+    "IClass"=multi_sz:"{A4E7EDDA-E575-4252-9D6B-4195D48BB865}"
+[HKEY_LOCAL_MACHINE\Comm\Security\SystemCertificates\Root]
+        "InitFile"="\\windows\\sysroots.p7b"
+[HKEY_LOCAL_MACHINE\nls]
+    "LegacyLocaleMode"=dword:1
+[HKEY_LOCAL_MACHINE\System\StorageManager\Filters\fsdspy]
+   "dll"="fsdspy.dll"
+[HKEY_LOCAL_MACHINE\System\StorageManager\Filters\fsreplxfilt]
+    "NumDirsToExclude"=dword:e
+    "DirsToExclude"=multi_sz: "\\mxip_initdb.vol",
+                              "\\mxip_system.vol",
+                              "\\mxip_notify.vol",
+                              "\\mxip_lang.vol",
+                              "\\cemail.vol",
+                              "\\pim.vol",
+                              "\\Documents and Settings\\default\\user.hv",
+                              "\\Documents and Settings\\system.hv",
+                              "\\Windows\\Profiles\\guest\\Temporary Internet Files\\",
+                              "\\Windows\\Profiles\\guest\\Cookies\\",
+                              "\\Windows\\Profiles\\guest\\History\\",
+                              "\\Windows\\Activesync\\",
+                              "\\windows\\messaging\\",
+                              "\\Temp\\"
+[HKEY_LOCAL_MACHINE\init\BootVars]
+    "RequireCertMod"=dword:1
+[HKEY_LOCAL_MACHINE\System\StorageManager\AutoLoad\Relfsd]
+    "MountFlags"=dword:1    ; hides the release directory from enumeration
+[HKEY_LOCAL_MACHINE\init\BootVars]
+   "Flags"=dword:1
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Power]
+    "ScreenPowerOff"=dword:3c
+[HKEY_LOCAL_MACHINE\MUI]
+    "Enable"=dword:1
+[HKEY_LOCAL_MACHINE\MUI]
+   "SysLang"=dword:409
+[HKEY_CURRENT_USER\MUI]
+   "CurLang"=dword:409
+[HKEY_LOCAL_MACHINE\init\BootVars]
+   "Flags"=dword:1          ; see comment in common.reg
+[HKEY_LOCAL_MACHINE\System\StorageManager\Profiles\MSFlash\IMGFS]
+    "XIP"=dword:1
+[HKEY_LOCAL_MACHINE\System\StorageManager\Profiles\MSFlash]
+    "Name"="MSFLASH for AMD Nor"
+    "Folder"="NOR Flash"
+[HKEY_LOCAL_MACHINE\System\StorageManager\AutoLoad\MSFlash]
+    "DriverPath"="Drivers\\BuiltIn\\AmdNorFMD"
+    "LoadFlags"=dword:1
+    "Order"=dword:0
+    "BootPhase"=dword:0
+[HKEY_LOCAL_MACHINE\Drivers\BlockDevice\RAMFMD]
+   "Flags"=dword:00010000
+[HKEY_LOCAL_MACHINE\System\StorageManager\Profiles\MSFlash_RAMFMD\FATFS]
+    "MountAsBootable"=dword:1
+    "MountAsRoot"=dword:1
+    "FormatTfat"=dword:1
+[HKEY_LOCAL_MACHINE\System\StorageManager\Profiles\MSFlash_RAMFMD\FATFS\Filters\fsreplxfilt]
+    "Dll"="fsreplxfilt.dll"
+    "Order"=dword:1 ; must be loaded before other filters
+[HKEY_LOCAL_MACHINE\System\StorageManager\AutoLoad\RAMFMD]
+    "BootPhase"=dword:0
+    "Order"=dword:0
+[HKEY_LOCAL_MACHINE\Drivers\BlockDevice\RAMFMD]
+    "Address"=dword:0
+    "Size"=dword:00200000   ; 2 MB
+[HKEY_LOCAL_MACHINE\System\Platform]
+    "DataPath" = "\\"
+    "PSAtRoot"=dword:1
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\AmdNorFMD]
+   "Dll"="amdnord.dll"
+   "Order"=dword:2
+   "Prefix"="DSK"
+   "Ioctl"=dword:4
+   "Profile"="MSFlash"
+   "IClass"="{A4E7EDDA-E575-4252-9D6B-4195D48BB865}"
+   "MemBase"=dword:B2020000
+   "MemLen"=dword:01FE0000
+   "Flags"=dword:00010000
+[HKEY_LOCAL_MACHINE\Drivers\Resources\IRQ]
+   "Identifier"=dword:1
+   "Minimum"=dword:1
+   "Space"=dword:20
+   "Ranges"="1-0x20"
+[HKEY_LOCAL_MACHINE\Drivers\Resources\IO]
+   "Identifier"=dword:2
+   "Minimum"=dword:0
+   "Space"=dword:10000
+   "Ranges"="0-0xFFFF"
+[HKEY_CURRENT_USER\Software\Microsoft\Windows]
+    "DbPath" = "\\mxip_initdb.vol"
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\EMS]
+    "Irq"=dword:27
+    "Prefix"="EMS"
+    "Dll"="emulserv.dll"
+    "Order"=dword:0
+[HKEY_LOCAL_MACHINE\System\StorageManager\VCE]
+    "FriendlyName"="VCE FileSystem"
+    "Dll"="VCEFSD.dll"
+    "Paging"=dword:0
+[HKEY_LOCAL_MACHINE\System\StorageManager\Profiles\VCEFSD]
+    "Name"="EMULATOR SHARED FOLDER FS"
+    "Folder"="SharedStorage"
+    "DefaultFileSystem"="VCE"
+    "PartitionDriver"=""
+[HKEY_LOCAL_MACHINE\System\StorageManager\Profiles\VCEFSD\PartitionTable]
+[HKEY_LOCAL_MACHINE\Drivers\EMULSERV]
+    "Dll"="EMULSERV.DLL"
+    "Prefix"="DSK"
+    "Profile"="VCEFSD"
+    "IClass"=multi_sz:"{A32942B7-920C-486b-B0E6-92A702A99B35}","{A4E7EDDA-E575-4252-9D6B-4195D48BB865}"
+[HKEY_LOCAL_MACHINE\System\StorageManager]
+    "PNPUnloadDelay"=dword:0
+[HKEY_LOCAL_MACHINE\System\Events]
+    "SYSTEM/BatteryAPIsReady"="Battery Interface APIs"
+[HKEY_LOCAL_MACHINE\System\Events]
+    "SYSTEM/NLedAPIsReady"="Notification LED APIs"

@@ -1,0 +1,3 @@
+REGEDIT4
+[HKEY_CURRENT_USER\ControlPanel\Sip]
+    "MenuBarHeight"=dword:1a

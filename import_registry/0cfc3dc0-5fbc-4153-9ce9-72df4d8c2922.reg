@@ -1,0 +1,7 @@
+REGEDIT4
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Rai\:MSSOLITAIRE]
+"0"="Solitaire"
+"1"="solitare.exe"
+"2"=dword:2
+"3"=dword:0
+"4"=hex:00,00,00,00,00,00,00,00

@@ -1,0 +1,353 @@
+REGEDIT4
+[HKEY_CURRENT_USER\ControlPanel\Dial\Locations]
+"1"=multi_sz:   "Work",
+                "9,G",
+                "9,1FG",
+                "9,011,EFG",
+                "425",
+                "",
+                "1",
+                "0"
+"2"=multi_sz:   "Home",
+                "G",
+                "1FG",
+                "011,EFG",
+                "425",
+                "",
+                "1",
+                "0"
+[HKEY_CURRENT_USER\ControlPanel\Notifications\{A877D65B-239C-47a7-9304-0D347F580408}]
+@="Messaging: New text message"
+[HKEY_LOCAL_MACHINE\Comm\EAP\Extension\13]
+"FriendlyName"="Smart Card or Certificate"
+[HKEY_LOCAL_MACHINE\Comm\EAP\Extension\25]
+"FriendlyName"="PEAP"
+[HKEY_CURRENT_USER\ControlPanel\Notifications\{8ddf46e7-56ed-4750-9e58-afc6ce486d03}]
+@="Connection established"
+[HKEY_CURRENT_USER\ControlPanel\Notifications\{8ddf46e8-56ed-4750-9e58-afc6ce486d03}]
+@="Connection disconnected"
+[HKEY_CURRENT_USER\ControlPanel\Notifications\{DDBD3B44-80B0-4b24-9DC4-839FEA6E559E}]
+@="Wireless network detected"
+[HKEY_CURRENT_USER\ControlPanel\Notifications\{15F11F90-8A5F-454c-89FC-BA9B7AAB0CAD}]
+@="Reminders"
+[HKEY_CURRENT_USER\ControlPanel\Notifications\{A877D658-239C-47a7-9304-0D347F580408}]
+@="ActiveSync: Begin sync"
+[HKEY_CURRENT_USER\ControlPanel\Notifications\{A877D659-239C-47a7-9304-0D347F580408}]
+@="ActiveSync: End sync"
+[HKEY_CURRENT_USER\ControlPanel\Notifications\{A877D65A-239C-47a7-9304-0D347F580408}]
+@="Messaging: New e-mail message"
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Layouts\e0010409]
+    "Layout Text"="COMP IME"
+    "Ime File"="compime.dll"
+[HKEY_CURRENT_USER\ControlPanel\Sip]
+"DefaultIm"="{42429667-ae04-11d0-a4f8-00aa00a749b9}"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Extensions\Context\email]
+"{364D1505-915A-4b1d-85A6-8C258B2D2246}"=""
+"UseStandardDictionaries"=dword:0
+"TrailingCharacters"="; "
+"NotTriggerCharacters"=" _-.!\"#$%&'*+/=?@^`~{|}"
+"TriggerCharacters"=";"
+"SuggestionCount"=dword:7
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Extensions\Context\phone]
+"{45EEED9B-898C-4caf-BC3E-A5422F56085B}"=""
+"UseStandardDictionaries"=dword:0
+"NotTriggerCharacters"=" +.()-"
+"TriggerCharacters"=";"
+"TrailingCharacters"="; "
+"SuggestionCount"=dword:7
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Extensions\Context\url]
+"{4F69CF83-F5B1-4a00-A19F-F3DBBA77AB9E}"=""
+"UseStandardDictionaries"=dword:1
+"TrailingCharacters"=""
+"NotTriggerCharacters"=":."
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Extensions\Context\name]
+"{9F29C088-1D4A-4d18-A8D6-A94FF033471C}"=""
+"UseStandardDictionaries"=dword:1
+"TrailingCharacters"=" "
+[HKEY_CLASSES_ROOT\CLSID\{364D1505-915A-4b1d-85A6-8C258B2D2246}]
+@="ContactEmailSuggestionGenerator"
+[HKEY_CLASSES_ROOT\CLSID\{364D1505-915A-4b1d-85A6-8C258B2D2246}\InprocServer32]
+@="msnewmnu.dll"
+[HKEY_CLASSES_ROOT\CLSID\{9F29C088-1D4A-4d18-A8D6-A94FF033471C}]
+@="ContactNameSuggestionGenerator"
+[HKEY_CLASSES_ROOT\CLSID\{9F29C088-1D4A-4d18-A8D6-A94FF033471C}\InprocServer32]
+@="msnewmnu.dll"
+[HKEY_CLASSES_ROOT\CLSID\{4F69CF83-F5B1-4a00-A19F-F3DBBA77AB9E}]
+@="ContactURLSuggestionGenerator"
+[HKEY_CLASSES_ROOT\CLSID\{4F69CF83-F5B1-4a00-A19F-F3DBBA77AB9E}\InprocServer32]
+@="msnewmnu.dll"
+[HKEY_CLASSES_ROOT\CLSID\{45EEED9B-898C-4caf-BC3E-A5422F56085B}]
+@="ContactPhoneSuggestionGenerator"
+[HKEY_CLASSES_ROOT\CLSID\{45EEED9B-898C-4caf-BC3E-A5422F56085B}\InprocServer32]
+@="msnewmnu.dll"
+[HKEY_CURRENT_USER\ControlPanel\Keybd]
+"InitialDelay"=dword:0
+"RepeatRate"=dword:12
+[HKEY_CLASSES_ROOT\CLSID\{42429667-ae04-11d0-a4f8-00aa00a749b9}]
+@="Keyboard"
+"KBMode"=dword:5
+"ShiftLock"=dword:0
+[HKEY_CLASSES_ROOT\CLSID\{42429667-ae04-11d0-a4f8-00aa00a749b9}\InprocServer32]
+@="msim.dll"
+[HKEY_CLASSES_ROOT\CLSID\{42429667-ae04-11d0-a4f8-00aa00a749b9}\IsSIPInputMethod]
+@="1"
+[HKEY_CLASSES_ROOT\CLSID\{42429667-ae04-11d0-a4f8-00aa00a749b9}\DefaultIcon]
+@="msim.dll,0"
+[HKEY_CLASSES_ROOT\CLSID\{42429690-ae04-11d0-a4f8-00aa00a749b9}]
+@="Letter Recognizer"
+"Accents"=dword:0
+"Desc"="With Letter Recognizer you can enter characters using natural character strokes and gestures you may be familiar with."
+"ShiftLock"=dword:0
+[HKEY_CLASSES_ROOT\CLSID\{42429690-ae04-11d0-a4f8-00aa00a749b9}\InprocServer32]
+@="msim.dll"
+[HKEY_CLASSES_ROOT\CLSID\{42429690-ae04-11d0-a4f8-00aa00a749b9}\IsSIPInputMethod]
+@="1"
+[HKEY_CLASSES_ROOT\CLSID\{42429690-ae04-11d0-a4f8-00aa00a749b9}\DefaultIcon]
+@="msim.dll,0"
+[HKEY_CLASSES_ROOT\CLSID\{42429691-ae04-11d0-a4f8-00aa00a749b9}]
+@="Block Recognizer"
+"Accents"=dword:0
+"Desc"="With Block Recognizer you can enter characters using single strokes, a technique you may be familiar with."
+[HKEY_CLASSES_ROOT\CLSID\{42429691-ae04-11d0-a4f8-00aa00a749b9}\InprocServer32]
+@="msim.dll"
+[HKEY_CLASSES_ROOT\CLSID\{42429691-ae04-11d0-a4f8-00aa00a749b9}\IsSIPInputMethod]
+@="1"
+[HKEY_CLASSES_ROOT\CLSID\{42429691-ae04-11d0-a4f8-00aa00a749b9}\DefaultIcon]
+@="msim.dll,0"
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main]
+"Search Page"="http://partners.search.msn.com/partner.asp?FORM=PPC&cfg=SMCINITIAL&RS=CHECKED&v=1&q=%s"
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\International]
+"Default_CodePage"=dword:4e4
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main\FavoritesEntries\MSN Mobile]
+"URL"="http://mobile.msn.com/pocketpc"
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main\FavoritesEntries\WindowsMedia.com]
+"URL"="http://windowsmedia.com"
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main\FavoritesEntries\Pocket PC Web Guide]
+"URL"="http://www.microsoft.com/mobile/pocketpc/sites.asp"
+[HKEY_CLASSES_ROOT\htmlfile]
+@="HTML Document"
+[HKEY_CLASSES_ROOT\xmlfile]
+@="XML Document"
+[HKEY_CLASSES_ROOT\xhtmlfile]
+@="XHTML Document"
+[HKEY_CLASSES_ROOT\xslfile]
+@="XML Document"
+[HKEY_CLASSES_ROOT\gifimage]
+@="GIF Image"
+[HKEY_CLASSES_ROOT\jpegimage]
+@="JPEG Image"
+[HKEY_CLASSES_ROOT\pngimage]
+@="PNG Image"
+[HKEY_CLASSES_ROOT\urlfile]
+@="URL Location"
+[HKEY_CLASSES_ROOT\bmpimage]
+@="Bitmap Image"
+[HKEY_CLASSES_ROOT\icoimage]
+@="Icon Image"
+[HKEY_CLASSES_ROOT\http]
+@="HyperText Transfer Protocol"
+[HKEY_CLASSES_ROOT\https]
+@="Secure HyperText Transfer"
+[HKEY_CLASSES_ROOT\ftp]
+@="File Transfer Protocol"
+[HKEY_CLASSES_ROOT\file]
+@="File Protocol"
+[HKEY_CLASSES_ROOT\res]
+@="Resource Protocol"
+[HKEY_CLASSES_ROOT\wsp]
+@="Wireless Session Protocol"
+[HKEY_LOCAL_MACHINE\System\StorageManager\Profiles]
+    "Folder"="Mounted Volume"
+[HKEY_LOCAL_MACHINE\System\StorageManager\Profiles\SDMMC]
+    "Folder"="Storage Card"
+[HKEY_LOCAL_MACHINE\System\StorageManager\Profiles\HDProfile]
+    "Folder"="Hard Disk"
+[HKEY_LOCAL_MACHINE\System\StorageManager\Profiles\CDProfile]
+    "Folder"="CDROM Drive"
+[HKEY_LOCAL_MACHINE\System\StorageManager\Profiles\USBHDProfile]
+    "Folder"="Hard Disk"
+[HKEY_LOCAL_MACHINE\System\StorageManager\Profiles\USBFDProfile]
+    "Folder"="Floppy Drive"
+[HKEY_LOCAL_MACHINE\System\StorageManager\Profiles\USBCDProfile]
+    "Folder"="CDROM Drive"
+[HKEY_LOCAL_MACHINE\Comm\Irsir]
+   "DisplayName"="Serial (COM) IrDA Driver"
+[HKEY_LOCAL_MACHINE\SYSTEM\GWE\Button]
+        "FontWeight"=dword:2BC
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Practical_Peripherals_Inc-PPI_PC288T2EZ_PCMCIA-DAE6\Unimodem]
+   "FriendlyName"="ProClass 28.8"
+[HKEY_LOCAL_MACHINE\SYSTEM\Explorer\Shell Folders]
+	"Application Data"="\\Application Data"
+	"Desktop"="\\Windows\\Desktop"
+	"Favorites"="\\Windows\\Favorites"
+	"Fonts"="\\Windows\\Fonts"
+	"My Documents"="\\My Documents"
+	"Program Files"="\\Program Files"
+	"Programs"="\\Windows\\Programs"
+	"Recent"="\\Windows\\Recent"
+	"StartUp"="\\Windows\\StartUp"
+	"Windows"="\\Windows"
+[HKEY_LOCAL_MACHINE\SYSTEM\GDI]
+"DisableFarEastWordBreak"=dword:1
+[HKEY_LOCAL_MACHINE\SYSTEM\GDI\GLYPHCACHE]
+    "limit"=dword:2000
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows CE Services]
+    "NoSubFolderIn"="\\My Documents\\"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Extensions\NewMenu\{AF10EC39-DC10-11d2-9878-00C04F8ECDC8}]
+@="Word Document"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Extensions\NewMenu\{0FE5DCC1-5413-11d2-A53B-00C04F8ECDC8}]
+@="Note"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Extensions\NewMenu\{98E38510-41E9-11d2-88E3-0000F87A49DB}]
+@="Appointment"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Extensions\NewMenu\{42650BC1-41C1-11d2-88E3-0000F87A49DB}]
+@="Task"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Extensions\NewMenu\{42650BC2-41C1-11d2-88E3-0000F87A49DB}]
+@="Contact"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Extensions\NewMenu\{1D210285-ABE7-11d2-8442-0000F87A584A}]
+@="Message"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Shell\Find\Extensions\{7d26a035-323e-477b-a4e6-e98239ef7102}]
+   @="Messaging"
+[HKEY_LOCAL_MACHINE\SYSTEM\Inbox\Pocket MSN]
+    "Link"="Pocket MSN.lnk"
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{22C7DA12-F3FD-4875-8344-7786454F6534}\Providers\{4a5d9fe0-f139-4a63-a5a4-4f31ceea02ad}]
+        "Name"="Calendar"
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{22C7DA12-F3FD-4875-8344-7786454F6534}\Providers\{0dd8685c-e272-4fcb-9ecf-2ead7ea2497b}]
+        "Name"="Contacts"
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{22C7DA12-F3FD-4875-8344-7786454F6534}\Providers\{783ae4f6-4c12-4423-8270-66361260d4f1}]
+        "Name"="Tasks"
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{22C7DA12-F3FD-4875-8344-7786454F6534}\Providers\{c6d47067-6e92-480e-b0fc-4ba82182fac7}]
+        "Name"="E-mail"
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{176F4FFD-F20C-4bd4-BDD7-01D0726C567B}\Providers\{4a5d9fe0-f139-4a63-a5a4-4f31ceea02ad}]
+        "Name"="Calendar"
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{176F4FFD-F20C-4bd4-BDD7-01D0726C567B}\Providers\{0dd8685c-e272-4fcb-9ecf-2ead7ea2497b}]
+        "Name"="Contacts"
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{176F4FFD-F20C-4bd4-BDD7-01D0726C567B}\Providers\{783ae4f6-4c12-4423-8270-66361260d4f1}]
+        "Name"="Tasks"
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{176F4FFD-F20C-4bd4-BDD7-01D0726C567B}\Providers\{c6d47067-6e92-480e-b0fc-4ba82182fac7}]
+        "Name"="E-mail"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Inbox\Svc\ActiveSync]
+    "FriendlyName"="Outlook E-mail"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Calendar]
+    "HolidayCategory"="Holiday"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Calendar]
+    "ShowLunarCalendar"=dword:0
+[HKEY_CLASSES_ROOT\{030D681B-1DFC-4bd0-A72A-A9B3CCCDA653}]
+"DisplayName"="Camera"
+[HKEY_LOCAL_MACHINE\ExtModems\GenericInfraredModem]
+    "FriendlyName" = "Generic IrDA"
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+     "Active"="00000409"
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Terminal Server Client]
+"BitmapCacheSize"=dword:15
+"BitmapPersistCacheSize"=dword:1
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Terminal Server Client]
+"Keyboard Layout"="00000409"
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Terminal Server Client\Default]
+"BitmapCachePersistEnable"=dword:1
+"MRU0"="TS-WLBS"
+[HKEY_LOCAL_MACHINE\Ident]
+    "Name"="Pocket_PC"
+[HKEY_LOCAL_MACHINE\ExtModems\HayesCompat]
+   "FriendlyName"="Hayes Compatible on COM1:"
+[HKEY_LOCAL_MACHINE\Comm\DefaultConnections]
+"`19200 Default"=multi_sz:"Serial Cable on COM1:","19200"
+"`38400 Default"=multi_sz:"Serial Cable on COM1:","38400"
+"`Infrared Port"=multi_sz:"Infrared Port","115200"
+"`115200 Default"=multi_sz:"Serial Cable on COM1:","115200"
+"`57600 Default"=multi_sz:"Serial Cable on COM1:","57600"
+[HKEY_CURRENT_USER\ControlPanel\Comm]
+"Cnct"="`57600 Default"
+[HKEY_CURRENT_USER\ControlPanel\SoundCategories\RingPreview]
+"DefaultSound"="Windows Default .wav"
+[HKEY_CURRENT_USER\ControlPanel\SoundCategories\Ring]
+"DefaultSound"="Windows Default .wav"
+[HKEY_CURRENT_USER\ControlPanel\Sounds]
+"Ringtones"=multi_sz: "Windows Default .wav",
+                      "Mystic .wma",
+                      "Terrestrial .wma",
+                      "Jig .wma",
+                      "Ringer .wav",
+                      "Fantasy .wma",
+                      "OldPhone .wma",
+                      "RoaringGuitar .wma"
+[HKEY_CURRENT_USER\ControlPanel\Sounds\RingTone0]
+"Sound"="Windows Default .wav"
+[HKEY_CURRENT_USER\ControlPanel\Desktop]
+"wallpaper"="\\Windows\\Default.2bp"
+[HKEY_CURRENT_USER\Software\Microsoft\Shell\Controls]
+"fCapEdit"=dword:1
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Spell Check]
+   "User_Dict"="\\windows\\custom.dic"
+   "User_Options"=dword:1
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Spell Check]
+   "Main_Dict"="\\windows\\mssp2_en.lex"
+[HKEY_LOCAL_MACHINE\SYSTEM\GDI\SYSFNT]
+    "Nm"="Tahoma"
+    "HtInPts"=dword:1
+    "Ht"=dword:384
+    "It"=dword:0
+    "Wt"=dword:190
+    "CS"=dword:0
+[HKEY_LOCAL_MACHINE\SYSTEM\GWE\Menu]
+    "AniType"=dword:6
+[HKEY_LOCAL_MACHINE\SYSTEM\GWE\Menu\BarFnt]
+    "Nm"="Tahoma"
+    "HtInPts"=dword:1
+    "Ht"=dword:320
+    "It"=dword:0
+    "Wt"=dword:2bc
+    "CS"=dword:0
+[HKEY_LOCAL_MACHINE\SYSTEM\GWE\Menu\PopFnt]
+    "Nm"="Tahoma"
+    "HtInPts"=dword:1
+    "Ht"=dword:320
+    "It"=dword:0
+    "Wt"=dword:2bc
+    "CS"=dword:0
+[HKEY_LOCAL_MACHINE\SYSTEM\GWE\MsgBox]
+    "NoCancelText"=""
+    "NoIgnoreText"=""
+[HKEY_LOCAL_MACHINE\nls]
+    "DefaultLCID" = dword:409
+[HKEY_LOCAL_MACHINE\nls]
+    "SystemLCID" = dword:409
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\International]
+        "LCID"=dword:409
+        "ACP"=dword:4e4
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Today\Items\"Owner Info"]
+   "Type"=dword:0
+   "Order"=dword:0
+   "Enabled"=dword:1
+   "Selectability"=dword:1
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Today\Items\"Messaging"]
+   "Type"=dword:4
+   "Order"=dword:1
+   "Enabled"=dword:1
+   "DLL"="tmailutl.dll"
+   "Selectability"=dword:2
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Today\Items\"Tasks"]
+   "Type"=dword:3
+   "Order"=dword:2
+   "Enabled"=dword:1
+   "Selectability"=dword:1
+   "Flags"=dword:1              ; 0x1 = high prio
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Today\Items\"Calendar"]
+   "Type"=dword:1
+   "Order"=dword:3
+   "Enabled"=dword:1
+   "Selectability"=dword:1
+   "Flags"=dword:3              ; 0x1 = include all-day events
+[HKEY_LOCAL_MACHINE\System\Inbox\Attachments]
+    "TopDir"="Program Files"
+    "MiddleDir"="Connections"
+    "BottomDir"="Mail Attachments"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Powerpoint\Pocket 1.0\Selected Display]
+@="Built In LCD"
+[HKEY_LOCAL_MACHINE\Drivers\Display\Active\Built In LCD]
+"Dll"="ddi.dll"
+"BufferMode"=dword:00000001
+"TapMode"=dword:00000001
+[HKEY_LOCAL_MACHINE\MUI]
+   "SysLang"=dword:409
+[HKEY_CURRENT_USER\MUI]
+   "CurLang"=dword:409

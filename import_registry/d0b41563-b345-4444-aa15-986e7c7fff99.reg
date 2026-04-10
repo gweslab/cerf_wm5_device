@@ -1,0 +1,873 @@
+REGEDIT4
+[HKEY_LOCAL_MACHINE\init]
+        "Launch30"="gwes.exe"
+        "Depend30"=hex:14,00
+[HKEY_LOCAL_MACHINE\SYSTEM\GWE]
+    "ActivityEvent"="PowerManager/ActivityTimer/UserActivity"
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power]
+    "DisableGwesPowerOff"=dword:1
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power]
+        "SystemIdleTimerResetEvent"="PowerManager/SystemIdleTimerReset"
+[HKEY_LOCAL_MACHINE\Comm\IrDA\Linkage]
+    "Bind"=multi_sz:"Irsir1"
+[HKEY_LOCAL_MACHINE\Comm\Irsir]
+   "DisplayName"="Serial (COM) IrDA Driver"
+   "Group"="NDIS"
+   "ImagePath"="irsir.dll"
+[HKEY_LOCAL_MACHINE\Comm\Irsir\Linkage]
+   "Route"=multi_sz:"Irsir1"
+[HKEY_LOCAL_MACHINE\Comm\Irsir1\Parms]
+   "BusNumber"=dword:0
+   "BusType"=dword:0
+   "Port"=dword:1
+   "IntIR"=dword:0
+   "TransceiverType"=dword:1
+   "DisablePowerManagement"=dword:1
+[HKEY_LOCAL_MACHINE\SYSTEM\GDI\SYSFNT]
+        "Nm"="Tahoma"
+        "Ht"=dword:fffffff4
+        "It"=dword:0
+        "Wt"=dword:190
+        "CS"=dword:0
+[HKEY_LOCAL_MACHINE\SYSTEM\GWE\Menu\BarFnt]
+        "Nm"="Tahoma"
+        "Ht"=dword:fffffff4
+        "It"=dword:0
+        "Wt"=dword:2BC
+        "CS"=dword:0
+[HKEY_LOCAL_MACHINE\SYSTEM\GWE\Menu\PopFnt]
+        "Nm"="Tahoma"
+        "Ht"=dword:fffffff4
+        "It"=dword:0
+        "Wt"=dword:190
+        "CS"=dword:0
+[HKEY_LOCAL_MACHINE\SYSTEM\GWE\OOMFnt]
+        "Nm"="Tahoma"
+        "Ht"=dword:fffffff4
+        "It"=dword:0
+        "Wt"=dword:190
+        "CS"=dword:0
+[HKEY_LOCAL_MACHINE\SYSTEM\GWE\Menu]
+                "Overlap"=dword:60
+[HKEY_LOCAL_MACHINE\SYSTEM\GWE\Button]
+        "FontWeight"=dword:2BC
+[HKEY_LOCAL_MACHINE\SYSTEM\GWE\Commctrl\DragMetrics]
+   "CXDrag"=dword:5
+   "CYDrag"=dword:5
+[HKEY_LOCAL_MACHINE\SYSTEM\GWE\Commctrl\DragMetrics]
+   "CXDrag"=dword:1e
+   "CYDrag"=dword:1e
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\CODEC_GSM610]
+   "Prefix"="ACM"
+   "Dll"="gsm610.acm"
+   "Index"=dword:1
+   "Order"=dword:0
+   "Flags"=dword:2
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\NDIS]
+   "Dll"="NDIS.Dll"
+   "Prefix"="NDS"
+   "Index"=dword:0
+   "Order"=dword:1
+   "IClass"="{A32942B7-920C-486b-B0E6-92A702A99B35}"
+   "Flags"=dword:2
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\NDISUIO]
+   "Prefix"="UIO"
+   "Dll"="ndisuio.dll"
+   "Index"=dword:1
+   "Order"=dword:3
+   "Flags"=dword:2
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\Ethman]
+   "Prefix"="ETM"
+   "Dll"="ethman.dll"
+   "Index"=dword:1
+   "Order"=dword:5
+   "Flags"=dword:2
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\AFD]
+   "Dll"="AFD.Dll"
+   "Order"=dword:2
+   "Keep"=dword:1
+   "Entry"="AfdInitialize"
+   "Flags"=dword:2
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\IrCOMM]
+   "Dll"="IRCOMM.DLL"
+   "Prefix"="COM"
+   "Order"=dword:3
+   "Index"=dword:3
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+   "Flags"=dword:2
+[HKEY_LOCAL_MACHINE\Comm\Devices\TCPIP6\DHCPV6L]
+    "Dll"="dhcpv6l.dll"
+    "Prefix"="DP6"
+    "Index"=dword:0
+    "Flags"=dword:2
+[HKEY_LOCAL_MACHINE\Comm\PPTP]
+   "DisplayName"=mui_sz:"netmui.dll,#9009"
+   "Group"="NDIS"
+   "ImagePath"="pptp.dll"
+[HKEY_LOCAL_MACHINE\Comm\PPTP\Linkage]
+   "Route"=multi_sz:"PPTP1"
+[HKEY_LOCAL_MACHINE\Comm\PPTP1]
+   "DisplayName"=mui_sz:"netmui.dll,#9009"
+   "Group"="NDIS"
+[HKEY_LOCAL_MACHINE\Comm\PPTP1\Parms]
+   "BusNumber"=dword:0
+   "BusType"=dword:0
+   "DisablePowerManagement"=dword:1
+[HKEY_LOCAL_MACHINE\Comm\Security\Crypto\Defaults]
+[HKEY_LOCAL_MACHINE\Comm\Security\Crypto\Defaults\Provider]
+[HKEY_LOCAL_MACHINE\Comm\Security\Crypto\Defaults\Provider\Microsoft Base Cryptographic Provider v1.0]
+    "Image Path"="\\Windows\\rsaenh.dll"
+    "Type"=dword:00000001
+[HKEY_LOCAL_MACHINE\Comm\Security\Crypto\Defaults\Provider\Microsoft Enhanced Cryptographic Provider v1.0]
+    "Image Path"="\\Windows\\rsaenh.dll"
+    "Type"=dword:00000001
+[HKEY_LOCAL_MACHINE\Comm\Security\Crypto\Defaults\Provider\Microsoft Enhanced RSA and AES Cryptographic Provider]
+    "Image Path"="\\Windows\\rsaenh.dll"
+    "Type"=dword:00000018
+[HKEY_LOCAL_MACHINE\Comm\Security\Crypto\Defaults\Provider Types\Type 001]
+        "Name"="Microsoft Enhanced Cryptographic Provider v1.0"
+[HKEY_LOCAL_MACHINE\Comm\Security\Crypto\Defaults\Provider Types\Type 024]
+        "Name"="Microsoft Enhanced RSA and AES Cryptographic Provider"
+[HKEY_LOCAL_MACHINE\Drivers\Console]
+    "OutputTo"=dword:ffffffff
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\SIP]
+"Prefix"="SIP"
+"Dll"="softkb.DLL"
+"Order"=dword:1
+"Index"=dword:0
+[HKEY_CURRENT_USER\ControlPanel\Sip]
+"AllowChange"=dword:1
+"DragStyle"=dword:1
+[HKEY_LOCAL_MACHINE\SYSTEM\Events]
+    "system/events/notify/APIReady"="Notifications API set ready"
+[HKEY_LOCAL_MACHINE\Services\NOTIFY]
+   "Dll"="NOTIFY.Dll"
+   "Order"=dword:0
+   "Keep"=dword:1
+   "Prefix"="NFY"
+   "Index"=dword:0
+[HKEY_LOCAL_MACHINE\Services\credsvc]
+[HKEY_LOCAL_MACHINE\Services\LASSD]
+   "Dll"="lassd.dll"
+   "Order"=dword:8
+   "Keep"=dword:1
+   "FriendlyName"="LAS"
+   "Index"=dword:0
+   "Prefix"="LAS"
+[HKEY_LOCAL_MACHINE\Comm\Security\LASSD\AE\{71F82FA4-8589-4516-A0D7-9B7FFCB0C313}]
+"FriendlyName"="RELOAD LASS CONFIG - Do not change"
+"DisplayText"="RELOAD LASS Configuration"
+"AEFrequencyType"=dword:0
+"AEFrequencyValue"=dword:0
+[HKEY_LOCAL_MACHINE\Comm\Security\LASSD\AE\{1B38A686-7CDC-4017-A5E9-4C6A9DD7E5BA}]
+"FriendlyName"="Device Startup"
+"DisplayText"="System Startup"
+"AEFrequencyType"=dword:0
+"AEFrequencyValue"=dword:FFFFFFFF
+[HKEY_LOCAL_MACHINE\Comm\Security\LASSD\AE\{8FD146DC-623E-499d-AA82-50F31454A161}]
+"FriendlyName"="Protected Control Panel Applets"
+"DisplayText"="Control Panel"
+"AEFrequencyType"=dword:0
+"AEFrequencyValue"=dword:0
+[HKEY_LOCAL_MACHINE\Comm\Security\LASSD\AE\{7B6A373C-F16E-4051-8F47-25EFF6F0D532}]
+"FriendlyName"="Test AE 1"
+"DisplayText"="Test AE 1 - Display Text"
+"AEFrequencyType"=dword:3
+"AEFrequencyValue"=dword:2
+[HKEY_LOCAL_MACHINE\Comm\Security\LASSD\AE\{578DCD29-9596-42e6-98C3-188C75BB4C04}]
+"FriendlyName"="Test AE 2"
+"DisplayText"="Test AE 2 - Display Text"
+"AEFrequencyType"=dword:2
+"AEFrequencyValue"=dword:2
+[HKEY_LOCAL_MACHINE\Comm\Security\LASSD\AE\{8E6B0AF7-9295-45b4-8B73-55D95304144E}]
+"FriendlyName"="AE- Authenticate Every Time"
+"DisplayText"="Your App Should overwrite this string - AE_EVERY_TIME."
+"AEFrequencyType"=dword:0
+"AEFrequencyValue"=dword:0
+[HKEY_LOCAL_MACHINE\Comm\Security\LASSD\AE\{3C2424CC-95D3-4bea-BEB1-ABBBCF15DA96}]
+"FriendlyName"="AE- Default Policy"
+"DisplayText"="Your App Should overwrite this string - AE_DEFAULT_POLICY"
+"AEFrequencyType"=dword:0
+"AEFrequencyValue"=dword:0
+[HKEY_LOCAL_MACHINE\Comm\Security\LASSD\LAP]
+"ActiveLap"="lap_pw"
+[HKEY_LOCAL_MACHINE\Comm\Security\LASSD\LAP\lap_pw]
+"Dll"="lap_pw.dll"
+[HKEY_CURRENT_USER\keyboard layout\toggle]
+    "Hotkey"="1"
+[HKEY_CURRENT_USER\Keyboard Layout\Preload]
+   @="00000409"
+[HKEY_CURRENT_USER\Keyboard Layout\Preload\1]
+    @="00000409"
+[HKEY_LOCAL_MACHINE\Comm\VEM]
+   "DisplayName"="Virtual Ethernet Intermediate Miniport"
+   "Group"="NDIS"
+   "ImagePath"="veim.dll"
+   "NoDeviceCreate"=dword:1
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\GPSID]
+   "Dll"="GPSID.dll"
+   "Order"=dword:10
+   "Keep"=dword:1
+   "Prefix"="GPD"
+   "Index"=dword:0
+   "Context"=dword:0
+   "Flags"=dword:2
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\GPS Intermediate Driver\Drivers]
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\GPS Intermediate Driver\Multiplexer]
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\GPS Intermediate Driver\Multiplexer\ActiveDevice]
+   "Dll"="GPSID.dll"
+   "Keep"=dword:1
+   "Flags"=dword:2
+   "Context"=dword:12344160
+[HKEY_CLASSES_ROOT\TypeLib\{00020430-0000-0000-C000-000000000046}\2.0\0]
+    @="oleaut32.dll"
+[HKEY_LOCAL_MACHINE\init]
+"Launch60"="services.exe"
+"Depend60"=hex:14,00
+[HKEY_LOCAL_MACHINE\Comm\IrDA]
+    "Hints"=dword:8224
+[HKEY_LOCAL_MACHINE\Services\OBEX]
+   "FriendlyName"="OBEX"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Obex]
+     "protocols"="bth,irda"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Obex\Transports\{30a7bc02-59b6-40bb-aa2b-89eb49ef274e}]
+	"Name"="IRDA"
+[HKEY_CLASSES_ROOT\CLSID\{30a7bc02-59b6-40bb-aa2b-89eb49ef274e}]
+	@="IrDATransport"
+[HKEY_CLASSES_ROOT\CLSID\{30a7bc02-59b6-40bb-aa2b-89eb49ef274e}\InprocServer32]
+	@="OBEXAPI.dll"
+	"ThreadingModel"="Free"
+	"ProgID"="IrDATransport.1"
+	"VersionIndependentProgID"="IrDATransport"
+[HKEY_CLASSES_ROOT\CLSID\{e436ebb2-524f-11ce-9f53-0020af0ba770}]
+@="Filter Mapper"
+[HKEY_CLASSES_ROOT\CLSID\{e436ebb2-524f-11ce-9f53-0020af0ba770}\InprocServer32]
+@="quartz.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{e436ebb3-524f-11ce-9f53-0020af0ba770}]
+@="Filter Graph"
+[HKEY_CLASSES_ROOT\CLSID\{e436ebb3-524f-11ce-9f53-0020af0ba770}\InprocServer32]
+@="quartz.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{e436ebb8-524f-11ce-9f53-0020af0ba770}]
+@="Filter Graph no thread"
+[HKEY_CLASSES_ROOT\CLSID\{e436ebb8-524f-11ce-9f53-0020af0ba770}\InprocServer32]
+@="quartz.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{e436ebb1-524f-11ce-9f53-0020af0ba770}]
+@="System Clock"
+[HKEY_CLASSES_ROOT\CLSID\{e436ebb1-524f-11ce-9f53-0020af0ba770}\InprocServer32]
+@="quartz.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{1e651cc0-b199-11d0-8212-00c04fc32c45}]
+@="Memory Allocator"
+[HKEY_CLASSES_ROOT\CLSID\{1e651cc0-b199-11d0-8212-00c04fc32c45}\InprocServer32]
+@="quartz.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{060AF76C-68DD-11d0-8FC1-00C04FD9189D}]
+@="Seeking"
+[HKEY_CLASSES_ROOT\CLSID\{060AF76C-68DD-11d0-8FC1-00C04FD9189D}\InprocServer32]
+@="quartz.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{e436ebb4-524f-11ce-9f53-0020af0ba770}]
+@="Filter Graph Control Plug In Distributor"
+[HKEY_CLASSES_ROOT\CLSID\{e436ebb4-524f-11ce-9f53-0020af0ba770}\InprocServer32]
+@="quartz.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\Interface\{56a868b2-0ad4-11ce-b03a-0020af0ba770}\Distributor]
+@="{e436ebb4-524f-11ce-9f53-0020af0ba770}"
+[HKEY_CLASSES_ROOT\Interface\{56a868ae-0ad4-11ce-b03a-0020af0ba770}\Distributor]
+@="{e436ebb4-524f-11ce-9f53-0020af0ba770}"
+[HKEY_CLASSES_ROOT\Interface\{36b73880-c2c8-11cf-8b46-00805f6cef60}\Distributor]
+@="{e436ebb4-524f-11ce-9f53-0020af0ba770}"
+[HKEY_CLASSES_ROOT\Interface\{56a868b3-0ad4-11ce-b03a-0020af0ba770}\Distributor]
+@="{e436ebb4-524f-11ce-9f53-0020af0ba770}"
+[HKEY_CLASSES_ROOT\Interface\{56a868b4-0ad4-11ce-b03a-0020af0ba770}\Distributor]
+@="{e436ebb4-524f-11ce-9f53-0020af0ba770}"
+[HKEY_CLASSES_ROOT\Interface\{56a868b5-0ad4-11ce-b03a-0020af0ba770}\Distributor]
+@="{e436ebb4-524f-11ce-9f53-0020af0ba770}"
+[HKEY_CLASSES_ROOT\Interface\{56a868b6-0ad4-11ce-b03a-0020af0ba770}\Distributor]
+@="{e436ebb4-524f-11ce-9f53-0020af0ba770}"
+[HKEY_CLASSES_ROOT\Interface\{56a868b7-0ad4-11ce-b03a-0020af0ba770}\Distributor]
+@="{e436ebb4-524f-11ce-9f53-0020af0ba770}"
+[HKEY_CLASSES_ROOT\Interface\{56a868a2-0ad4-11ce-b03a-0020af0ba770}\Distributor]
+@="{e436ebb4-524f-11ce-9f53-0020af0ba770}"
+[HKEY_CLASSES_ROOT\Interface\{56a868b1-0ad4-11ce-b03a-0020af0ba770}\Distributor]
+@="{e436ebb4-524f-11ce-9f53-0020af0ba770}"
+[HKEY_CLASSES_ROOT\Interface\{56a868ac-0ad4-11ce-b03a-0020af0ba770}\Distributor]
+@="{e436ebb4-524f-11ce-9f53-0020af0ba770}"
+[HKEY_CLASSES_ROOT\CLSID\{BF87B6E0-8C27-11d0-B3F0-00AA003761C5}]
+@="Capture Graph Builder"
+[HKEY_CLASSES_ROOT\CLSID\{BF87B6E0-8C27-11d0-B3F0-00AA003761C5}\InprocServer32]
+@="quartz.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\Filter\{CC58E280-8AA1-11d1-B3F1-00AA003761C5}]
+@="Smart Tee"
+[HKEY_CLASSES_ROOT\CLSID\{CC58E280-8AA1-11d1-B3F1-00AA003761C5}]
+@="Smart Tee"
+"Merit"=dword:00000000
+[HKEY_CLASSES_ROOT\CLSID\{CC58E280-8AA1-11d1-B3F1-00AA003761C5}\InprocServer32]
+@="quartz.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{CC58E280-8AA1-11d1-B3F1-00AA003761C5}\InprocServer32\Pins\Video Input]
+[HKEY_CLASSES_ROOT\CLSID\{CC58E280-8AA1-11d1-B3F1-00AA003761C5}\InprocServer32\Pins\Video Input\{73646976-0000-0010-8000-00AA00389B71}\{00000000-0000-0000-0000-000000000000}]
+[HKEY_CLASSES_ROOT\CLSID\{CC58E280-8AA1-11d1-B3F1-00AA003761C5}\InprocServer32\Pins\Preview Output]
+[HKEY_CLASSES_ROOT\CLSID\{CC58E280-8AA1-11d1-B3F1-00AA003761C5}\InprocServer32\Pins\Preview Output\{73646976-0000-0010-8000-00AA00389B71}\{00000000-0000-0000-0000-000000000000}]
+[HKEY_CLASSES_ROOT\CLSID\{CC58E280-8AA1-11d1-B3F1-00AA003761C5}\InprocServer32\Pins\Capture Output]
+[HKEY_CLASSES_ROOT\CLSID\{CC58E280-8AA1-11d1-B3F1-00AA003761C5}\InprocServer32\Pins\Capture Output\{73646976-0000-0010-8000-00AA00389B71}\{00000000-0000-0000-0000-000000000000}]
+[HKEY_CLASSES_ROOT\Filter\{32003718-B4f9-4BD5-AC2F-7E11B079079D}]
+@="Buffering Filter"
+[HKEY_CLASSES_ROOT\CLSID\{32003718-B4f9-4BD5-AC2F-7E11B079079D}]
+@="Buffering Filter"
+"Merit"=dword:00600001
+[HKEY_CLASSES_ROOT\CLSID\{32003718-B4f9-4BD5-AC2F-7E11B079079D}\InprocServer32]
+@="quartz.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{32003718-B4f9-4BD5-AC2F-7E11B079079D}\Pins\Unbuffered Input]
+"Direction"=dword:00000000
+"IsRendered"=dword:00000000
+"AllowedZero"=dword:00000000
+"AllowedMany"=dword:00000000
+[HKEY_CLASSES_ROOT\CLSID\{32003718-B4f9-4BD5-AC2F-7E11B079079D}\Pins\Unbuffered Input\Types\{73646976-0000-0010-8000-00AA00389B71}\{00000000-0000-0000-0000-000000000000}]
+[HKEY_CLASSES_ROOT\CLSID\{32003718-B4f9-4BD5-AC2F-7E11B079079D}\Pins\Unbuffered Input\Types\{73647561-0000-0010-8000-00AA00389B71}\{00000000-0000-0000-0000-000000000000}]
+[HKEY_CLASSES_ROOT\CLSID\{32003718-B4f9-4BD5-AC2F-7E11B079079D}\Pins\Buffered Output]
+"Direction"=dword:00000001
+"IsRendered"=dword:00000000
+"AllowedZero"=dword:00000000
+"AllowedMany"=dword:00000000
+[HKEY_CLASSES_ROOT\CLSID\{32003718-B4f9-4BD5-AC2F-7E11B079079D}\Pins\Buffered Output\Types\{28E3A27D-5F48-4700-913B-4986608C8A8B}\{00000000-0000-0000-0000-000000000000}]
+[HKEY_CLASSES_ROOT\CLSID\{32003718-B4f9-4BD5-AC2F-7E11B079079D}\Pins\Buffered Output\Types\{451EFE59-3BBD-43C7-9E67-511A835FA7F1}\{00000000-0000-0000-0000-000000000000}]
+[HKEY_CLASSES_ROOT\Filter\{4f4ba16c-ccb0-4d23-b1e8-672c7dfe4a02}]
+@="ASF Writer"
+[HKEY_CLASSES_ROOT\CLSID\{4f4ba16c-ccb0-4d23-b1e8-672c7dfe4a02}]
+@="ASF Writer"
+"Merit"=dword:00000000
+[HKEY_CLASSES_ROOT\CLSID\{4f4ba16c-ccb0-4d23-b1e8-672c7dfe4a02}\InprocServer32]
+@="quartz.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{4f4ba16c-ccb0-4d23-b1e8-672c7dfe4a02}\InprocServer32\Pins\Audio Input]
+[HKEY_CLASSES_ROOT\CLSID\{4f4ba16c-ccb0-4d23-b1e8-672c7dfe4a02}\InprocServer32\Pins\Audio Input\{73647561-0000-0010-8000-00AA00389B71}\{00000000-0000-0000-0000-000000000000}]
+[HKEY_CLASSES_ROOT\CLSID\{4f4ba16c-ccb0-4d23-b1e8-672c7dfe4a02}\InprocServer32\Pins\Video Input]
+[HKEY_CLASSES_ROOT\CLSID\{4f4ba16c-ccb0-4d23-b1e8-672c7dfe4a02}\InprocServer32\Pins\Video Input\{73646976-0000-0010-8000-00AA00389B71}\{00000000-0000-0000-0000-000000000000}]
+[HKEY_CLASSES_ROOT\Filter\{1d4d3676-96ef-4cd7-a3d7-07fac0d0c585}]
+@="Image Sink Filter"
+[HKEY_CLASSES_ROOT\CLSID\{1d4d3676-96ef-4cd7-a3d7-07fac0d0c585}]
+@="Image Sink Filter"
+"Merit"=dword:00000000
+[HKEY_CLASSES_ROOT\CLSID\{1d4d3676-96ef-4cd7-a3d7-07fac0d0c585}\InprocServer32]
+@="quartz.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{1d4d3676-96ef-4cd7-a3d7-07fac0d0c585}\InprocServer32\Pins\Video Input]
+[HKEY_CLASSES_ROOT\CLSID\{1d4d3676-96ef-4cd7-a3d7-07fac0d0c585}\InprocServer32\Pins\Video Input\{73646976-0000-0010-8000-00AA00389B71}\{e436eb78-524f-11ce-9f53-0020af0ba770}]
+[HKEY_CLASSES_ROOT\CLSID\{1d4d3676-96ef-4cd7-a3d7-07fac0d0c585}\InprocServer32\Pins\Video Input\{73646976-0000-0010-8000-00AA00389B71}\{e436eb79-524f-11ce-9f53-0020af0ba770}]
+[HKEY_CLASSES_ROOT\CLSID\{1d4d3676-96ef-4cd7-a3d7-07fac0d0c585}\InprocServer32\Pins\Video Input\{73646976-0000-0010-8000-00AA00389B71}\{e436eb7a-524f-11ce-9f53-0020af0ba770}]
+[HKEY_CLASSES_ROOT\CLSID\{1d4d3676-96ef-4cd7-a3d7-07fac0d0c585}\InprocServer32\Pins\Video Input\{73646976-0000-0010-8000-00AA00389B71}\{e436eb7c-524f-11ce-9f53-0020af0ba770}]
+[HKEY_CLASSES_ROOT\CLSID\{1d4d3676-96ef-4cd7-a3d7-07fac0d0c585}\InprocServer32\Pins\Video Input\{73646976-0000-0010-8000-00AA00389B71}\{e436eb7b-524f-11ce-9f53-0020af0ba770}]
+[HKEY_CLASSES_ROOT\CLSID\{1d4d3676-96ef-4cd7-a3d7-07fac0d0c585}\InprocServer32\Pins\Video Input\{73646976-0000-0010-8000-00AA00389B71}\{e436eb7d-524f-11ce-9f53-0020af0ba770}]
+[HKEY_CLASSES_ROOT\CLSID\{1d4d3676-96ef-4cd7-a3d7-07fac0d0c585}\InprocServer32\Pins\Video Input\{73646976-0000-0010-8000-00AA00389B71}\{e436eb7e-524f-11ce-9f53-0020af0ba770}]
+[HKEY_CLASSES_ROOT\Filter\{1B544C20-FD0B-11ce-8C63-00AA0044B51E}]
+@="AVI Splitter"
+[HKEY_CLASSES_ROOT\CLSID\{1B544C20-FD0B-11ce-8C63-00AA0044B51E}]
+@="AVI Splitter"
+"Merit"=dword:00600000
+[HKEY_CLASSES_ROOT\CLSID\{1B544C20-FD0B-11ce-8C63-00AA0044B51E}\InprocServer32]
+@="quartz.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{1B544C20-FD0B-11ce-8C63-00AA0044B51E}\Pins\Input]
+[HKEY_CLASSES_ROOT\CLSID\{1B544C20-FD0B-11ce-8C63-00AA0044B51E}\Pins\Input\Types\{e436eb83-524f-11ce-9f53-0020af0ba770}\{e436eb88-524f-11ce-9f53-0020af0ba770}]
+[HKEY_CLASSES_ROOT\CLSID\{1B544C20-FD0B-11ce-8C63-00AA0044B51E}\Pins\Output]
+"Direction"=dword:00000001
+[HKEY_CLASSES_ROOT\CLSID\{1B544C20-FD0B-11ce-8C63-00AA0044B51E}\Pins\Output\Types\{73646976-0000-0010-8000-00AA00389B71}\{00000000-0000-0000-0000-000000000000}]
+[HKEY_CLASSES_ROOT\Media Type\{e436eb83-524f-11ce-9f53-0020af0ba770}\{e436eb88-524f-11ce-9f53-0020af0ba770}]
+"0"="0,4,,52494646,8,4,,41564920"
+"Source Filter"="{e436ebb5-524f-11ce-9f53-0020af0ba770}"
+[HKEY_CLASSES_ROOT\Filter\{1643e180-90f5-11ce-97d5-00aa0055595a}]
+@="Color Space Converter"
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}]
+@="Color Space Converter"
+"Merit"=dword:00400000
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}\InprocServer32]
+@="quartz.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}\Pins\Input]
+"ConnectsToPin"="Output"
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}\Pins\Input\Types\{73646976-0000-0010-8000-00AA00389B71}\{32315659-0000-0010-8000-00AA00389B71}]
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}\Pins\Input\Types\{73646976-0000-0010-8000-00AA00389B71}\{32595559-0000-0010-8000-00AA00389B71}]
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}\Pins\Input\Types\{73646976-0000-0010-8000-00AA00389B71}\{55595659-0000-0010-8000-00AA00389B71}]
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}\Pins\Input\Types\{73646976-0000-0010-8000-00AA00389B71}\{59565955-0000-0010-8000-00AA00389B71}]
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}\Pins\Input\Types\{73646976-0000-0010-8000-00AA00389B71}\{e436eb7a-524f-11ce-9f53-0020af0ba770}]
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}\Pins\Input\Types\{73646976-0000-0010-8000-00AA00389B71}\{e436eb7c-524f-11ce-9f53-0020af0ba770}]
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}\Pins\Input\Types\{73646976-0000-0010-8000-00AA00389B71}\{e436eb7b-524f-11ce-9f53-0020af0ba770}]
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}\Pins\Input\Types\{73646976-0000-0010-8000-00AA00389B71}\{e436eb7d-524f-11ce-9f53-0020af0ba770}]
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}\Pins\Input\Types\{73646976-0000-0010-8000-00AA00389B71}\{e436eb7e-524f-11ce-9f53-0020af0ba770}]
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}\Pins\Buffered Input\Types\{28e3a27d-5f48-4700-913b-4986608c8a8b}\{32315659-0000-0010-8000-00AA00389B71}]
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}\Pins\Buffered Input\Types\{28e3a27d-5f48-4700-913b-4986608c8a8b}\{32595559-0000-0010-8000-00AA00389B71}]
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}\Pins\Buffered Input\Types\{28e3a27d-5f48-4700-913b-4986608c8a8b}\{55595659-0000-0010-8000-00AA00389B71}]
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}\Pins\Buffered Input\Types\{28e3a27d-5f48-4700-913b-4986608c8a8b}\{59565955-0000-0010-8000-00AA00389B71}]
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}\Pins\Buffered Input\Types\{28e3a27d-5f48-4700-913b-4986608c8a8b}\{e436eb7a-524f-11ce-9f53-0020af0ba770}]
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}\Pins\Buffered Input\Types\{28e3a27d-5f48-4700-913b-4986608c8a8b}\{e436eb7c-524f-11ce-9f53-0020af0ba770}]
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}\Pins\Buffered Input\Types\{28e3a27d-5f48-4700-913b-4986608c8a8b}\{e436eb7b-524f-11ce-9f53-0020af0ba770}]
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}\Pins\Buffered Input\Types\{28e3a27d-5f48-4700-913b-4986608c8a8b}\{e436eb7d-524f-11ce-9f53-0020af0ba770}]
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}\Pins\Buffered Input\Types\{28e3a27d-5f48-4700-913b-4986608c8a8b}\{e436eb7e-524f-11ce-9f53-0020af0ba770}]
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}\Pins\Output]
+"Direction"=dword:00000001
+"ConnectsToPin"="Input"
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}\Pins\Output\Types\{73646976-0000-0010-8000-00AA00389B71}\{e436eb7a-524f-11ce-9f53-0020af0ba770}]
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}\Pins\Output\Types\{73646976-0000-0010-8000-00AA00389B71}\{e436eb7c-524f-11ce-9f53-0020af0ba770}]
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}\Pins\Output\Types\{73646976-0000-0010-8000-00AA00389B71}\{e436eb7b-524f-11ce-9f53-0020af0ba770}]
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}\Pins\Output\Types\{73646976-0000-0010-8000-00AA00389B71}\{e436eb7d-524f-11ce-9f53-0020af0ba770}]
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}\Pins\Output\Types\{73646976-0000-0010-8000-00AA00389B71}\{e436eb7e-524f-11ce-9f53-0020af0ba770}]
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}\Pins\Output\Types\{73646976-0000-0010-8000-00AA00389B71}\{32315659-0000-0010-8000-00AA00389B71}]
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}\Pins\Buffered Output\Types\{28e3a27d-5f48-4700-913b-4986608c8a8b}\{e436eb7a-524f-11ce-9f53-0020af0ba770}]
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}\Pins\Buffered Output\Types\{28e3a27d-5f48-4700-913b-4986608c8a8b}\{e436eb7c-524f-11ce-9f53-0020af0ba770}]
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}\Pins\Buffered Output\Types\{28e3a27d-5f48-4700-913b-4986608c8a8b}\{e436eb7b-524f-11ce-9f53-0020af0ba770}]
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}\Pins\Buffered Output\Types\{28e3a27d-5f48-4700-913b-4986608c8a8b}\{e436eb7d-524f-11ce-9f53-0020af0ba770}]
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}\Pins\Buffered Output\Types\{28e3a27d-5f48-4700-913b-4986608c8a8b}\{e436eb7e-524f-11ce-9f53-0020af0ba770}]
+[HKEY_CLASSES_ROOT\CLSID\{1643e180-90f5-11ce-97d5-00aa0055595a}\Pins\Buffered Output\Types\{28e3a27d-5f48-4700-913b-4986608c8a8b}\{32315659-0000-0010-8000-00AA00389B71}]
+[HKEY_CLASSES_ROOT\Filter\{CF49D4E0-1115-11ce-B03A-0020AF0BA770}]
+@="AVI Decompressor"
+[HKEY_CLASSES_ROOT\CLSID\{CF49D4E0-1115-11ce-B03A-0020AF0BA770}]
+@="AVI Decompressor"
+"Merit"=dword:00600000
+[HKEY_CLASSES_ROOT\CLSID\{CF49D4E0-1115-11ce-B03A-0020AF0BA770}\InprocServer32]
+@="quartz.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{CF49D4E0-1115-11ce-B03A-0020AF0BA770}\Pins\Input]
+"ConnectsToPin"="Output"
+[HKEY_CLASSES_ROOT\CLSID\{CF49D4E0-1115-11ce-B03A-0020AF0BA770}\Pins\Input\Types\{73646976-0000-0010-8000-00AA00389B71}\{00000000-0000-0000-0000-000000000000}]
+[HKEY_CLASSES_ROOT\CLSID\{CF49D4E0-1115-11ce-B03A-0020AF0BA770}\Pins\Output]
+"Direction"=dword:00000001
+"ConnectsToPin"="Input"
+[HKEY_CLASSES_ROOT\CLSID\{CF49D4E0-1115-11ce-B03A-0020AF0BA770}\Pins\Output\Types\{73646976-0000-0010-8000-00AA00389B71}\{00000000-0000-0000-0000-000000000000}]
+[HKEY_CLASSES_ROOT\CLSID\{94297043-bd82-4dfd-b0de-8177739c6d20}]
+@="DMO Filter Wrapper"
+[HKEY_CLASSES_ROOT\CLSID\{94297043-bd82-4dfd-b0de-8177739c6d20}\InprocServer32]
+@="quartz.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{d23b90d0-144f-46bd-841d-59e4eb19dc59}]
+@="WMVideo9 Encoder DMO"
+"Merit"=dword:00800000
+[HKEY_CLASSES_ROOT\CLSID\{d23b90d0-144f-46bd-841d-59e4eb19dc59}\InprocServer32]
+@="wmvdmoe.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{651b4f0a-4340-4526-abb0-90879e9b055a}]
+@="WMVideo9 Encoder DMO"
+"Merit"=dword:00800000
+"DMOGuid"="d23b90d0-144f-46bd-841d-59e4eb19dc59"
+"DMOCategory"="33d9a760-90c8-11d0-bd43-00a0c911ce86"
+[HKEY_CLASSES_ROOT\CLSID\{651b4f0a-4340-4526-abb0-90879e9b055a}\InprocServer32]
+@="msdmo.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{651b4f0a-4340-4526-abb0-90879e9b055a}\Pins\Buffered Input\Types\{28e3a27d-5f48-4700-913b-4986608c8a8b}\{32315659-0000-0010-8000-00AA00389B71}]
+[HKEY_CLASSES_ROOT\CLSID\{651b4f0a-4340-4526-abb0-90879e9b055a}\Pins\Buffered Input\Types\{28e3a27d-5f48-4700-913b-4986608c8a8b}\{32595559-0000-0010-8000-00AA00389B71}]
+[HKEY_CLASSES_ROOT\CLSID\{651b4f0a-4340-4526-abb0-90879e9b055a}\Pins\Buffered Input\Types\{28e3a27d-5f48-4700-913b-4986608c8a8b}\{E436EB7B-524F-11CE-9F53-0020AF0BA770}]
+[HKEY_CLASSES_ROOT\CLSID\{651b4f0a-4340-4526-abb0-90879e9b055a}\Pins\Buffered Output]
+"Direction"=dword:00000001
+[HKEY_CLASSES_ROOT\CLSID\{651b4f0a-4340-4526-abb0-90879e9b055a}\Pins\Buffered Output\Types\{28e3a27d-5f48-4700-913b-4986608c8a8b}\{33564D57-0000-0010-8000-00AA00389B71}]
+[HKEY_CLASSES_ROOT\Filter\{651b4f0a-4340-4526-abb0-90879e9b055a}]
+@="WMVideo9 Encoder DMO"
+[HKEY_CLASSES_ROOT\DirectShow\MediaObjects\d23b90d0-144f-46bd-841d-59e4eb19dc59]
+@="WMVideo9 Encoder DMO"
+"InputTypes"=hex: \
+  7d,a2,e3,28,48,5f,00,47,91,3b,49,86,60,8c,8a,8b,\
+  59,56,31,32,00,00,10,00,80,00,00,aa,00,38,9b,71,\
+  7d,a2,e3,28,48,5f,00,47,91,3b,49,86,60,8c,8a,8b,\
+  59,55,59,32,00,00,10,00,80,00,00,aa,00,38,9b,71,\
+  7d,a2,e3,28,48,5f,00,47,91,3b,49,86,60,8c,8a,8b,\
+  7b,eb,36,e4,4f,52,ce,11,9f,53,00,20,af,0b,a7,70,
+"OutputTypes"=hex: \
+  7d,a2,e3,28,48,5f,00,47,91,3b,49,86,60,8c,8a,8b,\
+  57,4d,56,33,00,00,10,00,80,00,00,aa,00,38,9b,71,
+[HKEY_CLASSES_ROOT\DirectShow\MediaObjects\Categories\33d9a760-90c8-11d0-bd43-00a0c911ce86]
+@="Video encoders"
+[HKEY_CLASSES_ROOT\DirectShow\MediaObjects\Categories\33d9a760-90c8-11d0-bd43-00a0c911ce86\d23b90d0-144f-46bd-841d-59e4eb19dc59]
+[HKEY_CLASSES_ROOT\Filter\{70e102b0-5556-11ce-97c0-00aa0055595a}]
+@="Video Renderer"
+[HKEY_CLASSES_ROOT\CLSID\{70e102b0-5556-11ce-97c0-00aa0055595a}]
+@="Video Renderer"
+"Merit"=dword:00800000
+[HKEY_CLASSES_ROOT\Clsid\{70e102b0-5556-11ce-97c0-00aa0055595a}\InprocServer32]
+@="quartz.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{70e102b0-5556-11ce-97c0-00aa0055595a}\Pins\Input]
+"IsRendered"=dword:00000001
+[HKEY_CLASSES_ROOT\CLSID\{70e102b0-5556-11ce-97c0-00aa0055595a}\Pins\Input\Types\{73646976-0000-0010-8000-00AA00389B71}\{00000000-0000-0000-0000-000000000000}]
+[HKEY_LOCAL_MACHINE\Software\Microsoft\DirectX\DirectShow\Video Renderer]
+"SurfaceTypes"=dword:000000FF
+"UseScanLine"=dword:0
+"UseOverlayStretch"=dword:1
+"MaxBackBuffers"=dword:1
+"KeyColor"=hex:09,09,09,00
+"KeyIndex"=hex:FD,00,00,00
+[HKEY_CLASSES_ROOT\Filter\{f80b6e95-b55a-4619-aec4-a10eaede980c}]
+@="Video Capture"
+[HKEY_CLASSES_ROOT\CLSID\{f80b6e95-b55a-4619-aec4-a10eaede980c}]
+@="Video Capture"
+"Merit"=dword:00000000
+[HKEY_CLASSES_ROOT\Clsid\{f80b6e95-b55a-4619-aec4-a10eaede980c}\InprocServer32]
+@="quartz.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{f80b6e95-b55a-4619-aec4-a10eaede980c}\Pins\Output]
+[HKEY_CLASSES_ROOT\CLSID\{f80b6e95-b55a-4619-aec4-a10eaede980c}\Pins\Output\Types\{73646976-0000-0010-8000-00AA00389B71}\{00000000-0000-0000-0000-000000000000}]
+[HKEY_CLASSES_ROOT\Filter\{e30629d2-27e5-11ce-875d-00608cb78066}]
+@="Audio Capture"
+[HKEY_CLASSES_ROOT\CLSID\{e30629d2-27e5-11ce-875d-00608cb78066}]
+@="Audio Capture"
+"Merit"=dword:00000000
+[HKEY_CLASSES_ROOT\Clsid\{e30629d2-27e5-11ce-875d-00608cb78066}\InprocServer32]
+@="quartz.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{e30629d2-27e5-11ce-875d-00608cb78066}\Pins\Output]
+[HKEY_CLASSES_ROOT\CLSID\{e30629d2-27e5-11ce-875d-00608cb78066}\Pins\Output\Types\{73647561-0000-0010-8000-00AA00389B71}\{00000000-0000-0000-0000-000000000000}]
+[HKEY_CLASSES_ROOT\Filter\{D51BD5A1-7548-11cf-A520-0080C77EF58A}]
+@="Wave Parser"
+[HKEY_CLASSES_ROOT\CLSID\{D51BD5A1-7548-11cf-A520-0080C77EF58A}]
+@="Wave Parser"
+"Merit"=dword:00400000
+[HKEY_CLASSES_ROOT\CLSID\{D51BD5A1-7548-11cf-A520-0080C77EF58A}\InprocServer32]
+@="quartz.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{D51BD5A1-7548-11cf-A520-0080C77EF58A}\Pins\Input]
+[HKEY_CLASSES_ROOT\CLSID\{D51BD5A1-7548-11cf-A520-0080C77EF58A}\Pins\Input\Types\{E436EB83-524F-11CE-9F53-0020AF0BA770}\{e436eb8b-524f-11ce-9f53-0020af0ba770}]
+[HKEY_CLASSES_ROOT\CLSID\{D51BD5A1-7548-11cf-A520-0080C77EF58A}\Pins\Input\Types\{E436EB83-524F-11CE-9F53-0020AF0BA770}\{e436eb8c-524f-11ce-9f53-0020af0ba770}]
+[HKEY_CLASSES_ROOT\CLSID\{D51BD5A1-7548-11cf-A520-0080C77EF58A}\Pins\Input\Types\{E436EB83-524F-11CE-9F53-0020AF0BA770}\{e436eb8d-524f-11ce-9f53-0020af0ba770}]
+[HKEY_CLASSES_ROOT\Media Type\{E436EB83-524F-11CE-9F53-0020AF0BA770}\{e436eb8b-524f-11ce-9f53-0020af0ba770}]
+"0"="0,4,,52494646,8,4,,57415645"
+"Source Filter"="{e436ebb5-524f-11ce-9f53-0020af0ba770}"
+[HKEY_CLASSES_ROOT\Media Type\{e436eb83-524f-11ce-9f53-0020af0ba770}\{e436eb8d-524f-11ce-9f53-0020af0ba770}]
+"0"="0,4,,464f524d,8,4,,41494646"
+"1"="0,4,,464f524d,8,4,,41494643"
+"Source Filter"="{E436EBB5-524F-11CE-9F53-0020AF0BA770}"
+[HKEY_CLASSES_ROOT\Media Type\{e436eb83-524f-11ce-9f53-0020af0ba770}\{e436eb8c-524f-11ce-9f53-0020af0ba770}]
+"0"="0,4,,2e736e64"
+"Source Filter"="{E436EBB5-524F-11CE-9F53-0020AF0BA770}"
+[HKEY_CLASSES_ROOT\Filter\{e30629d1-27e5-11ce-875d-00608cb78066}]
+@="Audio Renderer"
+[HKEY_CLASSES_ROOT\CLSID\{e30629d1-27e5-11ce-875d-00608cb78066}]
+@="Audio Renderer"
+"Merit"=dword:00800000
+[HKEY_CLASSES_ROOT\CLSID\{e30629d1-27e5-11ce-875d-00608cb78066}\InprocServer32]
+@="quartz.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{e30629d1-27e5-11ce-875d-00608cb78066}\Pins\Input]
+"IsRendered"=dword:00000001
+[HKEY_CLASSES_ROOT\CLSID\{e30629d1-27e5-11ce-875d-00608cb78066}\Pins\Input\Types\{73647561-0000-0010-8000-00AA00389B71}\{00000000-0000-0000-0000-000000000000}]
+[HKEY_CLASSES_ROOT\Filter\{e436ebb5-524f-11ce-9f53-0020af0ba770}]
+@="File Source (Async.)"
+[HKEY_CLASSES_ROOT\CLSID\{e436ebb5-524f-11ce-9f53-0020af0ba770}]
+@="File Source (Async.)"
+"Merit"=dword:00400000
+[HKEY_CLASSES_ROOT\CLSID\{e436ebb5-524f-11ce-9f53-0020af0ba770}\InprocServer32]
+@="quartz.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{e436ebb5-524f-11ce-9f53-0020af0ba770}\Pins\Output]
+"Direction"=dword:00000001
+[HKEY_CLASSES_ROOT\CLSID\{e436ebb5-524f-11ce-9f53-0020af0ba770}\Pins\Output\Types\{E436EB83-524F-11CE-9F53-0020AF0BA770}\{00000000-0000-0000-0000-000000000000}]
+[HKEY_CLASSES_ROOT\Filter\{e436ebb6-524f-11ce-9f53-0020af0ba770}]
+@="File Source (URL)"
+[HKEY_CLASSES_ROOT\CLSID\{e436ebb6-524f-11ce-9f53-0020af0ba770}]
+@="File Source (URL)"
+"Merit"=dword:00400000
+[HKEY_CLASSES_ROOT\CLSID\{e436ebb6-524f-11ce-9f53-0020af0ba770}\InprocServer32]
+@="quartz.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\http]
+"Source Filter"="{e436ebb6-524f-11ce-9f53-0020af0ba770}"
+[HKEY_CLASSES_ROOT\https]
+"Source Filter"="{e436ebb6-524f-11ce-9f53-0020af0ba770}"
+[HKEY_CLASSES_ROOT\file]
+"Source Filter"="{e436ebb5-524f-11ce-9f53-0020af0ba770}"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows CE\CurrentVersion\Drivers32]
+    "vidc.mrle"="msrle32.dll"
+[HKEY_CLASSES_ROOT\.wav]
+@="audiofile"
+"Content Type"="audio/wav"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\audio/wav]
+"Extension"=".wav"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\audio/x-wav]
+"Extension"=".wav"
+[HKEY_CLASSES_ROOT\.aif]
+@="audiofile"
+"Content Type"="audio/aiff"
+[HKEY_CLASSES_ROOT\.aiff]
+@="audiofile"
+"Content Type"="audio/aiff"
+[HKEY_CLASSES_ROOT\.aifc]
+@="audiofile"
+"Content Type"="audio/aiff"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\audio/aiff]
+"Extension"=".aiff"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\audio/x-aiff]
+"Extension"=".aiff"
+[HKEY_CLASSES_ROOT\.au]
+@="audiofile"
+"Content Type"="audio/basic"
+[HKEY_CLASSES_ROOT\.snd]
+@="audiofile"
+"Content Type"="audio/basic"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\audio/basic]
+"Extension"=".au"
+[HKEY_CLASSES_ROOT\.avi]
+@="videofile"
+"Content Type"="video/avi"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\video/avi]
+"Extension"=".avi"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\video/x-msvideo]
+"Extension"=".avi"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\video/msvideo]
+"Extension"=".avi"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\audio/wav]
+"CLSID"="{22D6F312-B0F6-11D0-94AB-0080C74C7E95}"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\audio/x-wav]
+"CLSID"="{22D6F312-B0F6-11D0-94AB-0080C74C7E95}"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\audio/aiff]
+"CLSID"="{22D6F312-B0F6-11D0-94AB-0080C74C7E95}"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\audio/x-aiff]
+"CLSID"="{22D6F312-B0F6-11D0-94AB-0080C74C7E95}"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\audio/basic]
+"CLSID"="{22D6F312-B0F6-11D0-94AB-0080C74C7E95}"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\video/avi]
+"CLSID"="{22D6F312-B0F6-11D0-94AB-0080C74C7E95}"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\video/x-msvideo]
+"CLSID"="{22D6F312-B0F6-11D0-94AB-0080C74C7E95}"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\video/msvideo]
+"CLSID"="{22D6F312-B0F6-11D0-94AB-0080C74C7E95}"
+[HKEY_LOCAL_MACHINE\init]
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\ErrorReporting]
+    "Dll"="DwXfer.dll"
+    "FriendlyName" = "Dump File Transfer"
+    "PollInterval"=dword:927C0
+    "PollPriority256"=dword:F9
+[HKEY_LOCAL_MACHINE\System\ErrorReporting\DumpSettings]
+    "DumpDirectory"="\\Windows\\DumpFiles"
+    "ExtraFilesDirectory"="\\Windows\\ExtraDumpFiles"
+    "CabDirectory"="\\Windows\\DumpFiles\\CabFiles"
+    "UploadClient"="\\Windows\\Dw.exe"
+    "MaxDiskUsage"=dword:80000
+    "DumpEnabled"=dword:1
+[HKEY_LOCAL_MACHINE\Comm\Cellular\WAP\Driver]
+   "Flags"=dword:2
+   "Dll"="WAPdrv.dll"
+   "Prefix"="WAP"
+   "Index"=dword:1
+[HKEY_LOCAL_MACHINE\Comm\Cellular\WAP\WAPImpl]
+[HKEY_LOCAL_MACHINE\Comm\Cellular\WAP\WAPImpl\WDPReservedPorts]
+"0"=dword:40A
+"1"=dword:7D6
+"2"=dword:B84
+[HKEY_LOCAL_MACHINE\Security\WTLS]
+    "KeyExchangeSuites"=hex:00,01,02,03,04,05
+   "CipherSuites"=hex:00,01,02,03,04,05,06,07
+[HKEY_LOCAL_MACHINE\Security\WTLS\Certificates]
+    "Baltimore CyberTrust Mobile Root"=hex:01,02,01,00,04,3b,43,79,62,65,72,54,72,75,73,74,3b,20,42,61,6c,74,69,6d,6f,72,65,3b,20,\
+    49,45,3b,20,42,61,6c,74,69,6d,6f,72,65,20,43,79,62,65,72,54,72,75,73,74,20,4d,6f,62,69,6c,65,20,52,6f,6f,74,39,1c,4b,50,5e,bb,\
+    38,44,01,00,04,3b,43,79,62,65,72,54,72,75,73,74,3b,20,42,61,6c,74,69,6d,6f,72,65,3b,20,49,45,3b,20,42,61,6c,74,69,6d,6f,72,65,\
+    20,43,79,62,65,72,54,72,75,73,74,20,4d,6f,62,69,6c,65,20,52,6f,6f,74,02,00,00,03,01,00,01,00,80,a3,6d,b1,38,56,ac,fc,b5,56,21,\
+    de,c0,90,5d,26,47,82,c6,7d,8f,1f,a0,85,8f,2f,bb,d4,e1,1c,1d,f2,24,1f,28,b0,2f,b9,a4,a5,6f,a2,22,20,64,fe,84,47,3c,7e,2b,6c,69,\
+    6a,b8,d4,c0,96,8e,8c,52,0d,cd,6f,41,d4,bf,04,ae,a7,81,2f,2d,98,48,d2,c1,94,a3,b5,19,5d,5d,51,64,f4,8e,41,b0,9b,c0,2d,22,a0,5e,\
+    c6,d8,5a,12,63,bc,11,4a,5e,26,12,1d,e2,26,05,e6,0f,5f,22,1f,7a,5f,76,94,ae,cf,5a,28,0e,ab,45,da,22,31,00,80,5a,fc,9b,62,e3,98,\
+    7d,1c,65,2c,d5,fd,a0,6c,f2,20,12,db,9c,97,21,ab,d9,f6,60,4d,ca,a9,02,32,e7,e7,79,35,60,01,a5,f2,1e,6b,b2,7e,66,6b,4a,77,c7,d9,\
+    3a,53,65,9e,2c,30,f7,8f,06,4e,42,99,51,22,38,1b,92,0d,50,5e,b9,1b,e5,0b,c6,a5,49,5e,d1,5f,ab,65,4f,b0,24,a7,69,71,cb,ad,47,8a,\
+    cf,85,a3,da,65,d9,62,df,f8,fb,6d,1a,4d,71,8e,01,5f,a0,a1,80,be,2c,f6,0f,fa,e1,39,6a,69,67,01,7b,77,0f,55,4a,d3,48
+    "Entrust.net WAP CA"=hex:01,02,01,00,04,4c,45,6e,74,72,75,73,74,2e,6e,65,74,20,57,41,50,20,43,41,20,28,63,29,20,31,39,39,39,3b,\
+    20,4c,69,6d,69,74,65,64,20,6c,69,61,62,69,6c,69,74,79,2e,20,53,65,65,20,77,77,77,2e,65,6e,74,72,75,73,74,2e,6e,65,74,2f,57,41,\
+    50,43,50,53,3b,20,38,a0,42,d1,5e,3e,e7,59,01,00,04,4c,45,6e,74,72,75,73,74,2e,6e,65,74,20,57,41,50,20,43,41,20,28,63,29,20,31,\
+    39,39,39,3b,20,4c,69,6d,69,74,65,64,20,6c,69,61,62,69,6c,69,74,79,2e,20,53,65,65,20,77,77,77,2e,65,6e,74,72,75,73,74,2e,6e,65,\
+    74,2f,57,41,50,43,50,53,3b,20,02,00,00,03,01,00,01,00,80,95,3d,7e,62,32,16,64,c2,08,21,0a,da,99,29,9a,21,82,5f,f3,94,8b,c1,14,\
+    79,1c,a2,ba,7f,59,0a,26,23,01,47,d4,09,e2,36,19,ac,e6,ce,b5,78,b9,e0,4f,1f,e0,0f,3e,a0,5d,e9,d6,b7,57,b0,b8,c9,98,3a,d3,fd,3e,\
+    19,4b,1e,16,e3,77,9b,55,f0,65,53,5a,7b,42,66,a7,be,6b,3a,95,50,75,1e,ee,ed,97,fb,af,8f,4c,c6,82,cf,f7,12,84,3b,ee,14,52,31,8e,\
+    ca,a5,10,8f,75,cb,88,6d,01,88,c7,6f,57,a5,ac,fc,41,b7,c6,62,c9,00,80,00,ff,bc,32,9a,40,39,ab,e8,26,01,12,82,e7,46,80,30,ae,8d,\
+    5b,3d,8a,06,e6,2e,f2,88,79,f5,7e,1a,0f,c0,11,bd,b6,ca,c4,8c,49,ff,7b,1f,82,85,94,70,d5,bd,c0,d0,30,68,f7,8c,70,1e,7d,24,ea,a0,\
+    d6,53,95,f2,09,78,0c,83,93,27,71,53,64,02,d9,7f,e2,10,64,e2,97,22,5d,8e,62,29,25,14,a0,6e,0c,03,c6,2c,40,4c,c1,fa,f7,68,35,5a,\
+    cc,2c,37,e8,1c,0c,59,2f,f9,9e,c5,7b,c8,48,0f,1b,0b,9d,66,bf,6a,ba,b8,c2,7d
+    "VeriSign Class 3 Mobile Services"=hex:01,02,01,00,04,9a,43,6c,61,73,73,20,33,20,50,75,62,6c,69,63,20,50,72,69,6d,61,72,79,20,\
+    43,65,72,74,69,66,69,63,61,74,69,6f,6e,20,41,75,74,68,6f,72,69,74,79,20,2d,20,47,32,3b,20,56,65,72,69,53,69,67,6e,2c,20,49,6e,\
+    63,2e,3b,20,55,53,3b,20,3b,20,4f,55,3d,28,63,29,20,31,39,39,38,20,56,65,72,69,53,69,67,6e,2c,20,49,6e,63,2e,20,2d,20,46,6f,72,\
+    20,61,75,74,68,6f,72,69,7a,65,64,20,75,73,65,20,6f,6e,6c,79,3b,20,4f,55,3d,56,65,72,69,53,69,67,6e,20,54,72,75,73,74,20,4e,65,\
+    74,77,6f,72,6b,39,0f,6c,00,4b,de,11,ff,01,00,04,53,56,65,72,69,53,69,67,6e,20,43,6c,61,73,73,20,33,20,4d,6f,62,69,6c,65,20,53,\
+    65,72,76,69,63,65,73,3b,20,56,65,72,69,53,69,67,6e,20,49,6e,63,3b,20,55,53,3b,20,3b,20,4f,55,3d,56,65,72,69,53,69,67,6e,20,74,\
+    65,72,6d,73,20,61,74,20,76,72,70,61,2e,6e,65,74,02,00,00,03,01,00,01,00,80,98,34,b5,6c,f3,58,7c,f5,37,1e,e9,67,19,70,20,95,05,\
+    93,03,19,f1,69,6c,4e,65,ad,b0,d1,4b,c4,f0,d3,ba,65,95,64,22,99,ae,62,90,1e,a3,70,55,83,c8,3f,34,65,f2,24,55,1b,4f,ea,68,b6,d2,\
+    c1,be,c9,a6,84,d1,e3,ef,5f,f3,f8,f8,1b,03,22,2d,07,35,21,44,f8,a2,65,98,39,99,2a,84,d5,0f,9d,27,51,92,bd,b7,b2,e3,ac,64,fd,fa,\
+    bc,f2,70,75,85,c1,83,6d,40,94,17,53,19,b6,e7,aa,ef,75,6f,2a,91,ec,75,b2,60,0a,17,00,80,98,ce,56,45,8f,21,17,42,af,b3,f3,0d,32,\
+    97,80,2f,2b,a1,92,59,f7,1f,09,d7,22,36,c6,22,3f,4a,0d,6f,ba,cc,9e,0d,45,b8,2e,26,69,4a,41,53,0a,5c,c0,a9,23,31,ea,36,02,c7,6d,\
+    63,cf,f2,e6,3b,2b,92,ea,ce,ee,ef,34,f5,f1,ed,77,5c,66,e7,70,58,65,bd,b2,bd,eb,ec,df,a1,fd,a1,b2,ec,e3,7d,90,ff,f2,c6,2d,31,d3,\
+    1d,73,af,3f,43,12,ee,2d,d9,94,46,a6,0e,87,90,a9,f1,8b,31,72,39,27,b1,28,49,15,ed,df,f8,d4,1c
+[HKEY_LOCAL_MACHINE\Services\DTPT]
+   "Dll"="dtpt_srv.dll"
+   "Order"=dword:8
+   "Keep"=dword:1
+   "FriendlyName"="DPT"
+   "Index"=dword:0
+   "Prefix"="DPT"
+[HKEY_LOCAL_MACHINE\COMM\DTPT]
+    "ADAPTER_NAME"="RNDISFN1"
+     "DTPTCLI_ADDR"="169.254.2.1"
+     "DTPTSRV_ADDR"="169.254.2.2"
+     "DTPT_ADDR_MASK"="255.255.255.0"
+[HKEY_LOCAL_MACHINE\Comm\RNDISFN1\Parms\TcpIp]
+   "AutoCfg"=dword:0
+   "EnableDHCP"=dword:0
+   "Subnetmask"="255.255.255.0"
+[HKEY_LOCAL_MACHINE\Comm\WS2\LSP\DTPT_NSP]
+	"Dll"="dtpt_nsp.dll"
+    "Order"=dword:100
+[HKEY_LOCAL_MACHINE\Comm\WS2\LSP\DTPT_LSP]
+    "Dll"="dtpt_lsp.dll"
+    "Order"=dword:100
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\WWN]
+   "Dll"="wwan.Dll"
+   "Prefix"="WWN"
+   "Index"=dword:0
+   "Order"=dword:9
+   "Keep"=dword:1
+   "Flags"=dword:2
+[HKEY_LOCAL_MACHINE\System\ObjectStore]
+    "ProtectedPath"="\\windows\\System"
+[HKEY_LOCAL_MACHINE\init]
+[HKEY_LOCAL_MACHINE\init]
+    "Launch30"="gwes.exe"
+    "Depend30"=hex:15,00    ; coldinit(=0x15)
+[HKEY_LOCAL_MACHINE\Software\Microsoft\OLE]
+    "DebugApartmentInit"=dword:1
+[HKEY_LOCAL_MACHINE\System\StorageManager\FATFS]
+    "Flags"=dword:0000044
+[HKEY_LOCAL_MACHINE\System\ObjectStore\DBFlush]
+"ActivityThreshold"=dword:1
+"ActivityName"="$*@DBChanged#%&"
+[HKEY_LOCAL_MACHINE\init\BootVars]
+"DBFlags"=dword:10000
+[HKEY_LOCAL_MACHINE\System\ObjectStore\RegFlush]	
+"ActivityName"="$*@RegChanged#%&"
+"ActivityThreshold"=dword:1
+[HKEY_LOCAL_MACHINE\Security\Shell\RegFlush]
+"Priority256"=dword:ff
+[HKEY_LOCAL_MACHINE\SYSTEM\GWE\Notify]
+    "flush"=dword:0
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Extensions\EventSounds\WAV]
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Extensions\EventSounds\MID]
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Extensions\EventSounds\RMI]
+[HKEY_LOCAL_MACHINE\Security\System\FDRM]
+    "Preview"=dword:00000BB8
+    "Delay"=dword:000007D0
+    "ReVerify"=dword:05265C00
+[HKEY_CURRENT_USER\System\State]
+[HKEY_CURRENT_USER\System\State\Shell]
+[HKEY_LOCAL_MACHINE\System\State]
+[HKEY_LOCAL_MACHINE\System\State\Battery]
+[HKEY_LOCAL_MACHINE\System\State\Connectivity]
+[HKEY_LOCAL_MACHINE\System\State\Power]
+[HKEY_LOCAL_MACHINE\Services\SNApi]
+    "Dll"="regextdev.dll"
+    "Keep"=dword:1
+    "Prefix"="SNA"
+    "Index"=dword:0
+    "Flags"=dword:2
+[HKEY_LOCAL_MACHINE\Services]
+    "AllowCmdLine"=dword:0
+[HKEY_CURRENT_USER\ControlPanel\Notifications\Reminders\AutoSnooze]
+"AutoSnoozeMins"=dword:00000002
+[HKEY_LOCAL_MACHINE\SYSTEM\GWE\Commctrl\DragMetrics]
+   "CXDrag"=dword:15
+   "CYDrag"=dword:15
+[HKEY_LOCAL_MACHINE\Comm\Security\LASSD\LAP]
+"ActiveLap"="lap_pw"
+[HKEY_LOCAL_MACHINE\Comm\Security\LASSD\LOCKOUT]
+"Threshold"=dword:8
+"InitialPenalty"=dword:0
+"IncrementalPenalty"=dword:1
+[HKEY_LOCAL_MACHINE\Comm\Security\LASSD\LAP\lap_pw]
+"Dll"="lap_pw_wpc.dll"
+[HKEY_LOCAL_MACHINE\System\ErrorReporting\DumpSettings]
+    "DumpDirectory"="\\Windows\\System\\DumpFiles"
+    "CabDirectory"="\\Windows\\System\\DumpFiles\\CabFiles"
+    "ExtraFilesDirectory"="\\windows\\ExtraDumpFiles"
+    "UploadClient"="\\windows\\Dw.exe"
+    "MaxDiskUsage"=dword:E1000
+    "DumpEnabled"=dword:1
+    "MaxLogFiles"=dword:64
+[HKEY_LOCAL_MACHINE\System\ErrorReporting\UploadSettings]
+    "NoConsentRequired"=dword:0
+    "DontUpload"=dword:0
+    "MaxWeeklyReports"=dword:0
+    "MaxDailyReports"=dword:0
+    "UploadSucceededDlg"=dword:0
+    "UploadFailedDlg"=dword:0
+[HKEY_CLASSES_ROOT\TypeLib\{5C65DC1D-78E6-11D2-9852-00C04F8ECDC8}\1.0\HELPDIR]
+   "WceName"= hex:31,00,01,00,40,1F,00,00,59,06,00,00,41,00,00,00,02,00,40,01
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\IPM\SI]
+    "DLL"="htmlnote.dll"
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\IPM\SL]
+    "DLL"="htmlnote.dll"
+[HKEY_LOCAL_MACHINE\Security\PushRouter\Registrations\ByGenericId\PC5]
+    "GenId"="PC5"
+    "AppId"="x-wap-application:syncml.dm"
+    "Path"="omadmclient.exe"
+    "Params"=""
+    "ContentTypes"="application/vnd.syncml.notification"
+    "RefCount"=dword:3
+    "Trust"=dword:2
+[HKEY_LOCAL_MACHINE\Security\PushRouter\Registrations\ByCTAndAppId\application/vnd.syncml.notification;x-wap-application:syncml.dm]
+    @="PC5"
+[HKEY_LOCAL_MACHINE\Security\PushRouter\Registrations\ByCTAndAppId\application/vnd.syncml.notification;]
+    @="PC5"
+[HKEY_LOCAL_MACHINE\Security\PushRouter\Registrations\ByCTAndAppId\;x-wap-application:syncml.dm]
+    @="PC5"
+[HKEY_CLASSES_ROOT\CoreDPUs.SyncMLDPU\CLSID]
+    @="{E3784839-6BD5-4702-A7B0-59C7592FB7B8}"
+[HKEY_CLASSES_ROOT\CLSID\{E3784839-6BD5-4702-A7B0-59C7592FB7B8}\InprocServer32]
+    @="coredpus.dll"
+[HKEY_LOCAL_MACHINE\Security\Provisioning\OMA-DM\NormalReplaceURIs]
+    "./Vendor/MSFT/VPN"=""
+    "./Vendor/MSFT/CMPlanner"=""
+    "./Vendor/MSFT/ROMPackage"=""
+    "./FwUpdate"=""
+    "./DevInfo"=""
+    "./DevDetail"=""
+    "./SyncML/DMAcc"=""
+    "./Vendor/MSFT/Proxy"=""
+    "./Vendor/MSFT/NAP"=""
+    "./Vendor/MSFT/Registry"=""
+    "./Vendor/MSFT/SecurityPolicy"=""
+    "./Vendor/MSFT/DeviceInformation"=""
+    "./Vendor/MSFT/LoaderRevocation"=""
+    "./Vendor/MSFT/CertificateStore"=""
+    "./Vendor/MSFT/Obex"=""
+    "./Vendor/MSFT/Bluetooth"=""
+    "./Vendor/MSFT/Home"=""
+    "./Vendor/MSFT/Locale"=""
+    "./Vendor/MSFT/Clock"=""
+    "./Vendor/MSFT/Sounds"=""
+    "./Vendor/MSFT/Wi-Fi"=""
+    "./Vendor/MSFT/Uninstall"=""
+    "./Vendor/MSFT/Sync"=""
+[HKEY_LOCAL_MACHINE\SYSTEM\GWE\OOMFnt]
+    "Nm"="Tahoma"
+    "It"=dword:0
+    "Wt"=dword:190
+    "CS"=dword:0
+[HKEY_LOCAL_MACHINE\SYSTEM\GDI\V1\FontAlias]
+    "version"=dword:2000c
+    "MS Sans Serif:-13"="Tahoma:-9"
+    "Arial:-14"="Tahoma:-12"
+[HKEY_LOCAL_MACHINE\SYSTEM\GWE\Menu]
+    "BarLMrg"=dword:6
+    "BarRMrg"=dword:6
+    "BarTMrg"=dword:2
+    "EatDismissEvent"=dword:1
+[HKEY_LOCAL_MACHINE\SYSTEM\GWE]
+    "Animate"=dword:0
+    "cyThMin"=dword:d
+    "cxHScr"=dword:14
+    "cyHScr"=dword:d
+    "cxVScr"=dword:d
+    "cyVScr"=dword:14
+    "PORepaint"=dword:1
+    "OldAppCheck"=dword:1
+    "DelayCursorTimerQuantum"=dword:1f4
+    "DelayCursorTimerQuantum"=dword:1f4
+    "CursorFrameInterval"=dword:64
+    "CursorFrameCount"=dword:10
+[HKEY_LOCAL_MACHINE\SYSTEM\GWE]
+"DefSysColor"=hex:c9,dc,e9,00,00,00,00,00,37,91,d3,00,8d,b6,d5,00,ff,ff,ff,00,ff,ff,ff,00,00,00,00,00,0c,4e,7f,00,00,00,00,00,ff,ff,ff,00,00,00,99,00,c0,c0,c0,00,ff,ff,ff,00,37,91,d3,00,ff,ff,ff,00,c9,dc,e9,00,80,80,80,00,bf,bf,bf,00,00,00,00,00,ff,ff,ff,00,ff,ff,ff,00,00,00,00,00,ff,ff,ff,00,00,00,00,00,ff,ff,cc,00,ff,ff,ff,00,00,00,00,00,4f,9a,f6,00,c0,c0,c0,00
+"SysColor"=hex:c9,dc,e9,00,00,00,00,00,37,91,d3,00,8d,b6,d5,00,ff,ff,ff,00,ff,ff,ff,00,00,00,00,00,0c,4e,7f,00,00,00,00,00,ff,ff,ff,00,00,00,99,00,c0,c0,c0,00,ff,ff,ff,00,37,91,d3,00,ff,ff,ff,00,c9,dc,e9,00,80,80,80,00,bf,bf,bf,00,00,00,00,00,ff,ff,ff,00,ff,ff,ff,00,00,00,00,00,ff,ff,ff,00,00,00,00,00,ff,ff,cc,00,ff,ff,ff,00,00,00,00,00,4f,9a,f6,00,c0,c0,c0,00

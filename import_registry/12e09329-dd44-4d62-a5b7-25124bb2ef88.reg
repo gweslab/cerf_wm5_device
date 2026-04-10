@@ -1,0 +1,19 @@
+REGEDIT4
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Bluetooth\Services\00001103-0000-1000-8000-00805F9B34FB]
+@="Dialup Networking"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Bluetooth\Services\00001101-0000-1000-8000-00805F9B34FB]
+@="Serial Port"
+[HKEY_CURRENT_USER\ControlPanel\Notifications\{F55615D6-D29E-4db8-8C75-98125D1A7253}]
+@="Beam: Autoreceive"
+[HKEY_CLASSES_ROOT\wmlfile]
+@="WML Document"
+[HKEY_CLASSES_ROOT\wbmpfile]
+@="Wireless Bitmap Image"
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\IPM\Note]
+    "Name"="Email"
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\IPM\SMStext]
+    "Name"="SMS"
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\IPM\SI]
+    "Name"="SMS"
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\IPM\SL]
+    "Name"="SMS"

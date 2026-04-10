@@ -1,0 +1,1347 @@
+REGEDIT4
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\TAPI]
+   "Dll"="TAPI.dll"
+   "Order"=dword:1
+   "Flags"=dword:2
+[HKEY_LOCAL_MACHINE\ExtModems\HayesCompat]
+   "Port"="COM1:"
+   "DeviceType"=dword:1
+   "FriendlyName"=mui_sz:"unimodem.dll,#9001"
+[HKEY_LOCAL_MACHINE\Drivers\Unimodem]
+   "DevConfig"=hex: 10,00, 00,00, 78,00,00,00, 10,01,00,00, 00,4B,00,00, 00,00, 08, 00, 00, 00,00,00,00
+[HKEY_LOCAL_MACHINE\Drivers\Unimodem\Init]
+   "1"="AT<cr>"
+   "2"="ATE0V1&C1&D2<cr>"
+[HKEY_LOCAL_MACHINE\Drivers\Unimodem\Settings]
+   "Prefix"="AT"
+   "Terminator"="<cr>"
+   "DialPrefix"="D"
+   "DialSuffix"=";"
+   "Pulse"="P"
+   "Tone"="T"
+   "Blind_Off"="X4"
+   "Blind_On"="X3"
+   "CallSetupFailTimeout"="ATS7=<#><cr>"
+   "Reset"="ATZ<cr>"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Modem\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "DeviceType"=dword:3
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Serial\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "DeviceType"=dword:0
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\NTT_DoCoMo-MFCard96F1-A093\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "DeviceType"=dword:3
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Hayes-OPTIMA_288_+_FAX_for_PCMCIA_with_EZ-4FA5\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"=mui_sz:"unimodem.dll,#9002"
+   "DeviceType"=dword:3
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Hayes-OPTIMA_288_+_FAX_for_PCMCIA_with_EZ-4FA5\Unimodem\Init]
+   "3"="AT&F E0 V1 &C1 &D2<cr>"
+   "4"="ATW0 S95=0<cr>"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Hayes-OPTIMA_288_+_FAX_for_PCMCIA_with_EZ-4FA5\Unimodem\Settings]
+   "FlowHard"="AT&K3<cr>"
+   "FlowSoft"="AT&K4<cr>"
+   "FlowOff"="AT&K0<cr>"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MEGAHERTZ-XJ2288-9E81\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"=mui_sz:"unimodem.dll,#9003"
+   "DeviceType"=dword:3
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MEGAHERTZ-XJ2288-9E81\Unimodem\Init]
+   "3"="ATW2B1\\V<cr>"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MEGAHERTZ-XJ2288-9E81\Unimodem\Settings]
+   "FlowHard"="AT&K3<cr>"
+   "FlowSoft"="AT&K4<cr>"
+   "FlowOff"="AT&K0<cr>"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MEGAHERTZ-XJ3288-26C7\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"=mui_sz:"unimodem.dll,#9004"
+   "DeviceType"=dword:3
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MEGAHERTZ-XJ3288-26C7\Unimodem\Init]
+   "3"="ATW2B1\\V1<cr>"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MEGAHERTZ-XJ3288-26C7\Unimodem\Settings]
+   "FlowHard"="AT&K3<cr>"
+   "FlowSoft"="AT&K4<cr>"
+   "FlowOff"="AT&K0<cr>"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MEGAHERTZ-Megahertz_28.8-73E3\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"=mui_sz:"unimodem.dll,#9005"
+   "DeviceType"=dword:3
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MEGAHERTZ-Megahertz_28.8-73E3\Unimodem\Init]
+   "3"="ATW2B1\\V1<cr>"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MEGAHERTZ-Megahertz_28.8-73E3\Unimodem\Settings]
+   "FlowHard"="AT&K3<cr>"
+   "FlowSoft"="AT&K4<cr>"
+   "FlowOff"="AT&K0<cr>"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MEGAHERTZ-XJ1144-5C3E\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"=mui_sz:"unimodem.dll,#9006"
+   "DeviceType"=dword:3
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\USRobotics-PCMCIA_28800_Data/Fax-92A2\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"=mui_sz:"unimodem.dll,#9007"
+   "DeviceType"=dword:3
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\USRobotics-PCMCIA_28800_Data/Fax-92A2\Unimodem\Init]
+    "3"="AT &F1 E0 V1 &C1 &D2 &B1 &A3 S0=0<cr>"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\USRobotics-PCMCIA_28800_Data/Fax-92A2\Unimodem\Settings]
+   "FlowHard"="AT&K3<cr>"
+   "FlowSoft"="AT&K4<cr>"
+   "FlowOff"="AT&K0<cr>"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Practical_Peripherals_Inc-PPI_PC288T2EZ_PCMCIA-F382\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"=mui_sz:"unimodem.dll,#9008"
+   "DeviceType"=dword:3
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Practical_Peripherals_Inc-PPI_PC288T2EZ_PCMCIA-DAE6\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"="ProClass 28.8"
+   "DeviceType"=dword:3
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Xircom-CreditCard_Modem_33.6-5347\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"=mui_sz:"unimodem.dll,#9009"
+   "DeviceType"=dword:3
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Socket_Communications_Inc-Serial_Port_Adapter_Revision_B-5E3E\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"="Socket I/O Serial"
+   "DeviceType"=dword:0
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Xircom-CreditCard_Ethernet+Modem_33.6-05DD\1\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"=mui_sz:"unimodem.dll,#9010"
+   "DeviceType"=dword:3
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Motorola-MONTANA_V.34_FAX/MODEM-9E9C\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"=mui_sz:"unimodem.dll,#9011"
+   "DeviceType"=dword:3
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Motorola-MONTANA_V.34_FAX/MODEM-9E9C\Unimodem\Init]
+   "3"="ATS7=60M1<cr>"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Motorola-MONTANA_V.34_FAX/MODEM-9E9C\Unimodem\Settings]
+   "FlowHard"="AT\\Q3<cr>"
+   "FlowSoft"="AT\\Q1<cr>"
+   "FlowOff"="AT\\Q<cr>"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MOTOROLA-POWER_14.4-8980\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"=mui_sz:"unimodem.dll,#9012"
+   "DeviceType"=dword:3
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MOTOROLA-POWER_14.4-8980\Unimodem\Init]
+   "3"="ATS7=60S19=0M1<cr>"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MOTOROLA-POWER_14.4-8980\Unimodem\Settings]
+   "FlowHard"="AT\\Q3<cr>"
+   "FlowSoft"="AT\\Q1<cr>"
+   "FlowOff"="AT\\Q<cr>"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\TEMPLATE\COM_CARDA\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"="PCCard Serial 1"
+   "DeviceType"=dword:0
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\TEMPLATE\COM_CARDA\Unimodem2]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"="PCCard Modem 1"
+   "DeviceType"=dword:3
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\TEMPLATE\COM_CARDB\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"="PCCard Serial 2"
+   "DeviceType"=dword:0
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\TEMPLATE\COM_CARDB\Unimodem2]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"="PCCard Modem 2"
+   "DeviceType"=dword:3
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\TEMPLATE\COM_CARDC\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"="PCCard Serial 3"
+   "DeviceType"=dword:0
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\TEMPLATE\COM_CARDC\Unimodem2]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"="PCCard Modem 3"
+   "DeviceType"=dword:3
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\TEMPLATE\COM_CARDD\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"="PCCard Serial 4"
+   "DeviceType"=dword:0
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\TEMPLATE\COM_CARDD\Unimodem2]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"="PCCard Modem 4"
+   "DeviceType"=dword:3
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\Hayes-OPTIMA_288_+_FAX_for_PCMCIA_with_EZ-4FA5\Option1\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"=mui_sz:"unimodem.dll,#9002"
+   "DeviceType"=dword:3
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\Hayes-OPTIMA_288_+_FAX_for_PCMCIA_with_EZ-4FA5\Option1\Unimodem\Init]
+   "3"="AT&F E0 V1 &C1 &D2<cr>"
+   "4"="ATW0 S95=0<cr>"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\Hayes-OPTIMA_288_+_FAX_for_PCMCIA_with_EZ-4FA5\Option1\Unimodem\Settings]
+   "FlowHard"="AT&K3<cr>"
+   "FlowSoft"="AT&K4<cr>"
+   "FlowOff"="AT&K0<cr>"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\MEGAHERTZ-XJ2288-9E81\Option1\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"=mui_sz:"unimodem.dll,#9003"
+   "DeviceType"=dword:3
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\MEGAHERTZ-XJ2288-9E81\Option1\Unimodem\Init]
+   "3"="ATW2B1\\V<cr>"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\MEGAHERTZ-XJ2288-9E81\Option1\Unimodem\Settings]
+   "FlowHard"="AT&K3<cr>"
+   "FlowSoft"="AT&K4<cr>"
+   "FlowOff"="AT&K0<cr>"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\MEGAHERTZ-XJ3288-26C7\Option1\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"=mui_sz:"unimodem.dll,#9004"
+   "DeviceType"=dword:3
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\MEGAHERTZ-XJ3288-26C7\Option1\Unimodem\Init]
+   "3"="ATW2B1\\V1<cr>"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\MEGAHERTZ-XJ3288-26C7\Option1\Unimodem\Settings]
+   "FlowHard"="AT&K3<cr>"
+   "FlowSoft"="AT&K4<cr>"
+   "FlowOff"="AT&K0<cr>"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\MEGAHERTZ-Megahertz_28.8-73E3\Option1\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"=mui_sz:"unimodem.dll,#9005"
+   "DeviceType"=dword:3
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\MEGAHERTZ-Megahertz_28.8-73E3\Option1\Unimodem\Init]
+   "3"="ATW2B1\\V1<cr>"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\MEGAHERTZ-Megahertz_28.8-73E3\Option1\Unimodem\Settings]
+   "FlowHard"="AT&K3<cr>"
+   "FlowSoft"="AT&K4<cr>"
+   "FlowOff"="AT&K0<cr>"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\MEGAHERTZ-XJ1144-5C3E\Option1\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"=mui_sz:"unimodem.dll,#9006"
+   "DeviceType"=dword:3
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\USRobotics-PCMCIA_28800_Data/Fax-92A2\Option1\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"=mui_sz:"unimodem.dll,#9007"
+   "DeviceType"=dword:3
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\USRobotics-PCMCIA_28800_Data/Fax-92A2\Option1\Unimodem\Init]
+    "3"="AT &F1 E0 V1 &C1 &D2 &B1 &A3 S0=0<cr>"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\USRobotics-PCMCIA_28800_Data/Fax-92A2\Option1\Unimodem\Settings]
+   "FlowHard"="AT&K3<cr>"
+   "FlowSoft"="AT&K4<cr>"
+   "FlowOff"="AT&K0<cr>"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\Practical_Peripherals_Inc-PPI_PC288T2EZ_PCMCIA-F382\Option1\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"=mui_sz:"unimodem.dll,#9008"
+   "DeviceType"=dword:3
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\Practical_Peripherals_Inc-PPI_PC288T2EZ_PCMCIA-DAE6\Option1\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"="ProClass 28.8"
+   "DeviceType"=dword:3
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\Xircom-CreditCard_Modem_33.6-5347\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"=mui_sz:"unimodem.dll,#9009"
+   "DeviceType"=dword:3
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\Socket_Communications_Inc-Serial_Port_Adapter_Revision_B-5E3E\Option1\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"="Socket I/O Serial"
+   "DeviceType"=dword:0
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Xircom-CreditCard_Ethernet+Modem_33.6-05DD\1\Option1\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"=mui_sz:"unimodem.dll,#9010"
+   "DeviceType"=dword:3
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\Motorola-MONTANA_V.34_FAX/MODEM-9E9C\Option1\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"=mui_sz:"unimodem.dll,#9011"
+   "DeviceType"=dword:3
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\Motorola-MONTANA_V.34_FAX/MODEM-9E9C\Option1\Unimodem\Init]
+   "3"="ATS7=60M1<cr>"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\Motorola-MONTANA_V.34_FAX/MODEM-9E9C\Option1\Unimodem\Settings]
+   "FlowHard"="AT\\Q3<cr>"
+   "FlowSoft"="AT\\Q1<cr>"
+   "FlowOff"="AT\\Q<cr>"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\MOTOROLA-POWER_14.4-8980\Option1\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "FriendlyName"=mui_sz:"unimodem.dll,#9012"
+   "DeviceType"=dword:3
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\MOTOROLA-POWER_14.4-8980\Option1\Unimodem\Init]
+   "3"="ATS7=60S19=0M1<cr>"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\MOTOROLA-POWER_14.4-8980\Option1\Unimodem\Settings]
+   "FlowHard"="AT\\Q3<cr>"
+   "FlowSoft"="AT\\Q1<cr>"
+   "FlowOff"="AT\\Q<cr>"
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\IrCOMM\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "DeviceType"=dword:6
+   "FriendlyName"=mui_sz:"unimodem.dll,#9013"
+   "DevConfig"=hex: 10,00, 00,00, 02,00,00,00, 10,01,00,00, 00,4B,00,00, 00,00, 08, 00, 00, 00,00,00,00
+[HKEY_LOCAL_MACHINE\Comm\Devices\Redir]
+    "Dll"="redir.dll"
+    "Prefix"="RDR"
+    "Index"=dword:0
+    "Flags"=dword:2
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\WAPIMAN]
+   "Prefix"="WAM"
+   "Dll"="waveapi.dll"
+   "Index"=dword:1
+   "Order"=dword:1
+   "Flags"=dword:2
+[HKEY_CURRENT_USER\ControlPanel\Dial]
+"CurrentLoc"=dword:0
+"HighLocID"=dword:2
+[HKEY_CURRENT_USER\ControlPanel\Dial\Locations]
+"0"=multi_sz: "Work",
+              "9,G",
+              "9,1FG",
+              "9,011,EFG",
+              "425",
+              " ",
+              "1",
+              "0"
+"1"=multi_sz: "Home",
+              "G",
+              "1FG",
+              "011,EFG",
+              "425",
+              " ",
+              "1",
+              "0"
+[HKEY_LOCAL_MACHINE\SYSTEM\Explorer\Shell Folders]
+        "Application Data"="\\Application Data"
+        "Desktop"="\\Windows\\Desktop"
+        "Favorites"="\\Windows\\Favorites"
+        "Fonts"="\\Windows\\Fonts"
+        "My Documents"="\\My Documents"
+        "Program Files"="\\Program Files"
+        "Programs"="\\Windows\\Programs"
+        "Recent"="\\Windows\\Recent"
+        "StartUp"="\\Windows\\StartUp"
+        "Windows"="\\Windows"
+[HKEY_CLASSES_ROOT\CM_Networks\CLSID]
+    @="{A22225BC-2882-4101-ABD0-FD8008EF8275}"
+[HKEY_CLASSES_ROOT\CLSID\{A22225BC-2882-4101-ABD0-FD8008EF8275}\InprocServer32]
+        @="conncfg.dll"
+[HKEY_CLASSES_ROOT\CM_Mappings\CLSID]
+    @="{A22225BC-2882-4101-ABD0-FD8008EF8275}"
+[HKEY_CLASSES_ROOT\CLSID\{A22225BC-2882-4101-ABD0-FD8008EF8275}\InprocServer32]
+        @="conncfg.dll"
+[HKEY_CLASSES_ROOT\CM_ProxyEntries\CLSID]
+    @="{82569AC2-3564-4f80-B3C5-CFD842E40D2D}"
+[HKEY_CLASSES_ROOT\CLSID\{82569AC2-3564-4f80-B3C5-CFD842E40D2D}\InprocServer32]
+        @="cspproxy.dll"
+[HKEY_CLASSES_ROOT\CM_NetEntries\CLSID]
+    @="{D87ABAEA-E56D-4f5b-8766-DB8A551317A7}"
+[HKEY_CLASSES_ROOT\CLSID\{D87ABAEA-E56D-4f5b-8766-DB8A551317A7}\InprocServer32]
+        @="cspnet.dll"
+[HKEY_CLASSES_ROOT\CM_WiFiEntries\CLSID]
+    @="{D87ABAEA-E56D-4f5b-8766-DB8A551317A7}"
+[HKEY_CLASSES_ROOT\CLSID\{D87ABAEA-E56D-4f5b-8766-DB8A551317A7}\InprocServer32]
+        @="cspnet.dll"
+[HKEY_CLASSES_ROOT\CM_PPPEntries\CLSID]
+    @="{7A8A6E8A-D622-4e6c-AA7B-DD9C9C150942}"
+[HKEY_CLASSES_ROOT\CM_VPNEntries\CLSID]
+    @="{7A8A6E8A-D622-4e6c-AA7B-DD9C9C150942}"
+[HKEY_CLASSES_ROOT\CM_GPRSEntries\CLSID]
+    @="{7A8A6E8A-D622-4e6c-AA7B-DD9C9C150942}"
+[HKEY_CLASSES_ROOT\CLSID\{7A8A6E8A-D622-4e6c-AA7B-DD9C9C150942}\InprocServer32]
+        @="cspras.dll"
+[HKEY_CLASSES_ROOT\CM_Planner\CLSID]
+    @="{5FD5D493-CADF-4ba9-8944-EC30D64A58A0}"
+[HKEY_CLASSES_ROOT\CLSID\{5FD5D493-CADF-4ba9-8944-EC30D64A58A0}\InprocServer32]
+    @="connplan.dll"
+[HKEY_LOCAL_MACHINE\Comm\ConnMgr\Planner\Settings]
+    "RetryCount"=dword:1
+[HKEY_CLASSES_ROOT\CLSID\{1C2919EE-2E91-40b3-A1FA-F05BFE002985}\InprocServer32]
+    @="CONNPLAN.DLL"
+[HKEY_CLASSES_ROOT\RasConfig\CLSID]
+    @="{277EC168-9B01-434e-B3C7-78E90F59CFD4}"
+[HKEY_CLASSES_ROOT\CLSID\{277EC168-9B01-434e-B3C7-78E90F59CFD4}\InprocServer32]
+    @="CSPRAS.DLL"
+[HKEY_LOCAL_MACHINE\Comm\ConnMgr\Providers\{7C4B7A38-5FF7-4bc1-80F6-5DA7870BB1AA}]
+[HKEY_CLASSES_ROOT\CLSID\{7C4B7A38-5FF7-4bc1-80F6-5DA7870BB1AA}\InprocServer32]
+    @="CSPRAS.DLL"
+[HKEY_LOCAL_MACHINE\Comm\ConnMgr\Providers\{f792e23c-dc19-4668-9be4-f8688b4c18d6}]
+[HKEY_CLASSES_ROOT\CLSID\{f792e23c-dc19-4668-9be4-f8688b4c18d6}\InprocServer32]
+    @="CSPNET.DLL"
+[HKEY_LOCAL_MACHINE\Comm\ConnMgr\Providers\{EF097F4C-DC4B-4c98-8FF6-AEF805DC0E8E}]
+[HKEY_CLASSES_ROOT\CLSID\{EF097F4C-DC4B-4c98-8FF6-AEF805DC0E8E}\InprocServer32]
+    @="CSPPROXY.DLL"
+[HKEY_LOCAL_MACHINE\Security\Provisioning\CSPs\.\Vendor\MSFT\ACCESS]
+    @="{7B7B1550-A506-4c67-82E8-73BB5EA638C5}"
+[HKEY_LOCAL_MACHINE\Security\Provisioning\CSPs\.\Vendor\MSFT\CMPLANNER]
+    @="{7B7B1550-A506-4c67-82E8-73BB5EA638C5}"
+[HKEY_LOCAL_MACHINE\Security\Provisioning\CSPs\.\Vendor\MSFT\NAP]
+    @="{7B7B1550-A506-4c67-82E8-73BB5EA638C5}"
+[HKEY_LOCAL_MACHINE\Security\Provisioning\CSPs\.\Vendor\MSFT\Proxy]
+    @="{7B7B1550-A506-4c67-82E8-73BB5EA638C5}"
+[HKEY_LOCAL_MACHINE\Security\Provisioning\CSPs\.\Vendor\MSFT\VPN]
+    @="{7B7B1550-A506-4c67-82E8-73BB5EA638C5}"
+[HKEY_CLASSES_ROOT\CLSID\{7B7B1550-A506-4c67-82E8-73BB5EA638C5}\InprocServer32]
+    @="cspomadmconn.dll"
+[HKEY_LOCAL_MACHINE\Comm\Tcpip\Parms]
+"ResolverRetryCount"=dword:3
+"WINSBroadcastTimeout"=dword:3E8
+[HKEY_LOCAL_MACHINE\Comm\ConnMgr\TPCMgr]
+[HKEY_LOCAL_MACHINE\Comm\WS2\LSP\AutoBind_LSP]
+    "Dll"="AutoBind_lsp.dll"
+[HKEY_LOCAL_MACHINE\init]
+    "Launch21"="coldinit.exe"
+    "Depend21"=hex:14,00    ; device(=0x14)
+    "Launch61"="ciphase2.exe"
+    "Depend61"=hex:32, 00, 3c, 00  ; shell32(=0x32)  services(=0x3c)
+[HKEY_CURRENT_USER\ControlPanel\Dial]
+"CurrentLoc"=dword:0
+"HighLocID"=dword:3
+[HKEY_CURRENT_USER\ControlPanel\Dial\Locations]
+"0"=multi_sz:   "DefaultEntry",
+                "G",
+                "G",
+                "G",
+                "",
+                "",
+                "",
+                "0"
+[HKEY_CURRENT_USER\ControlPanel\Notifications\{A877D65B-239C-47a7-9304-0D347F580408}]
+"Options"=dword:9
+"Duration"=dword:0
+"Wave"="notify"
+[HKEY_CLASSES_ROOT\CLSID\{DAA285FE-94C0-11D0-AD14-0080C73A307B}]
+    @="CEShell"
+[HKEY_CLASSES_ROOT\CLSID\{DAA285FE-94C0-11D0-AD14-0080C73A307B}\ProgId]
+    @="CEShell"
+[HKEY_CLASSES_ROOT\CLSID\{DAA285FE-94C0-11D0-AD14-0080C73A307B}\InprocServer32]
+    @="ceshell.dll"
+[HKEY_CLASSES_ROOT\CLSID\{DAA285FE-94C0-11D0-AD14-0080C73A307B}\Control]
+    @="True"
+[HKEY_CLASSES_ROOT\CLSID\{DAA285FE-94C0-11D0-AD14-0080C73A307B}\Version]
+    @="1.0"
+[HKEY_CLASSES_ROOT\CLSID\{DAA285FE-94C0-11D0-AD14-0080C73A307B}\TypeLib]
+    @="{DAA285F0-94C0-11D0-AD14-0080C73A307B}"
+[HKEY_CLASSES_ROOT\CLSID\{DAA285FE-94C0-11D0-AD14-0080C73A307B}\DefaultIcon]
+    @="ceshell.dll,0"
+[HKEY_CLASSES_ROOT\CLSID\{DAA285FE-94C0-11D0-AD14-0080C73A307B}\MiscStatus]
+    @="131473"
+[HKEY_CLASSES_ROOT\CLSID\{1DB5001C-AA16-4A68-B032-FEFE805C6B7C}]
+    @="CEShell"
+[HKEY_CLASSES_ROOT\CLSID\{1DB5001C-AA16-4A68-B032-FEFE805C6B7C}\ProgId]
+    @="CEShell"
+[HKEY_CLASSES_ROOT\CLSID\{1DB5001C-AA16-4A68-B032-FEFE805C6B7C}\InprocServer32]
+    @="ceshell.dll"
+[HKEY_CLASSES_ROOT\CLSID\{1DB5001C-AA16-4A68-B032-FEFE805C6B7C}\Control]
+    @="True"
+[HKEY_CLASSES_ROOT\CLSID\{1DB5001C-AA16-4A68-B032-FEFE805C6B7C}\Version]
+    @="1.0"
+[HKEY_CLASSES_ROOT\CLSID\{1DB5001C-AA16-4A68-B032-FEFE805C6B7C}\TypeLib]
+    @="{DAA285F0-94C0-11D0-AD14-0080C73A307B}"
+[HKEY_CLASSES_ROOT\CLSID\{1DB5001C-AA16-4A68-B032-FEFE805C6B7C}\DefaultIcon]
+    @="ceshell.dll,0"
+[HKEY_CLASSES_ROOT\CLSID\{1DB5001C-AA16-4A68-B032-FEFE805C6B7C}\MiscStatus]
+    @="131473"
+[HKEY_CLASSES_ROOT\TypeLib\{DAA285F0-94C0-11D0-AD14-0080C73A307B}\1.0]
+    @="CEShell Module"
+[HKEY_CLASSES_ROOT\TypeLib\{DAA285F0-94C0-11D0-AD14-0080C73A307B}\1.0\0]
+    @="ceshell.dll"
+[HKEY_CLASSES_ROOT\TypeLib\{DAA285F0-94C0-11D0-AD14-0080C73A307B}\1.0\FLAGS]
+    @="2"
+[HKEY_CLASSES_ROOT\TypeLib\{DAA285F0-94C0-11D0-AD14-0080C73A307B}\1.0\HELPDIR]
+    @="\\Windows"
+[HKEY_CLASSES_ROOT\.exe]
+@="exefile"
+[HKEY_CLASSES_ROOT\exefile]
+@="exe"
+[HKEY_CLASSES_ROOT\exefile\DefaultIcon]
+@="%1"
+[HKEY_CLASSES_ROOT\exefile\Shell\Open\Command]
+@="\"%1\" %*"
+[HKEY_CURRENT_USER\ControlPanel\Notifications\Sounds]
+"Repeat"=dword:0
+[HKEY_CURRENT_USER\ControlPanel\Notifications\Default]
+"Options"=dword:d
+"Duration"=dword:5
+"Wave"="msgbox"
+"LedRefCount"=dword:0
+[HKEY_CURRENT_USER\ControlPanel\Notifications\{E0F2B9DD-EDC6-45d4-B440-2C5B5A04A3E3}]
+"Options"=dword:8
+[HKEY_CURRENT_USER\ControlPanel\Notifications\{A877D663-239C-47a7-9304-0D347F580408}]
+"Options"=dword:9
+"Duration"=dword:0
+"Wave"="lowbatt"
+[HKEY_CURRENT_USER\ControlPanel\Notifications\{0D3132C4-1298-469c-B2B8-F28CE2D649D0}]
+"Options"=dword:9
+"Duration"=dword:0
+"Wave"="infbeg"
+[HKEY_CURRENT_USER\ControlPanel\Notifications\{8ddf46e7-56ed-4750-9e58-afc6ce486d03}]
+"Options"=dword:8
+"AvailableOptions"=dword:B
+"Duration"=dword:0
+"Wave"="infbeg"
+[HKEY_CURRENT_USER\ControlPanel\Notifications\{8ddf46e8-56ed-4750-9e58-afc6ce486d03}]
+"Options"=dword:0
+"AvailableOptions"=dword:3
+"Duration"=dword:0
+"Wave"="infend"
+[HKEY_CURRENT_USER\ControlPanel\Notifications\{DDBD3B44-80B0-4b24-9DC4-839FEA6E559E}]
+"Options"=dword:9
+"Duration"=dword:0
+"Wave"="notify"
+[HKEY_CURRENT_USER\ControlPanel\Notifications\{15F11F90-8A5F-454c-89FC-BA9B7AAB0CAD}]
+"Options"=dword:4000000d
+"Duration"=dword:a
+"Wave"="Alarm1"
+[HKEY_CURRENT_USER\ControlPanel\Notifications\{A877D658-239C-47a7-9304-0D347F580408}]
+"Options"=dword:0
+"AvailableOptions"=dword:3
+"Duration"=dword:0
+"Wave"="infbeg"
+[HKEY_CURRENT_USER\ControlPanel\Notifications\{A877D659-239C-47a7-9304-0D347F580408}]
+"Options"=dword:0
+"AvailableOptions"=dword:3
+"Duration"=dword:0
+"Wave"="infend"
+[HKEY_CURRENT_USER\ControlPanel\Notifications\{A877D65D-239C-47a7-9304-0D347F580408}]
+"Options"=dword:d
+"Duration"=dword:3
+"Wave"="online"
+[HKEY_CLASSES_ROOT\{000214A0-0000-0000-C000-000000000046}]
+"DisplayName"="\\"
+"DefaultIcon"="shell32.exe,-1204"
+"InprocServer"="shell32.exe"
+[HKEY_LOCAL_MACHINE\Security\Policies\Shell]
+"ActivePeriod"=dword:0
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Rai\:MSSHELL32]
+"0"="HHTASKBAR"
+"1"="shell32.exe"
+"2"=dword:2
+"3"=dword:C0
+"4"=hex:00,00,00,00,00,00,00,00
+[HKEY_LOCAL_MACHINE\System\Events]
+"SYSTEM/ShellAPIReady"=""
+[HKEY_CLASSES_ROOT\.cpl]
+@="cplfile"
+[HKEY_CLASSES_ROOT\cplfile]
+@="cpl"
+[HKEY_CLASSES_ROOT\cplfile\Shell\Open\Command]
+@="ctlpnl.exe %1"
+[HKEY_CLASSES_ROOT\.cer]
+@="certificate"
+"Content Type"="application/x-x509-ca-cert"
+[HKEY_CLASSES_ROOT\certificate]
+@="cer"
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\certificate\DefaultIcon]
+@="certinst.exe,-100"
+[HKEY_CLASSES_ROOT\certificate\Shell\Open\Command]
+@="certinst.exe %1"
+[HKEY_CLASSES_ROOT\CLSID\{B852A498-8BC6-11d2-8C2F-00C04F72E246}]
+    @=""
+[HKEY_CLASSES_ROOT\CLSID\{B852A498-8BC6-11d2-8C2F-00C04F72E246}\InprocServer32]
+    @="aygshell.dll"                ; \\windows\aygshell.dll
+[HKEY_CURRENT_USER\ControlPanel\Sip]
+"AllowChange"=dword:1
+"SuggWords"=dword:1
+"SuggChars"=dword:2
+"SuggWeight"=dword:0
+"SuggSpace"=dword:1
+"SuggSpell"=dword:1
+"SuggContDictCount"=dword:1f
+"SuggWordLenMin"=dword:4
+"SuggDynWordBon"=dword:c
+"SuggOneCharPen"=dword:5
+"SuggTwoCharPen"=dword:1
+"SuggCorrPen"=dword:1e
+"SuggMapBon"=dword:f
+"SuggPrevPen"=dword:f
+"SuggTypedBon"=dword:4
+[HKEY_CURRENT_USER\ControlPanel\Keybd]
+"InitialDelay"=dword:177
+"RepeatRate"=dword:8
+[HKEY_CURRENT_USER\ControlPanel\Keybd]
+"InitialDelay"=dword:177
+"RepeatRate"=dword:8
+[HKEY_LOCAL_MACHINE\Comm\SecurityProviders]
+    "Providers"="schannel.dll, ntlmssp.dll, kerberos.dll, spnego.dll, msnsspc.dll"
+[HKEY_CLASSES_ROOT\CLSID\{4A7DD4C3-05CF-4c7d-823F-5B5514634AE0}]
+@="Cab Installer"
+[HKEY_CLASSES_ROOT\CLSID\{4A7DD4C3-05CF-4c7d-823F-5B5514634AE0}\InProcServer32]
+@="cabinstl.dll"
+[HKEY_CLASSES_ROOT\CabInstaller]
+@="Cab Installer"
+[HKEY_CLASSES_ROOT\CabInstaller\CLSID]
+@="{4A7DD4C3-05CF-4c7d-823F-5B5514634AE0}"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Rai\:MSFIND]
+"0"="SHFind"
+"1"="shfind.exe"
+"2"=dword:2
+"3"=dword:0
+"4"=hex:00,00,00,00,00,00,00,00
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Rai\:MSCLOCK]
+"0"="World Clock"
+"1"="clock.exe"
+"2"=dword:2
+"3"=dword:0
+"4"=hex:00,00,00,00,00,00,00,00
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Rai\:MSSYNCAPP]
+"0"="MSSYNCAPP"
+"1"="repllog.exe /remote"
+"2"=dword:0
+"3"=dword:80000000
+"4"=hex:00,00,00,00,00,00,00,00
+[HKEY_CLASSES_ROOT\.wav]
+@="wavfile"
+[HKEY_CLASSES_ROOT\wavfile]
+@="wav"
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\wavfile\DefaultIcon]
+@="sndplay.exe,-101"
+[HKEY_CLASSES_ROOT\wavfile\Shell\Open\Command]
+@="sndplay.exe %1"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\audio/wav]
+"Extension"=".wav"
+[HKEY_CLASSES_ROOT\.cab]
+@="cabfile"
+[HKEY_CLASSES_ROOT\cabfile]
+@="cab"
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\cabfile\DefaultIcon]
+@="shellresapps.dll,-15618"
+[HKEY_CLASSES_ROOT\cabfile\Shell\Open\Command]
+@="wceload.exe \"%1\" /nodelete"
+[HKEY_CLASSES_ROOT\.tsk]
+@="tskfile"
+[HKEY_CLASSES_ROOT\tskfile]
+@="tsk"
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\tskfile\DefaultIcon]
+@="shellresapps.dll,-15618"
+[HKEY_CLASSES_ROOT\tskfile\Shell\Open\Command]
+@="ctlpnl.exe cplmain,13"
+[HKEY_CLASSES_ROOT\tdyskin\DefaultIcon]
+@="shellresapps.dll,-15618"
+[HKEY_CLASSES_ROOT\tdyskin\Shell\Open\Command]
+@="wceload.exe \"%1\" /silent /nodelete /safe"
+[HKEY_CLASSES_ROOT\.cpf]
+@="CabProvisioningFile"
+[HKEY_CLASSES_ROOT\CabProvisioningFile]
+@="cpf"
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\CabProvisioningFile\DefaultIcon]
+@="shellresapps.dll,-15618"
+[HKEY_CLASSES_ROOT\CabProvisioningFile\Shell\Open\Command]
+@="wceload.exe \"%1\" /silent /confignotify /verifyconfig /nodelete"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Rai\:Wceload]
+"BKDefaultGradient"=dword:1    ; Default app background gradient (like in the dialer, call progress, etc.)
+[HKEY_CLASSES_ROOT\.asy]
+@="ActiveSync"
+[HKEY_CLASSES_ROOT\ActiveSync]
+@="asy"
+[HKEY_CLASSES_ROOT\ActiveSync\DefaultIcon]
+@="repllog.exe,-100"
+[HKEY_CLASSES_ROOT\ActiveSync\Shell\Open\Command]
+@="repllog.exe /remote"
+[HKEY_LOCAL_MACHINE\Windows CE Services\Synchronization\Objects\File]
+    "Store"="cefobj.dll"
+[HKEY_LOCAL_MACHINE\Windows CE Services\Synchronization\Objects\Media]
+    "Store"="cemedia.dll"
+[HKEY_LOCAL_MACHINE\Windows CE Services\Synchronization\Objects\Favorite]
+"Store"="inreplce.dll"
+[HKEY_CLASSES_ROOT\CLSID\{F7E1C96B-781E-11D2-AAB7-00C04FAE2D4C}]
+@="InReplCE"
+[HKEY_CLASSES_ROOT\CLSID\{F7E1C96B-781E-11D2-AAB7-00C04FAE2D4C}\InprocServer32]
+@="inreplce.dll"
+[HKEY_LOCAL_MACHINE\Comm\UDP2TCP]
+    "Port"=dword:1D0E
+[HKEY_LOCAL_MACHINE\Comm\UDP2TCP\DNS]
+    "Port"=dword:35
+[HKEY_LOCAL_MACHINE\Windows CE Services\Synchronization\Objects\Ink]
+    "Display Name"="Ink"
+    "Store"="inkobj.dll"
+[HKEY_CLASSES_ROOT\CLSID\{DED1E976-DF14-11d1-BA0E-0000F8050ED3}]
+    @="IRSquirt"
+[HKEY_CLASSES_ROOT\CLSID\{DED1E976-DF14-11d1-BA0E-0000F8050ED3}\InprocServer32]
+    @="IRSQRT.DLL"
+[HKEY_CLASSES_ROOT\CLSID\{0431847B-4378-11d2-9ADC-00C04F8EE3A1}]
+    @="ContactSquirt"
+[HKEY_CLASSES_ROOT\CLSID\{0431847B-4378-11d2-9ADC-00C04F8EE3A1}\InprocServer32]
+    @="IRSQRT.DLL"
+[HKEY_CLASSES_ROOT\CLSID\{265A1230-737E-11d2-8F1F-0000F87A4335}]
+    @="TaskSquirt"
+[HKEY_CLASSES_ROOT\CLSID\{265A1230-737E-11d2-8F1F-0000F87A4335}\InprocServer32]
+    @="IRSQRT.DLL"
+[HKEY_CLASSES_ROOT\CLSID\{A5F09C50-7389-11d2-8F1F-0000F87A4335}]
+    @="AppointmentSquirt"
+[HKEY_CLASSES_ROOT\CLSID\{A5F09C50-7389-11d2-8F1F-0000F87A4335}\InprocServer32]
+    @="IRSQRT.DLL"
+[HKEY_CLASSES_ROOT\CLSID\{0B1FDA39-4450-11d2-9ADC-00C04F8EE3A1}]
+    @="GeneralFileSquirt"
+[HKEY_CLASSES_ROOT\CLSID\{0B1FDA39-4450-11d2-9ADC-00C04F8EE3A1}\InprocServer32]
+    @="IRSQRT.DLL"
+[HKEY_CLASSES_ROOT\CLSID\{7BBF1B02-1B83-463f-9A8F-55F94E158257}]
+@="Change-Tracking Core"
+[HKEY_CLASSES_ROOT\CLSID\{7BBF1B02-1B83-463f-9A8F-55F94E158257}\InProcServer32]
+@="chngtrk.dll"
+[HKEY_CLASSES_ROOT\ChangeTrackingCore]
+@="Change-Tracking Core"
+[HKEY_CLASSES_ROOT\ChangeTrackingCore\CLSID]
+@="{7BBF1B02-1B83-463f-9A8F-55F94E158257}"
+[HKEY_CLASSES_ROOT\CLSID\{96B73ECC-86D0-413e-9E3A-748560416CF2}]
+@="Change-Tracking CEMAPI"
+[HKEY_CLASSES_ROOT\CLSID\{96B73ECC-86D0-413e-9E3A-748560416CF2}\InProcServer32]
+@="chngtrk.dll"
+[HKEY_CLASSES_ROOT\ChangeTrackingCEMAPI]
+@="Change-Tracking CEMAPI"
+[HKEY_CLASSES_ROOT\ChangeTrackingCEMAPI\CLSID]
+@="{96B73ECC-86D0-413e-9E3A-748560416CF2}"
+[HKEY_LOCAL_MACHINE\SYSTEM\Inbox\Pocket MSN]
+    "Domains"="hotmail.com;passport.com"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\AirSync]
+    "Restriction"=dword:2
+[HKEY_CURRENT_USER\Software\Microsoft\ActiveSync]
+    "EmailAgeFilter"=dword:2
+    "CalendarAgeFilter"=dword:4
+    "BodyTruncation"=dword:1400
+    "SaveSentItems"=dword:1
+    "MailFileAttachments"=dword:0
+    "SyncWhenRoaming"=dword:0
+    "DisconnectWhenDone"=dword:1
+    "MailBodyTruncation"=dword:200
+    "MIMETruncation"=dword:1000
+    "NotifySyncDelay"=dword:0
+    "Resilience"=dword:2    ; 0=none, 1=retry, 2=custom (see httpresilience.h)
+    "Retries"=dword:1
+    "Interval"=dword:0
+    "TcpPingDnsRetries"=dword:1
+    "TcpPingTcpRetries"=dword:5
+    "TcpPingRetryStepMs"=dword:9C4
+    "Device"="PPC"
+[HKEY_CURRENT_USER\Software\Microsoft\Windows CE Services]
+    "Flags"=dword:1
+[HKEY_CLASSES_ROOT\CLSID\{22C7DA12-F3FD-4875-8344-7786454F6534}]
+[HKEY_CLASSES_ROOT\CLSID\{22C7DA12-F3FD-4875-8344-7786454F6534}\InProcServer32]
+@="syncmgr.dll"
+[HKEY_CLASSES_ROOT\CLSID\{176F4FFD-F20C-4bd4-BDD7-01D0726C567B}]
+[HKEY_CLASSES_ROOT\CLSID\{176F4FFD-F20C-4bd4-BDD7-01D0726C567B}\InProcServer32]
+@="syncmgr.dll"
+[HKEY_CLASSES_ROOT\CLSID\{64FE8D29-91B5-42C4-A7CA-BC2DE782205A}]
+@="Active Sync App"
+[HKEY_CLASSES_ROOT\CLSID\{64FE8D29-91B5-42C4-A7CA-BC2DE782205A}\InProcServer32]
+@="Actsyncc.dll"
+[HKEY_CLASSES_ROOT\CLSID\{F96E0AF6-3BE4-4C5E-ABEF-7A588701F3A2}]
+@="Active Sync Scheduler"
+[HKEY_CLASSES_ROOT\CLSID\{F96E0AF6-3BE4-4C5E-ABEF-7A588701F3A2}\InProcServer32]
+@="Actsyncc.dll"
+[HKEY_CLASSES_ROOT\CLSID\{4AC99A9B-38DB-450E-A341-F41982E7AF01}]
+@="Active Sync Information"
+[HKEY_CLASSES_ROOT\CLSID\{4AC99A9B-38DB-450E-A341-F41982E7AF01}\InProcServer32]
+@="Actsyncc.dll"
+[HKEY_CLASSES_ROOT\CLSID\{bc65ab40-45a5-4103-a9e0-681ffd4ccbe3}\InprocServer32]
+        @="SyncCsp.dll"
+[HKEY_CLASSES_ROOT\Sync\CLSID]
+    @="{bc65ab40-45a5-4103-a9e0-681ffd4ccbe3}"
+[HKEY_LOCAL_MACHINE\Security\Provisioning\CSPs\.\Vendor\MSFT\Sync]
+@="{DAB192CE-B659-460c-AE27-0F32ECB471D4}"
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{22C7DA12-F3FD-4875-8344-7786454F6534}\Settings]
+        "ConflictResolution"=dword:1
+        "DeviceAddressingMethod"=dword:1
+        "URI"="Microsoft-Server-ActiveSync"
+        "NotificationsSupported"=dword:0
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{22C7DA12-F3FD-4875-8344-7786454F6534}\Providers\{4a5d9fe0-f139-4a63-a5a4-4f31ceea02ad}]
+        "Enabled"=dword:1
+        "ReadOnly"=dword:0
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{22C7DA12-F3FD-4875-8344-7786454F6534}\Providers\{0dd8685c-e272-4fcb-9ecf-2ead7ea2497b}]
+        "Enabled"=dword:1
+        "ReadOnly"=dword:0
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{22C7DA12-F3FD-4875-8344-7786454F6534}\Providers\{783ae4f6-4c12-4423-8270-66361260d4f1}]
+        "Enabled"=dword:1
+        "ReadOnly"=dword:0
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{22C7DA12-F3FD-4875-8344-7786454F6534}\Providers\{c6d47067-6e92-480e-b0fc-4ba82182fac7}]
+        "Enabled"=dword:1
+        "ReadOnly"=dword:0
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{176F4FFD-F20C-4bd4-BDD7-01D0726C567B}\Settings]
+        "ConflictResolution"=dword:1
+        "SyncAfterTimeWhenCradled"=dword:5
+        "DeviceAddressingMethod"=dword:1
+        "URI"="Microsoft-Server-ActiveSync"
+        "NotificationsSupported"=dword:0
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{176F4FFD-F20C-4bd4-BDD7-01D0726C567B}\Providers\{4a5d9fe0-f139-4a63-a5a4-4f31ceea02ad}]
+        "Enabled"=dword:1
+        "ReadOnly"=dword:0
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{176F4FFD-F20C-4bd4-BDD7-01D0726C567B}\Providers\{0dd8685c-e272-4fcb-9ecf-2ead7ea2497b}]
+        "Enabled"=dword:1
+        "ReadOnly"=dword:0
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{176F4FFD-F20C-4bd4-BDD7-01D0726C567B}\Providers\{783ae4f6-4c12-4423-8270-66361260d4f1}]
+        "Enabled"=dword:1
+        "ReadOnly"=dword:0
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{176F4FFD-F20C-4bd4-BDD7-01D0726C567B}\Providers\{c6d47067-6e92-480e-b0fc-4ba82182fac7}]
+        "Enabled"=dword:1
+        "ReadOnly"=dword:0
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Inbox\Svc\ActiveSync]
+    "Name"="ActiveSync"
+    "DLL"="syncmgr.dll"
+    "UserCannotCreate"=dword:1
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Inbox\Svc\ActiveSync\MsgClasses]
+    "IPM.Note"=dword:1
+[HKEY_CLASSES_ROOT\CLSID\{3085FACE-4C83-497d-80EC-E2DE2B7295C9}]
+@="Contacts Sync Manager Provider"
+[HKEY_CLASSES_ROOT\CLSID\{3085FACE-4C83-497d-80EC-E2DE2B7295C9}\InProcServer32]
+@="syncmgr.dll"
+[HKEY_CLASSES_ROOT\ContactsSyncMgrProvider]
+@="Contacts Sync Manager Provider"
+[HKEY_CLASSES_ROOT\ContactsSyncMgrProvider\CLSID]
+@="{3085FACE-4C83-497d-80EC-E2DE2B7295C9}"
+[HKEY_CLASSES_ROOT\CLSID\{208067F4-CD6D-4042-AA0D-EBEA00714318}]
+@="Calendar Sync Manager Provider"
+[HKEY_CLASSES_ROOT\CLSID\{208067F4-CD6D-4042-AA0D-EBEA00714318}\InProcServer32]
+@="syncmgr.dll"
+[HKEY_CLASSES_ROOT\CalendarSyncMgrProvider]
+@="Calendar Sync Manager Provider"
+[HKEY_CLASSES_ROOT\CalendarSyncMgrProvider\CLSID]
+@="{208067F4-CD6D-4042-AA0D-EBEA00714318}"
+[HKEY_CLASSES_ROOT\CLSID\{6555EA1D-660E-496d-B556-F549D519B50E}]
+@="Tasks Sync Manager Provider"
+[HKEY_CLASSES_ROOT\CLSID\{6555EA1D-660E-496d-B556-F549D519B50E}\InProcServer32]
+@="syncmgr.dll"
+[HKEY_CLASSES_ROOT\TasksSyncMgrProvider]
+@="Tasks Sync Manager Provider"
+[HKEY_CLASSES_ROOT\TasksSyncMgrProvider\CLSID]
+@="{6555EA1D-660E-496d-B556-F549D519B50E}"
+[HKEY_CLASSES_ROOT\CLSID\{944c16c0-dc2b-4c00-91b5-c914a440473b}]
+@="Inbox Sync Manager Provider"
+[HKEY_CLASSES_ROOT\CLSID\{944c16c0-dc2b-4c00-91b5-c914a440473b}\InProcServer32]
+@="syncmgr.dll"
+[HKEY_CLASSES_ROOT\InboxSyncMgrProvider]
+@="Inbox Sync Manager Provider"
+[HKEY_CLASSES_ROOT\InboxSyncMgrProvider\CLSID]
+@="{944c16c0-dc2b-4c00-91b5-c914a440473b}"
+[HKEY_LOCAL_MACHINE\Software\Apps\Microsoft Application Installer]
+"fAskOptions"=dword:0
+"fAskDest"=dword:0
+"nDynamicDelete"=dword:2
+"fEnableCef"=dword:0
+"Supported"="\"PALM PC\""
+[HKEY_LOCAL_MACHINE\Security\AppInstall\ExtensionOptions]
+".tsk"=dword:3
+".cab"=dword:0
+".hme"=dword:2
+".cpf"=dword:1
+[HKEY_LOCAL_MACHINE\Security\AppInstall\TSKAllowed]
+"1"=multi_sz:"stwater.gif",
+             "stwater_240_240.gif",
+             "stwater_240_320.gif",
+             "stwater_320_240.gif",
+             "stwater_640_480.gif",
+             "stwater_480_480.gif",
+             "stwater_480_640.gif",
+             "stwater_192_192.gif",
+             "stwater_96_96.gif",
+             "stwater_131_131.gif",
+             "tdywater.gif",
+             "tdywater_240_240.gif",
+             "tdywater_240_320.gif",
+             "tdywater_320_240.gif",
+             "tdywater_640_480.gif",
+             "tdywater_480_480.gif",
+             "tdywater_480_640.gif",
+             "tdywater_192_192.gif",
+             "tdywater_96_96.gif",
+             "tdywater_131_131.gif"
+"2"=multi_sz:"stwater.png",
+             "stwater_240_240.png",
+             "stwater_240_320.png",
+             "stwater_320_240.png",
+             "stwater_640_480.png",
+             "stwater_480_480.png",
+             "stwater_480_640.png",
+             "stwater_192_192.png",
+             "stwater_96_96.png",
+             "stwater_131_131.png",
+             "tdywater.png",
+             "tdywater_240_240.png",
+             "tdywater_240_320.png",
+             "tdywater_320_240.png",
+             "tdywater_640_480.png",
+             "tdywater_480_480.png",
+             "tdywater_480_640.png",
+             "tdywater_192_192.png",
+             "tdywater_96_96.png",
+             "tdywater_131_131.png"
+"3"=multi_sz:"stwater.jpg",
+             "stwater_240_240.jpg",
+             "stwater_240_320.jpg",
+             "stwater_320_240.jpg",
+             "stwater_640_480.jpg",
+             "stwater_480_480.jpg",
+             "stwater_480_640.jpg",
+             "stwater_192_192.jpg",
+             "stwater_96_96.jpg",
+             "stwater_131_131.jpg",
+             "tdywater.jpg",
+             "tdywater_240_240.jpg",
+             "tdywater_240_320.jpg",
+             "tdywater_320_240.jpg",
+             "tdywater_640_480.jpg",
+             "tdywater_480_480.jpg",
+             "tdywater_480_640.jpg",
+             "tdywater_192_192.jpg",
+             "tdywater_96_96.jpg",
+             "tdywater_131_131.jpg"
+"4"=multi_sz:"stwater.bmp",
+             "stwater_240_240.bmp",
+             "stwater_240_320.bmp",
+             "stwater_320_240.bmp",
+             "stwater_640_480.bmp",
+             "stwater_480_480.bmp",
+             "stwater_480_640.bmp",
+             "stwater_192_192.bmp",
+             "stwater_96_96.bmp",
+             "stwater_131_131.bmp",
+             "tdywater.bmp",
+             "tdywater_240_240.bmp",
+             "tdywater_240_320.bmp",
+             "tdywater_320_240.bmp",
+             "tdywater_640_480.bmp",
+             "tdywater_480_480.bmp",
+             "tdywater_480_640.bmp",
+             "tdywater_192_192.bmp",
+             "tdywater_96_96.bmp",
+             "tdywater_131_131.bmp"
+[HKEY_CLASSES_ROOT\DownloadHandler.AppInstaller\CLSID]
+    @="{06DE59C0-8A26-40d1-86C5-F126755546BF}"
+[HKEY_CLASSES_ROOT\CLSID\{06DE59C0-8A26-40d1-86C5-F126755546BF}\InprocServer32]
+    @="appinstaller.dll"
+[HKEY_CLASSES_ROOT\CLSID\{4A7DD4C3-05CF-4c7d-823F-5B5514634AE0}]
+@="Cab Installer"
+[HKEY_CLASSES_ROOT\CLSID\{4A7DD4C3-05CF-4c7d-823F-5B5514634AE0}\InProcServer32]
+@="cabinstl.dll"
+[HKEY_CLASSES_ROOT\CabInstaller]
+@="Cab Installer"
+[HKEY_CLASSES_ROOT\CabInstaller\CLSID]
+@="{4A7DD4C3-05CF-4c7d-823F-5B5514634AE0}"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Calendar\Reminder]
+"DEFAULTS"=hex:\
+      0f,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,04,00,00,00,00,00,00,00,00,\
+      00,00,00,FF,FF,FF,FF,00,00,00,00,00,00,00,00
+"WAVEFILE"=""
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Tasks\Reminder]
+"DEFAULTS"=hex:\
+      20,fe,ff,ff,00,00,00,00,01,00,00,00,00,00,00,00,04,00,00,00,00,00,00,00,00,\
+      00,00,00,FF,FF,FF,FF,00,00,00,00,00,00,00,00
+"WAVEFILE"=""
+[HKEY_LOCAL_MACHINE\init]
+    "Launch50"="shell32.exe"
+    "Launch70"="connmgr.exe"
+    "Depend70"=hex:1e,00
+    "Launch80"="srvtrust.exe"
+[HKEY_LOCAL_MACHINE\ExtModems\GenericInfraredModem]
+    "DeviceType" = dword:1
+    "Port" = "COM3:"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows CE\CurrentVersion\AeDebug]
+"Enabled"=dword:1
+[HKEY_LOCAL_MACHINE\Explorer\RunHistory]
+   @=""
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows CE Services]
+"Version"=dword:20000
+"Restriction"=dword:2
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows CE Services\Partners]
+"NetworkGUID"=hex:88, 29, 18, A1, 73, 0D, 9E, 43, 87, AD, 2A, 5B, 36, 9F, 80, 8B
+[HKEY_LOCAL_MACHINE\Windows CE Tools]
+    "Platform"="{8786CEC0-7256-413A-BAA3-39B5F435A826}"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Color]
+    "Restriction"=dword:2
+[HKEY_LOCAL_MACHINE\Comm\AFD]
+[HKEY_LOCAL_MACHINE\Comm\Tcpip\Parms]
+   "TcpMaxConnectRetransmissions"=dword:3
+   "EnableDeadGWDetect"=dword:0
+[HKEY_LOCAL_MACHINE\Comm\TcpIp\Parms\DhcpSendOptions]
+"60"=hex:3C,15,4D,69,63,72,6F,73,6F,66,74,20,57,69,6E,64,6F,77,73,20,43,45,0
+[HKEY_LOCAL_MACHINE\Comm\AsyncMac1\Parms]
+"RebindOnResume"=dword:0
+[HKEY_LOCAL_MACHINE\Comm\Cxport]
+    "Priority"=dword:FA
+    "NoIdleTimerReset"=dword:1
+[HKEY_LOCAL_MACHINE\Ident]
+    "Desc"=""
+    "Restriction"=dword:2
+[HKEY_LOCAL_MACHINE\Software\Microsoft\ADO]
+        "ROMversion"="8200"
+[HKEY_CLASSES_ROOT\ADOCE.Connection.3.0]
+@="Active Data Objects Connection"
+[HKEY_CLASSES_ROOT\ADOCE.Connection.3.0\CLSID]
+@="{113033F9-F682-11D2-BB62-00C04F680ACC}"
+[HKEY_CLASSES_ROOT\ADOCE.Recordset.3.0]
+@="Active Data Objects Recordset"
+[HKEY_CLASSES_ROOT\ADOCE.Recordset.3.0\CLSID]
+@="{113033F8-F682-11D2-BB62-00C04F680ACC}"
+[HKEY_CLASSES_ROOT\CLSID\{113033F7-F682-11D2-BB62-00C04F680ACC}]
+[HKEY_CLASSES_ROOT\CLSID\{113033F7-F682-11D2-BB62-00C04F680ACC}\InprocServer32]
+@="adoce30.dll"
+[HKEY_CLASSES_ROOT\CLSID\{113033F8-F682-11D2-BB62-00C04F680ACC}]
+@="Active Data Objects Recordset"
+[HKEY_CLASSES_ROOT\CLSID\{113033F8-F682-11D2-BB62-00C04F680ACC}\InprocServer32]
+@="adoce30.dll"
+"ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{113033F8-F682-11D2-BB62-00C04F680ACC}\ProgID]
+@="ADOCE.Recordset.3.0"
+[HKEY_CLASSES_ROOT\CLSID\{113033F9-F682-11D2-BB62-00C04F680ACC}]
+@="Active Data Objects Connection"
+[HKEY_CLASSES_ROOT\CLSID\{113033F9-F682-11D2-BB62-00C04F680ACC}\InprocServer32]
+@="adoce30.dll"
+"ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{113033F9-F682-11D2-BB62-00C04F680ACC}\ProgID]
+@="ADOCE.Connection.3.0"
+[HKEY_CLASSES_ROOT\CLSID\{34D2F904-F90E-11d2-83FF-00105AC65762}]
+@="RowsetHelperCE"
+[HKEY_CLASSES_ROOT\CLSID\{34D2F904-F90E-11d2-83FF-00105AC65762}\ExtendedErrors]
+@="Extended Error Service"
+[HKEY_CLASSES_ROOT\CLSID\{34D2F904-F90E-11d2-83FF-00105AC65762}\ExtendedErrors\{34D2F904-F90E-11d2-83FF-00105AC65762}]
+@="Rowset Helper Error Lookup Service"
+[HKEY_CLASSES_ROOT\CLSID\{34D2F904-F90E-11d2-83FF-00105AC65762}\InprocServer32]
+@="adoceoledb30.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{34D2F904-F90E-11d2-83FF-00105AC65762}\ProgID]
+@="RowsetHelperCE"
+[HKEY_CLASSES_ROOT\CLSID\{34D2F904-F90E-11d2-83FF-00105AC65762}\VersionIndependentProgID]
+@="RowsetHelperCE"
+[HKEY_CLASSES_ROOT\CLSID\{C8B522CF-5CF3-11CE-ADE5-00AA0044773D}]
+@="MSDAER"
+[HKEY_CLASSES_ROOT\CLSID\{C8B522CF-5CF3-11CE-ADE5-00AA0044773D}\InprocServer32]
+@="msdaer.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{C8B522CF-5CF3-11CE-ADE5-00AA0044773D}\ProgID]
+@="MSDAER.1"
+[HKEY_CLASSES_ROOT\CLSID\{C8B522CF-5CF3-11CE-ADE5-00AA0044773D}\TypeLib]
+@="{c8b522d5-5cf3-11ce-ade5-00aa0044773d}"
+[HKEY_CLASSES_ROOT\CLSID\{C8B522CF-5CF3-11CE-ADE5-00AA0044773D}\VersionIndependentProgID]
+@="MSDAER"
+[HKEY_CLASSES_ROOT\CLSID\{c8b522d1-5cf3-11ce-ade5-00aa0044773d}]
+@="Microsoft OLE DB Data Conversion Library"
+[HKEY_CLASSES_ROOT\CLSID\{c8b522d1-5cf3-11ce-ade5-00aa0044773d}\InprocServer32]
+@="msdadc.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{c8b522d1-5cf3-11ce-ade5-00aa0044773d}\ProgID]
+@="MSDADC.1"
+[HKEY_CLASSES_ROOT\CLSID\{c8b522d1-5cf3-11ce-ade5-00aa0044773d}\VersionIndependentProgID]
+@="MSDADC"
+[HKEY_CLASSES_ROOT\MSDADC]
+@="Microsoft OLE DB Data Conversion Library"
+[HKEY_CLASSES_ROOT\MSDADC\Clsid]
+@="{c8b522d1-5cf3-11ce-ade5-00aa0044773d}"
+[HKEY_CLASSES_ROOT\MSDADC.1]
+@="Microsoft OLE DB Data Conversion Library"
+[HKEY_CLASSES_ROOT\MSDADC.1\Clsid]
+@="{c8b522d1-5cf3-11ce-ade5-00aa0044773d}"
+[HKEY_CLASSES_ROOT\Microsoft.SQLSERVER.LITE.OLEDB.2.0Errors]
+@="Microsoft SQL Server Lite 2.0 OLE DB Provider for Windows Error Lookup"
+[HKEY_CLASSES_ROOT\Microsoft.SQLSERVER.LITE.OLEDB.2.0Errors\Clsid]
+@="{DF79ABFB-E51F-44e1-8C33-F19CC0A67A6B}"
+[HKEY_CLASSES_ROOT\Microsoft.SQLSERVER.LITE.OLEDB.2.0]
+@="Microsoft.SQLSERVER.LITE.OLEDB.2.0"
+[HKEY_CLASSES_ROOT\Microsoft.SQLSERVER.LITE.OLEDB.2.0\CLSID]
+@="{587CCDD3-F251-48fe-B762-4FAD6CCF6B77}"
+[HKEY_CLASSES_ROOT\CLSID\{DF79ABFB-E51F-44e1-8C33-F19CC0A67A6B}]
+@="Microsoft SQL Server Lite 2.0 OLE DB Provider for Windows Error Lookup"
+[HKEY_CLASSES_ROOT\CLSID\{DF79ABFB-E51F-44e1-8C33-F19CC0A67A6B}\InprocServer32]
+"ThreadingModel"="Both"
+@="MSSLQuery20.dll"
+[HKEY_CLASSES_ROOT\CLSID\{DF79ABFB-E51F-44e1-8C33-F19CC0A67A6B}\VersionIndependentProgID]
+@="Microsoft.SQLSERVER.LITE.OLEDB.ErrorLookup"
+[HKEY_CLASSES_ROOT\CLSID\{DF79ABFB-E51F-44e1-8C33-F19CC0A67A6B}\ProgID]
+@="Microsoft.SQLSERVER.LITE.OLEDB.ErrorLookup.2.0"
+[HKEY_CLASSES_ROOT\CLSID\{587CCDD3-F251-48fe-B762-4FAD6CCF6B77}]
+"OLEDB_SERVICES"=dword:fffffffe
+@="Microsoft.SQLSERVER.LITE.OLEDB.2.0"
+[HKEY_CLASSES_ROOT\CLSID\{587CCDD3-F251-48fe-B762-4FAD6CCF6B77}\ExtendedErrors]
+@="Microsoft SQL Server Lite 2.0 OLE DB Provider for Windows Error Lookup"
+[HKEY_CLASSES_ROOT\CLSID\{587CCDD3-F251-48fe-B762-4FAD6CCF6B77}\ExtendedErrors\{DF79ABFB-E51F-44e1-8C33-F19CC0A67A6B}]
+@="Microsoft SQL Server Lite 2.0 OLE DB Provider for WindowsError Lookup"
+[HKEY_CLASSES_ROOT\CLSID\{587CCDD3-F251-48fe-B762-4FAD6CCF6B77}\OLE DB Provider]
+@="Microsoft OLE DB Provider for SQL Server Lite"
+[HKEY_CLASSES_ROOT\CLSID\{587CCDD3-F251-48fe-B762-4FAD6CCF6B77}\InprocServer32]
+"ThreadingModel"="Both"
+@="MSSLQuery20.dll"
+[HKEY_CLASSES_ROOT\CLSID\{587CCDD3-F251-48fe-B762-4FAD6CCF6B77}\VersionIndependentProgID]
+@="Microsoft.SQLSERVER.LITE.OLEDB"
+[HKEY_CLASSES_ROOT\CLSID\{587CCDD3-F251-48fe-B762-4FAD6CCF6B77}\ProgID]
+@="Microsoft.SQLSERVER.LITE.OLEDB.2.0"
+[HKEY_CLASSES_ROOT\CLSID\{1CB8526F-3436-4651-842F-87F2EFD60222}\InprocServer32]
+"ThreadingModel"="Both"
+@="MSSLCore20.dll"
+[HKEY_CLASSES_ROOT\MSDAER]
+@="Microsoft OLE DB Error Collection Service"
+[HKEY_CLASSES_ROOT\MSDAER\Clsid]
+@="{C8B522CF-5CF3-11CE-ADE5-00AA0044773D}"
+[HKEY_CLASSES_ROOT\RowsetHelperCE]
+@="Microsoft ADOCE Rowset Helper"
+[HKEY_CLASSES_ROOT\RowsetHelperCE\Clsid]
+@="{34D2F904-F90E-11d2-83FF-00105AC65762}"
+[HKEY_CLASSES_ROOT\TypeLib\{113033F7-F682-11D2-BB62-00C04F680ACC}]
+[HKEY_CLASSES_ROOT\TypeLib\{113033F7-F682-11D2-BB62-00C04F680ACC}\1.0]
+[HKEY_CLASSES_ROOT\TypeLib\{113033F7-F682-11D2-BB62-00C04F680ACC}\1.0\0]
+@="adoce30.dll"
+[HKEY_CLASSES_ROOT\TypeLib\{c8b522d5-5cf3-11ce-ade5-00aa0044773d}]
+@="OLE DB Errors Type Library (Ver 1.0)"
+[HKEY_CLASSES_ROOT\TypeLib\{c8b522d5-5cf3-11ce-ade5-00aa0044773d}\1.0]
+@="OLE DB Errors Type Library"
+[HKEY_CLASSES_ROOT\TypeLib\{c8b522d5-5cf3-11ce-ade5-00aa0044773d}\1.0\0]
+[HKEY_CLASSES_ROOT\TypeLib\{c8b522d5-5cf3-11ce-ade5-00aa0044773d}\1.0\0\win32]
+@="msdaer.dll"
+[HKEY_LOCAL_MACHINE\ExtModems]
+[HKEY_LOCAL_MACHINE\ExtModems\HayesCompat]
+   "Port"="COM1:"
+   "DeviceType"=dword:1
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\ATADisk]
+    "Dll"="ATADISK.DLL"
+    "Prefix"="DSK"
+    "Ioctl"=dword:4
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\SRAMDisk]
+    "Dll"="SRAMDISK.DLL"
+    "Prefix"="DSK"
+    "Ioctl"=dword:4
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Detect\10]
+   "Dll"="SERIAL.DLL"
+   "Entry"="DetectModem"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Detect\50]
+   "Dll"="ATADISK.DLL"
+   "Entry"="DetectATADisk"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Detect\99]
+   "Dll"="SRAMDISK.DLL"
+   "Entry"="DetectSRAMDisk"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA]
+   "NoBatteryCheck"=dword:1
+[HKEY_LOCAL_MACHINE\Comm\IrDA]
+    "DevAddr"=dword:0
+    "Baud"=dword:26
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\SIP]
+"Prefix"="SIP"
+"Dll"="softkb.DLL"
+"Order"=dword:1
+"Index"=dword:0
+[HKEY_CURRENT_USER\ControlPanel\Sip]
+"DragStyle"=dword:0
+[HKEY_CURRENT_USER\Software\Microsoft\Shell]
+"AnalogClock"=dword:0
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\URLProtocols\file]
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\URLProtocols\ftp]
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\URLProtocols\https]
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\URLProtocols\http]
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\URLProtocols\res]
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\URLProtocols\mailto]
+[HKEY_CURRENT_USER\ControlPanel\SoundCategories\RingPreview]
+"AttenuationCategory"=dword:1
+[HKEY_CURRENT_USER\ControlPanel\Sounds\RingPreview]
+"Category"="RingPreview"
+[HKEY_LOCAL_MACHINE\Snd\Scheme]
+    "Curr0"="Current Settings"
+[HKEY_LOCAL_MACHINE\Snd\Event]
+    ".Scheme"="Curr0"
+    "EventMask"=dword:01F7ED
+    "EventCache"=dword:600
+    "Curr0"=multi_sz:"msgbox",
+            "",
+        "msgbox",
+        "default",
+        "Empty",
+        "msgbox",
+        "infbeg",
+        "infend",
+        "infend",
+        "MenuPop",
+        "hwandsw",
+        "",
+        "msgbox",
+        "infbeg",
+        "infend",
+        "infend",
+        "alarm2",
+        "",
+        "",
+        "voicbeep",
+        "RecEnd"
+[HKEY_LOCAL_MACHINE\Snd\Support]
+    "SupportLevel"=dword:2
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power]
+"BattPowerOff"=dword:b4
+"ExtPowerOff"=dword:0
+"WakeupPowerOff"=dword:b4
+[HKEY_CURRENT_USER\Start]
+"dummy"=dword:1
+[HKEY_LOCAL_MACHINE\Software\Microsoft\shell\smartdialer]
+"Flags"=dword:4 ; SMF_NOT9
+[HKEY_CURRENT_USER\ControlPanel\Sounds]
+[HKEY_CURRENT_USER\ControlPanel\Notifications\ShellOverrides]
+"Mode"=dword:0;
+[HKEY_LOCAL_MACHINE\ControlPanel\Volume]
+"Group"=dword:0
+[HKEY_LOCAL_MACHINE\ControlPanel\AdminPassword]
+"Group"=dword:1
+"Redirect"=""
+[HKEY_CURRENT_USER\ControlPanel\Volume]
+"Key"=dword:10000
+"Screen"=dword:10000
+"Mute"=dword:7
+"Volume"=dword:99999999
+[HKEY_LOCAL_MACHINE\ControlPanel\System]
+"Group"=dword:1
+[HKEY_LOCAL_MACHINE\ControlPanel\Power]
+"Group"=dword:1
+[HKEY_LOCAL_MACHINE\ControlPanel\Owner]
+"Group"=dword:0
+[HKEY_LOCAL_MACHINE\ControlPanel\Password]
+"Group"=dword:0
+[HKEY_LOCAL_MACHINE\ControlPanel\Dial]
+"Group"=dword:1
+[HKEY_LOCAL_MACHINE\ControlPanel\Comm]
+"Group"=dword:2
+[HKEY_LOCAL_MACHINE\ControlPanel\Network]
+"Group"=dword:2
+[HKEY_LOCAL_MACHINE\ControlPanel\Menus]
+"Group"=dword:0
+[HKEY_LOCAL_MACHINE\ControlPanel\Buttons]
+"Group"=dword:0
+[HKEY_LOCAL_MACHINE\ControlPanel\Input]
+"Group"=dword:0
+[HKEY_LOCAL_MACHINE\ControlPanel\Today]
+"Group"=dword:0
+[HKEY_LOCAL_MACHINE\ControlPanel\Stylus]
+"Group"=dword:1
+[HKEY_LOCAL_MACHINE\ControlPanel\PC Connection]
+"Group"=dword:2
+[HKEY_LOCAL_MACHINE\ControlPanel\Connections]
+"Group"=dword:2
+"GoToTab"=dword:1
+[HKEY_LOCAL_MACHINE\ControlPanel\Certificates]
+"Group"=dword:1
+[HKEY_LOCAL_MACHINE\ControlPanel\Bluetooth]
+"Group"=dword:2
+[HKEY_LOCAL_MACHINE\ControlPanel\Beam]
+"Group"=dword:2
+[HKEY_LOCAL_MACHINE\ControlPanel\Updates]
+"Group"=dword:2
+"Redirect"=""
+[HKEY_LOCAL_MACHINE\ControlPanel\Phone]
+"Group"=dword:0
+"Redirect"=""
+[HKEY_CURRENT_USER\Software\Microsoft\Multimedia\Audio]
+   "DefaultFormat"="WceName"
+[HKEY_CURRENT_USER\Software\Microsoft\Multimedia\Audio\WaveFormats]
+[HKEY_CURRENT_USER\ControlPanel\Comm]
+"AutoCnct"=dword:1
+[HKEY_LOCAL_MACHINE\ControlPanel\Desktop]
+"Group"=dword:0
+[HKEY_LOCAL_MACHINE\Telephony\HandoffPriorities]
+"RequestMakeCall"="cmapi.dll"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Rai]
+"SessionTimeout"=dword:4            ; 4 hours by default
+[HKEY_LOCAL_MACHINE\SYSTEM\OOM]
+    "cbVLow"=dword:20000
+    "cpVLow"=dword:40
+    "cbLow"=dword:177000
+    "cpLow"=dword:177
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Color]
+"DefSHColor"=hex:ff,00,00,00,00,00,00,00,dd,dd,dd,00,ff,ff,cc,00,ff,ff,ff,00,15,75,bc,00,15,75,bc,00,c9,dc,e9,00,5d,ae,e9,00,ff,ff,ff,00,5d,ae,e9,00,5d,ae,e9,00,5d,ae,e9,00,15,75,bc,00,5d,ae,e9,00,ff,ff,ff,00,c9,dc,e9,00,37,91,d3,00,37,91,d3,00,ff,ff,ff,00,15,75,bc,00,5d,ae,e9,00,ff,ff,ff,00,15,75,bc,00,84,84,c3,00,15,75,bc,00,5d,ae,e9,00,ff,ff,ff,00,ff,ff,ff,00,00,00,00,00,ff,ff,ff,00,00,00,00,00,ff,ff,ff,00,15,75,bc,00,37,91,d3,00,ff,ff,ff,00,ff,ff,ff,00,c9,dc,e9,00,5d,ae,e9,00,ff,ff,ff,00,5d,ae,e9,00
+"SHColor"=hex:ff,00,00,00,00,00,00,00,dd,dd,dd,00,ff,ff,cc,00,ff,ff,ff,00,15,75,bc,00,15,75,bc,00,c9,dc,e9,00,5d,ae,e9,00,ff,ff,ff,00,5d,ae,e9,00,5d,ae,e9,00,5d,ae,e9,00,15,75,bc,00,5d,ae,e9,00,ff,ff,ff,00,c9,dc,e9,00,37,91,d3,00,37,91,d3,00,ff,ff,ff,00,15,75,bc,00,5d,ae,e9,00,ff,ff,ff,00,15,75,bc,00,84,84,c3,00,15,75,bc,00,5d,ae,e9,00,ff,ff,ff,00,ff,ff,ff,00,00,00,00,00,ff,ff,ff,00,00,00,00,00,ff,ff,ff,00,15,75,bc,00,37,91,d3,00,ff,ff,ff,00,ff,ff,ff,00,c9,dc,e9,00,5d,ae,e9,00,ff,ff,ff,00,5d,ae,e9,00
+[HKEY_LOCAL_MACHINE\Comm\Security\Crypto\Defaults\CheckInfo]
+    "Mask"=dword:2
+[HKEY_LOCAL_MACHINE\Platform]
+    "Target"=dword:1
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Today]
+   "Enabled"=dword:1
+[HKEY_CURRENT_USER\Software\Microsoft\Today]
+    "Restriction"=dword:2
+    "UseStartImage"=dword:1
+[HKEY_CLASSES_ROOT\CLSID\{c882d981-e42b-11d1-9b4e-0000f803fd00}\InprocServer32]
+    @="pvbform2.dll"
+[HKEY_CLASSES_ROOT\CLSID\{59B3D9C5-DBBB-11d1-A837-0000F807F349}\InprocServer32]
+    @="pvbform2.dll"
+[HKEY_CLASSES_ROOT\TypeLIb\{c882d980-e42b-11d1-9b4e-0000f803fd00}\1.0\HELPDIR]
+    @="\\windows"
+[HKEY_CLASSES_ROOT\TypeLIb\{c882d980-e42b-11d1-9b4e-0000f803fd00}\1.0\FLAGS]
+    @="0"
+[HKEY_CLASSES_ROOT\TypeLIb\{c882d980-e42b-11d1-9b4e-0000f803fd00}\1.0\0\win32]
+    @="pvbform2.dll"
+[HKEY_CLASSES_ROOT\TypeLib\{E45BC4F0-E062-11d1-8B59-006008B0E597}\1.0\HELPDIR]
+    @="\\windows"
+[HKEY_CLASSES_ROOT\TypeLib\{E45BC4F0-E062-11d1-8B59-006008B0E597}\1.0\FLAGS]
+    @="0"
+[HKEY_CLASSES_ROOT\TypeLib\{E45BC4F0-E062-11d1-8B59-006008B0E597}\1.0\0\win32]
+    @="pvbhost2.dll"
+[HKEY_CLASSES_ROOT\.vb]
+    @="VBCE.ProjectRun"
+[HKEY_CLASSES_ROOT\VBCE.ProjectRun]
+    @="VBCE 2.0 Project File"
+[HKEY_CLASSES_ROOT\VBCE.ProjectRun\shell\Open\command]
+    @="iexplore.exe file://\\windows\\evbruntime.htm"
+[HKEY_CLASSES_ROOT\VBCE.ProjectRun\DefaultIcon]
+    @="pvbhost2.dll,-2"
+[HKEY_CLASSES_ROOT\CLSID\{4A7DD4C3-05CF-4c7d-823F-5B5514634AE0}]
+@="Cab Installer"
+[HKEY_CLASSES_ROOT\CLSID\{4A7DD4C3-05CF-4c7d-823F-5B5514634AE0}\InProcServer32]
+@="cabinstl.dll"
+[HKEY_CLASSES_ROOT\CabInstaller]
+@="Cab Installer"
+[HKEY_CLASSES_ROOT\CabInstaller\CLSID]
+@="{4A7DD4C3-05CF-4c7d-823F-5B5514634AE0}"
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\IPM\MCQuestion]
+    "GlyphInfo"=hex:20,00,00,00,64,00,00,00,64,00,00,00,00,00,00,00,01,00,00,00,03,00,00,00,02,00,00,00,00,00,00,00
+    "DLL"="iboxdemo.dll"
+[HKEY_CURRENT_USER\Software\Microsoft\CEMAPI\Transports\.default\IMAP4]
+    "DLL"="imap.dll"
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\Forms\Read\Font]
+        "Size"=dword:0B
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\Forms\Compose\Font]
+        "Size"=dword:0B
+[HKEY_CLASSES_ROOT\CLSID\{D086D8A1-24CD-11d3-94A4-0000F87A4978}\InprocServer32]
+    ""="stsmtp.dll"
+    "ThreadingModel"="Free"
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\Settings]
+    "ShowDateTime"=dword:1
+    "IncludeOriginal"=dword:1
+    "IndentBody"=dword:1
+    "LeadChar"=dword:3e
+    "MoveMessage"=dword:1
+    "TrashEmpty"=dword:2
+    "SaveSent"=dword:1
+[HKEY_CURRENT_USER\Software\Microsoft\Connectability\Settings]
+    "State"=dword:7
+[HKEY_LOCAL_MACHINE\Comm\ApplicationDownload]
+    "LoggingFlags"=dword:00000000
+[HKEY_LOCAL_MACHINE\Security\Policies\Policies]
+    "00001000"=dword:8
+[HKEY_LOCAL_MACHINE\Security\Policies\Policies]
+    "00001001"=dword:2
+[HKEY_LOCAL_MACHINE\Security\Policies\Policies]
+    "00001005"=dword:10
+[HKEY_LOCAL_MACHINE\Security\Policies\Policies]
+    "00001006"=dword:1
+[HKEY_LOCAL_MACHINE\Security\Policies\Policies]
+    "00001007"=dword:40
+[HKEY_LOCAL_MACHINE\Security\Policies\Policies]
+    "00001008"=dword:1
+[HKEY_LOCAL_MACHINE\Security\Policies\Policies]
+    "00001009"=dword:3
+[HKEY_LOCAL_MACHINE\Security\Policies\Policies]
+    "0000100b"=dword:c80
+[HKEY_LOCAL_MACHINE\Security\Policies\Policies]
+    "0000100c"=dword:800
+[HKEY_LOCAL_MACHINE\Security\Policies\Policies]
+    "0000100d"=dword:c00
+[HKEY_LOCAL_MACHINE\Security\Policies\Policies]
+    "0000100e"=dword:40
+[HKEY_LOCAL_MACHINE\Security\Policies\Policies]
+    "0000100f"=dword:e90
+[HKEY_LOCAL_MACHINE\Security\Policies\Policies]
+    "00001011"=dword:1
+[HKEY_LOCAL_MACHINE\Security\Policies\Policies]
+    "00001017"=dword:10
+[HKEY_LOCAL_MACHINE\Security\Policies\Policies]
+    "00001018"=dword:10
+[HKEY_LOCAL_MACHINE\Security\Policies\Policies]
+    "00001019"=dword:8c
+[HKEY_LOCAL_MACHINE\Security\Policies\Policies]
+    "0000101a"=dword:0
+[HKEY_LOCAL_MACHINE\Security\Policies\Policies]
+    "0000101b"=dword:1
+[HKEY_LOCAL_MACHINE\Security\Policies\Policies]
+    "0000101d"=dword:1
+[HKEY_LOCAL_MACHINE\Security\Policies\Policies]
+    "0000101e"=dword:1
+[HKEY_LOCAL_MACHINE\Security\Policies\Policies]
+    "0000101f"=dword:1
+[HKEY_LOCAL_MACHINE\Security\Policies\Policies]
+    "00001020"=dword:1
+[HKEY_LOCAL_MACHINE\Security\Policies\Policies]
+    "00001021"=dword:c00
+[HKEY_LOCAL_MACHINE\Security\Provisioning\CSPs\.\DevDetail]
+    "SwVersionPkg"="{d0b41563-b345-4444-aa15-986e7c7fff99}"
+[HKEY_LOCAL_MACHINE\Loader]
+    "SystemPath"=multi_sz:"\\Release\\"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\OLE\LegacyApps]
+	"mstli.exe"=dword:1
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\Timeouts]
+"ACUserIdle"=dword:0                        ; in seconds
+"BattUserIdle"=dword:0                      ; in seconds
+[HKEY_LOCAL_MACHINE\Comm\Security\Crypto]
+"DisableCurrentUserSystemCertificates"=dword:1 

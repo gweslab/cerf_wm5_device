@@ -1,0 +1,599 @@
+REGEDIT4
+[HKEY_LOCAL_MACHINE\Services\OBEX]
+	"DLL"="OBEXSrVr.dll"
+	"Keep"=dword:1
+	"Order"=dword:9
+        "Prefix"="OBX"
+        "Index"=dword:0
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Obex]
+     "LogSize"=dword:10
+     "DebugOutputMask"=dword:0
+     "DebugOutputChannels"=dword:4
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Obex\Transports\{30a7bc04-59b6-40bb-aa2b-89eb49ef274e}]
+	"Name"="IP"
+[HKEY_CLASSES_ROOT\CLSID\{30A7BC00-59B6-40BB-AA2B-89EB49EF274E}]
+	@="ObexAPI"
+[HKEY_CLASSES_ROOT\CLSID\{30A7BC00-59B6-40BB-AA2B-89EB49EF274E}\InprocServer32]
+	@="OBEXAPI.dll"
+	"ThreadingModel"="Free"
+	"ProgID"="OBEXAPI.1"
+	"VersionIndependentProgID"="OBEXAPI"
+[HKEY_CLASSES_ROOT\CLSID\{30A7BC01-59B6-40BB-AA2B-89EB49EF274E}]
+	@="HeaderCollection"
+[HKEY_CLASSES_ROOT\CLSID\{30A7BC01-59B6-40BB-AA2B-89EB49EF274E}\InprocServer32]
+	@="OBEXAPI.dll"
+	"ThreadingModel"="Free"
+	"ProgID"="HeaderCollection.1"
+	"VersionIndependentProgID"="HeaderCollection"
+[HKEY_CLASSES_ROOT\CLSID\{30a7bc05-59b6-40bb-aa2b-89eb49ef274e}]
+	@="PropertyBag"
+[HKEY_CLASSES_ROOT\CLSID\{30a7bc05-59b6-40bb-aa2b-89eb49ef274e}\InprocServer32]
+	@="OBEXAPI.dll"
+	"ThreadingModel"="Free"
+	"ProgID"="PropertyBag.1"
+	"VersionIndependentProgID"="PropertyBag"
+[HKEY_CLASSES_ROOT\CLSID\{30a7bc04-59b6-40bb-aa2b-89eb49ef274e}]
+	@="IpTransport"
+[HKEY_CLASSES_ROOT\CLSID\{30a7bc04-59b6-40bb-aa2b-89eb49ef274e}\InprocServer32]
+	@="OBEXAPI.dll"
+	"ThreadingModel"="Free"
+	"ProgID"="IpTransport.1"
+	"VersionIndependentProgID"="IpTransport"
+[HKEY_LOCAL_MACHINE\Security\WAP]
+"NetworkCount"=dword:0
+[HKEY_CLASSES_ROOT\ConfigManager\CLSID]
+    @="{67C73FBF-999E-44dd-AF32-480E86CB7EA3}"
+[HKEY_CLASSES_ROOT\CLSID\{67C73FBF-999E-44dd-AF32-480E86CB7EA3}\InprocServer32]
+    @="configmanager.dll"
+[HKEY_CLASSES_ROOT\ConfigMetabase\CLSID]
+    @="{A9CBC292-0A92-4fe7-AF32-24531AB92EA2}"
+[HKEY_CLASSES_ROOT\ConfigMetabaseEntry\CLSID]
+    @="{22359130-347A-4711-9D85-7FAD66F89CEB}"
+[HKEY_CLASSES_ROOT\ConfigUninstallHost\CLSID]
+    @="{EB0AE09E-5DDC-4e40-AB81-5668F012EC97}"
+[HKEY_CLASSES_ROOT\CLSID\{EB0AE09E-5DDC-4e40-AB81-5668F012EC97}\InprocServer32]
+    @="configmanager.dll"
+[HKEY_CLASSES_ROOT\ConfigManager2\CLSID]
+    @="{66D0DB14-5638-475f-A386-629522D8C461}"
+[HKEY_CLASSES_ROOT\CLSID\{66D0DB14-5638-475f-A386-629522D8C461}\InprocServer32]
+    @="configmanager2.dll"
+[HKEY_CLASSES_ROOT\ConfigManager2URI\CLSID]
+    @="{50A41EF1-6BFA-4b7e-973E-798EA0BEBAD4}"
+[HKEY_CLASSES_ROOT\CLSID\{50A41EF1-6BFA-4b7e-973E-798EA0BEBAD4}\InprocServer32]
+    @="configmanager2.dll"
+[HKEY_CLASSES_ROOT\ConfigManager2MutableURI\CLSID]
+    @="{C196B2BE-BA06-4049-8518-322E1E04282B}"
+[HKEY_CLASSES_ROOT\CLSID\{C196B2BE-BA06-4049-8518-322E1E04282B}\InprocServer32]
+    @="configmanager2.dll"
+[HKEY_LOCAL_MACHINE\Security\Provisioning\CSPs\.]
+    @="{D5173188-1EDC-4ae4-831E-A7F252C6F03A}"
+[HKEY_LOCAL_MACHINE\Security\Provisioning\CSPs\.\SyncML]
+    @="{D5173188-1EDC-4ae4-831E-A7F252C6F03A}"
+[HKEY_LOCAL_MACHINE\Security\Provisioning\CSPs\.\Vendor]
+    @="{D5173188-1EDC-4ae4-831E-A7F252C6F03A}"
+[HKEY_LOCAL_MACHINE\Security\Provisioning\CSPs\.\Vendor\MSFT]
+    @="{D5173188-1EDC-4ae4-831E-A7F252C6F03A}"
+[HKEY_CLASSES_ROOT\CLSID\{A9CBC292-0A92-4fe7-AF32-24531AB92EA2}\InprocServer32]
+    @="configmanager.dll"
+[HKEY_CLASSES_ROOT\CLSID\{22359130-347A-4711-9D85-7FAD66F89CEB}\InprocServer32]
+    @="configmanager.dll"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Bluetooth\BTHLINK]
+   "Prefix"="BTL"
+   "Dll"="bthlink.dll"
+   "Index"=dword:1
+   "Flags"=dword:2
+[HKEY_CURRENT_USER\Software\Microsoft\Bluetooth\Settings]
+"ScanMode"=dword:0
+[HKEY_LOCAL_MACHINE\software\microsoft\bluetooth\debug]
+"mask"=dword:0
+[HKEY_LOCAL_MACHINE\software\microsoft\bluetooth\sys]
+"DisableAutoSuspend"=dword:1
+[HKEY_CLASSES_ROOT\CLSID\{88370D7C-A531-4896-BF61-A9FA2FEF1871}]
+@="Bluetooth Device Management"
+[HKEY_CLASSES_ROOT\CLSID\{88370D7C-A531-4896-BF61-A9FA2FEF1871}\InProcServer32]
+@="bthutil.dll"
+[HKEY_CLASSES_ROOT\CLSID\{D567B104-3B4D-4c38-A66B-281302C965A2}]
+@="Bluetooth Device Management"
+[HKEY_CLASSES_ROOT\CLSID\{D567B104-3B4D-4c38-A66B-281302C965A2}\InProcServer32]
+@="bthutil.dll"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Bluetooth\Services\00001101-0000-1000-8000-00805F9B34FB]
+"bthutil.dll"=dword:0
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Bluetooth\Serial\Ports]
+"SupportedPorts"=multi_sz:"COM0","COM1","COM2","COM3","COM4","COM5","COM6","COM7","COM8","COM9"
+[HKEY_CURRENT_USER\ControlPanel\WiFi\EapolParam1]
+"EapType"=dword:19
+"EapFlags"=dword:0
+[HKEY_CURRENT_USER\ControlPanel\WiFi\EapolParam2]
+"EapType"=dword:d
+"EapFlags"=dword:0
+[HKEY_CURRENT_USER\ControlPanel\Notifications\{F55615D6-D29E-4db8-8C75-98125D1A7253}]
+"Options"=dword:9
+"Duration"=dword:0
+"Wave"="notify"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Rai\:MSREMNET]
+"0"="MSREMNET"
+"1"="remnet.exe"
+"2"=dword:1
+"3"=dword:0
+"4"=hex:00,00,00,00,00,00,00,00
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Obex\Services\{00000000-0000-0000-0000-000000000000}\MimeTypes\text/x-vCard]
+    "Name"="vCard"
+    "Extension"="vcf"
+    "DLL"="pimutil.dll"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Obex\Services\{00000000-0000-0000-0000-000000000000}\MimeTypes\text/x-vCal]
+    "Name"="vCal"
+    "Extension"="vcs"
+    "DLL"="pimutil.dll"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Obex\Services\{00000000-0000-0000-0000-000000000000}]
+     "Server"="obexinbx.dll"
+     "TransportAuthenticate"=dword:0
+[HKEY_CLASSES_ROOT\CLSID\{0aa5aa82-8738-4d16-932d-37273baf5a89}]
+    @="ObexInbox Notification"
+[HKEY_CLASSES_ROOT\CLSID\{0aa5aa82-8738-4d16-932d-37273baf5a89}\InprocServer32]
+    @="obexinbx.dll"
+[HKEY_LOCAL_MACHINE\COMM\Parms]
+    "AllowSuspend"=dword:1
+[HKEY_LOCAL_MACHINE\COMM\IrDA]
+    "AutoSuspend"=dword:1
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Obex]
+     "IsEnabled"=dword:1
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\URLProtocols\wsp]
+[HKEY_CLASSES_ROOT\PROTOCOLS\Handler\wsp]
+"CLSID"="{D230931C-917D-4dc5-A2A0-AA49451D1545}"
+[HKEY_CLASSES_ROOT\CLSID\{D230931C-917D-4dc5-A2A0-AA49451D1545}]
+@=""
+[HKEY_CLASSES_ROOT\CLSID\{D230931C-917D-4dc5-A2A0-AA49451D1545}\InprocServer32]
+@="webview.dll"
+[HKEY_CLASSES_ROOT\PROTOCOLS\Handler\wsps]
+"CLSID"="{D230931C-917D-4dc5-A2A0-AA49451D1545}"
+[HKEY_CLASSES_ROOT\CLSID\{D230931C-917D-4dc5-A2A0-AA49451D1545}]
+@=""
+[HKEY_CLASSES_ROOT\CLSID\{D230931C-917D-4dc5-A2A0-AA49451D1545}\InprocServer32]
+@="webview.dll"
+[HKEY_CLASSES_ROOT\CLSID\{93B397B4-3325-4555-B7DB-0AD5F33BF066}]
+@="WMLView"
+[HKEY_CLASSES_ROOT\CLSID\{93B397B4-3325-4555-B7DB-0AD5F33BF066}\ProgId]
+@="WMLView"
+[HKEY_CLASSES_ROOT\CLSID\{93B397B4-3325-4555-B7DB-0AD5F33BF066}\InprocServer32]
+@="wmlview.dll"
+[HKEY_CLASSES_ROOT\CLSID\{93B397B4-3325-4555-B7DB-0AD5F33BF066}\Control]
+@="True"
+[HKEY_CLASSES_ROOT\CLSID\{93B397B4-3325-4555-B7DB-0AD5F33BF066}\Version]
+@="1.0"
+[HKEY_CLASSES_ROOT\CLSID\{93B397B4-3325-4555-B7DB-0AD5F33BF066}\TypeLib]
+@="{965F4C6F-573C-49C8-A2D4-247A6916AC62}"
+[HKEY_CLASSES_ROOT\TypeLib\{965F4C6F-573C-49C8-A2D4-247A6916AC62}\1.0]
+@="WMLView Module"
+[HKEY_CLASSES_ROOT\TypeLib\{965F4C6F-573C-49C8-A2D4-247A6916AC62}\1.0\0]
+@="wmlview.dll"
+[HKEY_CLASSES_ROOT\CLSID\{5678D883-BE60-48e2-BD15-5F23595B096F}]
+@="Microsoft WMLScript Engine"
+[HKEY_CLASSES_ROOT\CLSID\{5678D883-BE60-48e2-BD15-5F23595B096F}\InprocServer32]
+@="wmlview.dll"
+[HKEY_CLASSES_ROOT\CLSID\{33AC341C-B6F1-4b27-90D1-DBFEFA5F821F}]
+@="WBMP Decoder"
+[HKEY_CLASSES_ROOT\CLSID\{33AC341C-B6F1-4b27-90D1-DBFEFA5F821F}\InprocServer32]
+@="wmlview.dll"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Imaging\Codecs\WBMP Decoder]
+"MIME Type"="image/wbmp"
+"Filename Extension"="*.WBMP"
+"File Type Description"="WAP Bitmap"
+"DLLName"="wmlview"
+"Signature Mask"=hex:FF,9F
+"Signature Pattern"=hex:00,00
+"Signature Size"=dword:2
+"Signature Count"=dword:1
+"Format ID"=hex:00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"CLSID"=hex:1C,34,AC,33,F1,B6,27,4B,90,D1,DB,FE,FA,5F,82,1F
+"Flags"=dword:20022
+"Version"=dword:1
+"_InfoSize"=dword:d0
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Imaging\Codecs]
+"_LastCookie"=dword:1
+[HKEY_CLASSES_ROOT\.wml]
+@="wmlfile"
+"Content Type"="text/vnd.wap.wml"
+[HKEY_CLASSES_ROOT\wmlfile]
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\wmlfile\DefaultIcon]
+@="browsres.dll,-6703"
+[HKEY_CLASSES_ROOT\wmlfile\Shell\Open\Command]
+@="iexplore.exe file:%1"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\text/vnd.wap.wml]
+"Extension"=".wml"
+"CLSID"="{93B397B4-3325-4555-B7DB-0AD5F33BF066}"
+[HKEY_CLASSES_ROOT\.wbmp]
+@="wbmpfile"
+"Content Type"="image/wbmp"
+"PerceivedType"="image"
+[HKEY_CLASSES_ROOT\wbmpfile]
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\wbmpfile\DefaultIcon]
+@="browsres.dll,-6705"
+[HKEY_CLASSES_ROOT\wbmpfile\Shell\Open\Command]
+@="iexplore.exe file:%1"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\image/wbmp]
+"Extension"=".wbmp"
+"CLSID"="{698E3FCA-70C3-11D0-81E8-00A0C90AD21A}"
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\image/vnd.wap.wbmp]
+"Extension"=".wbmp"
+"CLSID"="{698E3FCA-70C3-11D0-81E8-00A0C90AD21A}"
+[HKEY_CLASSES_ROOT\CLSID\{DAB192CE-B659-460c-AE27-0F32ECB471D4}\InprocServer32]
+    @="syscsps.dll"
+[HKEY_CLASSES_ROOT\Registry\CLSID]
+    @="{E89C2E05-74EB-4802-A467-396FAF6D95D6}"
+[HKEY_CLASSES_ROOT\CLSID\{E89C2E05-74EB-4802-A467-396FAF6D95D6}\InprocServer32]
+        @="syscsps.dll"
+[HKEY_LOCAL_MACHINE\Security\Provisioning\CSPs\.\Vendor\MSFT\Registry]
+    @="{DAB192CE-B659-460c-AE27-0F32ECB471D4}"
+[HKEY_CLASSES_ROOT\Metabase\CLSID]
+    @="{452DE9A6-1967-4e90-A529-3F0B785871C4}"
+[HKEY_CLASSES_ROOT\CLSID\{452DE9A6-1967-4e90-A529-3F0B785871C4}\InprocServer32]
+        @="syscsps.dll"
+[HKEY_CLASSES_ROOT\Install\CLSID]
+    @="{16A6435C-D19A-4a5b-A540-010E5D65429C}"
+[HKEY_CLASSES_ROOT\CLSID\{16A6435C-D19A-4a5b-A540-010E5D65429C}\InprocServer32]
+        @="syscsps.dll"
+[HKEY_CLASSES_ROOT\SecurityPolicy\CLSID]
+    @="{E00589F9-3271-48a4-85A4-CE2CA7AC84DD}"
+[HKEY_CLASSES_ROOT\CLSID\{E00589F9-3271-48a4-85A4-CE2CA7AC84DD}\InprocServer32]
+        @="syscsps.dll"
+[HKEY_LOCAL_MACHINE\Security\Provisioning\CSPs\.\Vendor\MSFT\SecurityPolicy]
+    @="{DAB192CE-B659-460c-AE27-0F32ECB471D4}"
+[HKEY_CLASSES_ROOT\FileOperation\CLSID]
+    @="{38CF00FB-8EBB-4d2e-A2DD-9BB7736A45C0}"
+[HKEY_CLASSES_ROOT\CLSID\{38CF00FB-8EBB-4d2e-A2DD-9BB7736A45C0}\InprocServer32]
+        @="syscsps.dll"
+[HKEY_CLASSES_ROOT\DMAcc\CLSID]
+    @="{44110444-AE9A-4d26-9AEB-13F67E2872D0}"
+[HKEY_CLASSES_ROOT\CLSID\{44110444-AE9A-4d26-9AEB-13F67E2872D0}\InprocServer32]
+        @="syscsps.dll"
+[HKEY_LOCAL_MACHINE\Security\Provisioning\CSPs\.\SyncML\DMAcc]
+    @="{44110444-AE9A-4d26-9AEB-13F67E2872D0}"
+[HKEY_CLASSES_ROOT\CertificateStore\CLSID]
+    @="{3B69C5A0-27AF-4e07-805B-F6469BB3DB02}"
+[HKEY_CLASSES_ROOT\CLSID\{3B69C5A0-27AF-4e07-805B-F6469BB3DB02}\InprocServer32]
+        @="syscsps.dll"
+[HKEY_LOCAL_MACHINE\Security\Provisioning\CSPs\.\Vendor\MSFT\CertificateStore]
+    @="{DAB192CE-B659-460c-AE27-0F32ECB471D4}"
+[HKEY_CLASSES_ROOT\LoaderRevocation\CLSID]
+    @="{04929A32-A8C7-4b12-80C7-852D9947E229}"
+[HKEY_CLASSES_ROOT\CLSID\{04929A32-A8C7-4b12-80C7-852D9947E229}\InprocServer32]
+        @="syscsps.dll"
+[HKEY_LOCAL_MACHINE\Security\Provisioning\CSPs\.\Vendor\MSFT\LoaderRevocation]
+    @="{DAB192CE-B659-460c-AE27-0F32ECB471D4}"
+[HKEY_CLASSES_ROOT\EMAIL2\CLSID]
+    @="{7B3D74EC-35D9-45e3-B8F3-E38F4B90D174}"
+[HKEY_CLASSES_ROOT\CLSID\{7B3D74EC-35D9-45e3-B8F3-E38F4B90D174}\InprocServer32]
+        @="syscsps.dll"
+[HKEY_LOCAL_MACHINE\Security\Provisioning\CSPs\.\Vendor\MSFT\EMAIL2]
+    @="{DAB192CE-B659-460c-AE27-0F32ECB471D4}"
+[HKEY_CLASSES_ROOT\NAPDEF\CLSID]
+    @="{280D8D13-3B77-4951-9F7D-90B97A219DCE}"
+[HKEY_CLASSES_ROOT\PXLOGICAL\CLSID]
+    @="{280D8D13-3B77-4951-9F7D-90B97A219DCE}"
+[HKEY_CLASSES_ROOT\CLSID\{280D8D13-3B77-4951-9F7D-90B97A219DCE}\InprocServer32]
+        @="syscsps.dll"
+[HKEY_CLASSES_ROOT\BOOTSTRAP\CLSID]
+    @="{D5320747-79FF-44ff-82C5-A26A3959F839}"
+[HKEY_CLASSES_ROOT\CLSID\{D5320747-79FF-44ff-82C5-A26A3959F839}\InprocServer32]
+        @="syscsps.dll"
+[HKEY_CLASSES_ROOT\uninstall\CLSID]
+    @="{FD99604D-0F04-48ca-B497-06D5FD1CECDB}"
+[HKEY_CLASSES_ROOT\CLSID\{FD99604D-0F04-48ca-B497-06D5FD1CECDB}\InprocServer32]
+        @="syscsps.dll"
+[HKEY_LOCAL_MACHINE\Security\Provisioning\CSPs\.\Vendor\MSFT\uninstall]
+    @="{DAB192CE-B659-460c-AE27-0F32ECB471D4}"
+[HKEY_CLASSES_ROOT\APPLICATION\CLSID]
+    @="{10B5E52F-0CC1-4ff0-B0DE-0EC9F91CDD4B}"
+[HKEY_CLASSES_ROOT\CLSID\{10B5E52F-0CC1-4ff0-B0DE-0EC9F91CDD4B}\InprocServer32]
+        @="syscsps.dll"
+[HKEY_LOCAL_MACHINE\Security\Provisioning\CSPs\.\DevInfo]
+    @="{859AC360-A8F0-4d82-BBC7-7E28529FCC46}"
+    "DmV"="1.1"
+[HKEY_CLASSES_ROOT\CLSID\{859AC360-A8F0-4d82-BBC7-7E28529FCC46}\InprocServer32]
+        @="syscsps.dll"
+[HKEY_LOCAL_MACHINE\Security\Provisioning\CSPs\.\DevDetail]
+    @="{79834058-0A20-44dc-AD9B-CE07DC6E379C}"
+[HKEY_CLASSES_ROOT\CLSID\{79834058-0A20-44dc-AD9B-CE07DC6E379C}\InprocServer32]
+        @="syscsps.dll"
+[HKEY_CLASSES_ROOT\SpeedDial\CLSID]
+    @="{2D8EBDEE-437C-47c9-ABCC-F169E5E781D0}"
+[HKEY_CLASSES_ROOT\CLSID\{2D8EBDEE-437C-47c9-ABCC-F169E5E781D0}\InprocServer32]
+        @="syscsps.dll"
+[HKEY_LOCAL_MACHINE\Security\Provisioning\CSPs\.\Vendor\MSFT\SpeedDial]
+    @="{DAB192CE-B659-460c-AE27-0F32ECB471D4}"
+[HKEY_CLASSES_ROOT\Wi-Fi\CLSID]
+    @="{EDF83936-F42A-43e2-A278-DB67EF7E90B8}"
+[HKEY_CLASSES_ROOT\CLSID\{EDF83936-F42A-43e2-A278-DB67EF7E90B8}\InprocServer32]
+        @="syscsps.dll"
+[HKEY_LOCAL_MACHINE\Security\Provisioning\CSPs\.\Vendor\MSFT\Wi-Fi]
+    @="{DAB192CE-B659-460c-AE27-0F32ECB471D4}"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Rai\:MSWELCOME]
+"0"="Welcome"
+"1"="welcome.exe"
+"2"=dword:0
+"3"=dword:0
+"4"=hex:00,00,00,00,00,00,00,00
+[HKEY_CLASSES_ROOT\CLSID\{C41E4139-1594-4048-B629-E8BCB0FAE8B1}]
+   @="RichEdit Host"
+[HKEY_CLASSES_ROOT\CLSID\{C41E4139-1594-4048-B629-E8BCB0FAE8B1}\InProcServer32]
+   @="rehost.dll"
+   "ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{29d48cf7-ed6a-4a9d-a17a-ae9115c07a90}]
+   @="Inbox Namespace Factory"
+[HKEY_CLASSES_ROOT\CLSID\{29d48cf7-ed6a-4a9d-a17a-ae9115c07a90}\InProcServer32]
+   @="htmlnote.dll"
+   "ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{2e436b83-46a2-46a0-9429-854e3f4570b7}]
+   @="HTMLNote From Handler"
+[HKEY_CLASSES_ROOT\CLSID\{2e436b83-46a2-46a0-9429-854e3f4570b7}\InProcServer32]
+   @="htmlnote.dll"
+   "ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{08f1011b-8285-48b4-b7b3-756eb0d9f135}]
+   @="HTMLNote Sender Picture Handler"
+[HKEY_CLASSES_ROOT\CLSID\{08f1011b-8285-48b4-b7b3-756eb0d9f135}\InProcServer32]
+   @="htmlnote.dll"
+   "ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{1d0ca8b9-a45e-4466-8352-4d0bc6630c57}]
+   @="HTMLNote To Handler"
+[HKEY_CLASSES_ROOT\CLSID\{1d0ca8b9-a45e-4466-8352-4d0bc6630c57}\InProcServer32]
+   @="htmlnote.dll"
+   "ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{9edafdc9-c925-4a6c-8a1a-d5ea57f3b384}]
+   @="HTMLNote Cc Handler"
+[HKEY_CLASSES_ROOT\CLSID\{9edafdc9-c925-4a6c-8a1a-d5ea57f3b384}\InProcServer32]
+   @="htmlnote.dll"
+   "ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{f13c0027-a80b-4831-9c87-6c33c4dab755}]
+   @="HTMLNote Read Subject Handler"
+[HKEY_CLASSES_ROOT\CLSID\{f13c0027-a80b-4831-9c87-6c33c4dab755}\InProcServer32]
+   @="htmlnote.dll"
+   "ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{39281e89-d319-4998-967d-8cdba6787708}]
+   @="HTMLNote Sent Handler"
+[HKEY_CLASSES_ROOT\CLSID\{39281e89-d319-4998-967d-8cdba6787708}\InProcServer32]
+   @="htmlnote.dll"
+   "ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{5070ae4e-5ae7-4c0a-8fae-f2e339f41735}]
+   @="HTMLNote Size Handler"
+[HKEY_CLASSES_ROOT\CLSID\{5070ae4e-5ae7-4c0a-8fae-f2e339f41735}\InProcServer32]
+   @="htmlnote.dll"
+   "ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{5b4a9bf5-451f-401f-8339-79478a69cb4f}]
+   @="HTMLNote Read Body Handler"
+[HKEY_CLASSES_ROOT\CLSID\{5b4a9bf5-451f-401f-8339-79478a69cb4f}\InProcServer32]
+   @="htmlnote.dll"
+   "ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{22455e94-dcad-48e7-8903-e414def038d9}]
+   @="HTMLNote More Handler"
+[HKEY_CLASSES_ROOT\CLSID\{22455e94-dcad-48e7-8903-e414def038d9}\InProcServer32]
+   @="htmlnote.dll"
+   "ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{133E1028-FE8D-4eda-BE07-BDACA554E479}]
+   @="HTMLNote DiscreteLink Handler"
+[HKEY_CLASSES_ROOT\CLSID\{133E1028-FE8D-4eda-BE07-BDACA554E479}\InProcServer32]
+   @="htmlnote.dll"
+   "ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{87aaed87-de9d-4ceb-bcfc-6fa2e3112692}]
+   @="HTMLNote Attachment Handler"
+[HKEY_CLASSES_ROOT\CLSID\{87aaed87-de9d-4ceb-bcfc-6fa2e3112692}\InProcServer32]
+   @="htmlnote.dll"
+   "ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{bd9eb8de-cc3d-4914-8b1b-c24fadb0342a}]
+   @="HTMLNote Location Handler"
+[HKEY_CLASSES_ROOT\CLSID\{bd9eb8de-cc3d-4914-8b1b-c24fadb0342a}\InProcServer32]
+   @="htmlnote.dll"
+   "ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{6069d0bd-6096-411d-8f63-a1b219428c74}]
+   @="HTMLNote When Handler"
+[HKEY_CLASSES_ROOT\CLSID\{6069d0bd-6096-411d-8f63-a1b219428c74}\InProcServer32]
+   @="htmlnote.dll"
+   "ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{9edc40e2-3ec2-426a-b309-d39af6692c94}]
+   @="HTMLNote SMS Callback Number Handler"
+[HKEY_CLASSES_ROOT\CLSID\{9edc40e2-3ec2-426a-b309-d39af6692c94}\InProcServer32]
+   @="htmlnote.dll"
+   "ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{22b779f3-adbb-467e-9241-378b4e708187}]
+   @="HTMLNote Status Handler"
+[HKEY_CLASSES_ROOT\CLSID\{22b779f3-adbb-467e-9241-378b4e708187}\InProcServer32]
+   @="htmlnote.dll"
+   "ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{e2fc4dd1-0bfc-442f-a8d2-29069afcb706}]
+   @="HTMLNote InfoBar Handler"
+[HKEY_CLASSES_ROOT\CLSID\{e2fc4dd1-0bfc-442f-a8d2-29069afcb706}\InProcServer32]
+   @="htmlnote.dll"
+   "ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{a0244873-dded-474b-86da-4de348b6b5be}]
+   @="HTMLNote Compose From Handler"
+[HKEY_CLASSES_ROOT\CLSID\{a0244873-dded-474b-86da-4de348b6b5be}\InProcServer32]
+   @="htmlnote.dll"
+   "ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{ca45465d-90a2-48cb-b0e5-a3f5b0738043}]
+   @="HTMLNote Compose Body Handler"
+[HKEY_CLASSES_ROOT\CLSID\{ca45465d-90a2-48cb-b0e5-a3f5b0738043}\InProcServer32]
+   @="htmlnote.dll"
+   "ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{176287d4-b77b-4cf9-b435-c9470316cbf8}]
+   @="HTMLNote Compose To Handler"
+[HKEY_CLASSES_ROOT\CLSID\{176287d4-b77b-4cf9-b435-c9470316cbf8}\InProcServer32]
+   @="htmlnote.dll"
+   "ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{b96799c1-91dc-4ec0-af18-46d0f8c0ec9f}]
+   @="HTMLNote Compose Cc Handler"
+[HKEY_CLASSES_ROOT\CLSID\{b96799c1-91dc-4ec0-af18-46d0f8c0ec9f}\InProcServer32]
+   @="htmlnote.dll"
+   "ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{afb96e0d-d579-4ed0-9d93-95ae396e51e0}]
+   @="HTMLNote Compose Bcc Handler"
+[HKEY_CLASSES_ROOT\CLSID\{afb96e0d-d579-4ed0-9d93-95ae396e51e0}\InProcServer32]
+   @="htmlnote.dll"
+   "ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{60faaa57-870d-4432-a407-da0042a745d0}]
+   @="HTMLNote Compose Subject Handler"
+[HKEY_CLASSES_ROOT\CLSID\{60faaa57-870d-4432-a407-da0042a745d0}\InProcServer32]
+   @="htmlnote.dll"
+   "ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{e4cc248a-9e17-42ba-b12e-c1ff2b7f858b}]
+   @="HTMLNote Compose Attachments Handler"
+[HKEY_CLASSES_ROOT\CLSID\{e4cc248a-9e17-42ba-b12e-c1ff2b7f858b}\InProcServer32]
+   @="htmlnote.dll"
+   "ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{c59db2e9-601c-423b-8bf3-352be01b89ba}]
+   @="HTMLNote Compose Body Count Handler"
+[HKEY_CLASSES_ROOT\CLSID\{c59db2e9-601c-423b-8bf3-352be01b89ba}\InProcServer32]
+   @="htmlnote.dll"
+   "ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{19312f00-47d2-4932-bfa8-655f9c75c952}]
+   @="HTMLNote Message Class Object"
+[HKEY_CLASSES_ROOT\CLSID\{19312f00-47d2-4932-bfa8-655f9c75c952}\InProcServer32]
+   @="htmlnote.dll"
+   "ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{13caddd4-2ee4-42a4-a2b1-16a5108a96ed}]
+   @="HTMLNote Class IPM.Schedule.Meeting.Request"
+[HKEY_CLASSES_ROOT\CLSID\{13caddd4-2ee4-42a4-a2b1-16a5108a96ed}\InProcServer32]
+   @="htmlnote.dll"
+   "ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{c0d08e97-171f-4c65-a9fe-599eae67b084}]
+   @="HTMLNote Compose Security Handler"
+[HKEY_CLASSES_ROOT\CLSID\{c0d08e97-171f-4c65-a9fe-599eae67b084}\InProcServer32]
+   @="htmlnote.dll"
+   "ThreadingModel"="Free"
+[HKEY_LOCAL_MACHINE\SYSTEM\Inbox\Handlers]
+    "From"="{2e436b83-46a2-46a0-9429-854e3f4570b7}"
+    "SenderPic"="{08f1011b-8285-48b4-b7b3-756eb0d9f135}"
+    "To"="{1d0ca8b9-a45e-4466-8352-4d0bc6630c57}"
+    "Cc"="{9edafdc9-c925-4a6c-8a1a-d5ea57f3b384}"
+    "Subject"="{f13c0027-a80b-4831-9c87-6c33c4dab755}"
+    "Sent"="{39281e89-d319-4998-967d-8cdba6787708}"
+    "Size"="{5070ae4e-5ae7-4c0a-8fae-f2e339f41735}"
+    "ReadBody"="{5b4a9bf5-451f-401f-8339-79478a69cb4f}"
+    "More"="{22455e94-dcad-48e7-8903-e414def038d9}"
+    "DiscreteLink"="{133E1028-FE8D-4eda-BE07-BDACA554E479}"
+    "Attachments"="{87aaed87-de9d-4ceb-bcfc-6fa2e3112692}"
+    "Location"="{bd9eb8de-cc3d-4914-8b1b-c24fadb0342a}"
+    "When"="{6069d0bd-6096-411d-8f63-a1b219428c74}"
+    "Status"="{22b779f3-adbb-467e-9241-378b4e708187}"
+    "InfoBar"="{e2fc4dd1-0bfc-442f-a8d2-29069afcb706}"
+    "Callback"="{9edc40e2-3ec2-426a-b309-d39af6692c94}"
+    "ComposeFrom"="{a0244873-dded-474b-86da-4de348b6b5be}"
+    "ComposeTo"="{176287d4-b77b-4cf9-b435-c9470316cbf8}"
+    "ComposeCc"="{b96799c1-91dc-4ec0-af18-46d0f8c0ec9f}"
+    "ComposeBcc"="{afb96e0d-d579-4ed0-9d93-95ae396e51e0}"
+    "ComposeSubject"="{60faaa57-870d-4432-a407-da0042a745d0}"
+    "ComposeBody"="{ca45465d-90a2-48cb-b0e5-a3f5b0738043}"
+    "ComposeAttachments"="{e4cc248a-9e17-42ba-b12e-c1ff2b7f858b}"
+    "ComposeBodyCount"="{c59db2e9-601c-423b-8bf3-352be01b89ba}"
+    "ComposeSecurity"="{c0d08e97-171f-4c65-a9fe-599eae67b084}"
+[HKEY_LOCAL_MACHINE\SYSTEM\Inbox\Templates\IPM\Note]
+    "Read"="\\Windows\\read_note.htm"
+    "Compose"="\\Windows\\compose_note.htm"
+[HKEY_LOCAL_MACHINE\SYSTEM\Inbox\Templates\IPM\SMStext]
+    "Read"="\\Windows\\read_sms.htm"
+    "Compose"="\\Windows\\compose_sms.htm"
+[HKEY_LOCAL_MACHINE\SYSTEM\Inbox\Templates\IPM\SMStext\VoiceNot]
+    "Read"="\\Windows\\read_sms.htm"
+[HKEY_LOCAL_MACHINE\SYSTEM\Inbox\Templates\REPORT\IPM\SMStext\DR]
+    "Read"="\\Windows\\read_sms.htm"
+[HKEY_LOCAL_MACHINE\SYSTEM\Inbox\Templates\REPORT\IPM\SMStext\NDR]
+    "Read"="\\Windows\\read_sms.htm"
+[HKEY_LOCAL_MACHINE\SYSTEM\Inbox\Templates\IPM\SI]
+    "Read"="\\Windows\\read_sms.htm"
+[HKEY_LOCAL_MACHINE\SYSTEM\Inbox\Templates\IPM\SL]
+    "Read"="\\Windows\\read_sms.htm"
+[HKEY_LOCAL_MACHINE\SYSTEM\Inbox\Templates\IPM\Schedule\Meeting\Request]
+    "Read"="\\Windows\\read_mtgreq.htm"
+    "ClassObj"="{13caddd4-2ee4-42a4-a2b1-16a5108a96ed}"
+[HKEY_LOCAL_MACHINE\SYSTEM\Inbox\Templates\IPM\Schedule\Meeting\Canceled]
+    "Read"="\\Windows\\read_mtgreq.htm"
+    "ClassObj"="{13caddd4-2ee4-42a4-a2b1-16a5108a96ed}"
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\IPM\Note]
+    "DLL"="htmlnote.dll"
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\IPM\SMStext]
+    "DLL"="htmlnote.dll"
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\IPM\Schedule\Meeting\Request]
+    "DLL"="htmlnote.dll"
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\IPM\Schedule\Meeting\Resp\Pos]
+    "DLL"="htmlnote.dll"
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\IPM\Schedule\Meeting\Resp\Neg]
+    "DLL"="htmlnote.dll"
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\IPM\Schedule\Meeting\Resp\Tent]
+    "DLL"="htmlnote.dll"
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\IPM\Schedule\Meeting\Canceled]
+    "DLL"="htmlnote.dll"
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\IPM\SMStext\VoiceNot]
+    "DLL"="htmlnote.dll"
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\IPM\SMStext\ReturnCall]
+    "DLL"="htmlnote.dll"
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\REPORT\IPM\Meeting\Request\NDR]
+    "DLL"="htmlnote.dll"
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\REPORT\IPM\Note\DR]
+    "DLL"="htmlnote.dll"
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\REPORT\IPM\Note\NDR]
+    "DLL"="htmlnote.dll"
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\REPORT\IPM\Note\SMIME\MultipartSigned\DR]
+    "DLL"="htmlnote.dll"
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\REPORT\IPM\Note\SMIME\MultipartSigned\NDR]
+    "DLL"="htmlnote.dll"
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\REPORT\IPM\Note\IPNRN]
+    "DLL"="htmlnote.dll"
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\REPORT\IPM\Note\IPNNRN]
+    "DLL"="htmlnote.dll"
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\MsgTypes\REPORT\IPM\Note\Status]
+    "DLL"="htmlnote.dll"
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\SMSText]
+    "MaxDeletedMsgs"=dword:32
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\Settings]
+    "SMSAvailable"=dword:1
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\Settings]
+    "CommaAsSeparator"=dword:1
+[HKEY_CLASSES_ROOT\.mid]
+@="midifile"
+"Content Type"="audio/mid"
+[HKEY_CLASSES_ROOT\midifile]
+@="mid"
+"EditFlags"=dword:00010000
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\audio/mid]
+"Extension"=".mid"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETCompactFramework\Installer\Assemblies\Global]
+"Microsoft.WindowsMobile.Telephony, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"=multi_sz:"\\windows\\GAC_Microsoft.WindowsMobile.Telephony_v1_0_0_0_cneutral_1.dll","Microsoft.WindowsMobile.Telephony.dll"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETCompactFramework\Installer\Assemblies\ROM]
+"Microsoft.WindowsMobile.Telephony, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"=multi_sz:"\\windows\\GAC_Microsoft.WindowsMobile.Telephony_v1_0_0_0_cneutral_1.dll","Microsoft.WindowsMobile.Telephony.dll"
+[HKEY_LOCAL_MACHINE\Services\Trusted]
+    "PushRouter"="pushrouter.dll"
+    "WSPPush"="wsppush.dll"
+[HKEY_LOCAL_MACHINE\Security\PushRouter\Registrations\ByGenericId\PC1]
+    "GenId"="PC1"
+    "AppId"="x-wap-microsoft:cfgmgr.ua"
+    "Path"="cfghost.exe"
+    "Params"=""
+    "ContentTypes"="text/vnd.wap.connectivity-xml;application/vnd.wap.connectivity-wbxml"
+    "RefCount"=dword:5
+    "Trust"=dword:2
+[HKEY_LOCAL_MACHINE\Security\PushRouter\Registrations\ByCTAndAppId\application/vnd.wap.connectivity-wbxml;x-wap-microsoft:cfgmgr.ua]
+    @="PC1"
+[HKEY_LOCAL_MACHINE\Security\PushRouter\Registrations\ByCTAndAppId\text/vnd.wap.connectivity-xml;x-wap-microsoft:cfgmgr.ua]
+    @="PC1"
+[HKEY_LOCAL_MACHINE\Security\PushRouter\Registrations\ByCTAndAppId\application/vnd.wap.connectivity-wbxml;]
+    @="PC1"
+[HKEY_LOCAL_MACHINE\Security\PushRouter\Registrations\ByCTAndAppId\text/vnd.wap.connectivity-xml;]
+    @="PC1"
+[HKEY_LOCAL_MACHINE\Security\PushRouter\Registrations\ByCTAndAppId\;x-wap-microsoft:cfgmgr.ua]
+    @="PC1"
+[HKEY_CLASSES_ROOT\SecProviders.UnauthSecProvider\CLSID]
+    @="{AB824EEF-7CF4-4c55-B415-B2D9CD30FE9E}"
+[HKEY_CLASSES_ROOT\CLSID\{AB824EEF-7CF4-4c55-B415-B2D9CD30FE9E}\InprocServer32]
+    @="coresecproviders.dll"
+[HKEY_CLASSES_ROOT\SecProviders.WAPXMLSecProvider\CLSID]
+    @="{C03A0FA8-76AC-4e62-B42A-1F8D8186B0F6}"
+[HKEY_CLASSES_ROOT\CLSID\{C03A0FA8-76AC-4e62-B42A-1F8D8186B0F6}\InprocServer32]
+    @="coresecproviders.dll"
+[HKEY_CLASSES_ROOT\SecProviders.SyncMLSecProvider\CLSID]
+    @="{CCB38336-0B46-4153-BF74-6EA9A8C07EDF}"
+[HKEY_CLASSES_ROOT\CLSID\{CCB38336-0B46-4153-BF74-6EA9A8C07EDF}\InprocServer32]
+    @="coresecproviders.dll"
+[HKEY_LOCAL_MACHINE\Security\Pushrouter\Security]
+    "Provider10"="SecProviders.SyncMLSecProvider"
+    "Provider20"="SecProviders.WAPXMLSecProvider"
+    "Provider90"="SecProviders.UnauthSecProvider"

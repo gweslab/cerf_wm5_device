@@ -1,0 +1,39 @@
+REGEDIT4
+[HKEY_LOCAL_MACHINE\Comm\L2TP]
+   "DisplayName"=mui_sz:"netmui.dll,#9010"
+   "Group"="NDIS"
+   "ImagePath"="l2tp.dll"
+[HKEY_LOCAL_MACHINE\Comm\L2TP\Linkage]
+   "Route"=multi_sz:"L2TP1"
+[HKEY_LOCAL_MACHINE\Comm\L2TP1]
+   "DisplayName"=mui_sz:"netmui.dll,#9010"
+   "Group"="NDIS"
+[HKEY_LOCAL_MACHINE\Comm\L2TP1\Parms]
+   "BusNumber"=dword:0
+   "BusType"=dword:0
+   "DisablePowerManagement"=dword:1
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\SmartCard]
+   "Prefix"="SCA"
+   "Dll"="scard.dll"
+   "Index"=dword:1
+   "Order"=dword:1
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\ipsecsvc]
+   "Dll"="ipsecsvc.Dll"
+   "Order"=dword:8
+   "Keep"=dword:1
+   "Prefix"="IKE"
+   "Index"=dword:0
+   "Flags"=dword:10002
+[HKEY_LOCAL_MACHINE\Comm\IPSec\Policies\Default]
+        "inaction"=dword:1
+        "outaction"=dword:2
+        "auth"=dword:2
+        "info"=""
+        "mmhash"=dword:7
+        "mmenc"=dword:7
+        "qmhash"=dword:7
+        "qmenc"=dword:4
+        "dh"=dword:3
+        "protocol"=dword:0
+        "flags"=dword:0
+        "srcip"="myip"

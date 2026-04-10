@@ -1,0 +1,41 @@
+REGEDIT4
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Richink]
+@="Microsoft Inking"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Richink\ActiveRecognizer]
+@="{BA339A6A-CCFA-11D2-870B-0000F8756F16}"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Hwx]
+@="Microsoft Handwriting Recognizers"
+[HKEY_CLASSES_ROOT\CLSID\{BA339A6A-CCFA-11D2-870B-0000F8756F16}]
+@="CInkWordRecognizer class"
+[HKEY_CLASSES_ROOT\CLSID\{BA339A6A-CCFA-11D2-870B-0000F8756F16}\InprocServer32]
+@="infantry.dll"
+"ThreadingModel"="free"
+[HKEY_CLASSES_ROOT\CLSID\{BA339A6C-CCFA-11D2-870B-0000F8756F16}]
+@="CInkWordRecognitionContext class"
+[HKEY_CLASSES_ROOT\CLSID\{BA339A6C-CCFA-11D2-870B-0000F8756F16}\InprocServer32]
+@="infantry.dll"
+"ThreadingModel"="free"
+[HKEY_CLASSES_ROOT\CLSID\{10F294B0-D01F-11D2-870B-0000F8756F16}]
+@="CHwxPhraseTree class"
+[HKEY_CLASSES_ROOT\CLSID\{10F294B0-D01F-11D2-870B-0000F8756F16}\InprocServer32]
+@="infantry.dll"
+"ThreadingModel"="free"
+[HKEY_CLASSES_ROOT\CLSID\{10F294A8-D01F-11D2-870B-0000F8756F16}]
+@="CWordGuess class"
+[HKEY_CLASSES_ROOT\CLSID\{10F294A8-D01F-11D2-870B-0000F8756F16}\InprocServer32]
+@="infantry.dll"
+"ThreadingModel"="free"
+[HKEY_CLASSES_ROOT\CLSID\{F0034DD0-2AD4-11d1-9CB0-E84BE8000000}]
+@="Transcriber"
+[HKEY_CLASSES_ROOT\CLSID\{F0034DD0-2AD4-11d1-9CB0-E84BE8000000}\InprocServer32]
+@="\\windows\\TranscriberSip.Dll"
+[HKEY_CLASSES_ROOT\CLSID\{F0034DD0-2AD4-11d1-9CB0-E84BE8000000}\IsSIPInputMethod]
+@="1"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Transcriber]
+@="Transcriber"
+"InstlDir"="\\windows"
+"MajorVersion"=dword:2
+"MinorVersion"=dword:0
+[HKEY_CURRENT_USER\Software\Microsoft\Transcriber]
+@="Transcriber"
+"Version"="2.0 "

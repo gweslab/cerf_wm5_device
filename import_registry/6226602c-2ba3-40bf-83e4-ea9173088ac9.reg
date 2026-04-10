@@ -1,0 +1,57 @@
+REGEDIT4
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Excel\WriteConverters\Excel Mobile Workbook (*.PXL)]
+"EXTENSION"="PXL"
+"STRUCTURED"=dword:0
+"PRIORITY"=dword:FFFFFFFF
+"GUID"=hex:a1,e7,a4,06,47,bb,d0,11,84,27,00,AA,00,B5,1C,C2
+"TEMPLATE"=dword:0
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Excel\ReadConverters\Excel Mobile Files (*.PX*)]
+"EXTENSION"="PX*"
+"STRUCTURED"=dword:0
+"PRIORITY"=dword:ffffffff
+"GUID"=hex:a4,e7,a4,06,47,bb,d0,11,84,27,00,AA,00,B5,1C,C2
+"TEMPLATE"=dword:0
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Excel\WriteConverters\Excel Mobile 1.0 Workbook (*.PXL)]
+"EXTENSION"="PXL"
+"STRUCTURED"=dword:0
+"PRIORITY"=dword:ffff0000
+"GUID"=hex:a2,e7,a4,06,47,bb,d0,11,84,27,00,AA,00,B5,1C,C2
+"TEMPLATE"=dword:0
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Excel\ReadConverters\Excel Mobile Template (*.PXT)]
+"EXTENSION"="PXT"
+"STRUCTURED"=dword:0
+"PRIORITY"=dword:fffe0000
+"GUID"=hex:70,63,93,9a,e3,d7,d0,11,84,2f,00,aa,00,b5,1c,c2
+"TEMPLATE"=dword:1
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Excel\WriteConverters\Excel Mobile Template (*.PXT)]
+"EXTENSION"="PXT"
+"STRUCTURED"=dword:0
+"PRIORITY"=dword:fffE0000
+"GUID"=hex:71,63,93,9a,e3,d7,d0,11,84,2f,00,aa,00,b5,1c,c2
+"TEMPLATE"=dword:1
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Extensions\NewMenu\{FC59C090-AB3E-11d2-8442-0000F87A584A}]
+@="Excel Workbook"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Excel\ReadConverters\Excel Files (*.XLS)]
+"EXTENSION"="XLS"
+"STRUCTURED"=dword:1
+"PRIORITY"=dword:8000000
+"GUID"=hex:c0,b6,ac,12,54,dc,d0,11,84,2f,00,aa,00,b5,1c,c2
+"TEMPLATE"=dword:0
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Excel\ReadConverters\Excel Template (*.XLT)]
+"EXTENSION"="XLT"
+"STRUCTURED"=dword:1
+"PRIORITY"=dword:7FFFFFFF
+"GUID"=hex:c0,b6,ac,12,54,dc,d0,11,84,2f,00,aa,00,b5,1c,c2
+"TEMPLATE"=dword:1
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Excel\WriteConverters\Excel Workbook (*.XLS)]
+"EXTENSION"="XLS"
+"STRUCTURED"=dword:1
+"PRIORITY"=dword:8000000
+"GUID"=hex: c1,92,bc,91,  99,de, d0,11, 84,30,00,aa,00,b5,1c,c2
+"TEMPLATE"=dword:0
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Excel\WriteConverters\Excel Template (*.XLT)]
+"EXTENSION"="XLT"
+"STRUCTURED"=dword:1
+"PRIORITY"=dword:6000000
+"GUID"=hex: c1,92,bc,91,  99,de, d0,11, 84,30,00,aa,00,b5,1c,c2
+"TEMPLATE"=dword:1

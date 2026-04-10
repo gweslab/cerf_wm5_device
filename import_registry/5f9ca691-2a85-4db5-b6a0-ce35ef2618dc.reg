@@ -1,0 +1,15 @@
+REGEDIT4
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Hwx\ActiveRecognizer]
+@="TraRecoEnu.dll"
+[HKEY_CLASSES_ROOT\CLSID\{F0034DD0-2AD4-11d1-9CB0-E84BE8000000}]
+"Desc"="With Transcriber you can write in cursive, print or mixed handwriting on the screen and your ink is instantly recognized."
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Transcriber]
+"RecFile"="TraRecoEnu.dll"
+"ResFile"="TraRes0409.dll"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Transcriber\Recognizers]
+@="Transcriber Optional Recognizers"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Transcriber\Recognizers\TraRecoEnu.dll]
+@="English Recognizer"
+"Language"="English Standard"
+"Path"="\\Windows"
+"CLSID"="{609388C3-250C-43f5-8E17-BC6C16561CD9}"

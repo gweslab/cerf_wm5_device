@@ -1,0 +1,443 @@
+REGEDIT4
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pocket MSN]
+"RemoteURL"="http://mobile.msn.com/pocketpc/"
+"AutoDomain"="@hotmail.com"
+[HKEY_CLASSES_ROOT\MSNSharedServices.MSNPluginInstaller.1]
+@="MSN Plugin Installer"
+[HKEY_CLASSES_ROOT\MSNSharedServices.MSNPluginInstaller.1\CLSID]
+@="{AA9C9EAF-3D6E-4091-9089-915CE336A8EB}"
+[HKEY_CLASSES_ROOT\MSNSharedServices.MSNPluginInstaller]
+@="MSN Plugin Installer"
+[HKEY_CLASSES_ROOT\MSNSharedServices.MSNPluginInstaller\CLSID]
+@="{AA9C9EAF-3D6E-4091-9089-915CE336A8EB}"
+[HKEY_CLASSES_ROOT\MSNSharedServices.MSNPluginInstaller\CurVer]
+@="MSNSharedServices.MSNPluginInstaller.1"
+[HKEY_CLASSES_ROOT\CLSID\{AA9C9EAF-3D6E-4091-9089-915CE336A8EB}]
+@="MSN Plugin Installer"
+[HKEY_CLASSES_ROOT\CLSID\{AA9C9EAF-3D6E-4091-9089-915CE336A8EB}\ProgID]
+@="MSNSharedServices.MSNPluginInstaller.1"
+[HKEY_CLASSES_ROOT\CLSID\{AA9C9EAF-3D6E-4091-9089-915CE336A8EB}\VersionIndependentProgID]
+@="MSNSharedServices.MSNPluginInstaller"
+[HKEY_CLASSES_ROOT\CLSID\{AA9C9EAF-3D6E-4091-9089-915CE336A8EB}\InprocServer32]
+@="pMSNShared.dll"
+"ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\MSNSharedServices.PocketProps.1]
+@="MSN Pocket Properties"
+[HKEY_CLASSES_ROOT\MSNSharedServices.PocketProps.1\CLSID]
+@="{ac596a17-7a02-4ba9-bf1e-bec5a286b894}"
+[HKEY_CLASSES_ROOT\MSNSharedServices.PocketProps]
+@="MSN Pocket Properties"
+[HKEY_CLASSES_ROOT\MSNSharedServices.PocketProps\CLSID]
+@="{ac596a17-7a02-4ba9-bf1e-bec5a286b894}"
+[HKEY_CLASSES_ROOT\MSNSharedServices.PocketProps\CurVer]
+@="MSNSharedServices.PocketProps.1"
+[HKEY_CLASSES_ROOT\CLSID\{ac596a17-7a02-4ba9-bf1e-bec5a286b894}]
+@="MSN Pocket Properties"
+[HKEY_CLASSES_ROOT\CLSID\{ac596a17-7a02-4ba9-bf1e-bec5a286b894}\ProgID]
+@="MSNSharedServices.PocketProps.1"
+[HKEY_CLASSES_ROOT\CLSID\{ac596a17-7a02-4ba9-bf1e-bec5a286b894}\VersionIndependentProgID]
+@="MSNSharedServices.PocketProps"
+[HKEY_CLASSES_ROOT\CLSID\{ac596a17-7a02-4ba9-bf1e-bec5a286b894}\InprocServer32]
+@="pMSNShared.dll"
+"ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\MSNSharedServices.MSNContact.1]
+@="MSN Contact"
+[HKEY_CLASSES_ROOT\MSNSharedServices.MSNContact.1\CLSID]
+@="{8FD5BFA4-7E82-4317-8DC1-3197042C5578}"
+[HKEY_CLASSES_ROOT\MSNSharedServices.MSNContact]
+@="MSN Contact"
+[HKEY_CLASSES_ROOT\MSNSharedServices.MSNContact\CLSID]
+@="{8FD5BFA4-7E82-4317-8DC1-3197042C5578}"
+[HKEY_CLASSES_ROOT\MSNSharedServices.MSNContact\CurVer]
+@="MSNSharedServices.MSNContact.1"
+[HKEY_CLASSES_ROOT\CLSID\{8FD5BFA4-7E82-4317-8DC1-3197042C5578}]
+@="MSN Contact"
+[HKEY_CLASSES_ROOT\CLSID\{8FD5BFA4-7E82-4317-8DC1-3197042C5578}\ProgID]
+@="MSNSharedServices.MSNContact.1"
+[HKEY_CLASSES_ROOT\CLSID\{8FD5BFA4-7E82-4317-8DC1-3197042C5578}\VersionIndependentProgID]
+@="MSNSharedServices.MSNContact"
+[HKEY_CLASSES_ROOT\CLSID\{8FD5BFA4-7E82-4317-8DC1-3197042C5578}\InprocServer32]
+@="pMSNShared.dll"
+"ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\MSNSharedServices.MSNContactManager.1]
+@="MSN Contact Manager"
+[HKEY_CLASSES_ROOT\MSNSharedServices.MSNContactManager.1\CLSID]
+@="{56D34EE5-0596-45A2-BB79-DD95ED09C7F0}"
+[HKEY_CLASSES_ROOT\MSNSharedServices.MSNContactManager]
+@="MSN Contact Manager"
+[HKEY_CLASSES_ROOT\MSNSharedServices.MSNContactManager\CLSID]
+@="{56D34EE5-0596-45A2-BB79-DD95ED09C7F0}"
+[HKEY_CLASSES_ROOT\MSNSharedServices.MSNContactManager\CurVer]
+@="MSNSharedServices.MSNContactManager.1"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Pocket MSN\Contacts]
+"ContactChangeNumber"=dword:0
+[HKEY_CLASSES_ROOT\CLSID\{56D34EE5-0596-45A2-BB79-DD95ED09C7F0}]
+@="MSN Contact Manager"
+[HKEY_CLASSES_ROOT\CLSID\{56D34EE5-0596-45A2-BB79-DD95ED09C7F0}\ProgID]
+@="MSNSharedServices.MSNContactManager.1"
+[HKEY_CLASSES_ROOT\CLSID\{56D34EE5-0596-45A2-BB79-DD95ED09C7F0}\VersionIndependentProgID]
+@="MSNSharedServices.MSNContactManager"
+[HKEY_CLASSES_ROOT\CLSID\{56D34EE5-0596-45A2-BB79-DD95ED09C7F0}\InprocServer32]
+@="pMSNShared.dll"
+"ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\MSNSharedServices.MSNGroup.1]
+@="MSN Group"
+[HKEY_CLASSES_ROOT\MSNSharedServices.MSNGroup.1\CLSID]
+@="{F0BEBAF4-8179-4AB3-B054-367FEA3A7B45}"
+[HKEY_CLASSES_ROOT\MSNSharedServices.MSNGroup]
+@="MSN Group"
+[HKEY_CLASSES_ROOT\MSNSharedServices.MSNGroup\CLSID]
+@="{F0BEBAF4-8179-4AB3-B054-367FEA3A7B45}"
+[HKEY_CLASSES_ROOT\MSNSharedServices.MSNGroup\CurVer]
+@="MSNSharedServices.MSNGroup.1"
+[HKEY_CLASSES_ROOT\CLSID\{F0BEBAF4-8179-4AB3-B054-367FEA3A7B45}]
+@="MSN Group"
+[HKEY_CLASSES_ROOT\CLSID\{F0BEBAF4-8179-4AB3-B054-367FEA3A7B45}\ProgID]
+@="MSNSharedServices.MSNGroup.1"
+[HKEY_CLASSES_ROOT\CLSID\{F0BEBAF4-8179-4AB3-B054-367FEA3A7B45}\VersionIndependentProgID]
+@="MSNSharedServices.MSNGroup"
+[HKEY_CLASSES_ROOT\CLSID\{F0BEBAF4-8179-4AB3-B054-367FEA3A7B45}\InprocServer32]
+@="pMSNShared.dll"
+"ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\MSNSharedServices.MSNGroupManager.1]
+@="MSN Group Manager"
+[HKEY_CLASSES_ROOT\MSNSharedServices.MSNGroupManager.1\CLSID]
+@="{A5F3A9B9-03CB-4259-8498-FB0A4A899C7D}"
+[HKEY_CLASSES_ROOT\MSNSharedServices.MSNGroupManager]
+@="MSN Group Manager"
+[HKEY_CLASSES_ROOT\MSNSharedServices.MSNGroupManager\CLSID]
+@="{A5F3A9B9-03CB-4259-8498-FB0A4A899C7D}"
+[HKEY_CLASSES_ROOT\MSNSharedServices.MSNGroupManager\CurVer]
+@="MSNSharedServices.MSNGroupManager.1"
+[HKEY_CLASSES_ROOT\CLSID\{A5F3A9B9-03CB-4259-8498-FB0A4A899C7D}]
+@="MSN Group Manager"
+[HKEY_CLASSES_ROOT\CLSID\{A5F3A9B9-03CB-4259-8498-FB0A4A899C7D}\ProgID]
+@="MSNSharedServices.MSNGroupManager.1"
+[HKEY_CLASSES_ROOT\CLSID\{A5F3A9B9-03CB-4259-8498-FB0A4A899C7D}\VersionIndependentProgID]
+@="MSNSharedServices.MSNGroupManager"
+[HKEY_CLASSES_ROOT\CLSID\{A5F3A9B9-03CB-4259-8498-FB0A4A899C7D}\InprocServer32]
+@="pMSNShared.dll"
+"ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\MSNSharedServices.ShareMem.1]
+@="MSN Shared Memory class"
+[HKEY_CLASSES_ROOT\MSNSharedServices.ShareMem.1\CLSID]
+@="{329D5274-FD02-4E96-A918-1A9D2EF9DCCE}"
+[HKEY_CLASSES_ROOT\MSNSharedServices.ShareMem]
+@="MSN Shared Memory class"
+[HKEY_CLASSES_ROOT\MSNSharedServices.ShareMem\CLSID]
+@="{329D5274-FD02-4E96-A918-1A9D2EF9DCCE}"
+[HKEY_CLASSES_ROOT\MSNSharedServices.ShareMem\CurVer]
+@="MSNSharedServices.ShareMem.1"
+[HKEY_CLASSES_ROOT\CLSID\{329D5274-FD02-4E96-A918-1A9D2EF9DCCE}]
+@="MSN Shared Memory class"
+[HKEY_CLASSES_ROOT\CLSID\{329D5274-FD02-4E96-A918-1A9D2EF9DCCE}\ProgID]
+@="MSNSharedServices.ShareMem.1"
+[HKEY_CLASSES_ROOT\CLSID\{329D5274-FD02-4E96-A918-1A9D2EF9DCCE}\VersionIndependentProgID]
+@="MSNSharedServices.ShareMem"
+[HKEY_CLASSES_ROOT\CLSID\{329D5274-FD02-4E96-A918-1A9D2EF9DCCE}\InprocServer32]
+@="pMSNShared.dll"
+"ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\MSNControlPanel.MSNShutdown.1]
+@="MSN Shutdown Class"
+[HKEY_CLASSES_ROOT\MSNControlPanel.MSNShutdown.1\CLSID]
+@="{EE480226-1BE2-4D0E-A729-F9FEAF099681}"
+[HKEY_CLASSES_ROOT\MSNControlPanel.MSNShutdown]
+@="MSN Shutdown Class"
+[HKEY_CLASSES_ROOT\MSNControlPanel.MSNShutdown\CLSID]
+@="{EE480226-1BE2-4D0E-A729-F9FEAF099681}"
+[HKEY_CLASSES_ROOT\MSNControlPanel.MSNShutdown\CurVer]
+@="MSNSharedServices.MSNShutdown.1"
+[HKEY_CLASSES_ROOT\CLSID\{EE480226-1BE2-4D0E-A729-F9FEAF099681}]
+@="MSN Shutdown Class"
+[HKEY_CLASSES_ROOT\CLSID\{EE480226-1BE2-4D0E-A729-F9FEAF099681}\ProgID]
+@="MSNSharedServices.MSNShutdown.1"
+[HKEY_CLASSES_ROOT\CLSID\{EE480226-1BE2-4D0E-A729-F9FEAF099681}\VersionIndependentProgID]
+@="MSNSharedServices.MSNShutdown"
+[HKEY_CLASSES_ROOT\CLSID\{EE480226-1BE2-4D0E-A729-F9FEAF099681}\InprocServer32]
+@="pMSNShared.dll"
+"ThreadingModel"="Free"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Today\Items\Pocket MSN]
+"DLL"="msnmobileplus.dll"
+"Flags"=dword:0
+"Options"=dword:0
+"Order"=dword:4
+"Selectability"=dword:2
+"Type"=dword:4
+[HKEY_CLASSES_ROOT\MSNMobilePlus.HotmailBlock.1]
+@="MSN Hotmail Block"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.HotmailBlock.1\CLSID]
+@="{B538933E-9D2D-4D63-92E9-BD1338CE48D6}"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.HotmailBlock]
+@="MSN Hotmail Block"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.HotmailBlock\CLSID]
+@="{B538933E-9D2D-4D63-92E9-BD1338CE48D6}"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.HotmailBlock\CurVer]
+@="MSNMobilePlus.HotmailBlock.1"
+[HKEY_CLASSES_ROOT\CLSID\{B538933E-9D2D-4D63-92E9-BD1338CE48D6}]
+@="Hotmail Block"
+[HKEY_CLASSES_ROOT\CLSID\{B538933E-9D2D-4D63-92E9-BD1338CE48D6}\ProgID]
+@="MSNMobilePlus.HotmailBlock.1"
+[HKEY_CLASSES_ROOT\CLSID\{B538933E-9D2D-4D63-92E9-BD1338CE48D6}\VersionIndependentProgID]
+@="MSNMobilePlus.HotmailBlock"
+[HKEY_CLASSES_ROOT\CLSID\{B538933E-9D2D-4D63-92E9-BD1338CE48D6}\InprocServer32]
+@="msnmobileplus.dll"
+"ThreadingModel"="Free"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Pocket MSN\Blocks\Hotmail]
+"CLSID"="{B538933E-9D2D-4D63-92E9-BD1338CE48D6}"
+"Enabled"=dword:1
+"Order"=dword:8C
+[HKEY_CLASSES_ROOT\MSNMobilePlus.IMBlock.1]
+@="MSN IM Block"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.IMBlock.1\CLSID]
+@="{3528E047-FF85-48CB-AA7E-16D24F456C25}"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.IMBlock]
+@="MSN IM Block"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.IMBlock\CLSID]
+@="{3528E047-FF85-48CB-AA7E-16D24F456C25}"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.IMBlock\CurVer]
+@="MSNMobilePlus.IMBlock.1"
+[HKEY_CLASSES_ROOT\CLSID\{3528E047-FF85-48CB-AA7E-16D24F456C25}]
+@="IM Block"
+[HKEY_CLASSES_ROOT\CLSID\{3528E047-FF85-48CB-AA7E-16D24F456C25}\ProgID]
+@="MSNMobilePlus.IMBlock.1"
+[HKEY_CLASSES_ROOT\CLSID\{3528E047-FF85-48CB-AA7E-16D24F456C25}\VersionIndependentProgID]
+@="MSNMobilePlus.IMBlock"
+[HKEY_CLASSES_ROOT\CLSID\{3528E047-FF85-48CB-AA7E-16D24F456C25}\InprocServer32]
+@="msnmobileplus.dll"
+"ThreadingModel"="Free"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Pocket MSN\Blocks\IM]
+"CLSID"="{3528E047-FF85-48CB-AA7E-16D24F456C25}"
+"Enabled"=dword:1
+"Order"=dword:82
+[HKEY_CLASSES_ROOT\MSNMobilePlus.URLBlock.1]
+@="MSN URL Block"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.URLBlock.1\CLSID]
+@="{2877B9BD-4A79-4D37-BB1B-A24D62251C33}"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.URLBlock]
+@="MSN URL Block"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.URLBlock\CLSID]
+@="{2877B9BD-4A79-4D37-BB1B-A24D62251C33}"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.URLBlock\CurVer]
+@="MSNMobilePlus.URLBlock.1"
+[HKEY_CLASSES_ROOT\CLSID\{2877B9BD-4A79-4D37-BB1B-A24D62251C33}]
+@="MSN URL Block"
+[HKEY_CLASSES_ROOT\CLSID\{2877B9BD-4A79-4D37-BB1B-A24D62251C33}\ProgID]
+@="MSNMobilePlus.URLBlock.1"
+[HKEY_CLASSES_ROOT\CLSID\{2877B9BD-4A79-4D37-BB1B-A24D62251C33}\VersionIndependentProgID]
+@="MSNMobilePlus.URLBlock"
+[HKEY_CLASSES_ROOT\CLSID\{2877B9BD-4A79-4D37-BB1B-A24D62251C33}\InprocServer32]
+@="msnmobileplus.dll"
+"ThreadingModel"="Free"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Pocket MSN\Blocks\URL1]
+"CLSID"="{2877B9BD-4A79-4D37-BB1B-A24D62251C33}"
+"Enabled"=dword:1
+"Order"=dword:73
+"Image"=dword:7DC
+[HKEY_CLASSES_ROOT\MSNMobilePlus.BrandingBlock.1]
+@="MSN Branding Block"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.BrandingBlock.1\CLSID]
+@="{A295A98E-E729-46f5-811D-6A8EEDDAF203}"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.BrandingBlock]
+@="MSN Branding Block"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.BrandingBlock\CLSID]
+@="{A295A98E-E729-46f5-811D-6A8EEDDAF203}"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.BrandingBlock\CurVer]
+@="MSNMobilePlus.BrandingBlock.1"
+[HKEY_CLASSES_ROOT\CLSID\{A295A98E-E729-46f5-811D-6A8EEDDAF203}]
+@="MSN Branding Block"
+[HKEY_CLASSES_ROOT\CLSID\{A295A98E-E729-46f5-811D-6A8EEDDAF203}\ProgID]
+@="MSNMobilePlus.BrandingBlock.1"
+[HKEY_CLASSES_ROOT\CLSID\{A295A98E-E729-46f5-811D-6A8EEDDAF203}\VersionIndependentProgID]
+@="MSNMobilePlus.BrandingBlock"
+[HKEY_CLASSES_ROOT\CLSID\{A295A98E-E729-46f5-811D-6A8EEDDAF203}\InprocServer32]
+@="msnmobileplus.dll"
+"ThreadingModel"="Free"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Pocket MSN\Blocks\Branding]
+"CLSID"="{A295A98E-E729-46f5-811D-6A8EEDDAF203}"
+"Enabled"=dword:1
+"Order"=dword:6E
+[HKEY_CLASSES_ROOT\MSNMobilePlus.AppLaunchBrick.1]
+@="MSN AppLaunch Brick"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.AppLaunchBrick.1\CLSID]
+@="{D058CE8C-692F-4DB0-8220-CAA77EB67AB3}"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.AppLaunchBrick]
+@="MSN AppLaunch Brick"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.AppLaunchBrick\CLSID]
+@="{D058CE8C-692F-4DB0-8220-CAA77EB67AB3}"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.AppLaunchBrick\CurVer]
+@="MSNMobilePlus.AppLaunchBrick.1"
+[HKEY_CLASSES_ROOT\CLSID\{D058CE8C-692F-4DB0-8220-CAA77EB67AB3}]
+@="MSN AppLaunch Brick"
+[HKEY_CLASSES_ROOT\CLSID\{D058CE8C-692F-4DB0-8220-CAA77EB67AB3}\ProgID]
+@="MSNMobilePlus.AppLaunchBrick.1"
+[HKEY_CLASSES_ROOT\CLSID\{D058CE8C-692F-4DB0-8220-CAA77EB67AB3}\VersionIndependentProgID]
+@="MSNMobilePlus.AppLaunchBrick"
+[HKEY_CLASSES_ROOT\CLSID\{D058CE8C-692F-4DB0-8220-CAA77EB67AB3}\InprocServer32]
+@="msnmobileplus.dll"
+"ThreadingModel"="Free"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Pocket MSN\Bricks\AppLaunch]
+"CLSID"="{D058CE8C-692F-4DB0-8220-CAA77EB67AB3}"
+"Enabled"=dword:1
+"Order"=dword:67
+[HKEY_CLASSES_ROOT\MSNMobilePlus.SigninBrick.1]
+@="MSN Signin Brick"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.SigninBrick.1\CLSID]
+@="{B1297641-DCE6-4221-90A3-1C6DDFC716C8}"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.SigninBrick]
+@="MSN Signin Brick"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.SigninBrick\CLSID]
+@="{B1297641-DCE6-4221-90A3-1C6DDFC716C8}"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.SigninBrick\CurVer]
+@="MSNMobilePlus.SigninBrick.1"
+[HKEY_CLASSES_ROOT\CLSID\{B1297641-DCE6-4221-90A3-1C6DDFC716C8}]
+@="MSN Signin Brick"
+[HKEY_CLASSES_ROOT\CLSID\{B1297641-DCE6-4221-90A3-1C6DDFC716C8}\ProgID]
+@="MSNMobilePlus.SigninBrick.1"
+[HKEY_CLASSES_ROOT\CLSID\{B1297641-DCE6-4221-90A3-1C6DDFC716C8}\VersionIndependentProgID]
+@="MSNMobilePlus.SigninBrick"
+[HKEY_CLASSES_ROOT\CLSID\{B1297641-DCE6-4221-90A3-1C6DDFC716C8}\InprocServer32]
+@="msnmobileplus.dll"
+"ThreadingModel"="Free"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Pocket MSN\Bricks\Signin]
+"CLSID"="{B1297641-DCE6-4221-90A3-1C6DDFC716C8}"
+"Enabled"=dword:1
+"Order"=dword:66
+[HKEY_CLASSES_ROOT\MSNMobilePlus.InboxNotificationHandler.1]
+@="Inbox Notification Handler"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.InboxNotificationHandler.1\CLSID]
+@="{59084DA3-7E6C-49FD-A201-0A678A03C214}"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.InboxNotificationHandler]
+@="Inbox Notification Handler"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.InboxNotificationHandler\CLSID]
+@="{59084DA3-7E6C-49FD-A201-0A678A03C214}"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.InboxNotificationHandler\CurVer]
+@="MSNMobilePlus.InboxNotificationHandler.1"
+[HKEY_CLASSES_ROOT\CLSID\{59084DA3-7E6C-49FD-A201-0A678A03C214}]
+@="Inbox Notification Handler"
+[HKEY_CLASSES_ROOT\CLSID\{59084DA3-7E6C-49FD-A201-0A678A03C214}\ProgID]
+@="MSNMobilePlus.InboxNotificationHandler.1"
+[HKEY_CLASSES_ROOT\CLSID\{59084DA3-7E6C-49FD-A201-0A678A03C214}\VersionIndependentProgID]
+@="MSNMobilePlus.InboxNotificationHandler"
+[HKEY_CLASSES_ROOT\CLSID\{59084DA3-7E6C-49FD-A201-0A678A03C214}\InprocServer32]
+@="msnmobileplus.dll"
+"ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.PMSNNotificationHandler.1]
+@="PMSN Notification Handler"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.PMSNNotificationHandler.1\CLSID]
+@="{DA7CA20E-B6DA-4dd5-8739-75105F47E722}"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.PMSNNotificationHandler]
+@="PMSN Notification Handler"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.PMSNNotificationHandler\CLSID]
+@="{DA7CA20E-B6DA-4dd5-8739-75105F47E722}"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.PMSNNotificationHandler\CurVer]
+@="MSNMobilePlus.PMSNNotificationHandler.1"
+[HKEY_CLASSES_ROOT\CLSID\{DA7CA20E-B6DA-4dd5-8739-75105F47E722}]
+@="PMSN Notification Handler"
+[HKEY_CLASSES_ROOT\CLSID\{DA7CA20E-B6DA-4dd5-8739-75105F47E722}\ProgID]
+@="MSNMobilePlus.PMSNNotificationHandler.1"
+[HKEY_CLASSES_ROOT\CLSID\{DA7CA20E-B6DA-4dd5-8739-75105F47E722}\VersionIndependentProgID]
+@="MSNMobilePlus.PMSNNotificationHandler"
+[HKEY_CLASSES_ROOT\CLSID\{DA7CA20E-B6DA-4dd5-8739-75105F47E722}\InprocServer32]
+@="msnmobileplus.dll"
+"ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.IMotificationHandler.1]
+@="IM Notification Handler"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.IMNotificationHandler.1\CLSID]
+@="{685A5D8C-44F8-49fd-A3AA-EBA534E9B956}"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.IMNotificationHandler]
+@="IM Notification Handler"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.IMNotificationHandler\CLSID]
+@="{685A5D8C-44F8-49fd-A3AA-EBA534E9B956}"
+[HKEY_CLASSES_ROOT\MSNMobilePlus.IMNotificationHandler\CurVer]
+@="MSNMobilePlus.IMNotificationHandler.1"
+[HKEY_CLASSES_ROOT\CLSID\{685A5D8C-44F8-49fd-A3AA-EBA534E9B956}]
+@="IM Notification Handler"
+[HKEY_CLASSES_ROOT\CLSID\{685A5D8C-44F8-49fd-A3AA-EBA534E9B956}\ProgID]
+@="MSNMobilePlus.IMNotificationHandler.1"
+[HKEY_CLASSES_ROOT\CLSID\{685A5D8C-44F8-49fd-A3AA-EBA534E9B956}\VersionIndependentProgID]
+@="MSNMobilePlus.IMNotificationHandler"
+[HKEY_CLASSES_ROOT\CLSID\{685A5D8C-44F8-49fd-A3AA-EBA534E9B956}\InprocServer32]
+@="msnmobileplus.dll"
+"ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\Hotmail.MailSyncHandler.1]
+@="MSN Hotmail Mail Sync Handler"
+[HKEY_CLASSES_ROOT\Hotmail.MailSyncHandler.1\CLSID]
+@="{BC058C2E-1ABD-4D2B-A122-9215393A62E7}"
+[HKEY_CLASSES_ROOT\Hotmail.MailSyncHandler]
+@="MSN Hotmail Mail Sync Handler"
+[HKEY_CLASSES_ROOT\Hotmail.MailSyncHandler\CLSID]
+@="{BC058C2E-1ABD-4D2B-A122-9215393A62E7}"
+[HKEY_CLASSES_ROOT\Hotmail.MailSyncHandler\CurVer]
+@="Hotmail.MailSyncHandler.1"
+[HKEY_CLASSES_ROOT\CLSID\{BC058C2E-1ABD-4D2B-A122-9215393A62E7}]
+@="MSN Hotmail Mail Sync Handler"
+[HKEY_CLASSES_ROOT\CLSID\{BC058C2E-1ABD-4D2B-A122-9215393A62E7}\ProgID]
+@="Hotmail.MailSyncHandler.1"
+[HKEY_CLASSES_ROOT\CLSID\{BC058C2E-1ABD-4D2B-A122-9215393A62E7}\VersionIndependentProgID]
+@="Hotmail.MailSyncHandler"
+[HKEY_CLASSES_ROOT\CLSID\{BC058C2E-1ABD-4D2B-A122-9215393A62E7}\InprocServer32]
+@="pMSNHotmail.dll"
+"ThreadingModel"="Free"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Inbox\Svc\Hotmail]
+"Name"="Hotmail"
+"DLL"="pMSNHotmail.dll"
+"SupportedMsgClasses"="IPM.Note"
+"DefMsgClass"="IPM.Note"
+"Port"=dword:0
+"UserCannotCreate"=dword:1
+[HKEY_CLASSES_ROOT\Hotmail.MailRuleClient.1]
+@="MSN Hotmail SMS Mail Rule Client"
+[HKEY_CLASSES_ROOT\Hotmail.MailRuleClient.1\CLSID]
+@="{77990A0E-60B8-4103-B9AF-17157E4274FD}"
+[HKEY_CLASSES_ROOT\Hotmail.MailRuleClient]
+@="MSN Hotmail SMS Mail Rule Client"
+[HKEY_CLASSES_ROOT\Hotmail.MailRuleClient\CLSID]
+@="{77990A0E-60B8-4103-B9AF-17157E4274FD}"
+[HKEY_CLASSES_ROOT\Hotmail.MailRuleClient\CurVer]
+@="Hotmail.MailRuleClient.1"
+[HKEY_CLASSES_ROOT\CLSID\{77990A0E-60B8-4103-B9AF-17157E4274FD}]
+@="MSN Hotmail SMS Mail Rule Client"
+[HKEY_CLASSES_ROOT\CLSID\{77990A0E-60B8-4103-B9AF-17157E4274FD}\ProgID]
+@="Hotmail.MailRuleClient.1"
+[HKEY_CLASSES_ROOT\CLSID\{77990A0E-60B8-4103-B9AF-17157E4274FD}\VersionIndependentProgID]
+@="Hotmail.MailRuleClient"
+[HKEY_CLASSES_ROOT\CLSID\{77990A0E-60B8-4103-B9AF-17157E4274FD}\InprocServer32]
+@="pMSNHotmail.dll"
+"ThreadingModel"="Free"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Inbox\Svc\SMS\Rules]
+"{77990A0E-60B8-4103-B9AF-17157E4274FD}"=dword:1
+[HKEY_CLASSES_ROOT\Hotmail.MapiAdviseSink.1]
+@="MSN Hotmail MAPI Advise Sink"
+[HKEY_CLASSES_ROOT\Hotmail.MapiAdviseSink.1\CLSID]
+@="{443E189D-B261-4d68-9D20-E3BFF25FA209}"
+[HKEY_CLASSES_ROOT\Hotmail.MapiAdviseSink]
+@="MSN Hotmail MAPI Advise Sink"
+[HKEY_CLASSES_ROOT\Hotmail.MapiAdviseSink\CLSID]
+@="{443E189D-B261-4d68-9D20-E3BFF25FA209}"
+[HKEY_CLASSES_ROOT\Hotmail.MapiAdviseSink\CurVer]
+@="Hotmail.MapiAdviseSink.1"
+[HKEY_CLASSES_ROOT\CLSID\{443E189D-B261-4d68-9D20-E3BFF25FA209}]
+@="MSN Hotmail MAPI Advise Sink"
+[HKEY_CLASSES_ROOT\CLSID\{443E189D-B261-4d68-9D20-E3BFF25FA209}\ProgID]
+@="Hotmail.MapiAdviseSink.1"
+[HKEY_CLASSES_ROOT\CLSID\{443E189D-B261-4d68-9D20-E3BFF25FA209}\VersionIndependentProgID]
+@="Hotmail.MapiAdviseSink"
+[HKEY_CLASSES_ROOT\CLSID\{443E189D-B261-4d68-9D20-E3BFF25FA209}\InprocServer32]
+@="pMSNHotmail.dll"
+"ThreadingModel"="Free"
+[HKEY_CLASSES_ROOT\CLSID\{244AC8F5-7137-4ab7-8574-1CD93C0F8E8D}]
+@="Pocket MSN Moved Message Queue"
+[HKEY_CLASSES_ROOT\CLSID\{244AC8F5-7137-4ab7-8574-1CD93C0F8E8D}\InprocServer32]
+@="pMSNShared.dll"
+"ThreadingModel"="Free"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pocket MSN\Transports\TCP]
+"Enabled"=dword:1
+"InternalID"=dword:1
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pocket MSN\Transports\SMS]
+"Enabled"=dword:1
+"InternalID"=dword:3
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pocket MSN\Transports\HTTPS]
+"Enabled"=dword:1
+"InternalID"=dword:2
+[HKEY_LOCAL_MACHINE\ControlPanel\Pocket MSN]
+"Group"=dword:0

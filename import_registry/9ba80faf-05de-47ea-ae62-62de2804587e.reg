@@ -1,0 +1,1224 @@
+REGEDIT4
+[HKEY_LOCAL_MACHINE\System\StorageManager\Profiles\PCMCIA]
+    "Name"="PCMCIA/Compact Flash Device"
+    "Folder"="Storage Card"
+[HKEY_LOCAL_MACHINE\Drivers\USB\FunctionDrivers]
+   "DefaultClientDriver"=- ; erase previous default
+[HKEY_LOCAL_MACHINE\Drivers\USB\FunctionDrivers]
+   "DefaultClientDriver"="RNDIS"
+[HKEY_LOCAL_MACHINE\Drivers\USB\FunctionDrivers\RNDIS]
+   "Dll"="rndisfn.dll"
+   "FriendlyName"="Rndis"
+   "idVendor"=dword:045E
+   "Manufacturer"="Generic Manufacturer (PROTOTYPE--Remember to change idVendor)"
+   "idProduct"=dword:0301
+   "Product"="Generic RNDIS (PROTOTYPE--Remember to change idVendor)"
+   "bcdDevice"=dword:0
+[HKEY_LOCAL_MACHINE\Comm\RndisFn]
+    "DisplayName"=mui_sz:"netmui.dll,#9003"
+    "Group"="NDIS"
+    "ImagePath"="rndisfn.dll"
+    "NoDeviceCreate"=dword:01
+[HKEY_LOCAL_MACHINE\Comm\RndisFn\Linkage]
+   "Route"=multi_sz:"RndisFn1"
+[HKEY_LOCAL_MACHINE\Comm\RndisFn1]
+   "DisplayName"=mui_sz:"netmui.dll,#9002"
+   "Group"="NDIS"
+   "ImagePath"="rndisfn.dll"
+[HKEY_LOCAL_MACHINE\Comm\RndisFn1\Parms]
+   "BusNumber"=dword:0
+   "BusType"=dword:0
+   "RebindOnResume"=dword:0
+[HKEY_LOCAL_MACHINE\Drivers\USB\FunctionDrivers]
+   "DefaultClientDriver"=- ; erase previous default
+[HKEY_LOCAL_MACHINE\Drivers\USB\FunctionDrivers]
+   "DefaultClientDriver"="Serial_Class"
+[HKEY_LOCAL_MACHINE\Drivers\USB\FunctionDrivers\Serial_Class]
+   "Dll"="serialusbfn.dll"
+   "DeviceName"="USBFNS1:"
+   "Prefix"="COM"
+   "DeviceArrayIndex"=dword:0
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+   "idVendor"=dword:045E
+   "Manufacturer"="Generic Manufacturer (PROTOTYPE--Remember to change idVendor)"
+   "idProduct"=dword:00ce
+   "Product"="Generic Serial (PROTOTYPE--Remember to change idVendor)"
+   "bcdDevice"=dword:0
+   "Tsp"="Unimodem.dll"
+   "DeviceType"=dword:0
+[HKEY_LOCAL_MACHINE\Drivers\USB\FunctionDrivers\USBSER_Class]
+   "Dll"="serialusbfn.dll"
+   "DeviceName"="USBFNS2:"
+   "Prefix"="COM"
+   "DeviceArrayIndex"=dword:1
+   "IClass"=multi_sz:"{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}","{C375C787-B721-4b8e-B67F-A112D5C0A404}"
+   "idVendor"=dword:045E
+   "Manufacturer"="Generic Manufacturer (PROTOTYPE--Remember to change idVendor)"
+   "idProduct"=dword:0079
+   "Product"="Generic Serial (PROTOTYPE--Remember to change idVendor)"
+   "bcdDevice"=dword:90
+   "Tsp"="Unimodem.dll"
+   "DeviceType"=dword:0
+[HKEY_LOCAL_MACHINE\Comm\USB\Linkage]
+    "Bind"=multi_sz:"USBFNSER1"
+[HKEY_LOCAL_MACHINE\Comm\USBFNSER]
+   "DisplayName"="USB Driver"
+   "Group"="Serial"
+   "ImagePath"="serialusbfn.dll"
+[HKEY_LOCAL_MACHINE\Comm\USBFNSER\Linkage]
+   "Route"=multi_sz:"USBFNSER1"
+[HKEY_LOCAL_MACHINE\Comm\USBFNSER1\Parms]
+[HKEY_LOCAL_MACHINE\Drivers\HID\LoadClients\Default\Default\1_6\Keyboard]
+   "DLL"="KBDHID.DLL"
+[HKEY_LOCAL_MACHINE\Drivers\HID\ClientDrivers\Keyboard]
+   "DLL"="KBDHID.DLL"
+   "Prefix"="KBD"
+   "IClass"="{CBE6DDF2-F5D4-4e16-9F61-4CCC0B6695F3}"
+   "RemoteWakeup"=dword:1
+   "Flags"=dword:00010000
+[HKEY_LOCAL_MACHINE\Drivers\HID\LoadClients\Default\Default\12_1\Consumer]
+   "DLL"="CONSHID.DLL"
+   "RemoteWakeup"=dword:1
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Modem]
+   "DeviceArrayIndex"=dword:1
+   "Prefix"="COM"
+   "Dll"="Serial.Dll"
+   "ResetDelay"=dword:300
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Serial]
+   "DeviceArrayIndex"=dword:1
+   "Prefix"="COM"
+   "Dll"="Serial.Dll"
+   "ResetDelay"=dword:300
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\NTT_DoCoMo-MFCard96F1-A093]
+   "DeviceArrayIndex"=dword:1
+   "Prefix"="COM"
+   "Dll"="Serial.Dll"
+   "ResetDelay"=dword:300
+   "NoIntrPend"=dword:1
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Hayes-OPTIMA_288_+_FAX_for_PCMCIA_with_EZ-4FA5]
+   "DeviceArrayIndex"=dword:1
+   "Prefix"="COM"
+   "Dll"="Serial.dll"
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MEGAHERTZ-XJ2288-9E81]
+   "DeviceArrayIndex"=dword:1
+   "Prefix"="COM"
+   "Dll"="Serial.dll"
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MEGAHERTZ-XJ3288-26C7]
+   "DeviceArrayIndex"=dword:1
+   "Prefix"="COM"
+   "Dll"="Serial.dll"
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MEGAHERTZ-Megahertz_28.8-73E3]
+   "DeviceArrayIndex"=dword:1
+   "Prefix"="COM"
+   "Dll"="Serial.dll"
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MEGAHERTZ-XJ1144-5C3E]
+   "DeviceArrayIndex"=dword:1
+   "Prefix"="COM"
+   "Dll"="Serial.Dll"
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\USRobotics-PCMCIA_28800_Data/Fax-92A2]
+   "DeviceArrayIndex"=dword:1
+   "Prefix"="COM"
+   "Dll"="Serial.dll"
+   "ResetDelay"=dword:800
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Practical_Peripherals_Inc-PPI_PC288T2EZ_PCMCIA-F382]
+   "DeviceArrayIndex"=dword:1
+   "Prefix"="COM"
+   "Dll"="Serial.dll"
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Practical_Peripherals_Inc-PPI_PC288T2EZ_PCMCIA-DAE6]
+   "DeviceArrayIndex"=dword:1
+   "Prefix"="COM"
+   "Dll"="Serial.dll"
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Xircom-CreditCard_Modem_33.6-5347]
+   "DeviceArrayIndex"=dword:1
+   "Prefix"="COM"
+   "Dll"="Serial.dll"
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Socket_Communications_Inc-Serial_Port_Adapter_Revision_B-5E3E]
+   "DeviceArrayIndex"=dword:1
+   "Prefix"="COM"
+   "Dll"="Serial.dll"
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Xircom-CreditCard_Ethernet+Modem_33.6-05DD]
+   "Dll"="regenum.dll"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Xircom-CreditCard_Ethernet+Modem_33.6-05DD\1]
+   "DeviceArrayIndex"=dword:1
+   "Prefix"="COM"
+   "Dll"="Serial.dll"
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Motorola-MONTANA_V.34_FAX/MODEM-9E9C]
+   "DeviceArrayIndex"=dword:1
+   "Prefix"="COM"
+   "Dll"="Serial.dll"
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MOTOROLA-POWER_14.4-8980]
+   "DeviceArrayIndex"=dword:1
+   "Prefix"="COM"
+   "Dll"="Serial.dll"
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\TEMPLATE\COM_CARDA]
+    "FUNCTION_ID"=dword:2
+    "IoBase"=dword:3f8
+    "IoLen"=dword:8
+    "INTERRUPT_MASK"=dword:ffff
+    "DeviceArrayIndex"=dword:0
+    "Prefix"="COM"
+    "Dll"="com16550.dll"
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+   "IsrDll"="isr16550.dll"
+   "IsrHandler"="ISRHandler"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\TEMPLATE\COM_CARDB]
+    "FUNCTION_ID"=dword:2
+    "IoBase"=dword:2f8
+    "IoLen"=dword:8
+    "INTERRUPT_MASK"=dword:ffff
+    "DeviceArrayIndex"=dword:0
+    "Prefix"="COM"
+    "Dll"="com16550.dll"
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+   "IsrDll"="isr16550.dll"
+   "IsrHandler"="ISRHandler"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\TEMPLATE\COM_CARDC]
+    "FUNCTION_ID"=dword:2
+    "IoBase"=dword:3e8
+    "IoLen"=dword:8
+    "INTERRUPT_MASK"=dword:ffff
+    "DeviceArrayIndex"=dword:0
+    "Prefix"="COM"
+    "Dll"="com16550.dll"
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+   "IsrDll"="isr16550.dll"
+   "IsrHandler"="ISRHandler"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\TEMPLATE\COM_CARDD]
+    "FUNCTION_ID"=dword:2
+    "IoBase"=dword:2e8
+    "IoLen"=dword:8
+    "INTERRUPT_MASK"=dword:ffff
+    "DeviceArrayIndex"=dword:0
+    "Prefix"="COM"
+    "Dll"="com16550.dll"
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+   "IsrDll"="isr16550.dll"
+   "IsrHandler"="ISRHandler"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\NTT_DoCoMo-MFCard96F1-A093\Option1]
+   "DeviceArrayIndex"=dword:0
+   "Prefix"="COM"
+   "Dll"="com16550.dll"
+   "IsrDll"="isr16550.dll"
+   "IsrHandler"="ISRHandler"
+   "ResetDelay"=dword:300
+   "NoIntrPend"=dword:1
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\Hayes-OPTIMA_288_+_FAX_for_PCMCIA_with_EZ-4FA5\Option1]
+   "DeviceArrayIndex"=dword:0
+   "Prefix"="COM"
+   "Dll"="com16550.dll"
+   "IsrDll"="isr16550.dll"
+   "IsrHandler"="ISRHandler"
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\MEGAHERTZ-XJ2288-9E81\Option1]
+   "DeviceArrayIndex"=dword:0
+   "Prefix"="COM"
+   "Dll"="com16550.dll"
+   "IsrDll"="isr16550.dll"
+   "IsrHandler"="ISRHandler"
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\MEGAHERTZ-XJ3288-26C7\Option1]
+   "DeviceArrayIndex"=dword:0
+   "Prefix"="COM"
+   "Dll"="com16550.dll"
+   "IsrDll"="isr16550.dll"
+   "IsrHandler"="ISRHandler"
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\MEGAHERTZ-Megahertz_28.8-73E3\Option1]
+   "DeviceArrayIndex"=dword:0
+   "Prefix"="COM"
+   "Dll"="com16550.dll"
+   "IsrDll"="isr16550.dll"
+   "IsrHandler"="ISRHandler"
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\MEGAHERTZ-XJ1144-5C3E\Option1]
+   "DeviceArrayIndex"=dword:0
+   "Prefix"="COM"
+   "Dll"="com16550.dll"
+   "IsrDll"="isr16550.dll"
+   "IsrHandler"="ISRHandler"
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\USRobotics-PCMCIA_28800_Data/Fax-92A2\Option1]
+   "DeviceArrayIndex"=dword:0
+   "Prefix"="COM"
+   "Dll"="com16550.dll"
+   "IsrDll"="isr16550.dll"
+   "IsrHandler"="ISRHandler"
+   "ResetDelay"=dword:800
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\Practical_Peripherals_Inc-PPI_PC288T2EZ_PCMCIA-F382\Option1]
+   "DeviceArrayIndex"=dword:0
+   "Prefix"="COM"
+   "Dll"="com16550.dll"
+   "IsrDll"="isr16550.dll"
+   "IsrHandler"="ISRHandler"
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\Practical_Peripherals_Inc-PPI_PC288T2EZ_PCMCIA-DAE6\Option1]
+   "DeviceArrayIndex"=dword:0
+   "Prefix"="COM"
+   "Dll"="com16550.dll"
+   "IsrDll"="isr16550.dll"
+   "IsrHandler"="ISRHandler"
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\Xircom-CreditCard_Modem_33.6-5347]
+   "DeviceArrayIndex"=dword:0
+   "Prefix"="COM"
+   "Dll"="com16550.dll"
+   "IsrDll"="isr16550.dll"
+   "IsrHandler"="ISRHandler"
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\Socket_Communications_Inc-Serial_Port_Adapter_Revision_B-5E3E\Option1]
+   "DeviceArrayIndex"=dword:0
+   "Prefix"="COM"
+   "Dll"="com16550.dll"
+   "IsrDll"="isr16550.dll"
+   "IsrHandler"="ISRHandler"
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\Xircom-CreditCard_Ethernet+Modem_33.6-05DD\Option1]
+   "Dll"="regenum.dll"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\Xircom-CreditCard_Ethernet+Modem_33.6-05DD\1\Option1]
+   "DeviceArrayIndex"=dword:0
+   "Prefix"="COM"
+   "Dll"="com16550.dll"
+   "IsrDll"="isr16550.dll"
+   "IsrHandler"="ISRHandler"
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\Motorola-MONTANA_V.34_FAX/MODEM-9E9C\Option1]
+   "DeviceArrayIndex"=dword:0
+   "Prefix"="COM"
+   "Dll"="com16550.dll"
+   "IsrDll"="isr16550.dll"
+   "IsrHandler"="ISRHandler"
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\MOTOROLA-POWER_14.4-8980\Option1]
+   "DeviceArrayIndex"=dword:0
+   "Prefix"="COM"
+   "Dll"="com16550.dll"
+   "IsrDll"="isr16550.dll"
+   "IsrHandler"="ISRHandler"
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\ATADisk]
+    "Dll"="ATADISK.DLL"
+    "Prefix"="DSK"
+    "Ioctl"=dword:4
+    "Profile"="PCMCIA"
+    "IClass"=multi_sz:"{8DD679CE-8AB4-43c8-A14A-EA4963FAA715}","{A4E7EDDA-E575-4252-9D6B-4195D48BB865}"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Detect\10]
+   "Dll"="SERIAL.DLL"
+   "Entry"="DetectModem"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Detect\50]
+   "Dll"="ATADISK.DLL"
+   "Entry"="DetectATADisk"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Detect\60]
+   "Dll"="NE2000.DLL"
+   "Entry"="DetectNE2000"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\NE2000]
+   "Dll"="ndis.dll"
+   "Prefix"="NDS"
+   "Miniport"="NE2000"
+   "Flags"=dword:2
+[HKEY_LOCAL_MACHINE\Comm\NE2000]
+   "DisplayName"=mui_sz:"netmui.dll,#9001"
+   "Group"="NDIS"
+   "ImagePath"="ne2000.dll"
+[HKEY_LOCAL_MACHINE\Comm\NE2000\Linkage]
+   "Route"=multi_sz:"NE20001"
+[HKEY_LOCAL_MACHINE\Comm\NE20001]
+   "DisplayName"=mui_sz:"netmui.dll,#9001"
+   "Group"="NDIS"
+   "ImagePath"="ne2000.dll"
+[HKEY_LOCAL_MACHINE\Comm\NE20001\Parms]
+   "BusNumber"=dword:0
+   "BusType"=dword:8
+   "InterruptNumber"=dword:03
+   "IoBaseAddress"=dword:0300
+   "Transceiver"=dword:3
+   "CardType"=dword:1
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Bluetooth\Hid\Instance]
+   "Dll"="BTHHID.DLL"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Bluetooth\Hid\Hid_Class]
+   "Dll"="BTHHID.Dll"
+   "Order"=dword:9
+   "Keep"=dword:1
+   "Prefix"="BHI"
+   "Index"=dword:0
+[HKEY_LOCAL_MACHINE\Drivers\RegisteredDevice\BTD_COM0]
+   "Dll"="btd.dll"
+   "Prefix"="COM"
+   "Index"=dword:0
+   "Flags"=dword:0 
+[HKEY_LOCAL_MACHINE\Drivers\RegisteredDevice\BTD_COM1]
+   "Dll"="btd.dll"
+   "Prefix"="COM"
+   "Index"=dword:1
+   "Flags"=dword:0 
+[HKEY_LOCAL_MACHINE\Drivers\RegisteredDevice\BTD_COM2]
+   "Dll"="btd.dll"
+   "Prefix"="COM"
+   "Index"=dword:2
+   "Flags"=dword:0 
+[HKEY_LOCAL_MACHINE\Drivers\RegisteredDevice\BTD_COM3]
+   "Dll"="btd.dll"
+   "Prefix"="COM"
+   "Index"=dword:3
+   "Flags"=dword:0 
+[HKEY_LOCAL_MACHINE\Drivers\RegisteredDevice\BTD_COM4]
+   "Dll"="btd.dll"
+   "Prefix"="COM"
+   "Index"=dword:4
+   "Flags"=dword:0 
+[HKEY_LOCAL_MACHINE\Drivers\RegisteredDevice\BTD_COM5]
+   "Dll"="btd.dll"
+   "Prefix"="COM"
+   "Index"=dword:5
+   "Flags"=dword:0 
+[HKEY_LOCAL_MACHINE\Drivers\RegisteredDevice\BTD_COM6]
+   "Dll"="btd.dll"
+   "Prefix"="COM"
+   "Index"=dword:6
+   "Flags"=dword:0 
+[HKEY_LOCAL_MACHINE\Drivers\RegisteredDevice\BTD_COM7]
+   "Dll"="btd.dll"
+   "Prefix"="COM"
+   "Index"=dword:7
+   "Flags"=dword:0 
+[HKEY_LOCAL_MACHINE\Drivers\RegisteredDevice\BTD_COM8]
+   "Dll"="btd.dll"
+   "Prefix"="COM"
+   "Index"=dword:8
+   "Flags"=dword:0 
+[HKEY_LOCAL_MACHINE\Drivers\RegisteredDevice\BTD_COM9]
+   "Dll"="btd.dll"
+   "Prefix"="COM"
+   "Index"=dword:9
+   "Flags"=dword:0 
+[HKEY_LOCAL_MACHINE\Drivers\RegisteredDevice\BTD_BSP0]
+   "Dll"="btd.dll"
+   "Prefix"="BSP"
+   "Index"=dword:0
+   "Flags"=dword:0 
+[HKEY_LOCAL_MACHINE\Drivers\RegisteredDevice\BTD_BSP1]
+   "Dll"="btd.dll"
+   "Prefix"="BSP"
+   "Index"=dword:1
+   "Flags"=dword:0 
+[HKEY_LOCAL_MACHINE\Drivers\RegisteredDevice\BTD_BSP2]
+   "Dll"="btd.dll"
+   "Prefix"="BSP"
+   "Index"=dword:2
+   "Flags"=dword:0 
+[HKEY_LOCAL_MACHINE\Drivers\RegisteredDevice\BTD_BSP3]
+   "Dll"="btd.dll"
+   "Prefix"="BSP"
+   "Index"=dword:3
+   "Flags"=dword:0 
+[HKEY_LOCAL_MACHINE\Drivers\RegisteredDevice\BTD_BSP4]
+   "Dll"="btd.dll"
+   "Prefix"="BSP"
+   "Index"=dword:4
+   "Flags"=dword:0 
+[HKEY_LOCAL_MACHINE\Drivers\RegisteredDevice\BTD_BSP5]
+   "Dll"="btd.dll"
+   "Prefix"="BSP"
+   "Index"=dword:5
+   "Flags"=dword:0 
+[HKEY_LOCAL_MACHINE\Drivers\RegisteredDevice\BTD_BSP6]
+   "Dll"="btd.dll"
+   "Prefix"="BSP"
+   "Index"=dword:6
+   "Flags"=dword:0 
+[HKEY_LOCAL_MACHINE\Drivers\RegisteredDevice\BTD_BSP7]
+   "Dll"="btd.dll"
+   "Prefix"="BSP"
+   "Index"=dword:7
+   "Flags"=dword:0 
+[HKEY_LOCAL_MACHINE\Drivers\RegisteredDevice\BTD_BSP8]
+   "Dll"="btd.dll"
+   "Prefix"="BSP"
+   "Index"=dword:8
+   "Flags"=dword:0 
+[HKEY_LOCAL_MACHINE\Drivers\RegisteredDevice\BTD_BSP9]
+   "Dll"="btd.dll"
+   "Prefix"="BSP"
+   "Index"=dword:9
+   "Flags"=dword:0 
+[HKEY_LOCAL_MACHINE\Drivers\RegisteredDevice\BTD_BTD0]
+   "Dll"="btd.dll"
+   "Prefix"="BTD"
+   "Index"=dword:0
+   "Flags"=dword:0
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Bluetooth\sys]
+    "COD"=dword:920100
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Bluetooth\l2cap]
+    "RTX"=dword:3c
+    "ERTX"=dword:12c
+    "IdlePhys"=dword:a
+    "IdleConnect"=dword:a
+    "ConfigTimeout"=dword:78
+    "NoRoleSwitch"=dword:1
+    "LinkPolicy"=dword:f
+    "PicoCapable"=dword:0
+    "ConnectPacketType"=dword:0
+    "ScanModeControl"=dword:1
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Bluetooth\rfcomm]
+    "timeout"=dword:0
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Bluetooth\Transports]
+    "BthUnivPresent"=dword:1
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\Socket-CF+_Personal_Network_Card-6C76]
+   "Dll"="pcmcia.dll"
+   "Flags"=dword:10000 ; trusted callers only
+   "NoConfig"=dword:1
+   "IClass"=multi_sz:"{6BEAB08A-8914-42fd-B33F-61968B9AAB32}=PCMCIA Card Services"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Socket-CF+_Personal_Network_Card-6C76]
+     "DeviceArrayIndex"=dword:00000000
+     "DeviceType"=dword:00000002
+     "Prefix"="COM"
+     "DLL"="wendyser.dll"
+     "Flags"=dword:10000 ; trusted callers only
+     "IClass"=multi_sz:"{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}",
+                       "{E5329142-59DF-485b-B146-0CFD6F14D93B}"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Bluetooth\Transports\PnP\{E5329142-59DF-485b-B146-0CFD6F14D93B}]
+     "driver"="bthsc.dll"
+     "baud"=dword:2580
+     "flags"=dword:80000001
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\Socket-CF+_Personal_Network_Card_Rev_2.5-E3CE]
+   "Dll"="pcmcia.dll"
+   "Flags"=dword:10000 ; trusted callers only
+   "NoConfig"=dword:1
+   "IClass"=multi_sz:"{6BEAB08A-8914-42fd-B33F-61968B9AAB32}=PCMCIA Card Services"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Socket-CF+_Personal_Network_Card_Rev_2.5-E3CE]
+     "DeviceArrayIndex"=dword:0
+     "Prefix"="COM"
+     "DLL"="sio950.dll"
+     "Flags"=dword:10000 ; trusted callers only
+     "IClass"=multi_sz:"{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}",
+                       "{6523D1BF-45E4-47aa-B394-A0333A4C32FC}"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\Brain_Boxes-Bluetooth_PC_Card-59C7]
+    "DeviceArrayIndex"=dword:0
+    "Prefix"="COM"
+    "Dll"="com16550.dll"
+    "Flags"=dword:10000 ; trusted callers only
+    "IClass"=multi_sz:"{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}",
+                      "{54DA86F7-9B78-46d1-8022-51BFA88D7F03}"
+    "IsrDll"="isr16550.dll"
+    "IsrHandler"="ISRHandler"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Brain_Boxes-Bluetooth_PC_Card-59C7]
+    "DeviceArrayIndex"=dword:1
+    "Prefix"="COM"
+    "Dll"="Serial.Dll"
+    "Flags"=dword:10000 ; trusted callers only
+    "ResetDelay"=dword:300
+    "NoIntrPend"=dword:1
+    "IClass"=multi_sz:"{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}",
+                      "{54DA86F7-9B78-46d1-8022-51BFA88D7F03}"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\Brain_Boxes-CF+_Bluetooth_Card,_BCSP-0130]
+    "DeviceArrayIndex"=dword:0
+    "Prefix"="COM"
+    "Dll"="com16550.dll"
+    "Flags"=dword:10000 ; trusted callers only
+    "IClass"=multi_sz:"{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}",
+                      "{54DA86F7-9B78-46d1-8022-51BFA88D7F03}"
+    "IsrDll"="isr16550.dll"
+    "IsrHandler"="ISRHandler"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Brain_Boxes-CF+_Bluetooth_Card,_BCSP-0130]
+    "DeviceArrayIndex"=dword:1
+    "Prefix"="COM"
+    "Dll"="Serial.Dll"
+    "Flags"=dword:10000 ; trusted callers only
+    "ResetDelay"=dword:300
+    "IClass"=multi_sz:"{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}",
+                      "{54DA86F7-9B78-46d1-8022-51BFA88D7F03}"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\Brain_Boxes-CF+_Bluetooth_Card-AC84]
+    "DeviceArrayIndex"=dword:0
+    "Prefix"="COM"
+    "Dll"="com16550.dll"
+    "Flags"=dword:10000 ; trusted callers only
+    "IClass"=multi_sz:"{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}",
+                      "{54DA86F7-9B78-46d1-8022-51BFA88D7F03}"
+    "IsrDll"="isr16550.dll"
+    "IsrHandler"="ISRHandler"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Brain_Boxes-CF+_Bluetooth_Card-AC84]
+    "DeviceArrayIndex"=dword:1
+    "Prefix"="COM"
+    "Dll"="Serial.Dll"
+    "Flags"=dword:10000 ; trusted callers only
+    "ResetDelay"=dword:300
+    "IClass"=multi_sz:"{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}",
+                      "{54DA86F7-9B78-46d1-8022-51BFA88D7F03}"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\Brain_Boxes-CF+_Bluetooth-EE4E]
+    "DeviceArrayIndex"=dword:0
+    "Prefix"="COM"
+    "Dll"="com16550.dll"
+    "Flags"=dword:10000 ; trusted callers only
+    "IClass"=multi_sz:"{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}",
+                      "{54DA86F7-9B78-46d1-8022-51BFA88D7F03}"
+    "IsrDll"="isr16550.dll"
+    "IsrHandler"="ISRHandler"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Brain_Boxes-CF+_Bluetooth-EE4E]
+    "DeviceArrayIndex"=dword:1
+    "Prefix"="COM"
+    "Dll"="Serial.Dll"
+    "Flags"=dword:10000 ; trusted callers only
+    "ResetDelay"=dword:300
+    "IClass"=multi_sz:"{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}",
+                      "{54DA86F7-9B78-46d1-8022-51BFA88D7F03}"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Bluetooth\Transports\PnP\{6523D1BF-45E4-47aa-B394-A0333A4C32FC}]
+    "driver"="bthcsr.dll"
+    "baud"=dword:e1000
+    "flags"=dword:1
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Bluetooth\Transports\PnP\{54DA86F7-9B78-46d1-8022-51BFA88D7F03}]
+    "driver"="bthcsr.dll"
+    "baud"=dword:1c200
+    "flags"=dword:1
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\SHARP-BLUETOOTH_Card-97DB]
+    "DeviceArrayIndex"=dword:0
+    "Prefix"="COM"
+    "Dll"="com16550.dll"
+    "Flags"=dword:10000 ; trusted callers only
+    "IClass"=multi_sz:"{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}",
+                      "{FE8730B4-C802-4b79-BE1B-227572556B0D}"
+    "IsrDll"="isr16550.dll"
+    "IsrHandler"="ISRHandler"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\SHARP-BLUETOOTH_Card-97DB]
+    "DeviceArrayIndex"=dword:1
+    "Prefix"="COM"
+    "Dll"="Serial.Dll"
+    "Flags"=dword:10000 ; trusted callers only
+    "ResetDelay"=dword:300
+    "IClass"=multi_sz:"{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}",
+                      "{FE8730B4-C802-4b79-BE1B-227572556B0D}"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\Xircom-Bluetooth_Adapter-3618]
+    "DeviceArrayIndex"=dword:0
+    "Prefix"="COM"
+    "Dll"="com16550.dll"
+    "Flags"=dword:10000 ; trusted callers only
+    "IClass"=multi_sz:"{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}",
+                      "{77F394E5-9F8B-4167-A4E6-DE5A54AAF77A}"
+    "IsrDll"="isr16550.dll"
+    "IsrHandler"="ISRHandler"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Xircom-Bluetooth_Adapter-3618]
+    "DeviceArrayIndex"=dword:1
+    "Prefix"="COM"
+    "Dll"="Serial.Dll"
+    "Flags"=dword:10000 ; trusted callers only
+    "ResetDelay"=dword:300
+    "IClass"=multi_sz:"{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}",
+                      "{77F394E5-9F8B-4167-A4E6-DE5A54AAF77A}"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\Xircom-CreditCard-Bluetooth-Adapter-18D5]
+    "DeviceArrayIndex"=dword:0
+    "Prefix"="COM"
+    "Dll"="com16550.dll"
+    "Flags"=dword:10000 ; trusted callers only
+    "IClass"=multi_sz:"{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}",
+                      "{FDC0D92F-C0CC-4e5b-89A3-8AD9E78C068F}"
+    "IsrDll"="isr16550.dll"
+    "IsrHandler"="ISRHandler"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Xircom-CreditCard-Bluetooth-Adapter-18D5]
+    "DeviceArrayIndex"=dword:1
+    "Prefix"="COM"
+    "Dll"="Serial.Dll"
+    "Flags"=dword:10000 ; trusted callers only
+    "ResetDelay"=dword:300
+    "IClass"=multi_sz:"{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}",
+                      "{FDC0D92F-C0CC-4e5b-89A3-8AD9E78C068F}"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\BlueCard-LSE041-FDC3]
+   "Dll"="pcmcia.dll"
+   "Flags"=dword:10000 ; trusted callers only
+   "NoConfig"=dword:1
+   "IClass"=multi_sz:"{6BEAB08A-8914-42fd-B33F-61968B9AAB32}=PCMCIA Card Services"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\BlueCard-LSE041-FDC3]
+    "Prefix"="WBT"
+    "DLL"="wcestreambt.dll"
+    "Flags"=dword:10000 ; trusted callers only
+    "IClass"=multi_sz:"{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}",
+                      "{BC425227-6617-44b7-932E-FD0B4EB7ABF3}"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\WSS-LSE039-EAC3]
+   "Dll"="pcmcia.dll"
+   "Flags"=dword:10000 ; trusted callers only
+   "NoConfig"=dword:1
+   "IClass"=multi_sz:"{6BEAB08A-8914-42fd-B33F-61968B9AAB32}=PCMCIA Card Services"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\WSS-LSE039-EAC3]
+    "Prefix"="WBT"
+    "DLL"="wcestreambt.dll"
+    "Flags"=dword:10000 ; trusted callers only
+    "IClass"=multi_sz:"{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}",
+                      "{BC425227-6617-44b7-932E-FD0B4EB7ABF3}"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Bluetooth\Transports\PnP\{FE8730B4-C802-4b79-BE1B-227572556B0D}]
+    "flags"=dword:0
+    "driver"="bthuart.dll"
+    "baud"=dword:1c200
+    "resetdelay"=dword:1388
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Bluetooth\Transports\PnP\{77F394E5-9F8B-4167-A4E6-DE5A54AAF77A}]
+    "flags"=dword:4
+    "driver"="bthuart.dll"
+    "baud"=dword:1c20
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Bluetooth\Transports\PnP\{FDC0D92F-C0CC-4e5b-89A3-8AD9E78C068F}]
+    "flags"=dword:4
+    "driver"="bthuart.dll"
+    "baud"=dword:1c200
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Bluetooth\Transports\PnP\{BC425227-6617-44b7-932E-FD0B4EB7ABF3}]
+    "driver"="bthuart.dll"
+    "flags"=dword:80000001
+    "baud"=dword:70800
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\PNP\AmbiCom,Inc-BT2000E-EE1C]
+   "DeviceArrayIndex"=dword:0
+   "Prefix"="COM"
+   "Dll"="com16550.dll"
+   "Flags"=dword:10000 ; trusted callers only
+   "IClass"=multi_sz:"{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}",
+                     "{61F10771-B483-48fd-94A1-498C0F6F3C10}"
+   "IsrDll"="isr16550.dll"
+   "IsrHandler"="ISRHandler"
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\AmbiCom,Inc-BT2000E-EE1C]
+    "DeviceArrayIndex"=dword:1
+    "Prefix"="COM"
+    "Dll"="Serial.Dll"
+    "Flags"=dword:10000 ; trusted callers only
+    "ResetDelay"=dword:300
+    "IClass"=multi_sz:"{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}",
+                      "{61F10771-B483-48fd-94A1-498C0F6F3C10}"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Bluetooth\Transports\PnP\{61F10771-B483-48fd-94A1-498C0F6F3C10}]
+    "driver"="bthamb.dll"
+    "baud"=dword:1c200
+[HKEY_CLASSES_ROOT\BthAPI.SdpNodeContainer]
+@="SdpNodeContainer Class"
+[HKEY_CLASSES_ROOT\BthAPI.SdpNodeContainer\CLSID]
+@="{D5CA76C5-0DEE-4453-96A1-E603C2401766}"
+[HKEY_CLASSES_ROOT\BthAPI.SdpNodeContainer\CurVer]
+@="BthAPI.SdpNodeContainer.1"
+[HKEY_CLASSES_ROOT\BthAPI.SdpNodeContainer.1]
+@="SdpNodeContainer Class"
+[HKEY_CLASSES_ROOT\BthAPI.SdpNodeContainer.1\CLSID]
+@="{D5CA76C5-0DEE-4453-96A1-E603C2401766}"
+[HKEY_CLASSES_ROOT\BthAPI.SdpRecord]
+@="SdpRecord Class"
+[HKEY_CLASSES_ROOT\BthAPI.SdpRecord\CLSID]
+@="{ACD02BA7-9667-4085-A100-CC6ACA9621D6}"
+[HKEY_CLASSES_ROOT\BthAPI.SdpRecord\CurVer]
+@="BthAPI.SdpRecord.1"
+[HKEY_CLASSES_ROOT\BthAPI.SdpRecord.1]
+@="SdpRecord Class"
+[HKEY_CLASSES_ROOT\BthAPI.SdpRecord.1\CLSID]
+@="{ACD02BA7-9667-4085-A100-CC6ACA9621D6}"
+[HKEY_CLASSES_ROOT\BthAPI.SdpSearch]
+@="SdpSearch Class"
+[HKEY_CLASSES_ROOT\BthAPI.SdpSearch\CLSID]
+@="{3B898402-857E-4e41-9145-BC35431B7B4D}"
+[HKEY_CLASSES_ROOT\BthAPI.SdpSearch\CurVer]
+@="BthAPI.SdpSearch.1"
+[HKEY_CLASSES_ROOT\BthAPI.SdpSearch.1]
+@="SdpSearch Class"
+[HKEY_CLASSES_ROOT\BthAPI.SdpSearch.1\CLSID]
+@="{3B898402-857E-4e41-9145-BC35431B7B4D}"
+[HKEY_CLASSES_ROOT\BthAPI.SdpStream]
+@="SdpStream Class"
+[HKEY_CLASSES_ROOT\BthAPI.SdpStream\CLSID]
+@="{249797FA-19DB-4dda-94D4-E0BCD30EA65E}"
+[HKEY_CLASSES_ROOT\BthAPI.SdpStream\CurVer]
+@="BthAPI.SdpStream.1"
+[HKEY_CLASSES_ROOT\BthAPI.SdpStream.1]
+@="SdpStream Class"
+[HKEY_CLASSES_ROOT\BthAPI.SdpStream.1\CLSID]
+@="{249797FA-19DB-4dda-94D4-E0BCD30EA65E}"
+[HKEY_CLASSES_ROOT\CLSID\{D5CA76C5-0DEE-4453-96A1-E603C2401766}\InprocServer32]
+@="btdrt.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{D5CA76C5-0DEE-4453-96A1-E603C2401766}\TypeLib]
+@="{00BC26C8-0A87-41d0-82BA-61FF9E0B1BB5}"
+[HKEY_CLASSES_ROOT\CLSID\{ACD02BA7-9667-4085-A100-CC6ACA9621D6}\InprocServer32]
+@="btdrt.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{ACD02BA7-9667-4085-A100-CC6ACA9621D6}\TypeLib]
+@="{00BC26C8-0A87-41d0-82BA-61FF9E0B1BB5}"
+[HKEY_CLASSES_ROOT\CLSID\{3B898402-857E-4e41-9145-BC35431B7B4D}\InprocServer32]
+@="btdrt.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{3B898402-857E-4e41-9145-BC35431B7B4D}\ProgID]
+@="BthAPI.SdpSearch.1"
+[HKEY_CLASSES_ROOT\CLSID\{3B898402-857E-4e41-9145-BC35431B7B4D}\TypeLib]
+@="{00BC26C8-0A87-41d0-82BA-61FF9E0B1BB5}"
+[HKEY_CLASSES_ROOT\CLSID\{3B898402-857E-4e41-9145-BC35431B7B4D}\VersionIndependentProgID]
+@="BthAPI.SdpSearch"
+[HKEY_CLASSES_ROOT\CLSID\{249797FA-19DB-4dda-94D4-E0BCD30EA65E}\InprocServer32]
+@="btdrt.dll"
+"ThreadingModel"="Both"
+[HKEY_CLASSES_ROOT\CLSID\{249797FA-19DB-4dda-94D4-E0BCD30EA65E}\TypeLib]
+@="{00BC26C8-0A87-41d0-82BA-61FF9E0B1BB5}"
+[HKEY_CLASSES_ROOT\TypeLib\{00BC26C8-0A87-41d0-82BA-61FF9E0B1BB5}\1.0\0\win32]
+@="btdrt.dll"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Obex\Transports\{30a7bc03-59b6-40bb-aa2b-89eb49ef274e}]
+	"Name"="Bluetooth"
+[HKEY_CLASSES_ROOT\CLSID\{30A7BC03-59B6-40BB-AA2B-89EB49EF274E}]
+	@="BTHTransport"
+[HKEY_CLASSES_ROOT\CLSID\{30A7BC03-59B6-40BB-AA2B-89EB49EF274E}\InprocServer32]
+	@="OBEXAPI.dll"
+	"ThreadingModel"="Free"
+	"ProgID"="BTHTransport.1"
+	"VersionIndependentProgID"="BTHTransport"
+[HKEY_CURRENT_USER\Software\Microsoft\ATCmdInt]
+[HKEY_CURRENT_USER\Software\Microsoft\ATCIV25T]
+   "TAPILineName"="Cellular Line"
+[HKEY_LOCAL_MACHINE\Security\Policy\APIs\SIMTKit]
+    @="2"
+[HKEY_LOCAL_MACHINE\Services\Trusted]
+        "SIMToolkit"="simtkit.dll"
+        "SIMInit"="siminit.dll"
+[HKEY_LOCAL_MACHINE\Comm\NE20001\Parms]
+"EightBitIO"=dword:1
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Obex\Services\{00000000-0000-0000-0000-000000000000}]
+    "BluetoothSdpRecord"=hex:   35, 59, 09, 00, 01, 35, 03, 19, \
+                                11, 05, 09, 00, 04, 35, 11, 35, \
+                                03, 19, 01, 00, 35, 05, 19, 00, \
+                                03, 08, 0a, 35, 03, 19, 00, 08, \
+                                09, 00, 06, 35, 09, 09, 65, 6e, \
+                                09, 00, 6a, 09, 01, 00, 09, 00, \
+                                09, 35, 08, 35, 06, 19, 11, 05, \
+                                09, 01, 00, 09, 01, 00, 25, 10, \
+                                4f, 42, 45, 58, 20, 4f, 62, 6a, \
+                                65, 63, 74, 20, 50, 75, 73, 68, \
+                                09, 03, 03, 35, 06, 08, 01, 08, \
+                                02, 08, 03
+[HKEY_LOCAL_MACHINE\ExtModems\bluetooth_dcn]
+    "port"="BSP1:"
+    "DeviceType"=dword:8
+[HKEY_LOCAL_MACHINE\ExtModems\bluetooth_dun]
+    "port"="COM5:"
+    "DeviceType"=dword:7
+[-HKEY_LOCAL_MACHINE\ExtModems\bluetooth_syn]
+[HKEY_LOCAL_MACHINE\System\Versions]
+	"Aku"=".0.0.0"
+[HKEY_LOCAL_MACHINE\Services\BTHIDSVC]
+    "FriendlyName"="Bluetooth HID Loader"
+    "IsEnabled"=dword:1
+    "Keep"=dword:1
+    "Index"=dword:0
+    "Order"=dword:9
+    "Prefix"="BHL"
+    "Dll"="bthidsvc.dll"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Bluetooth\Services\00001124-0000-1000-8000-00805F9B34FB]
+    "bthidsvc.dll"=dword:0
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Shell\Extensions\ContextMenus\ActiveSync\ActiveSyncConnect\{1666BC64-0DE1-4ba9-9BDC-BB9F68FFE6AC}]
+@="BT AS"
+[HKEY_CLASSES_ROOT\CLSID\{1666BC64-0DE1-4ba9-9BDC-BB9F68FFE6AC}\InProcServer32]
+@="BthASPlugIn.dll"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Bluetooth\Services\0350278F-3DCA-4e62-831D-A41165FF906C]
+"BthASPlugin.dll"=dword:1
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Bluetooth\Services\00001101-0000-1000-8000-00805F9B34FB]
+"BthASPlugin.dll"=dword:1
+[HKEY_LOCAL_MACHINE\init]
+    "Depend50"=hex:14,00, 1e,00
+[HKEY_LOCAL_MACHINE\Drivers\USB\FunctionDrivers\RNDIS]
+  "UseActiveSyncIds"=dword:1
+[HKEY_LOCAL_MACHINE\Drivers\USB\FunctionDrivers]
+  "DefaultClientDriver"=- ;erase previous default
+[HKEY_LOCAL_MACHINE\Drivers\USB\FunctionDrivers]
+  "DefaultClientDriver"="RNDIS"
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\Timeouts]
+    "ACSuspendTimeout"=dword:0          ; timeout disabled on AC power
+    "ACResumingSuspendTimeout"=dword:0      ; timeout diasable on AC power
+    "BattSuspendTimeout"=dword:B4       ; 3 minutes (180 seconds) on battery
+    "BattResumingSuspendTimeout"=dword:F    ; 15 seconds
+[HKEY_CURRENT_USER\ControlPanel\Notifications\{8ddf46e7-56ed-4750-9e58-afc6ce486d03}]
+ "Options"=dword:0
+[HKEY_LOCAL_MACHINE\HARDWARE\DEVICEMAP\TOUCH]
+  "MaxCalError"=dword:7
+[HKEY_LOCAL_MACHINE\Drivers\Display\S3C2410\CONFIG]
+    "DisplayDll"="DeviceEmulator_lcd.dll"
+    "LCDVirtualFrameBase"=dword:A3F00000
+    "LCDPhysicalFrameBase"=dword:33F00000
+[HKEY_LOCAL_MACHINE\System\GDI\Drivers]
+    "Display"="DeviceEmulator_lcd.dll"
+[HKEY_LOCAL_MACHINE\System\GDI\DisplayCandidates]
+    "Candidate10"="Drivers\\Display\\S3C2410\\CONFIG"
+[HKEY_LOCAL_MACHINE\HARDWARE\DEVICEMAP\KEYBD]
+    "DriverName"="kbdmouse.dll"
+    "Irq"=dword:1
+    "IOBase"=dword:B1600000
+    "SSPBase"=dword:B1900000
+[HKEY_LOCAL_MACHINE\HARDWARE\DEVICEMAP\KEYBD]
+    "CalVKey"=dword:0
+    "ContLessVKey"=dword:0
+    "ContMoreVKey"=dword:0
+    "TaskManVKey"=dword:2E
+[HKEY_LOCAL_MACHINE\HARDWARE\DEVICEMAP\KEYBD]
+    "DriverName"="kbdmouse.dll"
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\PCC_SMDK2410]
+   "Dll"="pcc_smdk2410.dll"
+   "Order"=dword:1
+   "ControllerFnInt"=dword:3       ; The PD6710 on SMDK2410 uses IRQ3 for client interrupts. The SMDK2410 board 
+   "FnIrq"=dword:24                ; Function interrupt is routed as EINT8 (IRQ 0x24)
+   "ForceFnSysIntr"=dword:1        ; Optionally controls how the client interrupt info is passed to client drivers
+   "CSCIrq"=dword:3                ; The PD6710 on SMDK2410 uses -INTR for card status change interrupts.  
+   "PollTimeout"=dword:ea60 ;1f4       ; Optionally you can control how frequently the driver should check for
+   "PCCARDDLL"="pcc_serv.dll"
+   "IClass"=multi_sz:"{57430CF2-A260-4c9b-8F5C-FEF89217FE7C}=%b","{D0C3B9F2-D506-4c93-884D-6D71C47AC9AA}=%b"
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\PCC_SMDK2410\WindowEntry1]
+    "RepeatCount"=dword:2                   ; 2 instances of the memory window
+    "WindowInfoWindowCaps"=dword:3          ; WIN_CAP_COMMON | WIN_CAP_ATTRIBUTE
+    "WindowInfoMemoryCaps"=dword:1b         ; MEM_CAP_8BIT | MEM_CAP_16BIT | MEM_CAP_PRG_BASE | MEM_CAP_PRG_SIZE
+    "WindowInfoMemMinSize"=dword:1000       ; require 4k alignment
+    "WindowInfoMemMaxSize"=dword:800000
+    "WindowInfoMemBase"=dword:10000000      ; base address of the first memory window, 
+    "WindowInfoSlowest"=dword:97            ; WIN_SPEED_EXP_10MS | WIN_SPEED_MANT_12 | WIN_SPEED_USE_WAIT
+    "WindowInfoFastest"=dword:90            ; WIN_SPEED_EXP_1NS | WIN_SPEED_MANT_12 | WIN_SPEED_USE_WAIT
+    "WindowStateSpeed"=dword:88             ; WIN_SPEED_EXP_1NS | WIN_SPEED_MANT_10 | WIN_SPEED_USE_WAIT
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\PCC_SMDK2410\WindowEntry2]
+    "RepeatCount"=dword:2                   ; 2 instances of the IO window
+    "WindowInfoWindowCaps"=dword:4          ; WIN_CAP_IO
+    "WindowInfoIOCaps"=dword:18             ; IO_CAP_8BIT | IO_CAP_16BIT
+    "WindowInfoIOMinSize"=dword:4           ; require 4 byte alignment
+    "WindowInfoIOMaxSize"=dword:10000
+    "WindowInfoIOFirstByte"=dword:11000000
+    "WindowInfoIOLastByte"=dword:1100ffff
+    "WindowInfoIOGranularity"=dword:1
+    "WindowStateState"=dword:1              ; WIN_STATE_MAPS_IO
+    "WindowStateSpeed"=dword:88             ; WIN_SPEED_EXP_1NS | WIN_SPEED_MANT_10 | WIN_SPEED_USE_WAIT
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\PCCARD]
+   "Dll"="pcc_serv.dll"
+   "Order"=dword:0
+   "Flags"=dword:8
+   "IClass"=multi_sz:"{F6D3DC51-CC71-4916-B3FB-030A85BA0044}=%b","{6F40791D-300E-44E4-BC38-E0E63CA8375C}=%b"
+[HKEY_LOCAL_MACHINE\Drivers\PCCARD\PCMCIA\TEMPLATE\PCMCIA]
+   "Dll"="pcmcia.dll"
+   "NoConfig"=dword:1
+   "NoISR"=dword:1 ; Do not load any ISR.
+   "IClass"=multi_sz:"{6BEAB08A-8914-42fd-B33F-61968B9AAB32}=PCMCIA Card Services"
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\PBUT2410]
+    "Dll"="pwrbtn2410.dll"
+    "Prefix"="PBT"
+    "Index"=dword:2
+    "Order"=dword:2
+    "Ioctl"=dword:4
+    "FSD"= "fatfs.dll"
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\Audio]
+   "Prefix"="WAV"
+   "Dll"="s3c2410x_wavedev.dll"
+   "Index"=dword:1
+   "Order"=dword:0
+   "IClass"=multi_sz:"{37168569-61C4-45fd-BD54-9442C7DBA46F}","{A32942B7-920C-486b-B0E6-92A702A99B35}"
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\Serial]
+   "DeviceArrayIndex"=dword:0
+   "Irq"=dword:1c
+   "MemBase"=dword:50000000
+   "MemLen"=dword:2C
+   "InterruptBitsShift"=dword:0 ; UART 0 Interrupt Sub Register shift bit.
+   "ISTTimeouts"=dword:200	; every 512 ticks checking Modem status.
+   "Prefix"="COM"
+   "Dll"="serial_smdk2410.dll"
+   "Order"=dword:0
+   "Priority"=dword:0
+   "Port"="COM1:"
+   "DeviceType"=dword:0
+   "FriendlyName"="Serial Cable on COM1:"
+   "Tsp"="unimodem.dll"
+   "IClass"="{CC5195AC-BA49-48a0-BE17-DF6D1B0173DD}"
+   "DevConfig"=hex: 10,00, 00,00, 05,00,00,00, 10,01,00,00, 00,4B,00,00, 00,00, 08, 00, 00, 00,00,00,00
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\SER2410\Unimodem]
+   "Tsp"="Unimodem.dll"
+   "DeviceType"=dword:0
+   "FriendlyName"="SER2410 UNIMODEM"
+   "DevConfig"=hex: 10,00, 00,00, 05,00,00,00, 10,01,00,00, 00,4B,00,00, 00,00, 08, 00, 00, 00,00,00,00
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\IRDA2410]
+   "DeviceArrayIndex"=dword:1
+   "Irq"=dword:09
+   "IoBase"=dword:50008000
+   "IoLen"=dword:2C
+   "Prefix"="COM"
+   "Dll"="IRDA2410.Dll"
+   "Order"=dword:0
+   "Priority"=dword:0
+   "Port"="COM3:"
+   "DeviceType"=dword:0  ; IRDA modem, 0 -> null modem
+   "FriendlyName"="S2410 IRDA2410"
+[HKEY_LOCAL_MACHINE\Comm\IrDA\Linkage]
+    "Bind"=multi_sz:"Irsir1"
+[HKEY_LOCAL_MACHINE\Comm\Irsir]
+   "DisplayName"="Serial (COM) IrDA Driver"
+   "Group"="NDIS"
+   "ImagePath"="irsir.dll"
+[HKEY_LOCAL_MACHINE\Comm\Irsir\Linkage]
+   "Route"=multi_sz:"Irsir1"
+[HKEY_LOCAL_MACHINE\Comm\Irsir1\Parms]
+   "BusNumber"=dword:0
+   "BusType"=dword:0
+   "Port"=dword:2
+   "IntIR"=dword:0
+   "TransceiverType"=dword:1
+   "Baud"=dword:3F
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\DMA4]
+    "Irq"=dword:26
+    "Index"=dword:4
+    "Prefix"="DMA"
+    "Dll"="dmatrans.dll"
+    "Order"=dword:0
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\DMA5]
+    "Irq"=dword:26
+    "Index"=dword:5
+    "Prefix"="DMA"
+    "Dll"="dmatrans.dll"
+    "Order"=dword:0
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\DMA6]
+    "Irq"=dword:26
+    "Index"=dword:6
+    "Prefix"="DMA"
+    "Dll"="dmatrans.dll"
+    "Order"=dword:0
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\DMA7]
+    "Irq"=dword:26
+    "Index"=dword:7
+    "Prefix"="DMA"
+    "Dll"="dmatrans.dll"
+    "Order"=dword:0
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\DMA8]
+    "Irq"=dword:26
+    "Index"=dword:8
+    "Prefix"="DMA"
+    "Dll"="dmatrans.dll"
+    "Order"=dword:0
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\DMA9]
+    "Irq"=dword:26
+    "Index"=dword:9
+    "Prefix"="DMA"
+    "Dll"="dmatrans.dll"
+    "Order"=dword:0
+[HKEY_LOCAL_MACHINE\init]
+"Launch98"="EmulatorStub.exe"
+"Depend98"=hex:14,00
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\SERDMA]
+    "Dll"="SERDMA.DLL"
+    "Prefix"="SER"
+    "DeviceArrayIndex"=dword:0
+    "DMAChannel"=dword:6  ; bind this instance to DMA6
+    "Index"=dword:6       ; this instance will be SER6
+    "Tsp"="Unimodem.dll"
+    "DeviceType"=dword:0  ; 0 means "direct"
+    "FriendlyName"="Serial over DMA"
+    "DevConfig"=hex: 10,00, 00,00, 05,00,00,00, 10,01,00,00, 00,4B,00,00, 00,00,08, 00, 00, 00,00,00,00
+    "Order"=dword:1
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Shell\Extensions\ContextMenus\ActiveSync\ActiveSyncConnect\{f672ddb2-bb6f-4b8c-b580-e8b71758e394}]
+    @="Connect via DMA..."
+    "Delay"=dword:1
+[HKEY_CLASSES_ROOT\CLSID\{f672ddb2-bb6f-4b8c-b580-e8b71758e394}\InProcServer32]
+    @="SERDMAASPlugIn.dll"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Welcome]
+    "Disable"=dword:ffffffff
+[HKEY_LOCAL_MACHINE\Explorer]
+    "Suspend"=dword:1
+[HKEY_LOCAL_MACHINE\System\Platform]
+    "DataPath" = "\\"
+[HKEY_LOCAL_MACHINE\SYSTEM\GWE\Notify]
+    "volume"="\\mxip_notify.vol"
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\RIL]
+   "Dll"="fakeril.dll"
+   "Prefix"="RIL"
+   "Order"=dword:3
+   "Index"=dword:1
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\VirtCOM]
+   "Dll"="fakeril.dll"
+   "Prefix"="COM"
+   "Order"=dword:2
+   "Index"=dword:9
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL]
+   "ComPort"="COM1:"
+   "ComInitString"="+VGR=176|"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SimContacts]
+    "RadioEnableDelay"=dword:3E8      ; Decimal 1000 (units are milliseconds)
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL]
+    "NetworkType"=dword:1
+[HKEY_CURRENT_USER\ControlPanel\Phone]
+   "Features"=dword:0206C7D8
+[HKEY_LOCAL_MACHINE\Security\Phone]
+   "Features"=dword:18
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Keys\40C1]
+"Name"="Button 1"
+"Icon"="shellres.dll, -4617"
+"Flags"=dword:1
+"ResetFlags"=dword:1
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Keys\40C2]
+"Name"="Button 2"
+"Icon"="outres.dll, -10000"
+"Flags"=dword:C
+"ResetFlags"=dword:C
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Keys\40C3]
+"Name"="Button 3"
+"Icon"="shellres.dll, -4619"
+"Flags"=dword:B
+"ResetFlags"=dword:B
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Keys\40C4]
+"Name"="Button 4"
+"Icon"="shellres.dll, -4618"
+"Flags"=dword:A
+"ResetFlags"=dword:A
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Keys]
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\Battery]
+   "Prefix"="BAT"
+   "Dll"="battdrvr.dll"
+   "Flags"=dword:8                      ; DEVFLAGS_NAKEDENTRIES
+   "Order"=dword:0
+   "IClass"="{DD176277-CD34-4980-91EE-67DBEF3D8913}"
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\NLed]
+   "Prefix"="NLD"
+   "Dll"="nleddrvr.dll"
+   "Flags"=dword:8                      ; DEVFLAGS_NAKEDENTRIES
+   "Order"=dword:0
+   "IClass"="{CBB4F234-F35F-485b-A490-ADC7804A4EF3}"
+[HKEY_LOCAL_MACHINE\System\D3DM\Drivers]
+   "LocalHook"="d3dmref.dll"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pictures\Camera\OEM]
+"BackLight"=dword:78
+"EnableZoom"=dword:1
+"CompressionQuality"=dword:0
+"EnableVideo"=dword:1
+"EnableTimeCaption"=dword:1
+"VideoRecordLimitation"="0 15 30"
+"OpenDefault"=dword:0
+"PowerSaveTimeInterval"=dword:1e
+"SupportedVideoFormat"="*.wma;*.wmv"
+"IsPortraitScreen"=dword:1
+"EnableBrightness"=dword:1
+"EnableFlash"=dword:1
+"HandleOOMEvent"=dword:0
+"VideoBufferingDepth"=dword:1312d00
+[HKEY_LOCAL_MACHINE\System\Pictures\Camera\OEM]
+"SoundFile"="\\windows\\ShutterSound.wav"
+"ForceShutterSound"=dword:1
+"ShutterSoundVolume"=dword:8000
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pictures\Camera\OEM\PictureResolution]
+"OptionNum"=dword:2
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pictures\Camera\OEM\PictureResolution\1]
+"Width"=dword:140
+"Height"=dword:f0
+"HighQualityFileSize"=dword:38c0
+"NormalQualityFileSize"=dword:1800
+"LowQualityFileSize"=dword:1000
+"ItemString"="320x240"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pictures\Camera\OEM\PictureResolution\2]
+"Width"=dword:280
+"Height"=dword:1e0
+"HighQualityFileSize"=dword:de60
+"NormalQualityFileSize"=dword:6400
+"LowQualityFileSize"=dword:2800
+"ItemString"="640x480"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pictures\Camera\OEM\VideoProfile]
+"OptionNum"=dword:3
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pictures\Camera\OEM\VideoProfile\1]
+"Width"=dword:a0
+"Height"=dword:78
+"VideoAudioFileSizePerSecond"=dword:116000
+"VideoOnlyFileSizePerSecond"=dword:44000
+"ItemString"="160x120"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pictures\Camera\OEM\VideoProfile\2]
+"Width"=dword:b0
+"Height"=dword:90
+"VideoAudioFileSizePerSecond"=dword:7c00
+"VideoOnlyFileSizePerSecond"=dword:4400
+"ItemString"="176x144"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pictures\Camera\OEM\VideoProfile\3]
+"Width"=dword:140
+"Height"=dword:f0
+"VideoAudioFileSizePerSecond"=dword:16900
+"VideoOnlyFileSizePerSecond"=dword:9900
+"ItemString"="320x240"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pictures\Camera\OEM\Zoom]
+"OptionNum"=dword:6
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pictures\Camera\OEM\Zoom\1]
+"PhysicalZoom"=dword:64
+"LogicalZoom"=dword:1
+"ItemString"="zoom x1"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pictures\Camera\OEM\Zoom\2]
+"PhysicalZoom"=dword:c8
+"LogicalZoom"=dword:2
+"ItemString"="zoom x2"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pictures\Camera\OEM\Zoom\3]
+"PhysicalZoom"=dword:12c
+"LogicalZoom"=dword:3
+"ItemString"="zoom x3"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pictures\Camera\OEM\Zoom\4]
+"PhysicalZoom"=dword:190
+"LogicalZoom"=dword:4
+"ItemString"="zoom x4"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pictures\Camera\OEM\Zoom\5]
+"PhysicalZoom"=dword:1f4
+"LogicalZoom"=dword:5
+"ItemString"="zoom x5"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pictures\Camera\OEM\Zoom\6]
+"PhysicalZoom"=dword:258
+"LogicalZoom"=dword:6
+"ItemString"="zoom x6"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pictures\Camera\OEM\VideoEncoderCLSID]
+"IClass"="{d23b90d0-144f-46bd-841d-59e4eb19dc59}"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pictures\Camera\OEM\MuxCLSID]
+"IClass"="{4f4ba16c-ccb0-4d23-b1e8-672c7dfe4a02}"
+"VideoFileExt"="wmv"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pictures\Camera\OEM\PreviewColorFormatCLSID]
+"IClass"="{e436eb7b-524f-11ce-9f53-0020af0ba770}"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pictures\Camera\OEM\CaptureColorFormatCLSID]
+"IClass"="{e436eb7b-524f-11ce-9f53-0020af0ba770}"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pictures\Camera\OEM\StillColorFormatCLSID]
+"IClass"="{e436eb7b-524f-11ce-9f53-0020af0ba770}"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pictures\Camera\OEM\VideoEncoderProperty]
+"PropertyNum"=dword:2
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pictures\Camera\OEM\VideoEncoderProperty\1]
+"VideoPropertyName"="_VBRQUALITY"
+"VideoPropertyVT"=dword:3
+"VidoepropertyValue"=dword:14
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pictures\Camera\OEM\VideoEncoderProperty\2]
+"VideoPropertyName"="_COMPLEXITYEX"
+"VideoPropertyVT"=dword:3
+"VidoepropertyValue"=dword:0
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pictures\Camera\OEM\AudioEncoderProperty]
+"PropertyNum"=dword:0
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Pictures\Camera\OEM\AudioCaptureFilter]
+"FormatTag"=dword:1
+"Channels"=dword:1
+"SamplesPerSec"=dword:1f40
+"AvgBytesPerSec"=dword:1f40
+"BlockAlign"=dword:1
+"BitsPerSample"=dword:8
+"SamplesPerBlock"=dword:0
+[HKEY_CURRENT_USER\Software\Microsoft\Pictures\Camera\USER]
+"CurrentZoom"=dword:0
+"Flash"=dword:1
+"Brightness"=dword:3
+"FileNumber"=dword:1
+"QualitySetting"=dword:0
+"AudioEnabled"=dword:1
+"Resolution"=dword:1
+"UserVideoTime"=dword:1E
+"DefaultDir"=""
+"FilePrefix"="img"
+"VideoProfile"=dword:1
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DirectShow\ImageSink\Quality\0\jpg\Quality]
+"Value"=hex:\
+      19,00,00,00
+"Type"=dword:00000004
+"NumberOfValues"=dword:00000001
+"GUID"="{1D5BE4B5-FA4A-452D-9CDD-5DB35105E7EB}"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DirectShow\ImageSink\Quality\1\jpg\Quality]
+"Value"=hex:\
+      41,00,00,00
+"Type"=dword:00000004
+"NumberOfValues"=dword:00000001
+"GUID"="{1D5BE4B5-FA4A-452D-9CDD-5DB35105E7EB}"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DirectShow\ImageSink\Quality\2\jpg\Quality]
+"Value"=hex:\
+      5a,00,00,00
+"Type"=dword:00000004
+"NumberOfValues"=dword:00000001
+"GUID"="{1D5BE4B5-FA4A-452D-9CDD-5DB35105E7EB}"
