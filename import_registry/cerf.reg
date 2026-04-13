@@ -5,3 +5,29 @@ REGEDIT4
 ; Always applied — there is no CLI switch to skip this file.
 ; Contents belong to CERF infrastructure (e.g. NDIS miniport registration).
 ; Do NOT use for appearance/UX tweaks — custom.reg is for those.
+
+; ---------------------------------------------------------------
+; Neutralize baked-in NDIS miniport entries.
+; See wince5/cerf.reg for the full rationale. Per-profile key list
+; derived from grep '"Group"="NDIS"' on the sysgen *.reg files.
+; ---------------------------------------------------------------
+
+[-HKEY_LOCAL_MACHINE\Comm\RndisFn]
+[-HKEY_LOCAL_MACHINE\Comm\RndisFn1]
+[-HKEY_LOCAL_MACHINE\Comm\NE2000]
+[-HKEY_LOCAL_MACHINE\Comm\NE20001]
+[-HKEY_LOCAL_MACHINE\Comm\Irsir]
+[-HKEY_LOCAL_MACHINE\Comm\AsyncMac]
+[-HKEY_LOCAL_MACHINE\Comm\AsyncMac1]
+[-HKEY_LOCAL_MACHINE\Comm\PPTP]
+[-HKEY_LOCAL_MACHINE\Comm\PPTP1]
+
+; ---------------------------------------------------------------
+; Protocol linkage: bind Tcpip / Tcpip6 to CERFMP1.
+; ---------------------------------------------------------------
+
+[HKEY_LOCAL_MACHINE\Comm\Tcpip\Linkage]
+"Bind"=multi_sz:"CERFMP1"
+
+[HKEY_LOCAL_MACHINE\Comm\Tcpip6\Linkage]
+"Bind"=multi_sz:"CERFMP1"
