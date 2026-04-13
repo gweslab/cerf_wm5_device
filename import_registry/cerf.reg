@@ -1,0 +1,7 @@
+REGEDIT4
+
+; CERF mandatory registry amends.
+; Imported AFTER all sysgen .reg files, BEFORE custom.reg.
+; Always applied — there is no CLI switch to skip this file.
+; Contents belong to CERF infrastructure (e.g. NDIS miniport registration).
+; Do NOT use for appearance/UX tweaks — custom.reg is for those.
