@@ -31,3 +31,6 @@ REGEDIT4
 
 [HKEY_LOCAL_MACHINE\Comm\Tcpip6\Linkage]
 "Bind"=multi_sz:"CERFMP1"
+
+; See wince5/cerf.reg for the reason this empty key is mandatory.
+[HKEY_LOCAL_MACHINE\Comm\CERFMP1\Parms]
