@@ -23,6 +23,30 @@ REGEDIT4
 [-HKEY_LOCAL_MACHINE\Comm\PPTP1]
 
 ; ---------------------------------------------------------------
+; CERFMP synthetic NDIS miniport driver registration.
+; See wince5/cerf.reg for the full rationale; identical schema on
+; every CE profile (NDIS 5.1 ABI unchanged across CE5/WM5/CE6/CE7).
+; ---------------------------------------------------------------
+
+[HKEY_LOCAL_MACHINE\Comm\CERFMP]
+"Group"="NDIS"
+"ImagePath"="cerfmp.dll"
+"DisplayName"="CERF Virtual Miniport"
+
+[HKEY_LOCAL_MACHINE\Comm\CERFMP\Linkage]
+"Route"=multi_sz:"CERFMP1"
+
+[HKEY_LOCAL_MACHINE\Comm\CERFMP1]
+"Group"="NDIS"
+"ImagePath"="cerfmp.dll"
+"DisplayName"="CERF Virtual Adapter"
+
+; BusType + BusNumber MANDATORY — see wince5/cerf.reg for full rationale.
+[HKEY_LOCAL_MACHINE\Comm\CERFMP1\Parms]
+"BusType"=dword:0
+"BusNumber"=dword:0
+
+; ---------------------------------------------------------------
 ; Protocol linkage: bind Tcpip / Tcpip6 to CERFMP1.
 ; ---------------------------------------------------------------
 
@@ -31,6 +55,3 @@ REGEDIT4
 
 [HKEY_LOCAL_MACHINE\Comm\Tcpip6\Linkage]
 "Bind"=multi_sz:"CERFMP1"
-
-; See wince5/cerf.reg for the reason this empty key is mandatory.
-[HKEY_LOCAL_MACHINE\Comm\CERFMP1\Parms]
