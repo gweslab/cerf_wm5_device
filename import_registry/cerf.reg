@@ -55,3 +55,16 @@ REGEDIT4
 
 [HKEY_LOCAL_MACHINE\Comm\Tcpip6\Linkage]
 "Bind"=multi_sz:"CERFMP1"
+
+; ---------------------------------------------------------------
+; CERF Connection Manager provider registration.
+; cerfprov.dll is our thunked OEM provider that claims the
+; {436EF144-...} "The Internet" destination via CERFMP1. ConnMgr's
+; sub_13FA0 provider loader enumerates Providers\*, CoCreateInstance's
+; each GUID, and calls ICMProvider::Init.
+; ---------------------------------------------------------------
+
+[HKEY_LOCAL_MACHINE\Comm\ConnMgr\Providers\{CE8F0042-CE8F-4242-8F42-CE8F00000042}]
+
+[HKEY_CLASSES_ROOT\CLSID\{CE8F0042-CE8F-4242-8F42-CE8F00000042}\InprocServer32]
+@="cerfprov.dll"
